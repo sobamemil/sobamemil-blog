@@ -1,10 +1,10 @@
 ---
-title: "Data Communications & Networking Ch.2 네트워크 모델 Exercises & Solutions"
+title: "Data Communications & Networking Ch.2 Network Models Exercises & Solutions"
 date: 2020-04-19T17:55:29+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "chapter2", "네트워크모델", "네트워킹", "답", "데이터통신", "연습문제", "풀이", "해답"]
----<b>Chapter 2 네트워크 모델</b><b>Practice ExercisesSolution(답)</b>
+---<b>Chapter 2 Network Models</b><b>Practice ExercisesSolution(답)</b>
 
 1. TCP/IP 프로토콜 그룹은 \_\_\_\_\_\_\_ 개의 계층으로 구성되어 있다.
 
@@ -22,11 +22,11 @@ tags: ["5판", "chapter2", "네트워크모델", "네트워킹", "답", "데이�
 
 -> c. 파일 전송 프로토콜 (FTP)
 
-5. TCP/IP 프로토콜 그룹에서 다음 중 전송층 프로토콜은?
+5. TCP/IP 프로토콜 그룹에서 다음 중 Transport Layer Protocols은?
 
 -> d. 전송 제어 프로토콜 (TCP)
 
-6. TCP/IP 프로토콜 그룹에서 다음 중 네트워크층 프로토콜은?
+6. TCP/IP 프로토콜 그룹에서 다음 중 Network Layer Protocols은?
 
 -> c. 인터넷 프로토콜 (IP)
 

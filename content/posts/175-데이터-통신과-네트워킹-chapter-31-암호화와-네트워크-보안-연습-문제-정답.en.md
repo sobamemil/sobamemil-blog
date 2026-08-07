@@ -1,10 +1,10 @@
 ---
-title: "Data Communications & Networking Ch.31 암호화와 네트워크 보안 Exercises & Solutions"
+title: "Data Communications & Networking Ch.31 Cryptography & Network Security Exercises & Solutions"
 date: 2020-07-01T15:07:27+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크보안", "네트워킹", "데이터통신", "모든계층", "보안", "암호화", "연습문제", "정답", "풀이"]
----<b>Chapter 31 암호화와 네트워크 보안 Practice ExercisesSolution(답)</b>
+---<b>Chapter 31 Cryptography & Network Security Practice ExercisesSolution(답)</b>
 
 1. 보안의 세 가지 목적은 \_\_\_\_\_\_\_ 이다.
 

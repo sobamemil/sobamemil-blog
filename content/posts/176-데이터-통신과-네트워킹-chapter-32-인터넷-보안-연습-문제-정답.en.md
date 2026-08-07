@@ -1,10 +1,10 @@
 ---
-title: "Data Communications & Networking Ch.32 인터넷 보안 Exercises & Solutions"
+title: "Data Communications & Networking Ch.32 Internet Security Exercises & Solutions"
 date: 2020-07-01T15:15:39+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "데이터통신", "모든계층", "연습문제", "인터넷보안", "정답", "풀이"]
----<b>Chapter 32 인터넷 보안 Practice ExercisesSolution(답)</b>
+---<b>Chapter 32 Internet Security Practice ExercisesSolution(답)</b>
 
 1. VPN기술은 기관의 개인정보보호를 보장하기 위해 2개의 기술을 동시에 사용한다. \_\_\_\_\_\_\_ 과 \_\_\_\_\_\_\_ .
 

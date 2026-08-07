@@ -1,20 +1,20 @@
 ---
-title: "Data Communications & Networking Ch.15 무선 LAN Exercises & Solutions"
+title: "Data Communications & Networking Ch.15 Wireless LAN Exercises & Solutions"
 date: 2020-06-25T11:41:01+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "무선LAN", "블루투스", "연습문제", "정답", "풀이"]
----<b>Chapter 15 무선 LAN Practice ExercisesSolution(답)</b>
+---<b>Chapter 15 Wireless LAN Practice ExercisesSolution(답)</b>
 
-1. 다음 유선과 무선 LAN의 Explanation 중 옳은 것은?
+1. 다음 유선과 Wireless LAN의 Explanation 중 옳은 것은?
 
 -> a. 둘 다 TCP/IP 프로토콜 슈트의 하위 두 계층에서 동작한다. (물리층, 데이터링크층)
 
-2. IEEE는 \_\_\_\_\_\_\_ 으로 불리는 물리층과 데이터링크층을 포함하는 무선 LAN의 세부사항을 정의하였다.
+2. IEEE는 \_\_\_\_\_\_\_ 으로 불리는 물리층과 데이터링크층을 포함하는 Wireless LAN의 세부사항을 정의하였다.
 
 -> c. IEEE 802.11
 
-3. CSMA/CD 알고리즘은 무선 LAN에서 사용되지 않는데 그 이유는?
+3. CSMA/CD 알고리즘은 Wireless LAN에서 사용되지 않는데 그 이유는?
 
 -> d. 모두 Answers & Solutions(a. 무선 호스트가 이중 모드(duplex mode)로 작동하기 위한 충분한 전력을 가지고 있지 않아서, b. 숨겨진 지국 문제 때문에, c. 신호 감쇠로 한 지국이 반대편에서 발생한 충돌을 감지할 수 없어서)
 
@@ -108,7 +108,7 @@ tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 26. 블루투스는 작은 지역에서 기기(가드겟이라 불리는)를 연결하기 위한 \_\_\_\_\_\_\_ 기술이다.
 
--> d. Answers & Solutions없음 (Answers & Solutions: PAN) (a. 유선 LAN, b. 무선 LAN, c. VLAN) 
+-> d. Answers & Solutions없음 (Answers & Solutions: PAN) (a. 유선 LAN, b. Wireless LAN, c. VLAN) 
 
 27. 블루투스에서 다중 \_\_\_\_\_\_\_ 은 \_\_\_\_\_\_\_ 으로 불리는 네트워크를 형성한다.
 

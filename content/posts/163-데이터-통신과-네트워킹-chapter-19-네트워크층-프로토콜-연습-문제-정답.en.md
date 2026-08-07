@@ -1,10 +1,10 @@
 ---
-title: "Data Communications & Networking Ch.19 네트워크층 프로토콜 Exercises & Solutions"
+title: "Data Communications & Networking Ch.19 Network Layer Protocols Exercises & Solutions"
 date: 2020-06-29T13:40:12+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "풀이", "프로토콜"]
----<b>Chapter 19 네트워크층 프로토콜 Practice ExercisesSolution(답)</b>
+---<b>Chapter 19 Network Layer Protocols Practice ExercisesSolution(답)</b>
 
 1. IP는 \_\_\_\_\_\_\_ 프로토콜이다.
 
@@ -40,7 +40,7 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "�
 
 9. ICMP는 \_\_\_\_\_\_\_ 계층 프로토콜이다.
 
--> c. 네트워크층 프로토콜
+-> c. Network Layer Protocols
 
 10. 다음 중 ICMP 메시지의 Explanation 중 바른 것은?
 

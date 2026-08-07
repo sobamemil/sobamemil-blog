@@ -1,16 +1,16 @@
 ---
-title: "Data Communications & Networking Ch.7  전송 매체 Exercises & Solutions"
+title: "Data Communications & Networking Ch.7  Transmission Media Exercises & Solutions"
 date: 2020-06-21T18:56:08+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "네트워킹", "데이터통신", "물리층", "연습문제", "정답", "풀이", "해답"]
----**<b>Chapter 7 전송 매체 전송 </b>Practice ExercisesSolution(답)******
+---**<b>Chapter 7 Transmission Media 전송 </b>Practice ExercisesSolution(답)******
 
-1. 전송 매체는 흔히 \_\_\_\_\_\_\_ 의 범주로 구분된다.
+1. Transmission Media는 흔히 \_\_\_\_\_\_\_ 의 범주로 구분된다.
 
 -> b. 유도 및 비유도
 
-2. 전송 매체는 \_\_\_\_\_\_\_ 계층 아래에 위치한다.
+2. Transmission Media는 \_\_\_\_\_\_\_ 계층 아래에 위치한다.
 
 -> a. 물리
 
