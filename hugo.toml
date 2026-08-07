@@ -1,7 +1,8 @@
 baseURL = 'https://blog.sobamemil.com/'
-locale = 'ko-KR'
-title = 'Sobamemil Tech Blog'
 theme = 'PaperMod'
+
+defaultContentLanguage = 'ko'
+defaultContentLanguageInSubdir = false
 
 enableRobotsTXT = true
 
@@ -15,11 +16,7 @@ enableRobotsTXT = true
 
 [params]
   env = 'production'
-  title = 'Sobamemil Tech Blog'
-  description = '스마트홈 & DIY, 개발 & CS, 테크 리뷰 및 일상 가이드 블로그'
-  keywords = ['Home Assistant', 'IoT', 'TypeScript', 'Rust', 'Swift', 'Tech Blog', 'Sobamemil']
   author = 'Sobamemil'
-
   defaultTheme = 'auto'
   disableThemeToggle = false
 
@@ -31,16 +28,6 @@ enableRobotsTXT = true
   ShowToc = true
   TocOpen = false
 
-  # Re-enable sleek Profile Mode home landing card
-  [params.profileMode]
-    enabled = true
-    title = "Sobamemil Tech Blog"
-    subtitle = "🏠 스마트홈 & DIY | 💻 개발 & CS | 📱 리뷰 & 일상"
-    buttons = [
-        { name = "📜 전체 포스팅 보기", url = "/posts/" },
-        { name = "💖 GitHub Sponsors", url = "https://github.com/sponsors/sobamemil" }
-    ]
-
   [params.fuseOpts]
     isCaseSensitive = false
     shouldSort = true
@@ -50,48 +37,106 @@ enableRobotsTXT = true
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
 
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "🏠 홈"
-    url = "/"
-    weight = 5
+[languages]
+  [languages.ko]
+    locale = 'ko-KR'
+    label = '🇰🇷 한국어'
+    weight = 1
+    title = 'Sobamemil Tech Blog'
+    description = '스마트홈 & DIY, 개발 & CS, 테크 리뷰 및 일상 가이드 블로그'
 
-  [[menu.main]]
-    identifier = "posts"
-    name = "📜 전체 포스팅"
-    url = "/posts/"
-    weight = 10
+    [languages.ko.params.profileMode]
+      enabled = true
+      title = "Sobamemil Tech Blog"
+      subtitle = "🏠 스마트홈 & DIY | 💻 개발 & CS | 📱 리뷰 & 일상"
+      buttons = [
+          { name = "📜 전체 포스팅 보기", url = "/posts/" },
+          { name = "💖 GitHub Sponsors", url = "https://github.com/sponsors/sobamemil" }
+      ]
 
-  [[menu.main]]
-    identifier = "smarthome"
-    name = "🏠 스마트홈 & DIY"
-    url = "/categories/-스마트홈--diy/"
-    weight = 20
+    [languages.ko.menu]
+      [[languages.ko.menu.main]]
+        identifier = "home"
+        name = "🏠 홈"
+        url = "/"
+        weight = 5
 
-  [[menu.main]]
-    identifier = "dev"
-    name = "💻 개발 & CS"
-    url = "/categories/-개발--cs/"
-    weight = 30
+      [[languages.ko.menu.main]]
+        identifier = "posts"
+        name = "📜 전체 포스팅"
+        url = "/posts/"
+        weight = 10
 
-  [[menu.main]]
-    identifier = "review"
-    name = "📱 리뷰 & 일상"
-    url = "/categories/-리뷰--일상/"
-    weight = 40
+      [[languages.ko.menu.main]]
+        identifier = "smarthome"
+        name = "🏠 스마트홈 & DIY"
+        url = "/categories/-스마트홈--diy/"
+        weight = 20
 
-  [[menu.main]]
-    identifier = "search"
-    name = "🔍 검색"
-    url = "/search/"
-    weight = 50
+      [[languages.ko.menu.main]]
+        identifier = "dev"
+        name = "💻 개발 & CS"
+        url = "/categories/-개발--cs/"
+        weight = 30
 
-  [[menu.main]]
-    identifier = "tags"
-    name = "🏷️ 태그"
-    url = "/tags/"
-    weight = 60
+      [[languages.ko.menu.main]]
+        identifier = "review"
+        name = "📱 리뷰 & 일상"
+        url = "/categories/-리뷰--일상/"
+        weight = 40
+
+      [[languages.ko.menu.main]]
+        identifier = "search"
+        name = "🔍 검색"
+        url = "/search/"
+        weight = 50
+
+      [[languages.ko.menu.main]]
+        identifier = "tags"
+        name = "🏷️ 태그"
+        url = "/tags/"
+        weight = 60
+
+  [languages.en]
+    locale = 'en-US'
+    label = '🇺🇸 English'
+    weight = 2
+    title = 'Sobamemil Tech Blog'
+    description = 'Smart Home & DIY, Software Development, Tech Reviews & Life Guides'
+
+    [languages.en.params.profileMode]
+      enabled = true
+      title = "Sobamemil Tech Blog"
+      subtitle = "🏠 Smart Home & DIY | 💻 Dev & CS | 📱 Reviews & Life"
+      buttons = [
+          { name = "📜 Browse All Posts", url = "/en/posts/" },
+          { name = "💖 GitHub Sponsors", url = "https://github.com/sponsors/sobamemil" }
+      ]
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "🏠 Home"
+        url = "/en/"
+        weight = 5
+
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "📜 All Posts"
+        url = "/en/posts/"
+        weight = 10
+
+      [[languages.en.menu.main]]
+        identifier = "search"
+        name = "🔍 Search"
+        url = "/en/search/"
+        weight = 50
+
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        name = "🏷️ Tags"
+        url = "/en/tags/"
+        weight = 60
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
