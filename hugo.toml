@@ -110,22 +110,34 @@ enableRobotsTXT = true
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/en/posts/"
+        identifier = "smarthome"
+        name = "Smart Home & DIY"
+        url = "/en/categories/-smart-home--diy/"
         weight = 10
+
+      [[languages.en.menu.main]]
+        identifier = "dev"
+        name = "Dev & CS"
+        url = "/en/categories/-dev--cs/"
+        weight = 20
+
+      [[languages.en.menu.main]]
+        identifier = "review"
+        name = "Reviews & Life"
+        url = "/en/categories/-reviews--life/"
+        weight = 30
 
       [[languages.en.menu.main]]
         identifier = "categories"
         name = "Categories"
         url = "/en/categories/"
-        weight = 20
+        weight = 40
 
       [[languages.en.menu.main]]
         identifier = "search"
         name = "Search"
         url = "/en/search/"
-        weight = 30
+        weight = 50
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
