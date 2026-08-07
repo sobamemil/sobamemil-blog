@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자중복", "연습문제", "코딩", "프렌드함수", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 다음 main()에서 Color 클래스는 3요소(빨강, 초록, 파랑)로 하나의 색을 나타내는 클래스이다(4장 실습 문제 1번 참고).
 
@@ -30,15 +30,15 @@ tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자중�
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/55)
 
-**실행** **결과 :**
+<b>실행</b> <b>결과 :</b>
 
 ![](https://img.sobamemil.com/posts/94/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 연산자를 클래스의 멤버 함수와 프렌드로 각각 중복
 
-**코드 :**
+<b>코드 :</b>
 
 ● 문제 (1)
 

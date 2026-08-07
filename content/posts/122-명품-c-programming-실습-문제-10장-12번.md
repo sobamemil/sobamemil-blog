@@ -6,17 +6,17 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "openchallenge", "programming", "vector", "명품", "벡터", "실습문제", "연습문제", "컨테이너", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 Open Challenge를 수정하여 사용자가 어휘를 삽입할 수 있도록 기능을 추가하라.
 
 실행 결과는 다음과 같다.
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/122/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 vector 컨테이너의 종합 응용 연습
 
@@ -26,7 +26,7 @@ vector 컨테이너의 종합 응용 연습
 | --- | --- |
 | 1  2 | srand((unsigned)time(0)); // 시작할 때마다, 다른 랜덤수를 발생시키기 위한 seed 설정  int n = rand(); // 0에서 RAND\_MAX(32767) 사이의 랜덤한 정수가 n에 발생 |
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

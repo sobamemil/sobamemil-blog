@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "cstdlib", "CTime", "gambling", "programming", "rand()", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 겜블링 게임을 만들어보자. 두 사람이 게임을 진행하며, 선수의 이름을 초기에 입력 받는다.
 
@@ -26,15 +26,15 @@ tags: ["C++", "cstdlib", "CTime", "gambling", "programming", "rand()", "명품",
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/59)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 여러 클래스로 이루어진 객체 지향 프로그래밍 연습
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/68/img_1.png)
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

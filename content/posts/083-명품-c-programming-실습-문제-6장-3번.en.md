@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "Function", "overloading", "programming", "디폴트매개변수", "명품", "실습문제", "연습문제", "프로그래밍", "함수중복"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 함수 big()을 호출하는 경우는 다음과 같다.
 
@@ -18,15 +18,15 @@ tags: ["C++", "Function", "overloading", "programming", "디폴트매개변수",
 
 (2) 디폴트 매개 변수를 가진 하나의 함수로 big()을 작성하고 프로그램을 완성하라.
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/83/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 함수 중복, 디폴트 매개 변수 연습
 
-**코드 :**
+<b>코드 :</b>
 
 ● 문제 (1)
 

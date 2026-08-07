@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "깊은복사생성자", "명품", "실습문제", "실행시간오류", "연습문제", "참조", "참조연산자", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 다음은 학과를 나타내는 Dept 클래스와 이를 활용하는 main()을 보여 준다.
 
@@ -30,11 +30,11 @@ tags: ["C++", "programming", "깊은복사생성자", "명품", "실습문제", 
 
 코드를 수정해보라.
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 C++ 프로그램의 실행 과정과 복사 생성자, 참조 매개 변수에 대한 이해
 
-**코드 :**
+<b>코드 :</b>
 
 ● 문제 (1)
 
@@ -57,7 +57,7 @@ Dept 클래스에서 복사 생성자 Dept(const Dept& dept); 가 작성
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48 | #include<iostream>  using namespace std;    class Dept {  int size;  int\* scores;  public:  Dept(int size) {  this->size = size;  scores = new int[size];  }  ~Dept();  int getSize() { return size; }  void read();  bool isOver60(int index);  };    int countPass(Dept& dept) { // 참조에 의한 호출로 변경  int count = 0;  for (int i = 0; i < dept.getSize(); i++) {  if (dept.isOver60(i))  count++;  }  return count;  }    Dept::~Dept() {  delete[] scores;  }  void Dept::read() {  cout << size <<"개 점수 입력>> ";  for (int i = 0; i < size; ++i) {  cin >> scores[i];  }  }  bool Dept::isOver60(int index) {  if (scores[index]>60)  return true;  else  return false;  }    int main() {  Dept com(10);  com.read();  int n = countPass(com);  cout << "60점 이상은 " << n << "명";  } |
 
-**설명 :**
+<b>설명 :</b>
 
 문제 (3)에서 int countPass(Dept& dept); 처럼 참조 연산자만 추가하여 참조에 의한 호출을 사용하면 복사 생성자를 제거하여도 실행 오류가 발생하지 않게 됩니다.
 

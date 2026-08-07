@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "iostream", "programming", "prompt", "string", "명품", "실습문제", "연습문제", "조작자", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 다음은 프로그램과 실행 결과를 보여준다.
 
@@ -16,15 +16,15 @@ prompt 조작자를 작성하여 프로그램을 완성하라.
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16 | #include <iostream>  #include <string>  using namespace std;    int main() {  string password;  while(true) {  cin >> prompt >> password;  if(password == "C++") {  cout << "login success!!" << endl;  break;  }  else  cout << "login fail. try again!!" << endl;  }  } |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/141/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 조작자 작성 연습
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

@@ -6,7 +6,7 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "Copy", "programming", "명품", "복사", "복사생성자", "실습문제", "연습문제", "참조", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 문제 7번의 MyIntStack을 수정하여 다음과 같이 선언하였다.
 
@@ -24,7 +24,7 @@ MyIntStack 클래스를 활용하는 코드와 실행 결과는 다음과 같다
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13 | int main () {  MyIntStack a(10);  a.push(10);  a.push(20);  MyIntStack b = a; // 복사 생성  b.push(30);    int n;  a.pop(n); // 스택 a 팝  cout << "스택 a에서 팝한 값 " << n << endl;  b.pop(n); // 스택 b 팝  cout << "스택 b에서 팝한 값 " << n << endl;  } |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/76/img_1.png)
 
@@ -36,11 +36,11 @@ MyIntStack 클래스를 활용하는 코드와 실행 결과는 다음과 같다
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/75)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 복사 생성자 활용
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

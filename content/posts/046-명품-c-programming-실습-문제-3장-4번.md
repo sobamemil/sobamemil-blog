@@ -6,7 +6,7 @@ categories: ["💻 개발 & CS"]
 tags: ["3장", "4번", "C++", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 CoffeeMachine 클래스를 만들어보자. main() 함수와 실행 결과가 다음과 같도록 CoffeeMachine 클래스를 작성하라.
 
@@ -18,15 +18,15 @@ CoffeeMachine 클래스에는 어떤 멤버 변수와 어떤 멤버 함수가 �
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include <iostream>  using namespace std;    int main() {  CoffeeMachine java(5, 10, 3); // 커피량:5, 물량:10, 설탕:6 으로 초기화  java.drinkEspresso(); // 커피 1, 물 1 소비  java.show(); // 현재 커피 머신의 상태 출력  java.drinkAmericano(); // 커피 1, 물 2 소비  java.show(); // 현재 커피 머신의 상태 출력  java.drinkSugarCoffee(); // 커피 1, 물 2, 설탕 1 소비  java.show(); // 현재 커피 머신의 상태 출력  java.fill(); // 커피 10, 물 10, 설탕 10 으로 채우기  java.show(); // 현재 커피 머신의 상태 출력 |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/46/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 실세계의 객체를 클래스로 작성
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

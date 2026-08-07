@@ -6,13 +6,13 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "cstdlib", "CString", "programming", "stdlib.h", "strtok", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 덧셈(+), 뺄셈(-), 곱셈(\*), 나눗셈(/), 나머지(%)의 정수 5척 연산을 할 수 있는 프로그램을 작성하라. 식은 다음과 같은 형식으로 입력된다. 정수와 연산자는 하나의 빈칸으로 분리된다.
 
 ![](https://img.sobamemil.com/posts/41/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 공백을 포함하는 문자열 읽기, C++ 프로그램 종합 응용
 
@@ -22,17 +22,17 @@ tags: ["C++", "cstdlib", "CString", "programming", "stdlib.h", "strtok", "명품
 
 예를 들면 atoi("34") = 34 입니다.
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/41/img_2.png)
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36 37 | #include<iostream>  #include<cstring> #include<cstdlib>  using namespace std;    int main(){    char sic[100];  char \*symbol;    int front,rear;    while(true){  cout << "? ";  cin.getline(sic,100);  front = atoi(strtok(sic, " "));  symbol = strtok(NULL, " ");  rear = atoi(strtok(NULL, " "));    if(\*symbol == '+'){  cout << front << " + " << rear << " = " << front+rear << endl;  }  else if(\*symbol == '-'){  cout << front << " - " << rear << " = " << front-rear << endl;  }  else if(\*symbol == '\*'){  cout << front << " \* " << rear << " = " << front\*rear << endl;  }  else if(\*symbol == '/'){  cout << front << " / " << rear << " = " << front/rear << endl;  }  else if(\*symbol == '%'){  cout << front << " % " << rear << " = " << front%rear << endl;  }  }  return 0;  } |
 
-**설명 :**
+<b>설명 :</b>
 
 atoi() 함수는 stdlib.h 또는 cstdlib 헤더 파일에 정의되어 있습니다.
 

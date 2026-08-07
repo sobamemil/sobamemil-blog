@@ -6,19 +6,19 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "cin", "get", "Istream", "ostream", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 istream& get(char& ch) 함수를 이용하여 한 라인을 읽고 빈칸(' ')이 몇 개인지 출력하는 프로그램을 작성하라.
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/133/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 cin으로 키 입력 연습
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

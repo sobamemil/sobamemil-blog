@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "string", "명품", "문자열", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 참조를 리턴하는 코드를 작성해보자. 다음 코드와  실행 결과를 참고하여 append() 함수를 작성하고 전체 프로그램을 완성하라.
 
@@ -16,15 +16,15 @@ append()는 Buffer 객체에 문자열을 추가하고 Buffer 객체에 대한 �
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | class Buffer{  string text;  public:  Buffer(string text) { this->text = text; }  void add(string next) { text += next; } // text에 next 문자열 덧붙이기  void print() { cout << text << endl; }  };    int main() {  Buffer buf("Hello");  Buffer& temp = append(buf, "Guys"); // buf의 문자열에 "Guys" 덧붙임  temp.print(); // "HelloGuys" 출력  buf.print(); // "HelloGuys" 출력  } |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/78/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 참조 매개 변수와 참조 리턴 이해
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

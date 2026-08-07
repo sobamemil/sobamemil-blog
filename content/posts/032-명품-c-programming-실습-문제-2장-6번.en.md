@@ -6,25 +6,25 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "CString", "programming", "strcmp", "string.h", "명품", "문자열비교", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 문자열을 두 개 입력받고 두 개의 문자열이 같은지 검사하는 프로그램을 작성하라. 만일 같으면 "같습니다", 아니면 "같지 않습니다"를 출력하라.
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 공백 없이 입력된 문자열 읽기 (빈칸 없이 입력)
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/32/img_1.png)
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21 | #include<iostream>  #include<cstring>  using namespace std;    int main() {  char pw1[100];  char pw2[100];    cout << "새 암호를 입력하세요>>";  cin.getline(pw1,100);    cout << "새 암호를 다시 한 번 입력하세요>>";  cin.getline(pw2,100);    if(strcmp(pw1,pw2)==0)  cout << "같습니다";  else  cout << "같지 않습니다";    return 0;  } |
 
-**설명 :**
+<b>설명 :</b>
 
 각각의 배열의 원소들을 하나하나 비교하여 입력받은 두 문자열이 서로 같은지 판단할 수도 있지만 strcmp() 함수를 사용하여 비교, 판단 하였습니다.
 

@@ -6,7 +6,7 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "CPP", "programming", "구현부", "명품", "선언부", "실습문제", "연습문제", "코딩", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 컴퓨터의 주기억장치를 모델링하는 클래스의 Ram을 구현하려고 한다.
 
@@ -24,17 +24,17 @@ Ram 클래스는 다음과 같이 선언된다.
 | --- | --- |
 | 1  2  3  4  5  6  7  8 | int main() {  Ram ram;  ram.write(100, 20); // 100 번지에 20 저장  ram.write(101, 30); // 101 번지에 30 저장  char res = ram.read(100) + ram.read(101); // 20 + 30 = 50  ram.write(102, res); // 102 번지에 50 저장  cout << "102 번지의 값 = " << (int)ram.read(102) << endl; // 102 번지 값 출력  } |
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 실세계 객체를 클래스로 코딩하는 연습
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/54/img_1.png)
 
 실행 결과를 참고하여 Ram.h, Ram.cpp, main.cpp로 헤더 파일과 cpp 파일을 분리하여 프로그램을 완성하라.
 
-**코드 :**
+<b>코드 :</b>
 
 ● Ram.h
 
@@ -54,7 +54,7 @@ Ram 클래스는 다음과 같이 선언된다.
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13 | #include<iostream>  using namespace std;    #include "Ram.h"    int main() {  Ram ram;  ram.write(100, 20); // 100 번지에 20 저장  ram.write(101, 30); // 101 번지에 30 저장  char res = ram.read(100) + ram.read(101); // 20 + 30 = 50  ram.write(102, res); // 102 번지에 50 저장  cout << "102 번지의 값 = " << (int)ram.read(102) << endl; // 102 번지 값 출력  } |
 
-**설명 :**
+<b>설명 :</b>
 
 주어진 main() 함수와 Ram 클래스의 선언부를 참고하여 Ram 클래스 멤버에 대한 구현부를 작성하는 문제입니다.
 

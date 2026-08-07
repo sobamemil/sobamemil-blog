@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "다운캐스팅", "상속", "순수가상함수", "실습문제", "업캐스팅", "연습문제", "추상클래스", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 문제 7을 푸는 다른 방법을 소개한다.
 
@@ -38,15 +38,15 @@ Comparable을 상속받은 Circle 클래스를 완성하고 문제 7의 main()�
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/117)
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/118/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 템플릿 함수 작성시 상속과 연산자 중복의 필요성 이해
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

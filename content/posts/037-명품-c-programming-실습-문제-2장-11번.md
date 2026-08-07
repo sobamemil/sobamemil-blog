@@ -6,7 +6,7 @@ categories: ["💻 개발 & CS"]
 tags: []
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 다음 C 프로그램을 C++ 프로그램으로 수정하여 실행하라.
 
@@ -14,21 +14,21 @@ tags: []
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12 | #include <stdio.h>  int main() {  int k, n=0;  int sum=0;  printf("끝 수를 입력하세요>>");  scanf("%d", &n);  for(k=1; k<=n; k++) {  sum += k;  }  printf("1에서 %d까지의 합은 %d 입니다.\n", n, sum);  return 0;  } |
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 C++ 프로그래밍에 대한 전반적인 이해
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/37/img_1.png)
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12 | #include <iostream>  using namespace std;    int main() {  int n=0;  int sum=0;  cout << "끝 수를 입력하세요>>";  cin >> n;  for(int k=1; k<=n; k++)  sum += k;  cout << "1에서 " << n << "까지의 합은 " << sum << "입니다." << endl;  } |
 
-**설명 :**
+<b>설명 :</b>
 
 C 로 쓰여진 프로그램을 C++ 프로그램으로 수정하여 실행하는 문제 입니다.
 

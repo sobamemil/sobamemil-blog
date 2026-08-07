@@ -16,7 +16,7 @@ categories: ["🏠 Smart Home & DIY"]
 
 ### 1차 시도: 하드웨어 개조(UART 납땜) 대신 소프트웨어 우회를 선택한 이유
 
-처음에는 기기를 분해해서 메인보드의 **UART 시리얼 통신 핀(TX/RX/GND/3V3)**에 USB-to-TTL 젠더를 물리고 납땜해서 ESPHome이나 Tasmota 같은 커스텀 펌웨어를 덮어씌울까 생각했습니다.
+처음에는 기기를 분해해서 메인보드의 <b>UART 시리얼 통신 핀(TX/RX/GND/3V3)</b>에 USB-to-TTL 젠더를 물리고 납땜해서 ESPHome이나 Tasmota 같은 커스텀 펌웨어를 덮어씌울까 생각했습니다.
 
 하지만 시리얼 젠더를 따로 주문하고 택배를 기다리는 시간도 걸리고, 당장 오늘 밤에 바로 연동해보고 싶다는 마음이 컸습니다. 굳이 멀쩡한 보드를 분해해서 납땜하는 번거로운 과정을 거치기보다는, 기존 하드웨어를 그대로 유지하면서 소프트웨어적으로 제어권을 가져오는 무납땜 방식을 시도해 보기로 했습니다.
 
@@ -26,7 +26,7 @@ categories: ["🏠 Smart Home & DIY"]
 
 우선 구해낸 애터미 스마트홈 안드로이드 앱 APK 파일을 JADX 디컴파일러를 활용하여 앱 내부의 통신 로직을 Reverse Engineering해 보았습니다.
 
-소스코드를 분석해 보니 공기청정기 내부 칩셋은 **Tuya계열 ESP8266**을 사용하고 있었습니다.  
+소스코드를 분석해 보니 공기청정기 내부 칩셋은 <b>Tuya계열 ESP8266</b>을 사용하고 있었습니다.  
 기기의 Wi-Fi 버튼을 길게 눌러 SoftAP 모드(`Atomy_Air_Purifier`)로 전환하면, 기기 내부 HTTP 웹서버(`192.168.4.1:789`)가 열리며 다음과 같은 숨겨진 RESTful Provisioning API 3개가 작동한다는 것을 발견했습니다.
 
 ```text
@@ -49,9 +49,9 @@ SSL_accept(): error:0A00006E:SSL routines::bad extension
 ```
 
 #### 원인 분석
-1. **레거시 Ciphers 요구**: ESP8266 칩셋 특성상 구형 Cipher(`AES128-SHA256`)만 지원합니다.
-2. **TLS Extension 규격 미준수**: ESP8266의 펌웨어 TLS 라이브러리가 ClientHello를 송신할 때 `max_fragment_length` Extension 옵션을 TLS 표준 규격(1byte)이 아닌 2byte(`0x00 0x02`)로 송신하고 있었습니다.
-3. **OpenSSL 3.x의 엄격한 Validation**: 최신 Linux 및 HA OS에 탑재된 OpenSSL 3.x 라이브러리는 이를 비표준 비정상 패킷으로 판단하고 즉시 Reject(`bad extension`)을 던지며 세션을 닫아버리는 것이었습니다.
+1. <b>레거시 Ciphers 요구</b>: ESP8266 칩셋 특성상 구형 Cipher(`AES128-SHA256`)만 지원합니다.
+2. <b>TLS Extension 규격 미준수</b>: ESP8266의 펌웨어 TLS 라이브러리가 ClientHello를 송신할 때 `max_fragment_length` Extension 옵션을 TLS 표준 규격(1byte)이 아닌 2byte(`0x00 0x02`)로 송신하고 있었습니다.
+3. <b>OpenSSL 3.x의 엄격한 Validation</b>: 최신 Linux 및 HA OS에 탑재된 OpenSSL 3.x 라이브러리는 이를 비표준 비정상 패킷으로 판단하고 즉시 Reject(`bad extension`)을 던지며 세션을 닫아버리는 것이었습니다.
 
 ---
 

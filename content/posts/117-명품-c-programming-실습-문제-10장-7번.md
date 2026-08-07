@@ -6,7 +6,7 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "programming", "구체화", "명품", "실습문제", "연습문제", "제네릭", "중복함수", "템플릿", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 다음 프로그램은 컴파일 오류가 발생한다. 소스의 어디에서 왜 컴파일 오류가 발생하는가?
 
@@ -14,21 +14,21 @@ tags: ["C++", "programming", "구체화", "명품", "실습문제", "연습문�
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24 | #include <iostream>  using namespace std;    class Circle {  int radius;  public:  Circle(int radius = 1) { this->radius = radius; }  int getRadius() { return radius; }  };    template <class T>  T bigger(T a, T b) { // 두 개의 매개 변수를 비교하여 큰 값을 리턴  if (a > b) return a;  else return b;  }    int main() {  int a = 20, b = 50, c;  c = bigger(a, b);  cout << "20과 50중 큰 값은 " << c << endl;  Circle waffle(10), pizza(20), y;  y = bigger(waffle, pizza);  cout << "waffle과 pizza 중 큰 것의 반지름은 " << y.getRadius() << endl;  } |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/117/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 템플릿 함수의 구체화의 실패 이해
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30 | #include <iostream>  using namespace std;    class Circle {  int radius;  public:  Circle(int radius = 1) { this->radius = radius; }  int getRadius() { return radius; }  };    Circle bigger(Circle a, Circle b){  if(a.getRadius() > b.getRadius())  return a;  return b;  }    template <class T>  T bigger(T a, T b) { // 두 개의 매개 변수를 비교하여 큰 값을 리턴  if (a > b) return a;  else return b;  }    int main() {  int a = 20, b = 50, c;  c = bigger(a, b);  cout << "20과 50중 큰 값은 " << c << endl;  Circle waffle(10), pizza(20), y;  y = bigger(waffle, pizza);  cout << "waffle과 pizza 중 큰 것의 반지름은 " << y.getRadius() << endl;  } |
 
-**설명 :**
+<b>설명 :</b>
 
 전체 코드 28번 줄에 있는 y = bigger(waffle, pizza);를 호출 시에 19번 줄에 있는 if(a>b) return a; 부분에서 오류가 발생합니다.
 

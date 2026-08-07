@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["4번", "6장", "C++", "programming", "디폴트매개변수", "명품", "실습문제", "연습문제", "중복생성자", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 다음 클래스에 중복된 생성자를 디폴트 매개 변수를 가진 하나의 생성자로 작성하고 테스트 프로그램을 작성하라.
 
@@ -14,15 +14,15 @@ tags: ["4번", "6장", "C++", "programming", "디폴트매개변수", "명품", 
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20 | class MyVector{  int \*mem;  int size;  public:  MyVector();  MyVector(int n, int val);  ~MyVector() { delete [] mem; }  };    MyVector::MyVector() {  mem = new int [100];  size = 100;  for(int i=0; i<size; i++) mem[i] = 0;  }    MyVector::MyVector(int n, int val) {  mem = new int [n];  size = n;  for(int i=0; i<size; i++) mem[i] = val;  } |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/84/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 디폴트 매개 변수 연습
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

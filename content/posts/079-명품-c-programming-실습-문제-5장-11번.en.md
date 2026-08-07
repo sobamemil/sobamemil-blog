@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "char*", "programming", "string", "명품", "문자열", "실습문제", "얕은복사생성자", "연습문제", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 책의 이름과 가격을 저장하는 다음 Book 클래스에 대해 물음에 답하여라.
 
@@ -34,11 +34,11 @@ tags: ["C++", "char*", "programming", "string", "명품", "문자열", "실습�
 
 이 문제를 풀고 나면 문자열을 다룰 때, string을 사용해야하는 이유를 명확히 알게 될 것이다.
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 복사 생성자의 필요성 이해
 
-**코드 :**
+<b>코드 :</b>
 
 ● 문제 (1)
 
@@ -64,7 +64,7 @@ tags: ["C++", "char*", "programming", "string", "명품", "문자열", "실습�
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31 | #include<iostream>  #include<cstring>  #include<string>  using namespace std;    class Book {  string title;  int price;  public:  Book(string title, int price);  void set(string title, int price);  void show() {cout << title << ' ' << price << "원" << endl;}  };    Book::Book(string title, int price){  this->price = price;  this->title = title;  }    void Book::set(string title, int price) {  this->price = price;  this->title = title;  }    int main() {  Book cpp("명품 C++", 10000);  Book java = cpp;  java.set("명품자바", 12000);  cpp.show();  java.show();  } |
 
-**설명 :**
+<b>설명 :</b>
 
 문자열을 다룰 때 char\* 방식이 아닌 string 클래스를 사용하면 훨씬 간단하고 쉽게 다룰 수 있습니다.
 

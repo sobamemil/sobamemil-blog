@@ -12,7 +12,7 @@ cortex-m3 마이크로컨트롤러는 데이터 출력용 레지스터(GPIOx\_OD
 
 참고로 GPIOx\_... 에서 x는 A~D 사이의 알파벳입니다.
 
-**1. GPIOx\_CRL, GPIOx\_CRH (Port Configuration Register Low, Port Configuration Register High)**
+<b>1. GPIOx\_CRL, GPIOx\_CRH (Port Configuration Register Low, Port Configuration Register High)</b>
 
 - 이 레지스터는 입출력의 제어 설정을 하기 위한 레지스터입니다. 이 레지스터는 해당 포트의 입출력 선언 및 각 핀의 동작 모드를 설정할 수 있는데, 그 중 GPIOx\_CRL은 0~7번 핀을 설정하고, GPIOx\_CRH는 8~15번 핀을 설정합니다.
 
@@ -22,7 +22,7 @@ cortex-m3 마이크로컨트롤러는 데이터 출력용 레지스터(GPIOx\_OD
 
 GPIOx\_CRL
 
-**CNFy[1:0]** : Port x configuration bits (y=0 ... 7) (Bits : 31:30, 27:26, 23:22, 19:18, 15:14, 11:10, 7:6, 3:2)
+<b>CNFy[1:0]</b> : Port x configuration bits (y=0 ... 7) (Bits : 31:30, 27:26, 23:22, 19:18, 15:14, 11:10, 7:6, 3:2)
 
 ( = 포트 x의 각 비트에 대한 입출력 설정 및 동작모드 설정 비트)
 
@@ -46,7 +46,7 @@ GPIOx\_CRL
 
     11 : Alternate function output Open-drain
 
-**MODEy[1:0]** : Port x mode bits (y=0 ... 7) (Bits : 29:28, 25:24, 21:20, 17:16, 13:12, 9:8, 5:4, 1:0)
+<b>MODEy[1:0]</b> : Port x mode bits (y=0 ... 7) (Bits : 29:28, 25:24, 21:20, 17:16, 13:12, 9:8, 5:4, 1:0)
 
 ( = 포트 입출력 모드 설정 비트)
 
@@ -64,7 +64,7 @@ GPIOx\_CRL
 
 GPIOx\_CRH
 
-**CNFy[1:0]** : Port x configuration bits (y= 8 .. 15) (Bits : 31:30, 27:26, 23:22, 19:18, 15:14, 11:10, 7:6, 3:2)
+<b>CNFy[1:0]</b> : Port x configuration bits (y= 8 .. 15) (Bits : 31:30, 27:26, 23:22, 19:18, 15:14, 11:10, 7:6, 3:2)
 
 ( = 포트 x의 각 비트에 대한 입출력 설정 및 동작모드 설정 비트)
 
@@ -88,7 +88,7 @@ GPIOx\_CRH
 
     11 : Alternate function output Open-drain
 
-**MODEy[1:0]** : Port x mode bits (y=8 ... 15) (Bits : 29:28, 25:24, 21:20, 17:16, 13:12, 9:8, 5:4, 1:0)
+<b>MODEy[1:0]</b> : Port x mode bits (y=8 ... 15) (Bits : 29:28, 25:24, 21:20, 17:16, 13:12, 9:8, 5:4, 1:0)
 
 ( = 포트 입출력 모드 설정 비트)
 
@@ -100,7 +100,7 @@ GPIOx\_CRH
 
     11 : Output mode, max speed 50 MHz ( = 출력 모드, 최대 동작 속도 50MHz)
 
-**2. GPIOx\_IDR (Port Input Data Register)**
+<b>2. GPIOx\_IDR (Port Input Data Register)</b>
 
 GPIOx\_IDR은 말 그대로 데이터 입력용 레지스터입니다. 즉, 읽기 전용 레지스터입니다.
 
@@ -112,9 +112,9 @@ GPIOx\_IDR의 설정 방법은 아래와 같습니다.
 
 GPIOx\_IDR
 
-**IDRy** : Port input data (y= 0 .. 15) (Bits : 15:0)
+<b>IDRy</b> : Port input data (y= 0 .. 15) (Bits : 15:0)
 
-**3. GPIOx\_ODR (Port Output Data Register)**
+<b>3. GPIOx\_ODR (Port Output Data Register)</b>
 
 GPIOx\_ODR은 데이터를 해당 포트 전체를 통해 출력하기 위한 레지스터입니다. 포트의 핀 설정이 출력으로 되어있는 경우 출력하기 원하는 데이터 값을 GPIOx\_ODR에 넣어주면 됩니다. 이 레지스터는 읽기와 쓰기가 모두 가능합니다.
 
@@ -124,9 +124,9 @@ GPIOx\_ODR의 설정 방법은 아래와 같습니다.
 
 GPIOx\_ODR
 
-**ODRy** : Port output data (y= 0 .. 15) (Bits : 15:0)
+<b>ODRy</b> : Port output data (y= 0 .. 15) (Bits : 15:0)
 
-**4. GPIOx\_BSRR (Port Bit Set/Reset Register)**
+<b>4. GPIOx\_BSRR (Port Bit Set/Reset Register)</b>
 
 GPIOx\_BSRR은 제어 포트의 특정 핀만을 set/reset 하기 위한 레지스터이며, write-only 입니다.
 
@@ -136,19 +136,19 @@ GPIOx\_BSRR의 설정 방법은 아래와 같습니다.
 
 GPIOx\_BSRR
 
-**BRy** : Port x Reset bit y (y= 0 .. 15) (Bits : 31:16)
+<b>BRy</b> : Port x Reset bit y (y= 0 .. 15) (Bits : 31:16)
 
     0 : No action on the corresponding ODRx bit
 
     1 : Reset the corresponding ODRx bit
 
-**BSy** : Port x Set bit y (y= 0 .. 15) (Bits : 15:0)
+<b>BSy</b> : Port x Set bit y (y= 0 .. 15) (Bits : 15:0)
 
     0 : No action on the corresponding ODRx bit
 
     1 : Set the corresponding ODRx bit
 
-**5. GPIOx\_BRR (Port Bit Reset Register)**
+<b>5. GPIOx\_BRR (Port Bit Reset Register)</b>
 
 GPIOx\_BRR은 제어 포트의 특정 핀만을 reset 하기 위한 레지스터입니다. 또한, GPIOx\_BSRR과 동일하게 write-only 입니다.
 
@@ -158,13 +158,13 @@ GPIOx\_BRR의 설정 방법은 아래와 같습니다.
 
 GPIOx\_BRR
 
-**BRy** : Port x Reset bit y (y= 0 .. 15) (Bits : 15:0)
+<b>BRy</b> : Port x Reset bit y (y= 0 .. 15) (Bits : 15:0)
 
     0: No action on the corresponding ODRx bit
 
     1: Reset the corresponding ODRx bit
 
-**6. GPIOx\_LCKR (Port Configuration Lock Register)**
+<b>6. GPIOx\_LCKR (Port Configuration Lock Register)</b>
 
 GPIOx\_LCKR은 포트의 각 핀의 입출력 값을 고정하는 용도의 레지스터입니다.
 
@@ -174,7 +174,7 @@ GPIOx\_LCKR의 설정 방법은 아래와 같습니다.
 
 GPIOx\_LCKR
 
-**LCKK[16]** : Lock key (Bit : 16)
+<b>LCKK[16]</b> : Lock key (Bit : 16)
 
     0: Port configuration lock key not active
 
@@ -192,7 +192,7 @@ GPIOx\_LCKR
 
     Read 1 (this read is optional but confirms that the lock is active)
 
-**LCKy** : Port x Lock bit y (y= 0 .. 15) (Bits : 15:0)
+<b>LCKy</b> : Port x Lock bit y (y= 0 .. 15) (Bits : 15:0)
 
     0: Port configuration not locked
 

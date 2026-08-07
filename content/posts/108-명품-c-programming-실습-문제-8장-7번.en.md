@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "RAM", "ROM", "명품", "상속", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 아래와 같은 BaseMemory 클래스를 상속받는 ROM(Read Only Memory), RAM 클래스를 작성하라.
 
@@ -28,15 +28,15 @@ ROM의 0번지에서 4번지까지 읽어 RAM 메모리의 0~4번지에 쓰고, 
 | --- | --- |
 | 1  2  3  4  5  6  7 | char x[5] = {'h', 'e', 'l', 'l', 'o'};  ROM biosROM(1024\*10, x, 5); // 10KB의 ROM 메모리. 배열 x로 초기화됨  RAM mainMemory(1024\*1024); // 1MB의 ROM 메모리    // 0 번지에서 4번지까지 biosRom에서 읽어 mainMemory에 복사  for(int i=0; i<5; i++) mainMemory.write(i, biosROM.read(i));  for(int i=0; i<5; i++) cout << mainMemory.read(i); |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/108/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 기본 클래스와 파생 클래스로 나누어 응용 작성
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

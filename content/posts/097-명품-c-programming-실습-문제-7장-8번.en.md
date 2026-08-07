@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "circle", "friend", "programming", "명품", "실습문제", "연산자", "연습문제", "프렌드함수", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 원을 추상화한 Circle 클래스는 간단히 아래와 같다.
 
@@ -20,21 +20,21 @@ tags: ["C++", "circle", "friend", "programming", "명품", "실습문제", "연�
 | --- | --- |
 | 1  2  3  4  5 | Circle a(5), b(4);  ++a; // 반지름을 1 증가 시킨다.  b = a++; // 반지름을 1 증가 시킨다.  a.show();  b.show(); |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/97/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 프렌드 함수로 연산자 구현 연습
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30 | #include<iostream>  using namespace std;    class Circle{  int radius;  public:  Circle(int radius=0) { this->radius = radius; }  void show() { cout << "radius = " << radius << " 인 원" << endl; }  friend Circle& operator++(Circle& c);  friend Circle operator++(Circle& c, int x);  };    Circle& operator++(Circle& c){  c.radius++;  return c;  }    Circle operator++(Circle& c, int x){  Circle test = c;  c.radius++;  return test;  }    int main() {  Circle a(5), b(4);  ++a; // 반지름을 1 증가 시킨다.  b = a++; // 반지름을 1 증가 시킨다.  a.show();  b.show();  } |
 
-**설명 :**
+<b>설명 :</b>
 
 전위 ++ 연산과 후위 ++ 연산 모두 참조 매개 변수를 사용하고 전위 연산자의 경우 참조를 리턴합니다.
 

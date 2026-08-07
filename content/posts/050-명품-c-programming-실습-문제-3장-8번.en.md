@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "stoi()", "string", "명품", "실습문제", "연습문제", "인라인함수", "자동인라인", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 int 타입의 정수를 객체화한 Integer 클래스를 작성하라. Integer의 모든 멤버 함수를 자동 인라인으로 작성하라.
 
@@ -16,7 +16,7 @@ Integer 클래스를 활용하는 코드는 다음과 같다.
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include<iostream>  #include<string>  using namespace std;    int main() {  Integer n(30);  cout << n.get() << ' '; // 30 출력  n.set(50);  cout << n.get() << ' '; // 50 출력    Integer m("300");  cout << m.get() << ' '; // 300 출력  cout << m.isEven(); // true(정수로 1) 출력  } |
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 클래스 만들기와 객체 개념 이해
 
@@ -30,17 +30,17 @@ Integer 클래스를 활용하는 코드는 다음과 같다.
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/44)
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/50/img_1.png)
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35 | #include<iostream>  #include<string>  using namespace std;    class Integer{  private:  int a;  public:  Integer(int b){  a = b;  }  Integer(string s){  a = stoi(s);  }  int get(){  return a;  }  int set(int b){  return a = b;  }  int isEven(){  return true;  }  };    int main() {  Integer n(30);  cout << n.get() << ' '; // 30 출력  n.set(50);  cout << n.get() << ' '; // 50 출력    Integer m("300");  cout << m.get() << ' '; // 300 출력  cout << m.isEven(); // true(정수로 1) 출력  } |
 
-**설명 :**
+<b>설명 :</b>
 
 클래스의 모든 멤버 함수를 자동 인라인으로 작성하는 문제입니다.
 

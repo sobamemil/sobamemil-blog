@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "SortedArray", "명품", "복사생성자", "실습문제", "연산자", "연습문제", "중복", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 정수 배열을 항상 증가 순으로 유지하는 SortedArray 클래스를 작성하려고 한다.
 
@@ -20,11 +20,11 @@ tags: ["C++", "programming", "SortedArray", "명품", "복사생성자", "실습
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12 | int main() {  int n[] = { 2, 20, 6 };  int m[] = { 10, 7, 8, 30 };  SortedArray a(n, 3), b(m, 4), c;    c = a + b; // +, = 연산자 작성 필요  // + 연산자가 SortedArray 객체를 리턴하므로 복사 생성자 필요    a.show();  b.show();  c.show();  } |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/101/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 연산자 중복, 복사 생성자의 종합 응용
 
@@ -32,7 +32,7 @@ tags: ["C++", "programming", "SortedArray", "명품", "복사생성자", "실습
 
 a=b; 연산에서 = 연산자는 객체a의 배열 메모리를 모두 delete 시키고 객체 b의 크기만큼 다시 할당받은 후 객체 b의 배열 내용을 복사하도록 작성되어야 한다.
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

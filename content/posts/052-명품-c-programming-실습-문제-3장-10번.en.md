@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "Main", "programming", "구현부", "명품", "선언부", "실습문제", "연습문제", "프로그래밍", "헤더파일"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 다수의 클래스를 선언하고 활용하는 간단한 문제이다. 더하기(+), 빼기(-), 곱하기(\*), 나누기(/)를 수행하는 4개의 클래스를 Add, Sub, Mul, Div를 만들고자 한다.
 
@@ -24,15 +24,15 @@ main() 함수는 Add, Sub, Mul, Div 클래스 타입의 객체 a, s, m, d를 생
 
 프로그램은 무한 루프를 돈다.
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/52/img_2.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 클래스와 객체 활용 연습
 
-**코드 :**
+<b>코드 :</b>
 
 (1) 클래스의 선언부와 구현부를 분리하고, 모든 코드를 Calculator.cpp 파일에 작성하라.
 
@@ -42,7 +42,7 @@ main() 함수는 Add, Sub, Mul, Div 클래스 타입의 객체 a, s, m, d를 생
 
 (2) 클래스의 선언부와 구현부를 헤더 파일과 cpp 파일로 나누어 프로그램을 작성하라.
 
-**●**3-10.h
+<b>●</b>3-10.h
 
 |  |  |
 | --- | --- |
@@ -60,7 +60,7 @@ main() 함수는 Add, Sub, Mul, Div 클래스 타입의 객체 a, s, m, d를 생
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34 | #include<iostream>  using namespace std;    #include "3-10.h"    int main() {  Add a;  Sub s;  Mul m;  Div d;  int x, y;  char c;    while(true){  cout << "두 정수와 연산자를 입력하세요>>";  cin >> x >> y >> c;  if(c == '+') {  a.setValue(x,y);  cout << a.calculate() << endl;  }  else if(c == '-') {  s.setValue(x,y);  cout << s.calculate() << endl;  }  else if(c == '\*') {  m.setValue(x,y);  cout << m.calculate() << endl;  }  else if(c == '/') {  d.setValue(x,y);  cout << d.calculate() << endl;  }  }  } |
 
-**설명 :**
+<b>설명 :</b>
 
 하나의 프로그램을 헤더 파일과 cpp 파일로 나누어 작성하는 문제입니다.
 

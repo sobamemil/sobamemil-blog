@@ -6,7 +6,7 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "Matrix", "programming", "명품", "실습문제", "연산자중복", "연산자함수", "연습문제", "프렌드함수", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 2차원 행렬을 추상화한 Matrix 클래스를 작성하고, show() 멤버 함수와 다음 연산이 가능하도록 연산자를 모두 구현하라.
 
@@ -18,15 +18,15 @@ tags: ["C++", "Matrix", "programming", "명품", "실습문제", "연산자중�
 
 (2) 연산자 함수를 Matrix의 프렌드 함수로 구현하라.
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/95/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 연산자와 클래스 구현 연습
 
-**코드 :**
+<b>코드 :</b>
 
 ● 문제 (1)
 
@@ -40,7 +40,7 @@ tags: ["C++", "Matrix", "programming", "명품", "실습문제", "연산자중�
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53 | #include<iostream>  using namespace std;    class Matrix{  int num[4];  public:  Matrix(){;}  Matrix(int a, int b, int c, int d){  num[0] = a; num[1] = b; num[2] = c; num[3] = d;  };  void show();  friend Matrix operator+ (Matrix a, Matrix b);  friend void operator+= (Matrix &a, Matrix &b);  friend bool operator== (Matrix a, Matrix b);  };    Matrix operator+ (Matrix a, Matrix b){  Matrix t;  for(int i=0; i<4; i++)  t.num[i] = a.num[i] + b.num[i];  return t;  }    void operator+= (Matrix &a, Matrix &b){  for(int i=0; i<4; i++)  a.num[i] += b.num[i];  }    bool operator== (Matrix a, Matrix c){  for(int i=0; i<4; i++){  if(a.num[i] == c.num[i]);  else  return false;  }  return true;  }    void Matrix::show(){  cout << "Matrix = { ";  for(int i=0; i<4; i++){  cout << this->num[i] << ' ';  }  cout << "}" << endl;  }    int main() {  Matrix a(1,2,3,4), b(2,3,4,5), c;  c = a + b;  a += b;  a.show(); b.show(); c.show();  if(a==c)  cout << "a and c are the same" << endl;  } |
 
-**설명 :**
+<b>설명 :</b>
 
 이 문제를 해결하기 위해서는 +, +=, == 연산자를 구현하여야 합니다.
 

@@ -6,7 +6,7 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "circle", "programming", "객체배열", "동적배열", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 다음과 같이 원을 추상화한 Circle 클래스가 있다.
 
@@ -18,15 +18,15 @@ Circle 클래스도 완성하라.
 | --- | --- |
 | 1  2  3  4  5  6 | class Circle {  int radius; // 원의 반지름 값  public:  void setRadius(int radius); // 반지름을 설정한다.  double getArea(); // 면적을 리턴한다.  }; |
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 객체 배열 다루기 연습
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/61/img_1.png)
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

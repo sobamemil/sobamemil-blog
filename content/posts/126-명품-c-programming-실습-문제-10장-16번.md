@@ -6,7 +6,7 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "map", "programming", "STL", "vector", "명품", "실습문제", "연습문제", "컨테이너", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 vector<Shape\*> v;를 이용하여 간단한 그래픽 편집기를 콘솔 바탕으로 만들어보자.
 
@@ -24,15 +24,15 @@ Shape과 Circle, Line, Rect 클래스는 다음과 같다.
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/17)
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/126/img_2.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 vector를 활용하는 종합 응용
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

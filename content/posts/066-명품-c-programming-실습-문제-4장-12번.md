@@ -6,7 +6,7 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "circle", "CircleManager", "programming", "객체배열", "객체포인터", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 다음은 이름과 반지름을 속성으로 가진 Circle 클래스와 이들을 배열로 관리하는 CircleManager 클래스이다.
 
@@ -22,15 +22,15 @@ tags: ["C++", "circle", "CircleManager", "programming", "객체배열", "객체�
 
 Circle, CircleManager 클래스도 완성하라.
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 객체의 동적 생성 및 소멸 응용
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/66/img_1.png)
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

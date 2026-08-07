@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["Account", "C++", "programming", "명품", "실습문제", "연습문제", "클래스", "프로그래밍", "함수"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 은행에서 사용하는 프로그램을 작성하기 위해, 은행 계좌 하나를 표현하는 클래스 Account가 필요하다.
 
@@ -18,17 +18,17 @@ main() 함수의 실행과 결과가 다음과 같도록 Account 클래스를 �
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10 | #include <iostream>  using namespace std;    int main() {  Account a("Kitae", 1, 5000); // id 1번, 잔액 5000원, 이름이 Kitae인 계좌 성  a.deposit(50000); // 50000원 저금  cout << a.getOwner() << "의 잔액은 " << a.inquiry() << endl;  int money = a.withdraw(20000); // 20000원 출금. withdraw()는 출금한 실제 금액 리턴  cout << a.getOwner() << "의 잔액은 " << a.inquiry() << endl;  } |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/45/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 실세계의 객체를 클래스로 작성
 
 Account는 name, id, balance(잔액)의 3 멤버 변수와 생성자, getOwner(), deposit(), withdraw(), inquiry()의 3 멤버 함수를 가지는 클래스로 만들면 된다.
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

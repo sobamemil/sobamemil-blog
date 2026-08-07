@@ -6,7 +6,7 @@ categories: ["💻 개발 & CS"]
 tags: ["C++", "namedcircle", "programming", "기본클래스", "명품", "상속", "실습문제", "연습문제", "파생클래스", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 문제 1~2에 적용되는 원을 추상화한 Circle 클래스가 있다.
 
@@ -20,15 +20,15 @@ tags: ["C++", "namedcircle", "programming", "기본클래스", "명품", "상속
 | --- | --- |
 | 1 | NamedCircle pizza[5]; |
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/103/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 상속, 파생 클래스 작성 및 응용
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |

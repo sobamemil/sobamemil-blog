@@ -13,12 +13,15 @@ enableRobotsTXT = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions]
+      typographer = false
 
 [params]
   env = 'production'
   author = 'Sobamemil'
   defaultTheme = 'auto'
   disableThemeToggle = false
+  mainSections = ["posts"]
 
   ShowReadingTime = true
 

@@ -6,17 +6,17 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "template", "구체화", "명품", "실습문제", "연습문제", "제네릭함수", "템플릿함수", "프로그래밍"]
 ---
 
-**문제 :**
+<b>문제 :</b>
 
 배열을 받아 가장 큰 값을 리턴하는 제네릭 함수 biggest()를 작성하라.
 
 또한 main() 함수를 작성하여 biggest()를 호출하는 몇 가지 사례를 보여라.
 
-**실행 결과 :**
+<b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/111/img_1.png)
 
-**목적 및 힌트 :**
+<b>목적 및 힌트 :</b>
 
 템플릿 함수 만들기
 
@@ -26,13 +26,13 @@ biggest()를 호출하는 코드 사례는 다음과 같다.
 | --- | --- |
 | 1  2 | int x[] = {1, 10, 100, 5, 4};  cout << biggest(x, 5) << endl; // 5는 배열 x의 크기. 100이 출력된다. |
 
-**코드 :**
+<b>코드 :</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16 | #include <iostream>  using namespace std;    template <class T>  T biggest(T a[], T n){  T big = a[0]; // 배열 a의 첫번째 원소를 big에 삽입  for(T i=1; i<n; i++)  big = big < a[i] ? a[i] : big; // big보다 a[i]의 값이 더 크면 big에 a[i]의 값을 삽입  return big;  }    int main() {  int big = 0;  int x[] = {1, 10, 100, 5, 4};  cout << biggest(x, 5) << endl;  } |
 
-**설명 :**
+<b>설명 :</b>
 
 제네릭 함수를 만들 때 프로그래머는 일반화된 타입 혹은 제네릭 타입(generic type)으로 매개 변수나 리턴 타입을 선언합니다.
 
