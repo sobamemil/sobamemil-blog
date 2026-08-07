@@ -30,7 +30,7 @@ Wise는 전 세계 160개국 이상에서 실시간 매매기준율(Mid-market r
 
 아래 리퍼럴 전용 가입 링크를 통해 Wise에 가입하시면 **최대 £500 (약 90만 원 상당)까지 송금 수수료 무료 혜택**이 적용됩니다!
 
-👉 **[Wise 첫 송금 수수료 무료 혜택 링크로 가입하기](https://wise.com/invite/)**
+👉 **[Wise 첫 송금 수수료 무료 혜택 링크로 가입하기 (클릭)](https://wise.com/invite/dic/chanyeongs3)**
 
 *(※ 가입 후 첫 해외 송금 또는 외화 수령 시 수수료 할인 혜택이 즉시 적용됩니다.)*
 
@@ -38,7 +38,7 @@ Wise는 전 세계 160개국 이상에서 실시간 매매기준율(Mid-market r
 
 ## 📝 3분 만에 계정 만들고 외화 계좌 발급받는 법
 
-1. **가입 링크 접속**: 위 [Wise 초대 링크](https://wise.com/invite/)로 접속하여 이메일 또는 구글 계정으로 가입합니다.
+1. **가입 링크 접속**: 위 [Wise 공식 수수료 할인 초대 링크](https://wise.com/invite/dic/chanyeongs3)로 접속하여 이메일 또는 구글 계정으로 가입합니다.
 2. **신원 인증(KYC)**: 여권 또는 운전면허증 사진 촬영으로 1분 만에 신원 인증을 완료합니다.
 3. **통화 추가 (USD/EUR 등)**: 대시보드에서 `Open a Balance`를 눌러 **US Dollar (USD)** 계좌를 생성합니다.
 4. **미국 계좌 정보 확인**: `Account Details`를 누르면 유저 전용 **Routing Number(ACH)** 와 **Account Number** 가 발급됩니다.
