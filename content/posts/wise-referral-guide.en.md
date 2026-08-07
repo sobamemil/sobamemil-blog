@@ -38,6 +38,20 @@ You can hold your earnings in USD and pay directly for <b>OpenAI (ChatGPT), Clou
 
 ---
 
+## 💡 Who Actually Uses This
+
+Numbers are abstract, so here's how real people receiving money from abroad actually use Wise.
+
+**YouTuber A** — Once their channel grew, AdSense payouts and overseas brand sponsorship fees started coming in as USD, and the bank's exchange markup quietly ate a few dollars every month. After switching the AdSense payout account to Wise, the real-time mid-market rate applies automatically, so even a $200 monthly payout lands with noticeably more left over.
+
+**Freelancer B** — If you take design or translation work through Upwork or Fiverr, you know the pain: PayPal fees stack on top of exchange fees. Registering a Wise USD account as the payout account means only one conversion happens, saving a few dollars on every single payment. It adds up fast.
+
+**Overseas Contractor C** — Getting paid directly by an overseas client, or receiving GitHub Sponsors donations, usually means a SWIFT wire with unpredictable intermediary fees eating into the amount you actually receive. Registering your Wise account details (routing number + account number) with the payer means the money arrives as cleanly as a domestic transfer, with no wire fees.
+
+The common thread in all three: <b>set up the account once, and every payout after that is automatically cheaper, with no extra steps.</b>
+
+---
+
 ## 📝 3-Minute Simple Account Setup
 
 Setting up takes just 3 minutes!
