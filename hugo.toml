@@ -4,6 +4,7 @@ title = 'Sobamemil Tech Blog'
 theme = 'PaperMod'
 
 enableRobotsTXT = true
+
 [pagination]
   pagerSize = 10
 
@@ -15,8 +16,8 @@ enableRobotsTXT = true
 [params]
   env = 'production'
   title = 'Sobamemil Tech Blog'
-  description = '스마트홈 & DIY, 개발 & CS, 시스템 및 하드웨어 기술 블로그'
-  keywords = ['Home Assistant', 'IoT', 'C++', 'Network', 'iOS', 'Tech Blog', 'Sobamemil']
+  description = '스마트홈 & DIY, 개발 & CS, 테크 리뷰 및 일상 가이드 블로그'
+  keywords = ['Home Assistant', 'IoT', 'TypeScript', 'Rust', 'Swift', 'Tech Blog', 'Sobamemil']
   author = 'Sobamemil'
 
   defaultTheme = 'auto'
@@ -28,20 +29,11 @@ enableRobotsTXT = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = true
-  TocOpen = true
+  TocOpen = false
 
+  # Enable standard blog post list home layout with pagination & search
   [params.profileMode]
-    enabled = true
-    title = "Sobamemil Tech Blog"
-    subtitle = "🏠 스마트홈 & DIY | 💻 개발 & CS | 📱 리뷰 & 일상"
-    imageUrl = ""
-    imageTitle = "Sobamemil"
-    imageWidth = 120
-    imageHeight = 120
-    buttons = [
-        { name = "포스팅 목록", url = "posts" },
-        { name = "GitHub", url = "https://github.com/sobamemil" }
-    ]
+    enabled = false
 
   [params.fuseOpts]
     isCaseSensitive = false
@@ -54,22 +46,40 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "포스팅"
-    url = "/posts/"
+    identifier = "smarthome"
+    name = "🏠 스마트홈 & DIY"
+    url = "/categories/-스마트홈--diy/"
     weight = 10
 
   [[menu.main]]
-    identifier = "search"
-    name = "검색"
-    url = "/search/"
+    identifier = "dev"
+    name = "💻 개발 & CS"
+    url = "/categories/-개발--cs/"
     weight = 20
 
   [[menu.main]]
-    identifier = "tags"
-    name = "태그"
-    url = "/tags/"
+    identifier = "review"
+    name = "📱 리뷰 & 일상"
+    url = "/categories/-리뷰--일상/"
     weight = 30
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "📂 전체 카테고리"
+    url = "/categories/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "search"
+    name = "🔍 검색"
+    url = "/search/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "🏷️ 태그"
+    url = "/tags/"
+    weight = 60
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
