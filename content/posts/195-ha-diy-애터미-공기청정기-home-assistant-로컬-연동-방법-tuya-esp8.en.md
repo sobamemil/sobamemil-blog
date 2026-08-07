@@ -5,7 +5,9 @@ draft: false
 categories: ["🏠 Smart Home & DIY"]
 tags: ["ESP8266", "Home Assistant", "IoT", "OpenSSL", "Smart Home", "Atomy Air Purifier", "Tuya"]
 description: "A complete guide on reviving an abandoned Atomy Air Purifier (AAP-KR19W) into Home Assistant via local Tuya MQTT provisioning and custom OpenSSL TLS patch."
----# Successful Home Assistant Local Integration for Abandoned Atomy Air Purifier
+---
+
+# Successful Home Assistant Local Integration for Abandoned Atomy Air Purifier
 
 I recently brought home an Atomy air purifier (`AAP-KR19W`) that was sitting unused at my parents' house. The hardware performance and filter condition were still great, so I decided to integrate it into my Home Assistant smart home setup for automated air quality control.
 
@@ -72,9 +74,7 @@ idx = text.find("tls_parse_ctos_maxfragmentlen")
 brace = text.find("{", idx)
 
 # Inject early return 1; at function entry to bypass validation
-patched = text[:brace+1] + "
-    (void)s; (void)pkt; (void)context; return 1;
-" + text[brace+1:]
+patched = text[:brace+1] + "\n    (void)s; (void)pkt; (void)context; return 1;\n" + text[brace+1:]
 open(path, "w").write(patched)
 ```
 
@@ -95,47 +95,100 @@ By registering a 1-minute polling automation in Home Assistant's `automations.ya
 
 ---
 
-### Final Configuration Code (`configuration.yaml` & `automations.yaml`)
+### Final Verified Configuration Code (`configuration.yaml` & `automations.yaml`)
 
 #### 1. `configuration.yaml` (MQTT Entity Definitions)
 
-```cpp
+```yaml
 mqtt:
   fan:
     - name: "Atomy Air Purifier"
-      unique_id: atomy_air_purifier_fan
+      unique_id: atomy_air_purifier
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
       command_topic: "aircleaner/app/A1B2C3D4E5F6"
-      value_template: "{{ 'POWER_ON' if value_json['2'] == 1 else 'POWER_OFF' }}"
-      payload_on: '{"1":2,"2":1}'
-      payload_off: '{"1":2,"2":2}'
+      command_template: >-
+        {% if value == "ON" %}{"1":2,"2":2}
+        {% elif value == "OFF" %}{"1":2,"2":1}
+        {% endif %}
+      payload_on: "ON"
+      payload_off: "OFF"
+      state_value_template: >-
+        {% set power = value_json.get('2') or (value_json.get('19', {}).get('2')) %}
+        {% if power == 2 %}ON{% elif power == 1 %}OFF{% else %}OFF{% endif %}
+      preset_modes:
+        - "Auto"
+        - "Sleep"
+        - "Low"
+        - "Medium"
+        - "High"
+      preset_mode_state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      preset_mode_value_template: >-
+        {% set mode = value_json.get('3') or (value_json.get('19', {}).get('3')) %}
+        {% if mode == 1 %}Auto
+        {% elif mode == 2 %}Sleep
+        {% elif mode == 3 %}Low
+        {% elif mode == 4 %}Medium
+        {% elif mode == 5 %}High
+        {% else %}Auto{% endif %}
+      preset_mode_command_topic: "aircleaner/app/A1B2C3D4E5F6"
+      preset_mode_command_template: >-
+        {% if value == "Auto" %}{"1":3,"3":1}
+        {% elif value == "Sleep" %}{"1":3,"3":2}
+        {% elif value == "Low" %}{"1":3,"3":3}
+        {% elif value == "Medium" %}{"1":3,"3":4}
+        {% elif value == "High" %}{"1":3,"3":5}
+        {% endif %}
 
   sensor:
-    - name: "Atomy PM25"
+    - name: "Atomy PM2.5"
       unique_id: atomy_pm25
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
-      value_template: "{{ value_json['3'] if value_json['3'] is defined else states('sensor.atomy_pm25') }}"
       unit_of_measurement: "µg/m³"
       device_class: pm25
+      value_template: "{{ value_json.get('10') if value_json.get('10') is not none else value_json.get('20', {}).get('10') }}"
 
     - name: "Atomy Temperature"
       unique_id: atomy_temperature
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
-      value_template: "{{ value_json['4'] if value_json['4'] is defined else states('sensor.atomy_temperature') }}"
       unit_of_measurement: "°C"
       device_class: temperature
+      value_template: "{{ value_json.get('13') if value_json.get('13') is not none else value_json.get('20', {}).get('13') }}"
 
     - name: "Atomy Humidity"
       unique_id: atomy_humidity
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
-      value_template: "{{ value_json['5'] if value_json['5'] is defined else states('sensor.atomy_humidity') }}"
       unit_of_measurement: "%"
       device_class: humidity
+      value_template: "{{ value_json.get('14') if value_json.get('14') is not none else value_json.get('20', {}).get('14') }}"
+
+    - name: "Atomy Air Quality"
+      unique_id: atomy_air_quality
+      state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      value_template: >-
+        {% set q = value_json.get('27') if value_json.get('27') is not none else value_json.get('20', {}).get('27') %}
+        {% if q == 1 %}Good
+        {% elif q == 2 %}Moderate
+        {% elif q == 3 %}Unhealthy
+        {% elif q == 4 %}Hazardous
+        {% else %}Unknown{% endif %}
+
+  switch:
+    - name: "Atomy Child Lock"
+      unique_id: atomy_child_lock
+      command_topic: "aircleaner/app/A1B2C3D4E5F6"
+      state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      payload_on: '{"1":7,"7":2}'
+      payload_off: '{"1":7,"7":1}'
+      state_on: "ON"
+      state_off: "OFF"
+      value_template: >-
+        {% set lock = value_json.get('7') or value_json.get('19', {}).get('7') %}
+        {% if lock == 2 %}ON{% else %}OFF{% endif %}
 ```
 
-#### 2. `automations.yaml` (1-Minute Polling Automation)
+#### 2. `automations.yaml` (1-Minute Sensor Polling Automation)
 
-```cpp
+```yaml
 - id: "atomy_air_purifier_poll_sensors"
   alias: "Atomy Air Purifier - Poll Sensor State"
   description: "Requests sensor readings from the Atomy air purifier every minute"
