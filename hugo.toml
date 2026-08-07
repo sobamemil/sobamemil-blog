@@ -21,7 +21,10 @@ enableRobotsTXT = true
   disableThemeToggle = false
 
   ShowReadingTime = true
-  ShowShareButtons = true
+
+  # Disabled post share buttons (x / y / facebook) as requested
+  ShowShareButtons = false
+
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -30,6 +33,16 @@ enableRobotsTXT = true
 
   # Enable Giscus Comments on posts
   comments = true
+
+  # Open Graph & Twitter Sharing Card Image
+  images = ["/images/og-image.png"]
+
+  # Favicon configuration (Soba Noodle 🍜 icon)
+  [params.assets]
+    favicon = "/favicon.svg"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
 
   [params.fuseOpts]
     isCaseSensitive = false
