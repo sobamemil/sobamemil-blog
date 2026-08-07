@@ -4,7 +4,9 @@ date: 2020-03-06T15:57:35+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["ascii", "C++", "cstdlib", "CTime", "programming", "rand()", "명품", "실습문제", "연습문제", "프로그래밍"]
----<b>문제 :</b>
+---
+
+**문제 :**
 
 다음과 같은 static 멤버를 가진 Random 클래스를 완성하라(Open Challenge 힌트 참고).
 

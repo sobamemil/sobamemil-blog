@@ -4,7 +4,9 @@ date: 2020-02-28T17:55:18+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: []
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음 C 프로그램을 C++ 프로그램으로 수정하여 실행하라.
 

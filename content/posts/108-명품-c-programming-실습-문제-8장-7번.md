@@ -4,7 +4,9 @@ date: 2020-03-09T14:04:17+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["C++", "programming", "RAM", "ROM", "명품", "상속", "실습문제", "연습문제", "프로그래밍"]
----<b>문제 :</b>
+---
+
+**문제 :**
 
 아래와 같은 BaseMemory 클래스를 상속받는 ROM(Read Only Memory), RAM 클래스를 작성하라.
 

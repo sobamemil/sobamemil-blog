@@ -4,7 +4,9 @@ date: 2020-04-12T23:42:49+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["chapter1", "개요", "네트워킹", "답", "데이터통신", "문제풀이", "심화문제", "연습문제", "응용연습문제", "챕터1"]
----<b>Chapter 1 개요 </b>Practice ExercisesSolution(답)****
+---
+
+**Chapter 1 개요 Practice ExercisesSolution(답)**
 
 1. 근거리 통신망(LAN)은 \_\_\_\_\_\_\_ 로 정의된다.
 

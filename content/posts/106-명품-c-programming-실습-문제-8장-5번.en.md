@@ -4,7 +4,9 @@ date: 2020-03-09T13:36:05+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "protected", "queue", "상속", "실습문제", "연습문제", "큐", "파생클래스", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 문제 5~6에 적용되는 BaseArray 클래스는 다음과 같다.
 

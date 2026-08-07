@@ -4,7 +4,9 @@ date: 2020-03-02T17:56:41+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["Account", "C++", "programming", "명품", "실습문제", "연습문제", "클래스", "프로그래밍", "함수"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 은행에서 사용하는 프로그램을 작성하기 위해, 은행 계좌 하나를 표현하는 클래스 Account가 필요하다.
 

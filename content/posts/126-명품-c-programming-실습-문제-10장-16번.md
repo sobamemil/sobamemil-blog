@@ -4,7 +4,9 @@ date: 2020-03-11T17:04:39+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["C++", "map", "programming", "STL", "vector", "명품", "실습문제", "연습문제", "컨테이너", "프로그래밍"]
----<b>문제 :</b>
+---
+
+**문제 :**
 
 vector<Shape\*> v;를 이용하여 간단한 그래픽 편집기를 콘솔 바탕으로 만들어보자.
 

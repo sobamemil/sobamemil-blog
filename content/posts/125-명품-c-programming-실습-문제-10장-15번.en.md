@@ -4,7 +4,9 @@ date: 2020-03-11T15:11:10+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "erase()", "iostream", "Iterator", "programming", "vector", "명품", "실습문제", "연습문제", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 vector를 이용하여 아래 Circle 클래스의 객체를 삽입하고 삭제하는 프로그램을 작성하라.
 

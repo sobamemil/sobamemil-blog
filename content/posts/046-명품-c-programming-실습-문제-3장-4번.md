@@ -4,7 +4,9 @@ date: 2020-03-03T15:54:40+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["3장", "4번", "C++", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
----<b>문제 :</b>
+---
+
+**문제 :**
 
 CoffeeMachine 클래스를 만들어보자. main() 함수와 실행 결과가 다음과 같도록 CoffeeMachine 클래스를 작성하라.
 

@@ -4,7 +4,9 @@ date: 2020-07-01T15:07:27+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크보안", "네트워킹", "데이터통신", "모든계층", "보안", "암호화", "연습문제", "정답", "풀이"]
----<b>Chapter 31 Cryptography & Network Security Practice ExercisesSolution(답)</b>
+---
+
+**Chapter 31 Cryptography & Network Security Practice ExercisesSolution(답)**
 
 1. 보안의 세 가지 목적은 \_\_\_\_\_\_\_ 이다.
 

@@ -4,7 +4,9 @@ date: 2020-04-02T14:15:27+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["C++", "iostream", "programming", "prompt", "string", "명품", "실습문제", "연습문제", "조작자", "프로그래밍"]
----<b>문제 :</b>
+---
+
+**문제 :**
 
 다음은 프로그램과 실행 결과를 보여준다.
 

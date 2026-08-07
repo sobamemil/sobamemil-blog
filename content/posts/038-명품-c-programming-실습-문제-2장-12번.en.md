@@ -4,7 +4,9 @@ date: 2020-02-28T18:15:45+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "매개변수", "명품", "실습문제", "연습문제", "프로그래밍", "함수선언", "함수중복"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음 C 프로그램을 C++ 프로그램으로 수정하여 실행하라. 이 프로그램의 Execution Result는 Exercise Problem 11과 같다.
 

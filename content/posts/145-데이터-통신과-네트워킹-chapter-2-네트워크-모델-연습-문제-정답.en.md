@@ -4,7 +4,9 @@ date: 2020-04-19T17:55:29+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "chapter2", "네트워크모델", "네트워킹", "답", "데이터통신", "연습문제", "풀이", "해답"]
----<b>Chapter 2 Network Models</b><b>Practice ExercisesSolution(답)</b>
+---
+
+**Chapter 2 Network Models</b><b>Practice ExercisesSolution(답)**
 
 1. TCP/IP 프로토콜 그룹은 \_\_\_\_\_\_\_ 개의 계층으로 구성되어 있다.
 

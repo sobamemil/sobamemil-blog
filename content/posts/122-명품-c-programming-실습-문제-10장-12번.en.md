@@ -4,7 +4,9 @@ date: 2020-03-10T20:28:33+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "openchallenge", "programming", "vector", "명품", "벡터", "실습문제", "연습문제", "컨테이너", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 Open Challenge를 수정하여 사용자가 어휘를 삽입할 수 있도록 기능을 추가하라.
 

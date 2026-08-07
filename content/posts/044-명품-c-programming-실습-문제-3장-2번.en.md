@@ -4,7 +4,9 @@ date: 2020-03-02T17:38:17+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "stoi", "string", "substr", "명품", "실습문제", "연습문제", "클래스", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 날짜를 다루는 Date 클래스를 작성하고자 한다. Date를 이용하는 main()과 Execution Result는 다음과 같다.
 

@@ -4,7 +4,9 @@ date: 2020-03-19T14:02:07+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["2pass", "2패스", "Assembler", "systemprogramming", "기계어", "시스템", "어셈블러", "어셈블리어", "프로그래밍", "프로젝트"]
----<b>문제 :</b>
+---
+
+**문제 :**
 
 지금까지의 프로젝트를 참고하여 2 pass assembler를 만들면 됩니다.
 

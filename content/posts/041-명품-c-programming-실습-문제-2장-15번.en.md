@@ -4,7 +4,9 @@ date: 2020-02-28T20:00:03+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cstdlib", "CString", "programming", "stdlib.h", "strtok", "명품", "실습문제", "연습문제", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 덧셈(+), 뺄셈(-), 곱셈(\*), 나눗셈(/), 나머지(%)의 정수 5척 연산을 할 수 있는 프로그램을 작성하라. 식은 다음과 같은 형식으로 입력된다. 정수와 연산자는 하나의 빈칸으로 분리된다.
 

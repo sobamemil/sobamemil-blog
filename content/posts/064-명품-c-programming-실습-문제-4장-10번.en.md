@@ -4,7 +4,9 @@ date: 2020-03-04T17:03:15+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["10번", "4장", "C++", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음에서 Person은 사람을, Family는 가족을 추상화한 클래스로서 완성되지 않은 클래스이다.
 

@@ -4,7 +4,9 @@ date: 2020-06-29T12:17:20+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["GPS", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "무선망", "연습문제", "정답", "풀이"]
----<b>Chapter 16 기타 무선망 Practice ExercisesSolution(답)</b>
+---
+
+**Chapter 16 기타 무선망 Practice ExercisesSolution(답)**
 
 1. \_\_\_\_\_\_\_ 은 1세대 셀룰러 전화 시스템이다.
 

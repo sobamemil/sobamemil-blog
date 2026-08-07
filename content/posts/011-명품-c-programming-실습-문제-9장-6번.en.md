@@ -4,7 +4,9 @@ date: 2019-11-21T02:04:07+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C", "C++", "programming", "과제", "명품", "소스코드", "실습문제", "실행결과", "연습문제", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음 AbstractStack은 정수 스택 클래스로서 추상 클래스이다.
 

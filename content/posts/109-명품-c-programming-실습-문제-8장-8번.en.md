@@ -4,7 +4,9 @@ date: 2020-03-09T14:18:19+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "printmachine", "programming", "동적생성", "명품", "상속", "실습문제", "연습문제", "프로그래밍", "프린터프로그램"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음 그림과 같은 상속 구조를 갖는 클래스를 설계한다.
 

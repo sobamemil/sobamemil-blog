@@ -4,7 +4,9 @@ date: 2020-04-20T19:12:31+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "네트워킹", "데이터통신", "물리층", "연습문제", "정답", "풀이", "해답"]
----**<b>Chapter 3 물리층 </b>Practice ExercisesSolution(답)******
+---
+
+**Chapter 3 물리층 Practice ExercisesSolution(답)**
 
 1. 주파수 영역 그림에서 수평선은 \_\_\_\_\_\_\_ 이다. 
 

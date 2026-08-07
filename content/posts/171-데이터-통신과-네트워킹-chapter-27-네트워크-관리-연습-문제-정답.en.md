@@ -4,7 +4,9 @@ date: 2020-06-30T15:18:16+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크관리", "네트워킹", "데이터통신", "연습문제", "응용층", "정답", "풀이"]
----<b>Chapter 27 네트워크 관리 Practice ExercisesSolution(답)</b>
+---
+
+**Chapter 27 네트워크 관리 Practice ExercisesSolution(답)**
 
 1. 네트워크 관리는 한 기관에 의해 정의된 일련의 요구사항을 만족하기 위해 네트워크 구성요소들을 \_\_\_\_\_\_\_ 하는 것으로 정의할 수 있다.
 

@@ -4,7 +4,9 @@ date: 2020-07-01T14:59:09+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "데이터통신", "모든계층", "서비스품질", "연습문제", "정답", "풀이"]
----<b>Chapter 30 서비스 품질 Practice ExercisesSolution(답)</b>
+---
+
+**Chapter 30 서비스 품질 Practice ExercisesSolution(답)**
 
 1. 다음 중 데이터 흐름 고유 특성이 아닌 것은?
 

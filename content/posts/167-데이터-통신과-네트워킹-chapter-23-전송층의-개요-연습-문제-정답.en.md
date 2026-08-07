@@ -4,7 +4,9 @@ date: 2020-06-29T15:02:16+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["개요", "네트워크", "네트워킹", "데이터통신", "연습문제", "전송층", "정답", "풀이"]
----<b>Chapter 23 전송층의 개요 Practice ExercisesSolution(답)</b>
+---
+
+**Chapter 23 전송층의 개요 Practice ExercisesSolution(답)**
 
 1. 전송층의 주요 임무 중의 하나는 \_\_\_\_\_\_\_ 통신이다.
 

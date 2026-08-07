@@ -4,7 +4,9 @@ date: 2020-03-09T15:33:52+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "template", "구체화", "명품", "실습문제", "연습문제", "제네릭함수", "템플릿함수", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 배열을 받아 가장 큰 값을 리턴하는 제네릭 함수 biggest()를 작성하라.
 

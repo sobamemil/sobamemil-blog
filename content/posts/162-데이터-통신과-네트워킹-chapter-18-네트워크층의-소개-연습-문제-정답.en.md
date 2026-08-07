@@ -4,7 +4,9 @@ date: 2020-06-29T13:23:30+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["CIDR", "NAT", "네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "풀이"]
----<b>Chapter 18 네트워크층의 소개 Practice ExercisesSolution(답)</b>
+---
+
+**Chapter 18 네트워크층의 소개 Practice ExercisesSolution(답)**
 
 1. 네트워크층에서 패킷화의 내용으로 올바른 것은?
 

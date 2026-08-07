@@ -4,7 +4,9 @@ date: 2020-03-19T15:06:28+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["binarysearchtree", "tree", "배열", "이원탐색", "이원탐색트리", "자료구조", "탐색", "트리", "파일처리", "파일처리론"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 배열을 이용하여 이원 탐색 트리를 만들고 탐색하는 프로그램을 작성하라.
 

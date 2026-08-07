@@ -4,7 +4,9 @@ date: 2020-02-28T19:01:50+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "if문", "programming", "switch", "명품", "소스코드", "실습문제", "연습문제", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 중식당의 주문 과정을 C++ 프로그램으로 작성해보자. 다음 Execution Result와 같이 메뉴와 사람 수를 입력받고 이를 출력하면 된다. 잘못된 입력을 가려내는 부분도 코드에 추가하라.
 

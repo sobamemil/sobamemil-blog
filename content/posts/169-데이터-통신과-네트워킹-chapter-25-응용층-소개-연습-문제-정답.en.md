@@ -4,7 +4,9 @@ date: 2020-06-30T13:56:10+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "응용층", "정답", "풀이"]
----<b>Chapter 25 Introduction to Application Layer Practice ExercisesSolution(답)</b>
+---
+
+**Chapter 25 Introduction to Application Layer Practice ExercisesSolution(답)**
 
 1. 클라이언트-서버 패러다임에서 \_\_\_\_\_\_\_ 프로그램은 (다른) \_\_\_\_\_\_\_ 프로그램에게 서비스를 제공한다.
 

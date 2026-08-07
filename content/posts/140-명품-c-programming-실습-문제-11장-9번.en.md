@@ -4,7 +4,9 @@ date: 2020-04-02T14:00:37+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "iostream", "programming", "명품", "실습문제", "연산자중복", "연습문제", "입력스트림", "출력스트림", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음은 Phone 클래스이다.
 

@@ -4,7 +4,9 @@ date: 2020-02-28T17:36:57+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cin", "cout", "getline", "programming", "명품", "실습문제", "연습문제", "코딩", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 이름, 주소, 나이를 입력받아 다시 출력하는 프로그램을 작성하라. 실행 예시는 다음과 같다.
 

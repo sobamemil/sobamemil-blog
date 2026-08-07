@@ -4,7 +4,9 @@ date: 2020-03-03T16:20:43+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["C++", "EvenRandom", "programming", "rand", "srand", "명품", "실습문제", "연습문제", "짝수", "프로그래밍"]
----<b>문제 :</b>
+---
+
+**문제 :**
 
 문제 5번을 참고하여 짝수 정수만 랜덤하게 발생시키는 EvenRandom 클래스를 작성하고 EvenRandom 클래스를 이용하여 10개의 짝수를 랜덤하게 출력하는 프로그램을 완성하라.
 

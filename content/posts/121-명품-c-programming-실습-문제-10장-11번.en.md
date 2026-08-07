@@ -4,7 +4,9 @@ date: 2020-03-10T19:14:39+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["book", "C++", "fflush", "programming", "vector", "명품", "벡터", "실습문제", "연습문제", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 책의 년도, 책이름, 저자 이름을 담은 Book 클래스를 만들고, vector<Book> v;로 생성한 벡터를 이용하여 책을 입고하고, 저자와 년도로 검색하는 프로그램을 작성하라.
 

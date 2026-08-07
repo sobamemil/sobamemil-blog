@@ -4,7 +4,9 @@ date: 2020-03-27T15:42:20+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["11장", "C++", "cin", "getline", "programming", "string", "명품", "실습문제", "연습문제"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음 프로그램은 예제 11-3의 코드이다. 아래 코드에서 char [] 대신 string을 이용하여 문자열을 다루도록 프로그램을 재작성하라.
 

@@ -4,7 +4,9 @@ date: 2020-06-29T13:40:12+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "풀이", "프로토콜"]
----<b>Chapter 19 Network Layer Protocols Practice ExercisesSolution(답)</b>
+---
+
+**Chapter 19 Network Layer Protocols Practice ExercisesSolution(답)**
 
 1. IP는 \_\_\_\_\_\_\_ 프로토콜이다.
 

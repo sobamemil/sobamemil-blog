@@ -4,7 +4,9 @@ date: 2020-03-05T14:23:09+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "callByReference", "programming", "명품", "실습문제", "연습문제", "참조", "참조연산자", "프로그래밍", "호출"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음 main() 함수와 Execution Result를 참고하여 half() 함수를 작성하라.
 

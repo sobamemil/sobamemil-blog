@@ -4,7 +4,9 @@ date: 2020-03-09T15:45:01+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "reversearray", "template", "명품", "실습문제", "연습문제", "제네릭", "템플릿", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 배열의 원소를 반대 순서로 뒤집는 reverseArray() 함수를 템플릿으로 작성하라.
 

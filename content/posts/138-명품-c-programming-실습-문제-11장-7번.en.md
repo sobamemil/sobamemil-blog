@@ -4,7 +4,9 @@ date: 2020-04-02T11:58:57+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cctype", "iomanip", "isprint", "programming", "setf", "명품", "실습문제", "연습문제", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 0에서 127까지 ASCII 코드와 해당 문자를 다음과 같이 출력하는 프로그램을 작성하라.
 

@@ -4,7 +4,9 @@ date: 2020-03-04T15:42:39+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["4번", "4장", "C++", "programming", "동적배열", "명품", "실습문제", "연습문제", "코딩", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음과 같은 Sample 클래스가 있다.
 

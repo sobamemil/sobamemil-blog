@@ -4,7 +4,9 @@ date: 2020-02-28T16:37:04+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cin", "float", "programming", "가장 큰 수", "명품", "실수", "실습문제", "연습문제", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 소수점을 가지는 5개의 실수를 입력 받아 제일 큰 수를 화면에 출력하라.
 

@@ -4,7 +4,9 @@ date: 2020-03-05T15:32:46+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["*this", "Accumulator", "C++", "programming", "reference", "명품", "실습문제", "연습문제", "참조", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 클래스 Accumulator는 add() 함수를 통해 계속 값을 누적하는 클래스로서, 다음과 같이 선언된다.
 

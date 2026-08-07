@@ -4,7 +4,9 @@ date: 2019-11-21T00:53:08+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["2019", "2020", "3번", "9장", "C++", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음 추상 클래스 LoopAdder가 있다.
 

@@ -4,7 +4,9 @@ date: 2020-03-04T16:13:47+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "circle", "programming", "객체배열", "동적배열", "명품", "실습문제", "연습문제", "프로그래밍"]
----<b>Problem:</b>
+---
+
+**Problem:**
 
 다음과 같이 원을 추상화한 Circle 클래스가 있다.
 
