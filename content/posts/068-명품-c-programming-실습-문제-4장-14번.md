@@ -18,14 +18,6 @@ tags: ["C++", "cstdlib", "CTime", "gambling", "programming", "rand()", "명품",
 
 선수는 Player 클래스로 작성하고, 2명의 선수는 배열로 구성하라. 그리고 게임은 GamblingGame 클래스로 작성하라.
 
-[2020/03/04 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 4장 5번](https://sobamemil.tistory.com/59)
-
-[명품 C++ programming 실습 문제 4장 5번
-
-문제 : string 클래스를 이용하여 사용자가 입력한 영문 한 줄을 입력받고 글자 하나만 랜덤하게 수정하여 출력하는 프로그램을 작성하라. 목적 및 힌트 : string 클래스로 문자열 다루기 랜덤 정수를 발생시키기..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/59)
-
 <b>목적 및 힌트 :</b>
 
 여러 클래스로 이루어진 객체 지향 프로그래밍 연습

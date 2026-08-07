@@ -28,14 +28,6 @@ MyIntStack 클래스를 활용하는 코드와 Execution Result는 다음과 같
 
 ![](https://img.sobamemil.com/posts/76/img_1.png)
 
-[2020/03/05 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 5장 7번](https://sobamemil.tistory.com/75)
-
-[명품 C++ programming Exercise Problem 5장 7번
-
-Problem: 다음과 같이 선언된 정수를 저장하는 스택 클래스 MyIntStack을 구현하라. MyIntStack 스택에 저장할 수 있는 정수의 최대 개수는 10이다. 1 2 3 4 5 6 7 8 class MyIntStack{ int p[10]; // 최대 10개의..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/75)
-
 <b>Objective & Hints:</b>
 
 복사 생성자 활용

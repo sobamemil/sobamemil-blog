@@ -64,6 +64,3 @@ tags: ["2pass", "2패스", "Assembler", "systemprogramming", "기계어", "시�
 The input to the assembler is a source code written in assembly language (using mnemonics) and the output is the object code. The design of an assembler depends upon the machine architecture as the language used is mnemonic language
 
 genderi.org](http://genderi.org/unit--2-assembler-design.html)
-
-
-](

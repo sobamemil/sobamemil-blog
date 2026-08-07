@@ -35,11 +35,3 @@ Histogram 클래스를 활용하는 사례와 실행 결과는 다음과 같다.
 <b>설명 :</b>
 
 아래 비슷한 문제를 참고하여 코드를 작성하면 조금 더 수월할 것 같습니다.
-
-[2020/02/28 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 2장 16번](https://sobamemil.tistory.com/42)
-
-[명품 C++ programming 실습 문제 2장 16번
-
-문제 : 영문 텍스트를 입력받아 알파벳 히스토그램을 그리는 프로그램을 작성하라. 대문자는 모두 소문자로 집계하며, 텍스트 입력의 끝은 ';' 문자로 한다. 목적 및 힌트 : 문자열 읽기, C++ 프로그램 종합 응용..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/42)

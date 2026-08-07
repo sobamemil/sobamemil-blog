@@ -12,14 +12,6 @@ tags: ["C++", "EvenRandom", "programming", "rand", "srand", "명품", "실습문
 
 0도 짝수로 처리한다.
 
-[2020/03/03 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 3장 5번](https://sobamemil.tistory.com/47)
-
-[명품 C++ programming 실습 문제 3장 5번
-
-문제 : 랜덤 수를 발생시키는 Random 클래스를 만들자. Random 클래스를 이용하여 랜덤 한 정수를 10개 출력하는 사례는 다음과 같다. Random 클래스가 생성자, next(), nextInRange()의 3개의 멤버 함수를 가지도..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/47)
-
 <b>목적 및 힌트 :</b>
 
 클래스 작성 및 클래스 활용

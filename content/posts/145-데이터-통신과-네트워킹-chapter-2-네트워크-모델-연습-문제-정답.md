@@ -95,6 +95,3 @@ tags: ["5판", "chapter2", "네트워크모델", "네트워킹", "답", "데이�
 모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
-
-
-](

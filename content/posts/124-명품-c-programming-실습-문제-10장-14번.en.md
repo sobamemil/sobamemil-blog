@@ -24,14 +24,6 @@ map 컨테이너에 삽입 및 조회 응용
 
 아래 링크에 있는 Exercise Problem 10장 13번을 참고하세요.
 
-[2020/03/11 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 10장 13번](https://sobamemil.tistory.com/123)
-
-[명품 C++ programming Exercise Problem 10장 13번
-
-Problem: map 컨테이너를 이용하여 (이름, 성적)을 저장하고 이름으로 성적을 조회하는 점수 관리 프로그램을 만들어라. 이름은 빈칸 없이 입력하는 것을 원칙으로 한다. Execution Result: Objective & Hints: map 컨테이너..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/123)
-
 <b>Code:</b>
 
 |  |  |

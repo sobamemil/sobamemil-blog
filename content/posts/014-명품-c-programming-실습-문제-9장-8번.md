@@ -16,14 +16,6 @@ tags: ["C", "C++", "programming", "과제", "명품", "소스코드", "실습문
 
 문제 7에 주어진 Shape 클래스를 추상 클래스로 만들고 문제 7을 다시 작성하라.
 
-[2019/11/21 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 9장 7번](https://sobamemil.tistory.com/13)
-
-[명품 C++ programming 실습 문제 9장 7번
-
-문제 : 사각형에 내접하는 도형을 표한하기 위한 Shape 클래스가 있다. 1 2 3 4 5 6 7 8 9 class Shape { protected: string name; // 도형의 이름 int width, height; // 도형이 내접하는 사각형의 너비와 높이 p..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/13)
-
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10 | int main() {  Shape \*p[3];  p[0] = new Oval("빈대떡", 10, 20);  p[1] = new Rect("찰떡", 30, 40);  p[2] = new Triangular("토스트", 30, 40);  for(int i=0; i<3; i++)  cout << p[i]->getName() << " 넓이는 " << p[i]->getArea() << endl;    for(int i=0; i<3; i++) delete p[i];  }   |

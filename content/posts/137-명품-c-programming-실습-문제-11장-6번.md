@@ -53,6 +53,3 @@ www.cplusplus.com](http://www.cplusplus.com/reference/ios/ios_base/fmtflags/)
 [manipulators - C++ Reference
 
 www.cplusplus.com](http://www.cplusplus.com/reference/library/manipulators/)
-
-
-](

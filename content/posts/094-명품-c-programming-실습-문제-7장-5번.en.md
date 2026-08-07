@@ -22,14 +22,6 @@ Execution Result를 참고하여 Color 클래스와 연산자, 그리고 프로�
 
 (2) +와 == 연산자를 Color 클래스의 프렌드 함수로 구현하라.
 
-[2020/03/04 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 4장 1번](https://sobamemil.tistory.com/55)
-
-[명품 C++ programming Exercise Problem 4장 1번
-
-Problem: 다음은 색의 3요소인 red, green, blue로 색을 추상화한 Color 클래스를 선언하고 활용하는 코드이다. 빈칸을 채워라. red, green, blue는 0~255의 값만 가진다. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 1..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/55)
-
 <b>실행</b> <b>결과 :</b>
 
 ![](https://img.sobamemil.com/posts/94/img_1.png)

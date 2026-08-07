@@ -195,6 +195,3 @@ GPIOx\_LCKR
     0: Port configuration not locked
 
     1: Port configuration locked.
-
-
-](

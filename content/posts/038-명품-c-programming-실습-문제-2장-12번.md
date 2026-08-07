@@ -16,12 +16,6 @@ tags: ["C++", "programming", "매개변수", "명품", "실습문제", "연습�
 
 <b>[2020/02/28 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 2장 11번](https://sobamemil.tistory.com/37)</b>
 
-[명품 C++ programming 실습 문제 2장 11번
-
-문제 : 다음 C 프로그램을 C++ 프로그램으로 수정하여 실행하라. 1 2 3 4 5 6 7 8 9 10 11 12 #include int main() { int k, n=0; int sum=0; printf("끝 수를 입력하세요>>"); scanf("%d", &n); for(k=..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/37)
-
 <b>목적 및 힌트 :</b>
 
 C++ 프로그래밍에 대한 전반적인 이해

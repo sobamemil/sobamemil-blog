@@ -20,6 +20,3 @@ tags: ["AI THINKER", "arduino", "CAM", "esp32", "esp32cam", "스케치", "아두
 #define CAMERA\_MODEL\_AI\_THINKER // Has PSRAM 이 부분을 주석 해제 해주었더니 정상적으로 동작하였습니다.
 
 해결된 이유를 알려드리면 저는 아두이노 보드에 연결하여 컴파일 및 업로드 한 것이 아니라 ESP32-CAM-MB라는 모듈을 장착하여 컴파일 및 업로드 하였는데, ESP32-CAM-MB 모듈을 장착하여 업로드 하는 경우는 아두이노 보드에 연결하여 업로드 하는 경우와 다르게 설정을 해주어야 한다는 것을 모르고 있었기 때문에 간단하게 CAMERA\_MODEL\_AI\_THINKER를 #define 해줌으로 해결 하였습니다.
-
-
-](

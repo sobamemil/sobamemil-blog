@@ -45,6 +45,3 @@ ignore() 함수에 대한 더 자세한 내용은 아래 사이트에서 참고�
 public member function istream& ignore (streamsize n = 1, int delim = EOF); Extract and discard characters Extracts characters from the input sequence and discards them, until either n characters have been extracted, or one compares eq
 
 www.cplusplus.com](http://www.cplusplus.com/reference/istream/istream/ignore/?kw=cin.ignore)
-
-
-](

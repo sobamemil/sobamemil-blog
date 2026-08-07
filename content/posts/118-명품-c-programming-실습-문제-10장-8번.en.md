@@ -30,14 +30,6 @@ Circle뿐 아니라, Comparable을 상속받은 모든 클래스를 bigger()에 
 
 Comparable을 상속받은 Circle 클래스를 완성하고 문제 7의 main()을 실행하여 테스트 하라.
 
-[2020/03/09 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 10장 7번](https://sobamemil.tistory.com/117)
-
-[명품 C++ programming Exercise Problem 10장 7번
-
-Problem: 다음 프로그램은 컴파일 오류가 발생한다. 소스의 어디에서 왜 컴파일 오류가 발생하는가? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 #include using namespace std; cl..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/117)
-
 <b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/118/img_1.png)

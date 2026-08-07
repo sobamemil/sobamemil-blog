@@ -49,12 +49,3 @@ Kruskal's Algorithm을 구현하기 위해서는 크게 세 가지 중요한 부
 Kruskal's Algorithm에 대한 실제 구현 예제는 아래 링크에서 볼 수 있습니다.
 
 [2021.04.09 - [알고리즘] - Kruskal's Algorithm 구현 1 (Method without applying the Collapse Rule)](https://sobamemil.tistory.com/180)
-
-[Kruskal's Algorithm 구현 1 (Method without applying the Collapse Rule)
-
-프로그램 개요 : C 언어를 사용한 Kruskal's Algorithm(Kruskal Algorithm) 구현. 붕괴법칙을 적용하지 않은 Kruskal's Algorithm. 붕괴법칙을 적용한 Kruskal's Algorithm Input File: 프로그램 Execution Result:
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/180)
-
-
-](

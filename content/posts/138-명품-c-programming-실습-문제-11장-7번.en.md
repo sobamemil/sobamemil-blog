@@ -51,6 +51,3 @@ www.cplusplus.com](http://www.cplusplus.com/reference/library/manipulators/)
 public member function set (1)fmtflags setf (fmtflags fmtfl); mask (2)fmtflags setf (fmtflags fmtfl, fmtflags mask); Set specific format flags The first form (1) sets the stream's format flags whose bits are set in fmtfl, leaving unchanged
 
 www.cplusplus.com](http://www.cplusplus.com/reference/ios/ios_base/setf/)
-
-
-](

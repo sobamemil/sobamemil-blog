@@ -33,11 +33,3 @@ tags: ["C", "C++", "programming", "과제", "명품", "소스코드", "실습문
 <b>Explanation:</b>
 
 8장 8번의 문제와 비슷한 문제입니다. 아래 링크를 참고하여 작성하시면 조금 더 수월하게 작성할 수 있습니다.
-
-[2020/03/09 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 8장 8번](https://sobamemil.tistory.com/109)
-
-[명품 C++ programming Exercise Problem 8장 8번
-
-Problem: 다음 그림과 같은 상속 구조를 갖는 클래스를 설계한다. 모든 프린터는 모델명(model), 제조사(manufacturer), 인쇄 매수(printedCount), 인쇄 종이 잔량(availableCount)을 나타내는 정보와 print(int pag..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/109)

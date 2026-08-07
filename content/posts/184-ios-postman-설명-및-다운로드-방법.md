@@ -45,6 +45,3 @@ www.postman.com](https://www.postman.com/downloads/)
 계정 등록까지 완료했으면 아래와 같은 화면이 반겨줍니다. 다운로드 및 설치가 완료되었습니다.
 
 ![](https://img.sobamemil.com/posts/184/img_7.png)
-
-
-](

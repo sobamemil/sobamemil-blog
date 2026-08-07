@@ -22,14 +22,6 @@ Integer 클래스를 활용하는 코드는 다음과 같다.
 
 문제 2의 힌트와 동일하게 <string> 헤더 파일의 stoi() 함수를 이용하면 편합니다.
 
-[2020/03/02 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 3장 2번](https://sobamemil.tistory.com/44)
-
-[명품 C++ programming 실습 문제 3장 2번
-
-문제 : 날짜를 다루는 Date 클래스를 작성하고자 한다. Date를 이용하는 main()과 실행 결과는 다음과 같다. 클래스 Date를 작성하여 아래 프로그램에 추가하라. 1 2 3 4 5 6 7 8 9 #include using nam..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/44)
-
 <b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/50/img_1.png)

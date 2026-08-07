@@ -37,6 +37,3 @@ tags: ["2019", "algorithm", "merge", "MergeSort", "Sort", "수도코드", "알�
 <b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/129/img_2.png)
-
-
-](

@@ -29,14 +29,3 @@ cin.get(), EOF, cin.ignore() 활용
 <b>설명 :</b>
 
 cin.ignore() 함수에 대한 내용과 사용법은 실습 문제 11장 3번 문제를 참고하시면 됩니다.
-
-[2020/03/27 - [명품 C++ programming] - 명품 C++ programming 실습 문제 11장 3번](https://sobamemil.tistory.com/134)
-
-[명품 C++ programming 실습 문제 11장 3번
-
-문제 : 한 줄에 '영어문장;한글문자' 형식으로 키 입력될 때, cin.ignore()를 이용하여 ';' 이후에 입력된 문자열을 화면에 출력하는 프로그램을 작성하라. 아래에서 ^Z(ctrl-z) 키는 입력 종료는 나타내는 키이며..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/134)
-
-
-](

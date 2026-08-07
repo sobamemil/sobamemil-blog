@@ -12,14 +12,6 @@ Exercise Problem 7의 문제를 수정해보자. 사용자로부터 다음과 �
 
 원의 개수에 따라 동적으로 배열을 할당받아야 한다.
 
-[2020/03/04 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 4장 7번](https://sobamemil.tistory.com/61)
-
-[명품 C++ programming Exercise Problem 4장 7번
-
-Problem: 다음과 같이 원을 추상화한 Circle 클래스가 있다. Circle 클래스와 main() 함수를 작성하고 3개의 Circle 객체를 가진 배열을 선언하고, 반지름 값을 입력받고 면적이 100보다 큰 원의 개수를 출력하는 프..
-
-sobamemil.tistory.com](https://sobamemil.tistory.com/61)
-
 <b>Objective & Hints:</b>
 
 객체 배열 응용 연습

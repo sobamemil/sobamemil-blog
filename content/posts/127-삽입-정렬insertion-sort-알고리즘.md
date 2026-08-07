@@ -43,6 +43,3 @@ tags: ["algo", "algorithm", "InsertionSort", "빅오", "삽입정렬", "시간�
 <b>실행 결과 :</b>
 
 ![](https://img.sobamemil.com/posts/127/img_3.png)
-
-
-](

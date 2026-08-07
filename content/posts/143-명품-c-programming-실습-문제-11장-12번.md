@@ -39,6 +39,3 @@ tags: ["12장", "C++", "coffeemachine", "iomanip", "programming", "객체지향"
 일반 커피는 추가로 Cream이 소모되고, 설탕 커피는 추가로 Sugar가 소모됩니다.
 
 블랙 커피는 기본 재료 외에 소모되는 재료가 없습니다.
-
-
-](
