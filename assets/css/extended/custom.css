@@ -1,0 +1,92 @@
+/* Premium Custom Styling for Sobamemil Tech Blog */
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+:root {
+  --font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  letter-spacing: -0.015em;
+}
+
+/* Header & Navigation Bar Redesign */
+.nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 1.2rem 0 !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.logo a {
+  font-size: 1.35rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.03em !important;
+  background: linear-gradient(135deg, #ea4aaa, #3182f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#menu {
+  display: flex !important;
+  gap: 1.2rem !important;
+  align-items: center !important;
+}
+
+#menu a {
+  font-size: 0.93rem !important;
+  font-weight: 600 !important;
+  opacity: 0.85;
+  transition: all 0.2s ease !important;
+}
+
+#menu a:hover {
+  opacity: 1 !important;
+  color: #ea4aaa !important;
+}
+
+/* Post Cards Styling */
+.post-entry {
+  border-radius: 14px !important;
+  border: 1px solid rgba(128, 128, 128, 0.15) !important;
+  padding: 1.6rem !important;
+  margin-bottom: 1.5rem !important;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+.post-entry:hover {
+  transform: translateY(-3px) !important;
+  border-color: rgba(234, 74, 170, 0.4) !important;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08) !important;
+}
+
+.entry-header h2 {
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.entry-content {
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+  opacity: 0.8;
+}
+
+.entry-footer {
+  font-size: 0.85rem !important;
+  margin-top: 0.8rem !important;
+  opacity: 0.65;
+}
+
+/* Pagination Buttons */
+.pagination a {
+  border-radius: 8px !important;
+  padding: 8px 16px !important;
+  font-weight: 600 !important;
+  background: rgba(128, 128, 128, 0.1) !important;
+}
