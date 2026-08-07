@@ -65,10 +65,6 @@ The input to the assembler is a source code written in assembly language (using 
 
 genderi.org](http://genderi.org/unit--2-assembler-design.html)
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시 비영리

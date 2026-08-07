@@ -17,8 +17,6 @@ body {
   justify-content: space-between !important;
   align-items: center !important;
   padding: 1.2rem 0 !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
 }
 
 .logo a {
@@ -51,7 +49,7 @@ body {
 /* Post Cards Styling */
 .post-entry {
   border-radius: 14px !important;
-  border: 1px solid rgba(128, 128, 128, 0.15) !important;
+  border: 1px solid rgba(128, 128, 128, 0.18) !important;
   padding: 1.6rem !important;
   margin-bottom: 1.5rem !important;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
@@ -83,10 +81,32 @@ body {
   opacity: 0.65;
 }
 
-/* Pagination Buttons */
+/* Pagination Buttons - High Contrast Fix for Light & Dark Mode */
+.pagination {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
 .pagination a {
-  border-radius: 8px !important;
-  padding: 8px 16px !important;
-  font-weight: 600 !important;
-  background: rgba(128, 128, 128, 0.1) !important;
+  border-radius: 10px !important;
+  padding: 10px 22px !important;
+  font-size: 0.92rem !important;
+  font-weight: 700 !important;
+  color: #1d1d1f !important;
+  background: #e5e5ea !important;
+  border: 1px solid #d1d1d6 !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06) !important;
+  transition: all 0.2s ease !important;
+}
+
+.dark .pagination a {
+  color: #ffffff !important;
+  background: #2c2c2e !important;
+  border: 1px solid #3a3a3c !important;
+}
+
+.pagination a:hover {
+  background: #ea4aaa !important;
+  color: #ffffff !important;
+  border-color: #ea4aaa !important;
 }

@@ -40,10 +40,6 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/47)
 
 짝수인 정수만 랜덤하게 출력하기 위해 if문으로 짝수인지 판단하고, 짝수가 아닐시 1을 빼서 return 해주었습니다.
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

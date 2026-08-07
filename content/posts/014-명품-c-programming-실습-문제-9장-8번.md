@@ -44,10 +44,6 @@ Shape을 추상 클래스로 만들려면 getArea() 함수를 순수 가상 함�
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47 | #include<iostream>  using namespace std;    class Shape {  protected:  string name;  int width, height;  public:  Shape(string n="", int w=0, int h=0) { name = n; width = w; height = h; }  virtual double getArea()=0;  string getName() { return name; }  };    class Oval : public Shape {  public:  Oval(string n, int w, int h) : Shape(n, w, h){;}  virtual double getArea() {  return 3.14 \* width \* height;  }  };    class Rect : public Shape {  public:  Rect(string n, int w, int h) : Shape(n, w, h){;}  virtual double getArea() {  return width \* height;  }  };    class Triangular : public Shape {  public:  Triangular(string n, int w, int h) : Shape(n, w, h){;}  virtual double getArea() {  return (width \* height) / 2;  }  };    int main() {  Shape \*p[3];  p[0] = new Oval("빈대떡", 10, 20);  p[1] = new Rect("찰떡", 30, 40);  p[2] = new Triangular("토스트", 30, 40);  for(int i=0; i<3; i++)  cout << p[i]->getName() << " 넓이는 " << p[i]->getArea() << endl;    for(int i=0; i<3; i++) delete p[i];  }  [Colored by Color Scripter](http://colorscripter.com/info#e) |
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

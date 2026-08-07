@@ -40,10 +40,6 @@ tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자중�
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41 | #include<iostream>  using namespace std;    class Matrix{  int arr[4];  public:  Matrix(){;}  Matrix(int a, int b, int c, int d) { arr[0]=a; arr[1]=b; arr[2]=c; arr[3]=d; }  void show();  friend void operator>> (Matrix& a, int x[]);  friend void operator<< (Matrix& b, int y[]);  };    void Matrix::show() {  cout << "Matrix" << " = { ";  for(int i=0; i<4; i++) cout << this->arr[i] << ' ';  cout << "}" << endl;  }    void operator>> (Matrix& a, int x[]){  for(int i=0; i<4; i++){  x[i] = a.arr[i];  }  }    void operator<< (Matrix& b, int y[]){  for(int i=0; i<4; i++){  b.arr[i] = y[i];  }  }    int main() {  Matrix a(4,3,2,1), b;  int x[4], y[4]={1,2,3,4}; // 2차원 행렬의 4 개의 원소 값  a >> x; // a의 각 원소를 배열 x에 복사. x[]는 {4,3,2,1}  b << y; // 배열 y의 원소 값을 b의 각 원소에 설정    for(int i=0; i<4; i++) cout << x[i] << ' '; // x[] 출력  cout << endl;  b.show();  } |
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

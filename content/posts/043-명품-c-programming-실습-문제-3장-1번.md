@@ -34,10 +34,6 @@ tags: ["C++", "class", "constructor", "programming", "매개변수", "명품", "
 
 C++에서는 생성자 중복(Constructor Overloading)이 가능한데, 이를 이용하여 매개 변수의 개수가 다른 생성자를 만드는 문제입니다.
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

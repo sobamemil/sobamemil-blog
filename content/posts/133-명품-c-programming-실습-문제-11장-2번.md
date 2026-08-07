@@ -24,10 +24,6 @@ cin으로 키 입력 연습
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 | #include <iostream>  using namespace std;    int main() {  char ch;  int cnt;    while(true){  cin.get(ch); // 키를 ch에 읽어옴  if(cin.eof()) // EOF 문자 즉 ctrl-z 키가 입력된 경우, 읽기 종료  break;  if(ch == '\n') // <Enter> 키가 입력된 경우 읽기 중단  break;  else if(ch == ' ')  cnt++;  }  cout << cnt;  } |
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시 비영리

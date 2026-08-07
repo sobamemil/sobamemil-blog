@@ -44,10 +44,6 @@ Histogram 클래스를 활용하는 사례와 실행 결과는 다음과 같다.
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/42)
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

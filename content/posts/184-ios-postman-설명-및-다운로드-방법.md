@@ -48,10 +48,6 @@ www.postman.com](https://www.postman.com/downloads/)
 
 ![](https://img.sobamemil.com/posts/184/img_7.png)
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시 비영리

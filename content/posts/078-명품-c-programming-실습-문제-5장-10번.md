@@ -30,10 +30,6 @@ append()는 Buffer 객체에 문자열을 추가하고 Buffer 객체에 대한 �
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23 | #include<iostream>  #include<string>  using namespace std;    class Buffer{  string text;  public:  Buffer(string text) { this->text = text; }  void add(string next) { text += next; } // text에 next 문자열 덧붙이기  void print() { cout << text << endl; }  };    Buffer& append(Buffer& s, string g){  s.add(g);  return s;  }    int main() {  Buffer buf("Hello");  Buffer& temp = append(buf, "Guys"); // buf의 문자열에 "Guys" 덧붙임  temp.print(); // "HelloGuys" 출력  buf.print(); // "HelloGuys" 출력  } |
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

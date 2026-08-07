@@ -34,10 +34,6 @@ ANDGate, ORGate, XORGate를 활용하는 사례와 결과는 다음과 같다.
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51 | #include<iostream>  using namespace std;    class AbstractGate { // 추상 클래스  protected:  bool x, y;  public:  void set(bool x, bool y) { this->x = x; this->y = y; }  virtual bool operation()=0;  };    class ANDGate : public AbstractGate {  public:  virtual bool operation() {  if(x == true && y == true)  return true;  else return false;  }  };    class ORGate : public AbstractGate {  public:  virtual bool operation() {  if(x == true || y == true)  return true;  else return false;  }  };    class XORGate : public AbstractGate {  public:  virtual bool operation() {  if(x != y)  return true;  else return false;  }  };    int main() {  ANDGate andGate;  ORGate orGate;  XORGate xorGate;    andGate.set(true, false);  orGate.set(true, false);  xorGate.set(true, false);  cout.setf(ios::boolalpha); // 불린 값을 "true", "false" 문자열로 출력할 것을 지시  cout << andGate.operation() << endl; // AND 결과는 false  cout << orGate.operation() << endl;     // OR 결과는 true  cout << xorGate.operation() << endl; // XOR 결과는 true  }  [Colored by Color Scripter](http://colorscripter.com/info#e) |
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

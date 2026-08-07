@@ -44,10 +44,6 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/123)
 
 참고하여 작성하면 도움이 될 것 같습니다.
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

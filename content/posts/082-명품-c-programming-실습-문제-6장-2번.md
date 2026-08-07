@@ -40,10 +40,6 @@ Person 클래스의 객체를 생성하는 main() 함수는 다음과 같다.
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25 | #include<iostream>  #include<string>  using namespace std;    class Person {  int id;  double weight;  string name;  public:  Person(int id = 1, string name = "Grace", double weight = 20.5);  void show() { cout << id << ' ' << weight << ' ' << name << endl; }  };    Person::Person(int id, string name, double weight){  this->id = id;  this->weight = weight;  this->name = name;  }    int main() {  Person grace, ashley(2, "Ashley"), helen(3, "Helen", 32.5);  grace.show();  ashley.show();  helen.show();  } |
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

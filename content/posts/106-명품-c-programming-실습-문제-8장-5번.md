@@ -50,10 +50,6 @@ MyQueue를 활용하는 사례는 다음과 같다.
 
 ko.wikipedia.org](https://ko.wikipedia.org/wiki/%ED%81%90_(%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0))
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

@@ -26,10 +26,6 @@ tags: ["C++", "programming", "명품", "문자열", "소스코드", "실습문�
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21 | #include <iostream>  using namespace std;    int main() {    cout << "문자열 입력>>";  char str[100];    cin.getline(str,100);    for(int i=1;i<100;i++){  for(int j=0;j<i;j++) {  cout << str[j];  }  if(str[i]=='\0') // 문자열의 끝이면 break  break;  cout << endl;  }    return 0;  } |
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시

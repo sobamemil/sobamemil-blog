@@ -46,10 +46,6 @@ tags: ["algo", "algorithm", "InsertionSort", "빅오", "삽입정렬", "시간�
 
 ![](https://img.sobamemil.com/posts/127/img_3.png)
 
-공유하기
-
-게시글 관리
-
 **코딩은 내일부터 ;**
 
 [저작자표시 동일조건
