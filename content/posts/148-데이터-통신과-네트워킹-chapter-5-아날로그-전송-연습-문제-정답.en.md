@@ -4,9 +4,7 @@ date: 2020-04-23T12:25:10+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "네트워크", "네트워킹", "답", "데이터통신", "아날로그", "연습문제", "정답", "풀이", "해답"]
----
-
-**<b>Chapter 5 아날로그 전송 </b>Practice ExercisesSolution(답)******
+---**<b>Chapter 5 아날로그 전송 </b>Practice ExercisesSolution(답)******
 
 1. ASK, FSK 및 QAM은 \_\_\_\_\_\_\_ 변환의 예이다.
 
@@ -89,5 +87,4 @@ tags: ["5판", "네트워크", "네트워킹", "답", "데이터통신", "아날
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
 
-[저작자표시 비영리 변경금지
-(새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
+](

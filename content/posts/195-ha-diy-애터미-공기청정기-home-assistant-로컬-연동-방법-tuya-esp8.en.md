@@ -5,9 +5,7 @@ draft: false
 categories: ["🏠 Smart Home & DIY"]
 tags: ["ESP8266", "Home Assistant", "IoT", "OpenSSL", "Smart Home", "Atomy Air Purifier", "Tuya"]
 description: "A complete guide on reviving an abandoned Atomy Air Purifier (AAP-KR19W) into Home Assistant via local Tuya MQTT provisioning and custom OpenSSL TLS patch."
----
-
-# Successful Home Assistant Local Integration for Abandoned Atomy Air Purifier
+---# Successful Home Assistant Local Integration for Abandoned Atomy Air Purifier
 
 I recently brought home an Atomy air purifier (`AAP-KR19W`) that was sitting unused at my parents' house. The hardware performance and filter condition were still great, so I decided to integrate it into my Home Assistant smart home setup for automated air quality control.
 

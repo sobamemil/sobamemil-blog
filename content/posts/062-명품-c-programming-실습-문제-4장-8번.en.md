@@ -4,9 +4,7 @@ date: 2020-03-04T16:23:04+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "객체배열", "객체포인터", "동적배열", "동적할당", "명품", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 Exercise Problem 7의 문제를 수정해보자. 사용자로부터 다음과 같이 원의 개수를 입력받고, 원의 개수만큼 반지름을 입력받는 방식으로 수정하라.
 

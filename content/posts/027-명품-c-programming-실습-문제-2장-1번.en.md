@@ -4,9 +4,7 @@ date: 2020-02-28T16:12:18+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cout", "endl", "programming", "\\n", "\\t", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 cout과 << 연산자를 이용하여, 1에서 100까지 정수를 다음과 같이 한 줄에 10개씩 출력하라. 각 정수는 탭으로 분리하여 출력하라.
 

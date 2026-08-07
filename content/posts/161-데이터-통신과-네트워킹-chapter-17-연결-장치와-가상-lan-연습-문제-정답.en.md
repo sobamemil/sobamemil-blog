@@ -4,9 +4,7 @@ date: 2020-06-29T12:23:25+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["vlan", "가상랜", "네트워크", "네트워킹", "답", "데이터링크층", "데이터통신", "연결장치", "연습문제", "풀이"]
----
-
-<b>Chapter 17 연결 장치와 가상 LAN Practice ExercisesSolution(답)</b>
+---<b>Chapter 17 연결 장치와 가상 LAN Practice ExercisesSolution(답)</b>
 
 1. VLAN은 \_\_\_\_\_\_\_ 으로 구성된 근거리 네트워크이다.
 
@@ -53,5 +51,4 @@ tags: ["vlan", "가상랜", "네트워크", "네트워킹", "답", "데이터링
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
 
-[저작자표시 비영리 변경금지
-(새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
+](

@@ -4,9 +4,7 @@ date: 2020-04-02T11:58:57+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cctype", "iomanip", "isprint", "programming", "setf", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 0에서 127까지 ASCII 코드와 해당 문자를 다음과 같이 출력하는 프로그램을 작성하라.
 
@@ -53,5 +51,4 @@ public member function set (1)fmtflags setf (fmtflags fmtfl); mask (2)fmtflags s
 www.cplusplus.com](http://www.cplusplus.com/reference/ios/ios_base/setf/)
 
 
-[저작자표시 비영리
-(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
+](

@@ -4,9 +4,7 @@ date: 2019-11-21T01:08:27+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: []
----
-
-<b>문제 :</b>
+---<b>문제 :</b>
 
 다음 추상 클래스 LoopAdder가 있다.
 

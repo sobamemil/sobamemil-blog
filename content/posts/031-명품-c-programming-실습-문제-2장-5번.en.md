@@ -4,9 +4,7 @@ date: 2020-02-28T16:49:19+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cin", "cin.getline", "getline", "programming", "명품", "문자열입력", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 <Enter> 키가 입력될 때까지 문자들을 읽고, 입력된 문자 'x'의 개수를 화면에 출력하라.
 

@@ -4,9 +4,7 @@ date: 2020-03-03T16:54:21+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "stoi()", "string", "명품", "실습문제", "연습문제", "인라인함수", "자동인라인", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 int 타입의 정수를 객체화한 Integer 클래스를 작성하라. Integer의 모든 멤버 함수를 자동 인라인으로 작성하라.
 

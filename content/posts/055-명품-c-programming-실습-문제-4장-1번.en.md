@@ -4,9 +4,7 @@ date: 2020-03-04T15:05:27+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "객체배열", "객체포인터", "명품", "실습문제", "연습문제", "포인터", "프로그래밍", "화살표연산자"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 다음은 색의 3요소인 red, green, blue로 색을 추상화한 Color 클래스를 선언하고 활용하는 코드이다. 빈칸을 채워라.
 

@@ -4,9 +4,7 @@ date: 2020-03-06T17:55:15+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자중복", "연습문제", "코딩", "프렌드함수", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 다음 main()에서 Color 클래스는 3요소(빨강, 초록, 파랑)로 하나의 색을 나타내는 클래스이다(4장 Exercise Problem 1번 참고).
 

@@ -4,9 +4,7 @@ date: 2019-11-21T11:45:27+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C", "C++", "programming", "과제", "명품", "소스코드", "실습문제", "실행결과", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 사각형에 내접하는 도형을 표한하기 위한 Shape 클래스가 있다.
 

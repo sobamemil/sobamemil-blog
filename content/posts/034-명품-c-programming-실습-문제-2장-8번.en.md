@@ -4,9 +4,7 @@ date: 2020-02-28T17:24:52+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "CString", "getline", "programming", "strcpy", "strlen", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 한 라인에 ';' 으로 5개의 이름을 구분하여 입력받아, 각 이름을 끊어내어 화면에 출력하고 가장 긴 이름을 판별하라.
 

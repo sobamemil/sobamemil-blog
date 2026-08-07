@@ -4,9 +4,7 @@ date: 2020-03-06T19:57:15+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "Pop", "programming", "Push", "stack", "명품", "실습문제", "연습문제", "참조자", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 스택 클래스 Stack을 만들고 푸시(push)용으로 << 연산자를, 팝(pop)을 위해 >> 연산자를, 비어 있는 스택인지를 알기 위해 ! 연산자를 작성하라.
 

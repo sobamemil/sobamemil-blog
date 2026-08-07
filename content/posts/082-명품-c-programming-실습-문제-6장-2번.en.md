@@ -4,9 +4,7 @@ date: 2020-03-05T16:44:47+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "overloading", "programming", "디폴트", "매개변수", "명품", "실습문제", "연습문제", "프로그래밍", "함수중복"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 Person 클래스의 객체를 생성하는 main() 함수는 다음과 같다.
 

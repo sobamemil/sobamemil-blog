@@ -4,9 +4,7 @@ date: 2020-03-27T15:21:26+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cin", "eof", "get", "ignore", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 한 줄에 '영어문장;한글문자' 형식으로 키 입력될 때, cin.ignore()를 이용하여 ';'이전에 입력된 문자열만 출력하는 프로그램을 작성하라.
 
@@ -39,5 +37,4 @@ Problem: 한 줄에 '영어문장;한글문자' 형식으로 키 입력될 때, 
 sobamemil.tistory.com](https://sobamemil.tistory.com/134)
 
 
-[저작자표시 비영리
-(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
+](

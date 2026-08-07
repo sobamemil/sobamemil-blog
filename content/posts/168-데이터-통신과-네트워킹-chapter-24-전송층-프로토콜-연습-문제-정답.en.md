@@ -4,9 +4,7 @@ date: 2020-06-29T16:14:37+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "전송층", "정답", "풀이", "프로토콜"]
----
-
-<b>Chapter 24 전송층 프로토콜 Practice ExercisesSolution(답)</b>
+---<b>Chapter 24 전송층 프로토콜 Practice ExercisesSolution(답)</b>
 
 1. UDP와 TCP는 \_\_\_\_\_\_\_ 계층 프로토콜이다.
 
@@ -253,5 +251,4 @@ tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "전�
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
 
-[저작자표시 비영리 변경금지
-(새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
+](

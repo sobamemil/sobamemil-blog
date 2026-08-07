@@ -4,9 +4,7 @@ date: 2020-03-02T17:24:18+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "class", "constructor", "programming", "매개변수", "명품", "생성자중복", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 아래 main()의 Execution Result가 다음과 같도록 Tower 클래스를 작성하라.
 

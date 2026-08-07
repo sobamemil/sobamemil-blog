@@ -4,9 +4,7 @@ date: 2020-03-04T17:45:19+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["C++", "CString", "programming", "tolower", "toupper", "명품", "실습문제", "연습문제", "프로그래밍", "히스토그램"]
----
-
-<b>문제 :</b>
+---<b>문제 :</b>
 
 영문자로 구성된 텍스트에 대해 각 알파벳에 해당하는 문자가 몇 개인지 출력하는 히스토그램 클래스 Histogram을 만들어보자.
 

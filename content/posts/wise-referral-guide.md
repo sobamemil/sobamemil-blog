@@ -5,9 +5,7 @@ draft: false
 categories: ["📱 리뷰 & 일상", "💻 개발 & CS"]
 tags: ["Wise", "해외송금", "Stripe", "GitHubSponsors", "프리랜서", "수수료절약", "재테크"]
 description: "GitHub Sponsors, Outlier, 해외 외주 달러 정산 시 환전 수수료 10만 원 아끼는 법과 90만 원 상당 수수료 무료 혜택 받는 법을 공유합니다."
----
-
-안녕하세요! 해외 개발이나 외주, GitHub Sponsors, Outlier 같은 글로벌 플랫폼에서 달러 수익을 받을 때 다들 한 번쯤 고민해 보셨을 거예요.
+---안녕하세요! 해외 개발이나 외주, GitHub Sponsors, Outlier 같은 글로벌 플랫폼에서 달러 수익을 받을 때 다들 한 번쯤 고민해 보셨을 거예요.
 
 일반 은행으로 그냥 송금받으면 <b>환전 수수료에 해외 송금 수수료까지 겹쳐서 번 돈의 5~10만 원이 힘없이 날아가곤 하는데요.</b>
 

@@ -4,9 +4,7 @@ date: 2020-03-06T17:13:07+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["!연산자", "C++", "operator", "programming", "멤버함수", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 1번 ~ 4번 문제까지 사용될 Book 클래스는 다음과 같습니다.
 

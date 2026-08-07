@@ -4,9 +4,7 @@ date: 2020-03-09T16:07:40+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "for", "programming", "remove", "명품", "반복문", "실습문제", "연습문제", "템플릿", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 다음 함수는 매개 변수로 주어진 int 배열 src에서 배열 minus에 들어있는 같은 정수를 모두 삭제한 새로운 int 배열을 동적으로 할당받아 리턴한다.
 

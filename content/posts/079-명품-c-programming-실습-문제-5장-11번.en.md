@@ -4,9 +4,7 @@ date: 2020-03-05T16:00:14+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "char*", "programming", "string", "명품", "문자열", "실습문제", "얕은복사생성자", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 책의 이름과 가격을 저장하는 다음 Book 클래스에 대해 물음에 답하여라.
 

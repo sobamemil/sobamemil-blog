@@ -4,9 +4,7 @@ date: 2020-04-02T16:58:54+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["12장", "C++", "coffeemachine", "iomanip", "programming", "객체지향", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 커피 자판기 시뮬레이터를 C++로 작성해보자. 실행 사례는 다음과 같다.
 
@@ -41,5 +39,4 @@ tags: ["12장", "C++", "coffeemachine", "iomanip", "programming", "객체지향"
 블랙 커피는 기본 재료 외에 소모되는 재료가 없습니다.
 
 
-[저작자표시 비영리
-(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
+](

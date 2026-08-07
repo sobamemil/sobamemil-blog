@@ -4,9 +4,7 @@ date: 2020-03-27T14:58:42+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["11장", "C++", "cin", "get()", "programming", "명품", "스트림", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 int cin.get() 함수를 이용하여 키보드로부터 한 라인을 읽고 'a'가 몇 개인지 출력하는 프로그램을 작성하라.
 
@@ -29,5 +27,4 @@ cin으로 키 입력 연습
 cin은 C++ 표준 입출력 스트림 객체입니다. 따라서 iostream 헤더 파일은 include 했다면 저절로 cin 객체가 생성되어 바로 사용할 수 있습니다.
 
 
-[저작자표시 비영리
-(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
+](

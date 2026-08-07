@@ -4,9 +4,7 @@ date: 2020-03-05T15:09:01+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: []
----
-
-<b>문제 :</b>
+---<b>문제 :</b>
 
 다음과 같이 선언된 정수를 저장하는 스택 클래스 MyIntStack을 구현하라.
 

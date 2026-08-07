@@ -4,9 +4,7 @@ date: 2020-03-06T14:52:41+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["::", "C++", "programming", "scopeoperator", "static", "명품", "범위지정연산자", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>문제 :</b>
+---<b>문제 :</b>
 
 동일한 크기로 배열을 변환하는 다음 2개의 static 멤버 함수를 가진 ArrayUtility 클래스를 만들어라.
 

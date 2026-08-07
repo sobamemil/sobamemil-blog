@@ -5,9 +5,7 @@ draft: false
 categories: ["📱 Reviews & Life", "💻 Dev & CS"]
 tags: ["Wise", "해외송금", "Stripe", "GitHubSponsors", "프리랜서", "수수료절약", "재테크"]
 description: "Learn how to save $100 in exchange fees when receiving USD payouts from GitHub Sponsors, Outlier, and global freelancing platforms."
----
-
-Hello! If you receive USD payouts from global platforms like GitHub Sponsors, Outlier, or overseas freelancing, you've probably worried about transfer fees.
+---Hello! If you receive USD payouts from global platforms like GitHub Sponsors, Outlier, or overseas freelancing, you've probably worried about transfer fees.
 
 If you transfer directly to traditional banks, <b>$50 to $100 of your hard-earned money easily disappears due to high exchange rates and remittance fees.</b>
 

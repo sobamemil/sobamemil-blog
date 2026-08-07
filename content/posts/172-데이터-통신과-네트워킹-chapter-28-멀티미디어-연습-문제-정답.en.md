@@ -4,9 +4,7 @@ date: 2020-07-01T14:30:55+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "데이터통신", "멀티미디어", "연습문제", "응용층", "풀이"]
----
-
-<b>Chapter 28 멀티미디어 Practice ExercisesSolution(답)</b>
+---<b>Chapter 28 멀티미디어 Practice ExercisesSolution(답)</b>
 
 1. \_\_\_\_\_\_\_ 압축에서 데이터의 무결성은 압축과 해제 알고리즘은 정확히 역의 관계이기 때문에 \_\_\_\_\_\_\_ .
 
@@ -163,5 +161,4 @@ tags: ["네트워크", "네트워킹", "데이터통신", "멀티미디어", "�
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
 
-[저작자표시 비영리 변경금지
-(새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
+](

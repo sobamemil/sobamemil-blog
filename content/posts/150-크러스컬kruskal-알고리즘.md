@@ -4,9 +4,7 @@ date: 2020-07-02T18:03:16+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["Greedy", "Kruskal", "MST", "가중치", "그래프", "알고리즘", "욕심쟁이방법", "크러스컬", "탐욕법"]
----
-
-<b>크러스컬(Kruskal) 알고리즘이란?</b>
+---<b>크러스컬(Kruskal) 알고리즘이란?</b>
 
 크러스컬 알고리즘은 최소 비용 신장 그래프를 찾는 알고리즘 입니다.
 
@@ -57,5 +55,4 @@ tags: ["Greedy", "Kruskal", "MST", "가중치", "그래프", "알고리즘", "�
 sobamemil.tistory.com](https://sobamemil.tistory.com/180)
 
 
-[저작자표시 비영리 변경금지
-(새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
+](

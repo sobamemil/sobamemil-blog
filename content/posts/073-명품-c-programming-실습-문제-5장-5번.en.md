@@ -4,9 +4,7 @@ date: 2020-03-05T14:49:33+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "increaseBy()", "programming", "값에의한호출", "명품", "실습문제", "연습문제", "참조", "참조에의한호출", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 다음 Circle 클래스가 있다.
 

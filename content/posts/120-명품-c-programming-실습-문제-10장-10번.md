@@ -4,9 +4,7 @@ date: 2020-03-10T18:07:00+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["C++", "Capital", "Iterator", "Nation", "programming", "vector", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>문제 :</b>
+---<b>문제 :</b>
 
 나라의 수도 맞추기 게임에 vector를 활용해보자. 나라 이름(nation)과 수도(capital) 문자열로 구성된 Nation 클래스를 만들고, vector<Nation> v;로 생성한 벡터를 이용하여 나라 이름과 수도 이름을 삽입할 수도 있고 랜덤하게 퀴즈를 볼 수도 있다.
 

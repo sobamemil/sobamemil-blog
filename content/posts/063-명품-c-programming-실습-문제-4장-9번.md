@@ -4,9 +4,7 @@ date: 2020-03-04T16:48:36+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["C++", "compare()", "programming", "string", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>문제 :</b>
+---<b>문제 :</b>
 
 다음과 같은 Person 클래스가 있다.
 

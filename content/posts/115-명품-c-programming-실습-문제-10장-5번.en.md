@@ -4,9 +4,7 @@ date: 2020-03-09T15:53:04+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "Generic", "programming", "template", "명품", "실습문제", "연습문제", "일반화", "프로그래밍", "함수"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 다음 함수는 매개 변수로 주어진 두 개의 int 배열을 연결한 새로운 int 배열을 동적 할당받아 리턴한다.
 

@@ -4,9 +4,7 @@ date: 2020-02-28T16:19:50+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cout", "endl", "programming", "구구단출력", "명품", "소스코드", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 cout과 << 연산자를 이용하여 다음과 같이 구구단을 출력하는 프로그램을 작성하라.
 

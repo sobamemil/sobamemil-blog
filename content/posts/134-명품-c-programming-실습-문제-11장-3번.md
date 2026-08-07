@@ -4,9 +4,7 @@ date: 2020-03-27T15:16:48+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["buffer", "C++", "cin", "ignore", "Istream", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>문제 :</b>
+---<b>문제 :</b>
 
 한 줄에 '영어문장;한글문자' 형식으로 키 입력될 때, cin.ignore()를 이용하여 ';' 이후에 입력된 문자열을 화면에 출력하는 프로그램을 작성하라.
 
@@ -47,5 +45,4 @@ public member function istream& ignore (streamsize n = 1, int delim = EOF); Extr
 www.cplusplus.com](http://www.cplusplus.com/reference/istream/istream/ignore/?kw=cin.ignore)
 
 
-[저작자표시 비영리
-(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
+](

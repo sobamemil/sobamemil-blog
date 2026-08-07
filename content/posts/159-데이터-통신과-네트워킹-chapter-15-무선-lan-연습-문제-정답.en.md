@@ -4,9 +4,7 @@ date: 2020-06-25T11:41:01+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "무선LAN", "블루투스", "연습문제", "정답", "풀이"]
----
-
-<b>Chapter 15 무선 LAN Practice ExercisesSolution(답)</b>
+---<b>Chapter 15 무선 LAN Practice ExercisesSolution(답)</b>
 
 1. 다음 유선과 무선 LAN의 Explanation 중 옳은 것은?
 
@@ -141,5 +139,4 @@ tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터�
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
 
-[저작자표시 비영리 변경금지
-(새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
+](

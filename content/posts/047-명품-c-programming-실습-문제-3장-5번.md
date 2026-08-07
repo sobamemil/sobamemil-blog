@@ -4,9 +4,7 @@ date: 2020-03-03T16:09:46+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["C++", "cstdlib", "CTime", "programming", "rand()", "Random", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>문제 :</b>
+---<b>문제 :</b>
 
 랜덤 수를 발생시키는 Random 클래스를 만들자. Random 클래스를 이용하여 랜덤 한 정수를 10개 출력하는 사례는 다음과 같다.
 

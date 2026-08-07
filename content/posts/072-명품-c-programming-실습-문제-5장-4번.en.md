@@ -4,9 +4,7 @@ date: 2020-03-05T14:39:43+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["Big", "C++", "programming", "reference", "명품", "실습문제", "연습문제", "참조", "프로그래밍", "호출"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 아래와 같이 원형이 주어진 bigger()를 작성하고 사용자로부터 2개의 정수를 입력받아 큰 값을 출력하는 main()을 작성하라.
 

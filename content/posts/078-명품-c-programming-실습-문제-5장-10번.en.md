@@ -4,9 +4,7 @@ date: 2020-03-05T15:40:57+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "string", "명품", "문자열", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 참조를 리턴하는 코드를 작성해보자. 다음 코드와  Execution Result를 참고하여 append() 함수를 작성하고 전체 프로그램을 완성하라.
 

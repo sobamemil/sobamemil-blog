@@ -4,9 +4,7 @@ date: 2020-06-21T20:47:15+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "DLC", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "정답", "풀이"]
----
-
-<b>Chapter 11 데이터링크 제어(DLC) Practice ExercisesSolution(답)</b>
+---<b>Chapter 11 데이터링크 제어(DLC) Practice ExercisesSolution(답)</b>
 
 1. HDLC는 \_\_\_\_\_\_\_ 의 줄임말이다.
 
@@ -93,5 +91,4 @@ tags: ["5판", "DLC", "네트워크", "네트워킹", "데이터링크층", "데
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
 
-[저작자표시 비영리
-(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
+](

@@ -4,9 +4,7 @@ date: 2020-03-04T17:34:53+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "circle", "CircleManager", "programming", "객체배열", "객체포인터", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 다음은 이름과 반지름을 속성으로 가진 Circle 클래스와 이들을 배열로 관리하는 CircleManager 클래스이다.
 

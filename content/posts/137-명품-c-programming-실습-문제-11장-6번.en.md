@@ -4,9 +4,7 @@ date: 2020-03-27T15:55:33+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "formatflag", "manipulator", "programming", "명품", "실습문제", "연습문제", "조작자", "포맷플래그", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 다음과 같이 정수, 제곱, 제곱근의 값을 형식에 맞추어 출력하는 프로그램을 작성하라.
 
@@ -55,5 +53,4 @@ www.cplusplus.com](http://www.cplusplus.com/reference/ios/ios_base/fmtflags/)
 www.cplusplus.com](http://www.cplusplus.com/reference/library/manipulators/)
 
 
-[저작자표시 비영리
-(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
+](

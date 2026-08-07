@@ -4,9 +4,7 @@ date: 2020-03-06T18:43:43+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "circle", "friend", "programming", "명품", "실습문제", "연산자", "연습문제", "프렌드", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 문제 8번의 Circle 객체에 대해 다음 연산이 가능하도록 연산자를 구현하라.
 

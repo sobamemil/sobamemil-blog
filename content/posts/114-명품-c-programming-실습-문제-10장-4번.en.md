@@ -4,9 +4,7 @@ date: 2020-03-09T15:48:38+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "Generic", "programming", "template", "명품", "실습문제", "연습문제", "제네릭", "템플릿", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 배열에서 원소를 검색하는 search() 함수를 템플릿으로 작성하라.
 

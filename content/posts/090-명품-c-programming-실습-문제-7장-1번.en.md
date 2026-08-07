@@ -4,9 +4,7 @@ date: 2020-03-06T16:54:56+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자함수", "연습문제", "프렌드키워드", "프렌드함수", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 1번 ~ 4번 문제까지 사용될 Book 클래스는 다음과 같습니다.
 

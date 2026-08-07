@@ -4,9 +4,7 @@ date: 2019-11-20T23:09:20+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["2019", "2020", "converter", "KM", "Mile", "public", "단위변환", "추상클래스", "파생클래스", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 The following is an abstract class Converter that converts units.
 

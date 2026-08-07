@@ -4,9 +4,7 @@ date: 2020-06-21T20:33:20+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "네트워크", "네트워킹", "답", "데이터링크층", "연습문제", "오류검출", "오류정정", "정답", "풀이"]
----
-
-<b>Chapter 10 오류 검출과 오류 정정 Practice ExercisesSolution(답)</b>
+---<b>Chapter 10 오류 검출과 오류 정정 Practice ExercisesSolution(답)</b>
 
 1. 아래의 선택지 중에서 어떤 것이 단일 비트 오류에 대해 가장 잘 Explanation하였는가?
 
@@ -93,5 +91,4 @@ tags: ["5판", "네트워크", "네트워킹", "답", "데이터링크층", "연
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
 
-[저작자표시 비영리
-(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
+](

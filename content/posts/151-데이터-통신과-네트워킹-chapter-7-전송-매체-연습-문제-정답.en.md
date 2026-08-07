@@ -4,9 +4,7 @@ date: 2020-06-21T18:56:08+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "네트워킹", "데이터통신", "물리층", "연습문제", "정답", "풀이", "해답"]
----
-
-**<b>Chapter 7 전송 매체 전송 </b>Practice ExercisesSolution(답)******
+---**<b>Chapter 7 전송 매체 전송 </b>Practice ExercisesSolution(답)******
 
 1. 전송 매체는 흔히 \_\_\_\_\_\_\_ 의 범주로 구분된다.
 
@@ -69,5 +67,4 @@ tags: ["5판", "네트워킹", "데이터통신", "물리층", "연습문제", "
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
 
-[저작자표시 비영리 변경금지
-(새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
+](

@@ -4,9 +4,7 @@ date: 2020-03-09T12:56:19+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "inheritance", "programming", "기본클래스", "상속", "실습문제", "연습문제", "접근지정자", "파생클래스", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 문제 1~2에 적용되는 원을 추상화한 Circle 클래스가 있다.
 

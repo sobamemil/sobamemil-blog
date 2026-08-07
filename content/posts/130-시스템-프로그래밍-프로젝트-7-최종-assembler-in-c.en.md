@@ -4,9 +4,7 @@ date: 2020-03-19T14:02:07+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["2pass", "2패스", "Assembler", "systemprogramming", "기계어", "시스템", "어셈블러", "어셈블리어", "프로그래밍", "프로젝트"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 지금까지의 프로젝트를 참고하여 2 pass assembler를 만들면 됩니다.
 
@@ -66,5 +64,4 @@ The input to the assembler is a source code written in assembly language (using 
 genderi.org](http://genderi.org/unit--2-assembler-design.html)
 
 
-[저작자표시 비영리
-(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
+](

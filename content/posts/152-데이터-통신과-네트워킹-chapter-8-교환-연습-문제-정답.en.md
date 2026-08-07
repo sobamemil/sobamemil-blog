@@ -4,9 +4,7 @@ date: 2020-06-21T19:09:59+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "교환", "네트워크", "네트워킹", "데이터통신", "물리층", "연습문제", "정답", "해답"]
----
-
-<b>Chapter 8 교환 Practice ExercisesSolution(답)</b>
+---<b>Chapter 8 교환 Practice ExercisesSolution(답)</b>
 
 1. 회선 교환은 \_\_\_\_\_\_\_ 개의 범주로 나눌 수 있다.
 
@@ -77,5 +75,4 @@ tags: ["5판", "교환", "네트워크", "네트워킹", "데이터통신", "물
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
 
-[저작자표시 비영리 변경금지
-(새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
+](

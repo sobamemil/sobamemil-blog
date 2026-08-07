@@ -4,9 +4,7 @@ date: 2020-02-28T17:07:48+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["C++", "cin.getline()", "CString", "programming", "strcmp()", "명품", "배열초기화", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>문제 :</b>
+---<b>문제 :</b>
 
 다음과 같이 "yes"가 입력될 때까지 종료하지 않는 프로그램을 작성하라. 사용자로부터의 입력은 cin.getline() 함수를 사용하라.
 

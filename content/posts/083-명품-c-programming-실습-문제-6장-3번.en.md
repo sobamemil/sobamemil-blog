@@ -4,9 +4,7 @@ date: 2020-03-05T16:54:35+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "Function", "overloading", "programming", "디폴트매개변수", "명품", "실습문제", "연습문제", "프로그래밍", "함수중복"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 함수 big()을 호출하는 경우는 다음과 같다.
 

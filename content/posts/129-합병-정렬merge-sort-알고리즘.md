@@ -4,9 +4,7 @@ date: 2020-03-18T14:20:58+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["2019", "algorithm", "merge", "MergeSort", "Sort", "수도코드", "알고리즘", "정렬", "프로그래밍", "합병정렬"]
----
-
-합병 정렬(Merge Sort)이란?
+---합병 정렬(Merge Sort)이란?
 
 분할 정복 알고리즘(=Divide and conquer algorithm 즉, 그대로 해결할 수 없는 문제를 작은 문제로 분할하여 문제를 해결하는 방법이나 알고리즘입니다.)의 하나로 O(*n* log *n*)의 시간 복잡도를 가지고 있습니다.
 
@@ -41,5 +39,4 @@ tags: ["2019", "algorithm", "merge", "MergeSort", "Sort", "수도코드", "알�
 ![](https://img.sobamemil.com/posts/129/img_2.png)
 
 
-[저작자표시 동일조건
-(새창열림)](https://creativecommons.org/licenses/by-sa/4.0/deed.ko)
+](

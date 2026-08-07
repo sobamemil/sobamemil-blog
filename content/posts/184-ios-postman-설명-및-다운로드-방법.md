@@ -4,9 +4,7 @@ date: 2021-05-17T20:00:46+09:00
 draft: false
 categories: ["💻 개발 & CS"]
 tags: ["API", "IOS", "postman", "REST", "restful", "무료", "서버", "테스트", "통신", "프로그램"]
----
-
-Postman이란 Rest API 통신 서버를 본격적으로 구축하기 전 테스트 할 수 있도록 도와주는 GUI 툴이라고 생각하면 쉽게 이해될 것 같습니다. 윈도우, 리눅스에서도 사용 가능하고 WEB 버전도 있지만 이 포스팅에서는 macOS를 기준으로 진행하겠습니다.
+---Postman이란 Rest API 통신 서버를 본격적으로 구축하기 전 테스트 할 수 있도록 도와주는 GUI 툴이라고 생각하면 쉽게 이해될 것 같습니다. 윈도우, 리눅스에서도 사용 가능하고 WEB 버전도 있지만 이 포스팅에서는 macOS를 기준으로 진행하겠습니다.
 
 사용자가 개인이고 기본적인 기능만 사용한다고 하면 무료로 사용할 수 있습니다. 비용에 관한 자세한 부분은 홈페이지에 기재되어 있습니다.
 
@@ -49,5 +47,4 @@ www.postman.com](https://www.postman.com/downloads/)
 ![](https://img.sobamemil.com/posts/184/img_7.png)
 
 
-[저작자표시 비영리
-(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
+](

@@ -4,9 +4,7 @@ date: 2020-03-04T15:56:03+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cstdlib", "CTime", "programming", "srand", "공백문자", "명품", "실습문제", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 string 클래스를 이용하여 사용자가 입력한 영문 한 줄을 입력받고 글자 하나만 랜덤하게 수정하여 출력하는 프로그램을 작성하라.
 

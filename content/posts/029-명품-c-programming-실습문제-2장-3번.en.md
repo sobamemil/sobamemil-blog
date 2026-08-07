@@ -4,9 +4,7 @@ date: 2020-02-28T16:27:30+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["C++", "cin", "cout", "programming", "명품", "소스코드", "실습문제", "연산자", "연습문제", "프로그래밍"]
----
-
-<b>Problem:</b>
+---<b>Problem:</b>
 
 키보드로부터 두 개의 정수를 읽어 큰 수를 화면에 출력하라.
 
