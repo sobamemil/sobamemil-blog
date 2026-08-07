@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "circle", "friend", "programming", "명품", "실습문제", "연산자", "연습문제", "프렌드", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 문제 8번의 Circle 객체에 대해 다음 연산이 가능하도록 연산자를 구현하라.
 
@@ -18,19 +18,19 @@ tags: ["C++", "circle", "friend", "programming", "명품", "실습문제", "연�
 
 [명품 C++ programming 실습 문제 7장 8번
 
-문제 : 원을 추상화한 Circle 클래스는 간단히 아래와 같다. 1 2 3 4 5 6 class Circle{ int radius; public: Circle(int radius=0) { this->radius = radius; } void show() { cout << "radius = " << radius <<..
+Problem: 원을 추상화한 Circle 클래스는 간단히 아래와 같다. 1 2 3 4 5 6 class Circle{ int radius; public: Circle(int radius=0) { this->radius = radius; } void show() { cout << "radius = " << radius <<..
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/97)
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/98/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 프렌드 함수로 연산자 구현 연습
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

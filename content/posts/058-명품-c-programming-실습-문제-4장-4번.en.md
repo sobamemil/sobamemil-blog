@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["4번", "4장", "C++", "programming", "동적배열", "명품", "실습문제", "연습문제", "코딩", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음과 같은 Sample 클래스가 있다.
 
@@ -20,15 +20,15 @@ tags: ["4번", "4장", "C++", "programming", "동적배열", "명품", "실습�
 | --- | --- |
 | 1  2  3  4  5  6 | int main() {  Sample s(10); // 10개 정수 배열을 가진 Sample 객체 생성  s.read(); // 키보드에서 정수 배열 읽기  s.write(); // 정수 배열 출력  cout << "가장 큰 수는 " << s.big() << endl; // 가장 큰 수 출력  } |
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 동적 배열을 가진 클래스 다루기
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/58/img_1.png)
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

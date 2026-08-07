@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["5판", "Mac", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "정답", "풀이", "해답"]
 ---
 
-<b>Chapter 12 매체 접근 제어(MAC) 연습 문제 풀이(답)</b>
+<b>Chapter 12 매체 접근 제어(MAC) Practice Exercises풀이(답)</b>
 
 1. \_\_\_\_\_\_\_ 임의 접근 방식은 충돌을 회피한다.
 
@@ -38,7 +38,7 @@ tags: ["5판", "Mac", "네트워크", "네트워킹", "데이터링크층", "데
 
 8. \_\_\_\_\_\_\_ 는 채널화 프로토콜이다.
 
--> d. 모든 선택지가 정답이다.
+-> d. 모든 선택지가 Answers & Solutions이다.
 
 9. \_\_\_\_\_\_\_ 임의 접근 방법에서 지국은 매체를 감지하지 않는다.
 
@@ -46,7 +46,7 @@ tags: ["5판", "Mac", "네트워크", "네트워킹", "데이터링크층", "데
 
 10. 아래의 선택지들 중에 어떤 것이 임의 접근 프로토콜의 예제인가?
 
--> d. 정답 없음
+-> d. Answers & Solutions없음
 
 11. 아래의 선택지들 중 어떤 것이 제어 접근 프로토콜의 예제인가?
 
@@ -80,7 +80,7 @@ tags: ["5판", "Mac", "네트워크", "네트워킹", "데이터링크층", "데
 
 -> c. CDMA
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -92,8 +92,8 @@ tags: ["5판", "Mac", "네트워크", "네트워킹", "데이터링크층", "데
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 14 다른 유선 네트워크들 연습 문제 정답](/158)  (0) | 2020.06.25 |
-| [데이터 통신과 네트워킹 Chapter 13 유선 LAN: 이더넷(Ethernet) 연습 문제 정답](/157)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 11 데이터링크 제어(DLC) 연습 문제 정답](/155)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 10 오류 검출과 오류 정정 연습 문제 정답](/154)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 9 데이터링크층 소개 연습 문제 정답](/153)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 14 다른 유선 네트워크들 Practice ExercisesAnswers & Solutions](/158)  (0) | 2020.06.25 |
+| [Data Communications & Networking Chapter 13 유선 LAN: 이더넷(Ethernet) Practice ExercisesAnswers & Solutions](/157)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 11 데이터링크 제어(DLC) Practice ExercisesAnswers & Solutions](/155)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 10 오류 검출과 오류 정정 Practice ExercisesAnswers & Solutions](/154)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 9 데이터링크층 소개 Practice ExercisesAnswers & Solutions](/153)  (0) | 2020.06.21 |

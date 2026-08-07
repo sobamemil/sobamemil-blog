@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음은 커피자판기로 작동하는 프로그램을 만들기 위해 필요한 두 클래스이다.
 
@@ -18,15 +18,15 @@ tags: ["C++", "programming", "명품", "실습문제", "연습문제", "프로�
 
 만일 커피, 물, 설탕 중 잔량이 하나라도 부족해 커피를 제공할 수 없는 경우 '원료가 부족합니다.'를 출력하라.
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/65/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 객체 배열 응용
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "무선LAN", "블루투스", "연습문제", "정답", "풀이"]
 ---
 
-<b>Chapter 15 무선 LAN 연습 문제 풀이(답)</b>
+<b>Chapter 15 무선 LAN Practice Exercises풀이(답)</b>
 
 1. 다음 유선과 무선 LAN의 설명 중 옳은 것은?
 
@@ -18,7 +18,7 @@ tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 3. CSMA/CD 알고리즘은 무선 LAN에서 사용되지 않는데 그 이유는?
 
--> d. 모두 정답 (a. 무선 호스트가 이중 모드(duplex mode)로 작동하기 위한 충분한 전력을 가지고 있지 않아서, b. 숨겨진 지국 문제 때문에, c. 신호 감쇠로 한 지국이 반대편에서 발생한 충돌을 감지할 수 없어서)
+-> d. 모두 Answers & Solutions(a. 무선 호스트가 이중 모드(duplex mode)로 작동하기 위한 충분한 전력을 가지고 있지 않아서, b. 숨겨진 지국 문제 때문에, c. 신호 감쇠로 한 지국이 반대편에서 발생한 충돌을 감지할 수 없어서)
 
 4. IEEE 802.11에서 \_\_\_\_\_\_\_ 은 정지한 혹은 이동 무선국과 선택적으로 접근점(AP)으로 알려진 중앙 기지국을 포함한다.
 
@@ -106,11 +106,11 @@ tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 25. IEEE 802.11a, IEEE 802.11g, 혹은 IEEE 802.11n OFDM은 \_\_\_\_\_\_\_ 변조를 사용한다.
 
--> d. 정답 없음 (a. ASK, b. FSK, c. PSK)
+-> d. Answers & Solutions없음 (a. ASK, b. FSK, c. PSK)
 
 26. 블루투스는 작은 지역에서 기기(가드겟이라 불리는)를 연결하기 위한 \_\_\_\_\_\_\_ 기술이다.
 
--> d. 정답 없음 (정답 : PAN) (a. 유선 LAN, b. 무선 LAN, c. VLAN) 
+-> d. Answers & Solutions없음 (Answers & Solutions: PAN) (a. 유선 LAN, b. 무선 LAN, c. VLAN) 
 
 27. 블루투스에서 다중 \_\_\_\_\_\_\_ 은 \_\_\_\_\_\_\_ 으로 불리는 네트워크를 형성한다.
 
@@ -122,7 +122,7 @@ tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 29. 블루투스에서 현재 데이터율은 \_\_\_\_\_\_\_ Mbps이다.
 
--> d. 정답 없음 (a. 2, b. 5, c. 11)
+-> d. Answers & Solutions없음 (a. 2, b. 5, c. 11)
 
 30. 블루투스의 접속 기법은 \_\_\_\_\_\_\_ 이다.
 
@@ -136,7 +136,7 @@ tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 -> b. FHSS
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -148,8 +148,8 @@ tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 17 연결 장치와 가상 LAN 연습 문제 정답](/161)  (1) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 16 기타 무선망 연습 문제 정답](/160)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 14 다른 유선 네트워크들 연습 문제 정답](/158)  (0) | 2020.06.25 |
-| [데이터 통신과 네트워킹 Chapter 13 유선 LAN: 이더넷(Ethernet) 연습 문제 정답](/157)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 12 매체 접근 제어(MAC) 연습 문제 정답](/156)  (2) | 2020.06.21 |
+| [Data Communications & Networking Chapter 17 연결 장치와 가상 LAN Practice ExercisesAnswers & Solutions](/161)  (1) | 2020.06.29 |
+| [Data Communications & Networking Chapter 16 기타 무선망 Practice ExercisesAnswers & Solutions](/160)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 14 다른 유선 네트워크들 Practice ExercisesAnswers & Solutions](/158)  (0) | 2020.06.25 |
+| [Data Communications & Networking Chapter 13 유선 LAN: 이더넷(Ethernet) Practice ExercisesAnswers & Solutions](/157)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 12 매체 접근 제어(MAC) Practice ExercisesAnswers & Solutions](/156)  (2) | 2020.06.21 |

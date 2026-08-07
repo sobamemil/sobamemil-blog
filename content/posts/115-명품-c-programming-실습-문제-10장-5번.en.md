@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "Generic", "programming", "template", "명품", "실습문제", "연습문제", "일반화", "프로그래밍", "함수"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음 함수는 매개 변수로 주어진 두 개의 int 배열을 연결한 새로운 int 배열을 동적 할당받아 리턴한다.
 
@@ -16,15 +16,15 @@ tags: ["C++", "Generic", "programming", "template", "명품", "실습문제", "�
 
 concat가 int 배열뿐 아니라 다른 타입의 배열도 처리할 수 있도록 일반화하라.
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/115/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 함수의 힐반화에 대한 이해, 템플릿 함수 만들기
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

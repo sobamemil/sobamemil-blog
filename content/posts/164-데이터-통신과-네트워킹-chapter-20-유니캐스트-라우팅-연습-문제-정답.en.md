@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "라우팅", "연습문제", "유니캐스트", "정답", "풀이"]
 ---
 
-<b>Chapter 20 유니캐스트 라우팅 연습 문제 풀이(답)</b>
+<b>Chapter 20 유니캐스트 라우팅 Practice Exercises풀이(답)</b>
 
 1. 자율 시스템 안에서의 라우팅은 \_\_\_\_\_\_\_ 라우팅이라 한다. (번역본에서는 문제가 잘못 나와있음)
 
@@ -84,7 +84,7 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "�
 
 -> a. BGP
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -96,8 +96,8 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 22 차세대 IP 연습 문제 정답](/166)  (1) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 21 멀티캐스트 라우팅 연습 문제 정답](/165)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 19 네트워크층 프로토콜 연습 문제 정답](/163)  (6) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 18 네트워크층의 소개 연습 문제 정답](/162)  (13) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 17 연결 장치와 가상 LAN 연습 문제 정답](/161)  (1) | 2020.06.29 |
+| [Data Communications & Networking Chapter 22 차세대 IP Practice ExercisesAnswers & Solutions](/166)  (1) | 2020.06.29 |
+| [Data Communications & Networking Chapter 21 멀티캐스트 라우팅 Practice ExercisesAnswers & Solutions](/165)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 19 네트워크층 프로토콜 Practice ExercisesAnswers & Solutions](/163)  (6) | 2020.06.29 |
+| [Data Communications & Networking Chapter 18 네트워크층의 소개 Practice ExercisesAnswers & Solutions](/162)  (13) | 2020.06.29 |
+| [Data Communications & Networking Chapter 17 연결 장치와 가상 LAN Practice ExercisesAnswers & Solutions](/161)  (1) | 2020.06.29 |

@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "stoi()", "string", "명품", "실습문제", "연습문제", "인라인함수", "자동인라인", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 int 타입의 정수를 객체화한 Integer 클래스를 작성하라. Integer의 모든 멤버 함수를 자동 인라인으로 작성하라.
 
@@ -16,7 +16,7 @@ Integer 클래스를 활용하는 코드는 다음과 같다.
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include<iostream>  #include<string>  using namespace std;    int main() {  Integer n(30);  cout << n.get() << ' '; // 30 출력  n.set(50);  cout << n.get() << ' '; // 50 출력    Integer m("300");  cout << m.get() << ' '; // 300 출력  cout << m.isEven(); // true(정수로 1) 출력  } |
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 클래스 만들기와 객체 개념 이해
 
@@ -26,21 +26,21 @@ Integer 클래스를 활용하는 코드는 다음과 같다.
 
 [명품 C++ programming 실습 문제 3장 2번
 
-문제 : 날짜를 다루는 Date 클래스를 작성하고자 한다. Date를 이용하는 main()과 실행 결과는 다음과 같다. 클래스 Date를 작성하여 아래 프로그램에 추가하라. 1 2 3 4 5 6 7 8 9 #include using nam..
+Problem: 날짜를 다루는 Date 클래스를 작성하고자 한다. Date를 이용하는 main()과 실행 결과는 다음과 같다. 클래스 Date를 작성하여 아래 프로그램에 추가하라. 1 2 3 4 5 6 7 8 9 #include using nam..
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/44)
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/50/img_1.png)
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35 | #include<iostream>  #include<string>  using namespace std;    class Integer{  private:  int a;  public:  Integer(int b){  a = b;  }  Integer(string s){  a = stoi(s);  }  int get(){  return a;  }  int set(int b){  return a = b;  }  int isEven(){  return true;  }  };    int main() {  Integer n(30);  cout << n.get() << ' '; // 30 출력  n.set(50);  cout << n.get() << ' '; // 50 출력    Integer m("300");  cout << m.get() << ' '; // 300 출력  cout << m.isEven(); // true(정수로 1) 출력  } |
 
-<b>설명 :</b>
+<b>Explanation:</b>
 
 클래스의 모든 멤버 함수를 자동 인라인으로 작성하는 문제입니다.
 

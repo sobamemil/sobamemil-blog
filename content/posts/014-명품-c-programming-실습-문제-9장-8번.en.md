@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C", "C++", "programming", "과제", "명품", "소스코드", "실습문제", "실행결과", "연습문제", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 사각형에 내접하는 도형을 표현하기 위한 Shape 클래스가 있다.
 
@@ -20,7 +20,7 @@ tags: ["C", "C++", "programming", "과제", "명품", "소스코드", "실습문
 
 [명품 C++ programming 실습 문제 9장 7번
 
-문제 : 사각형에 내접하는 도형을 표한하기 위한 Shape 클래스가 있다. 1 2 3 4 5 6 7 8 9 class Shape { protected: string name; // 도형의 이름 int width, height; // 도형이 내접하는 사각형의 너비와 높이 p..
+Problem: 사각형에 내접하는 도형을 표한하기 위한 Shape 클래스가 있다. 1 2 3 4 5 6 7 8 9 class Shape { protected: string name; // 도형의 이름 int width, height; // 도형이 내접하는 사각형의 너비와 높이 p..
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/13)
 
@@ -28,17 +28,17 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/13)
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10 | int main() {  Shape \*p[3];  p[0] = new Oval("빈대떡", 10, 20);  p[1] = new Rect("찰떡", 30, 40);  p[2] = new Triangular("토스트", 30, 40);  for(int i=0; i<3; i++)  cout << p[i]->getName() << " 넓이는 " << p[i]->getArea() << endl;    for(int i=0; i<3; i++) delete p[i];  }  [Colored by Color Scripter](http://colorscripter.com/info#e) |
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/14/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 가상 함수를 가진 클래스를 추상 클래스로 만들기
 
 Shape을 추상 클래스로 만들려면 getArea() 함수를 순수 가상 함수로 만들면 된다.
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

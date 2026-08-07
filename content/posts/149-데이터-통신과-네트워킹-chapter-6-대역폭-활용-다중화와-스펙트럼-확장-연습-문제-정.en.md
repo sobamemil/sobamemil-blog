@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["5판", "네트워크", "네트워킹", "다중화", "대역폭활용", "데이터통신", "디지털", "스펙트럼", "아날로그", "연습문제"]
 ---
 
-**<b>Chapter 6 아날로그대역폭 활용: 다중화와 스펙트럼 확장 전송 </b>연습 문제 풀이(답)******
+**<b>Chapter 6 아날로그대역폭 활용: 다중화와 스펙트럼 확장 전송 </b>Practice Exercises풀이(답)******
 
 1. 아날로그 신호를 전송하는 다중화 기술은?
 
@@ -88,7 +88,7 @@ tags: ["5판", "네트워크", "네트워킹", "다중화", "대역폭활용", "
 
 -> b. 통계적
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -100,8 +100,8 @@ tags: ["5판", "네트워크", "네트워킹", "다중화", "대역폭활용", "
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 8 교환 연습 문제 정답](/152)  (1) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 7 전송 매체 연습 문제 정답](/151)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 5 아날로그 전송 연습 문제 정답](/148)  (0) | 2020.04.23 |
-| [데이터 통신과 네트워킹 Chapter 4 디지털 전송 연습 문제 정답](/147)  (1) | 2020.04.23 |
-| [데이터 통신과 네트워킹 Chapter 3 물리층 개요 연습 문제 정답](/146)  (0) | 2020.04.20 |
+| [Data Communications & Networking Chapter 8 교환 Practice ExercisesAnswers & Solutions](/152)  (1) | 2020.06.21 |
+| [Data Communications & Networking Chapter 7 전송 매체 Practice ExercisesAnswers & Solutions](/151)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 5 아날로그 전송 Practice ExercisesAnswers & Solutions](/148)  (0) | 2020.04.23 |
+| [Data Communications & Networking Chapter 4 디지털 전송 Practice ExercisesAnswers & Solutions](/147)  (1) | 2020.04.23 |
+| [Data Communications & Networking Chapter 3 물리층 개요 Practice ExercisesAnswers & Solutions](/146)  (0) | 2020.04.20 |

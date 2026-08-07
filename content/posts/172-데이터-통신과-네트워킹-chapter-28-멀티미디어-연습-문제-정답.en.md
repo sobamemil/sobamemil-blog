@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "데이터통신", "멀티미디어", "연습문제", "응용층", "풀이"]
 ---
 
-<b>Chapter 28 멀티미디어 연습 문제 풀이(답)</b>
+<b>Chapter 28 멀티미디어 Practice Exercises풀이(답)</b>
 
 1. \_\_\_\_\_\_\_ 압축에서 데이터의 무결성은 압축과 해제 알고리즘은 정확히 역의 관계이기 때문에 \_\_\_\_\_\_\_ .
 
@@ -158,7 +158,7 @@ tags: ["네트워크", "네트워킹", "데이터통신", "멀티미디어", "�
 
 -> a. UDP 사용자 데이터그램
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -170,8 +170,8 @@ tags: ["네트워크", "네트워킹", "데이터통신", "멀티미디어", "�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 30 서비스 품질 연습 문제 정답](/174)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 29 대등-대-대등 패러다임 연습 문제 정답](/173)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 27 네트워크 관리 연습 문제 정답](/171)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 26 표준 클라이언트-서버 프로토콜 연습 문제 정답](/170)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 25 응용층 소개 연습 문제 정답](/169)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 30 서비스 품질 Practice ExercisesAnswers & Solutions](/174)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 29 대등-대-대등 패러다임 Practice ExercisesAnswers & Solutions](/173)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 27 네트워크 관리 Practice ExercisesAnswers & Solutions](/171)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 26 표준 클라이언트-서버 프로토콜 Practice ExercisesAnswers & Solutions](/170)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 25 응용층 소개 Practice ExercisesAnswers & Solutions](/169)  (0) | 2020.06.30 |

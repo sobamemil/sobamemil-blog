@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["5판", "chapter14", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "유선네트워크", "정답", "풀이"]
 ---
 
-<b>Chapter 14 다른 유선 네트워크들 연습 문제 풀이(답)</b>
+<b>Chapter 14 다른 유선 네트워크들 Practice Exercises풀이(답)</b>
 
 1. ADSL에서 대역폭의 많은 부분은 \_\_\_\_\_\_\_ 을 전송하는 것이다.
 
@@ -50,7 +50,7 @@ tags: ["5판", "chapter14", "네트워크", "네트워킹", "데이터링크층"
 
 11. SONET 시스템은 \_\_\_\_\_\_\_ 을 사용한다.
 
--> d. 모든 선택지가 정답이다. (a. STS 다중화기, b. 재생기, c. 추가/삭제 다중화기)
+-> d. 모든 선택지가 Answers & Solutions이다. (a. STS 다중화기, b. 재생기, c. 추가/삭제 다중화기)
 
 12. SONET은 초당 \_\_\_\_\_\_\_ 프레임을 전송한다.
 
@@ -96,7 +96,7 @@ tags: ["5판", "chapter14", "네트워크", "네트워킹", "데이터링크층"
 
 -> a. 재생기
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -108,8 +108,8 @@ tags: ["5판", "chapter14", "네트워크", "네트워킹", "데이터링크층"
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 16 기타 무선망 연습 문제 정답](/160)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 15 무선 LAN 연습 문제 정답](/159)  (1) | 2020.06.25 |
-| [데이터 통신과 네트워킹 Chapter 13 유선 LAN: 이더넷(Ethernet) 연습 문제 정답](/157)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 12 매체 접근 제어(MAC) 연습 문제 정답](/156)  (2) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 11 데이터링크 제어(DLC) 연습 문제 정답](/155)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 16 기타 무선망 Practice ExercisesAnswers & Solutions](/160)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 15 무선 LAN Practice ExercisesAnswers & Solutions](/159)  (1) | 2020.06.25 |
+| [Data Communications & Networking Chapter 13 유선 LAN: 이더넷(Ethernet) Practice ExercisesAnswers & Solutions](/157)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 12 매체 접근 제어(MAC) Practice ExercisesAnswers & Solutions](/156)  (2) | 2020.06.21 |
+| [Data Communications & Networking Chapter 11 데이터링크 제어(DLC) Practice ExercisesAnswers & Solutions](/155)  (0) | 2020.06.21 |

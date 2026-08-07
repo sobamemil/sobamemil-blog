@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["개요", "네트워크", "네트워킹", "데이터통신", "연습문제", "전송층", "정답", "풀이"]
 ---
 
-<b>Chapter 23 전송층의 개요 연습 문제 풀이(답)</b>
+<b>Chapter 23 전송층의 개요 Practice Exercises풀이(답)</b>
 
 1. 전송층의 주요 임무 중의 하나는 \_\_\_\_\_\_\_ 통신이다.
 
@@ -18,7 +18,7 @@ tags: ["개요", "네트워크", "네트워킹", "데이터통신", "연습문�
 
 3. 소켓 주소는 \_\_\_\_\_\_\_ 이 결합된 것이다.
 
--> d. 정답 없음 (IP 주소 + Port 번호) (a. MAC 주소와 논리 주소, b. MAC 주소와 포트 번호, c. 사용자-지정 주소와 논리 주소)
+-> d. Answers & Solutions없음 (IP 주소 + Port 번호) (a. MAC 주소와 논리 주소, b. MAC 주소와 포트 번호, c. 사용자-지정 주소와 논리 주소)
 
 4. \_\_\_\_\_\_\_ 는 하나 이상의 근원지로부터 정보를 수신하는 것을 의미한다. \_\_\_\_\_\_\_ 는 하나 이상의 근원지로 정보를 전달하는 것을 의미한다.
 
@@ -88,7 +88,7 @@ tags: ["개요", "네트워크", "네트워킹", "데이터통신", "연습문�
 
 -> c. 재설정된다 (정지 및 시작된다)
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -100,8 +100,8 @@ tags: ["개요", "네트워크", "네트워킹", "데이터통신", "연습문�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 25 응용층 소개 연습 문제 정답](/169)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 24 전송층 프로토콜 연습 문제 정답](/168)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 22 차세대 IP 연습 문제 정답](/166)  (1) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 21 멀티캐스트 라우팅 연습 문제 정답](/165)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 20 유니캐스트 라우팅 연습 문제 정답](/164)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 25 응용층 소개 Practice ExercisesAnswers & Solutions](/169)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 24 전송층 프로토콜 Practice ExercisesAnswers & Solutions](/168)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 22 차세대 IP Practice ExercisesAnswers & Solutions](/166)  (1) | 2020.06.29 |
+| [Data Communications & Networking Chapter 21 멀티캐스트 라우팅 Practice ExercisesAnswers & Solutions](/165)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 20 유니캐스트 라우팅 Practice ExercisesAnswers & Solutions](/164)  (0) | 2020.06.29 |

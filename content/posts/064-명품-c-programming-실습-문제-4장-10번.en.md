@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["10번", "4장", "C++", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음에서 Person은 사람을, Family는 가족을 추상화한 클래스로서 완성되지 않은 클래스이다.
 
@@ -20,15 +20,15 @@ tags: ["10번", "4장", "C++", "programming", "명품", "실습문제", "연습�
 | --- | --- |
 | 1  2  3  4  5  6  7  8 | int main() {  Family \*simpson = new Family("Simpson", 3); // 3명으로 구성된 Simpson 가족  simpson->setName(0, "Mr. Simpson");  simpson->setName(1, "Mrs. Simpson");  simpson->setName(2, "Bart Simpson");  simpson->show();  delete simpson;  } |
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 객체의 동적 생성 및 소멸 응용
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/64/img_1.png)
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

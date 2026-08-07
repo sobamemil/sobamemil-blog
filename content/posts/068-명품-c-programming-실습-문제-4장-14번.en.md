@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "cstdlib", "CTime", "gambling", "programming", "rand()", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 겜블링 게임을 만들어보자. 두 사람이 게임을 진행하며, 선수의 이름을 초기에 입력 받는다.
 
@@ -22,19 +22,19 @@ tags: ["C++", "cstdlib", "CTime", "gambling", "programming", "rand()", "명품",
 
 [명품 C++ programming 실습 문제 4장 5번
 
-문제 : string 클래스를 이용하여 사용자가 입력한 영문 한 줄을 입력받고 글자 하나만 랜덤하게 수정하여 출력하는 프로그램을 작성하라. 목적 및 힌트 : string 클래스로 문자열 다루기 랜덤 정수를 발생시키기..
+Problem: string 클래스를 이용하여 사용자가 입력한 영문 한 줄을 입력받고 글자 하나만 랜덤하게 수정하여 출력하는 프로그램을 작성하라. Objective & Hints: string 클래스로 문자열 다루기 랜덤 정수를 발생시키기..
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/59)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 여러 클래스로 이루어진 객체 지향 프로그래밍 연습
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/68/img_1.png)
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

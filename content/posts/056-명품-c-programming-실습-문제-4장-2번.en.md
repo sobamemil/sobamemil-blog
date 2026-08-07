@@ -6,25 +6,25 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "delete", "heap", "programming", "댕글링포인터", "메모리누수", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 정수 공간 5개를 배열로 동적 할당받고, 정수를 5개 입력받아 평균을 구하고 출력한 뒤 배열을 소멸시키도록 main() 함수를 작성하라.
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 배열의 동적 할당 및 반환
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/56/img_1.png)
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include<iostream>  using namespace std;    int main() {  int \*p = new int[5];  double sum = 0;  cout << "정수 5개 입력>>";  for(int i=0; i<5; i++) {  cin >> p[i];  sum += p[i];  }  cout << "평균 " << sum/5;  delete [] p;  } |
 
-<b>설명 :</b>
+<b>Explanation:</b>
 
 배열을 동적 할당하여 사용 및 반환하는 문제입니다.
 

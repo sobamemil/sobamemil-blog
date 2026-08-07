@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "데이터통신", "서버", "연습문제", "응용층", "정답", "클라이언트", "풀이", "프로토콜"]
 ---
 
-<b>Chapter 26 표준 클라이언트-서버 프로토콜 연습 문제 풀이(답)</b>
+<b>Chapter 26 표준 클라이언트-서버 프로토콜 Practice Exercises풀이(답)</b>
 
 1. HTTP는 \_\_\_\_\_\_\_ 의 서비스를 사용한다.
 
@@ -14,7 +14,7 @@ tags: ["네트워크", "네트워킹", "데이터통신", "서버", "연습문�
 
 2. HTTP에서 요청 메시지의 첫 번째 라인은 \_\_\_\_\_\_\_ 라인이며, 응답 메시지의 첫 번째 라인은 \_\_\_\_\_\_\_ 라인이다.
 
--> d. 정답이 없음 (요청; 상태) (a. 요청; 응답, b. 상태; 응답, c. 상태; 상태)
+-> d. Answers & Solutions이 없음 (요청; 상태) (a. 요청; 응답, b. 상태; 응답, c. 상태; 상태)
 
 3. \_\_\_\_\_\_\_ 접속에서 하나의 TCP 연결은 각각 요청/응답으로 구성되어 있다.
 
@@ -78,7 +78,7 @@ tags: ["네트워크", "네트워킹", "데이터통신", "서버", "연습문�
 
 18. 이메일 메시지는 \_\_\_\_\_\_\_ 와 \_\_\_\_\_\_\_ 로 구성된다.
 
--> d. 정답 없음 (봉투; 메시지) (a. 헤더; 봉투(header; envelop), b. 헤더; 바디(header; body), c. 봉투; 바디(envelop; body))
+-> d. Answers & Solutions없음 (봉투; 메시지) (a. 헤더; 봉투(header; envelop), b. 헤더; 바디(header; body), c. 봉투; 바디(envelop; body))
 
 19. 인터넷에서 이메일 주소는 두 부분, \_\_\_\_\_\_\_ 와 \_\_\_\_\_\_\_ 로 구성된다.
 
@@ -170,7 +170,7 @@ tags: ["네트워크", "네트워킹", "데이터통신", "서버", "연습문�
 
 41. 도메인 이름 공간에서 레이블이 빈 문자로 종료되는 경우 \_\_\_\_\_\_\_ 라 한다.
 
--> d. 정답 없음 (FQDN) (a. PQDN, b. CQDN, c. SQDN)
+-> d. Answers & Solutions없음 (FQDN) (a. PQDN, b. CQDN, c. SQDN)
 
 42. 도메인 이름 공간에서 레이블이 빈 문자로 종료되지 않는 경우를 \_\_\_\_\_\_\_ 라 한다.
 
@@ -212,7 +212,7 @@ tags: ["네트워크", "네트워킹", "데이터통신", "서버", "연습문�
 
 -> c. UDP 또는 TCP
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -224,8 +224,8 @@ tags: ["네트워크", "네트워킹", "데이터통신", "서버", "연습문�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 28 멀티미디어 연습 문제 정답](/172)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 27 네트워크 관리 연습 문제 정답](/171)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 25 응용층 소개 연습 문제 정답](/169)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 24 전송층 프로토콜 연습 문제 정답](/168)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 23 전송층의 개요 연습 문제 정답](/167)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 28 멀티미디어 Practice ExercisesAnswers & Solutions](/172)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 27 네트워크 관리 Practice ExercisesAnswers & Solutions](/171)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 25 응용층 소개 Practice ExercisesAnswers & Solutions](/169)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 24 전송층 프로토콜 Practice ExercisesAnswers & Solutions](/168)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 23 전송층의 개요 Practice ExercisesAnswers & Solutions](/167)  (0) | 2020.06.29 |

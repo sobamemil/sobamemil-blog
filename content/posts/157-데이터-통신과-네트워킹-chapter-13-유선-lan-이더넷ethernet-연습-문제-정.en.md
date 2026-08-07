@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["5판", "ethernet", "lan", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "정답", "풀이"]
 ---
 
-<b>Chapter 13 유선 LAN: 이더넷(Ethernet) 연습 문제 풀이(답)</b>
+<b>Chapter 13 유선 LAN: 이더넷(Ethernet) Practice Exercises풀이(답)</b>
 
 1. 이더넷 주소가 2진수로 01011010 00010001 01010101 00011000 10101010 00001111 이면, 이 주소는 16진수로 무엇인가?
 
@@ -38,11 +38,11 @@ tags: ["5판", "ethernet", "lan", "네트워크", "네트워킹", "데이터링�
 
 8. 이더넷 네트워크에 있는 각 지국은 NIC에 각인된 고유한 \_\_\_\_\_\_\_ 주소를 가진다.
 
--> d. 정답 없음
+-> d. Answers & Solutions없음
 
 9. 이더넷의 최소 프레임 길이는 \_\_\_\_\_\_\_ 이다.
 
--> d. 정답 없음
+-> d. Answers & Solutions없음
 
 10. 빠른 이더넷은 \_\_\_\_\_\_\_ Mbps의 데이터율을 가진다.
 
@@ -76,7 +76,7 @@ tags: ["5판", "ethernet", "lan", "네트워크", "네트워킹", "데이터링�
 
 -> a. CRC
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -88,8 +88,8 @@ tags: ["5판", "ethernet", "lan", "네트워크", "네트워킹", "데이터링�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 15 무선 LAN 연습 문제 정답](/159)  (1) | 2020.06.25 |
-| [데이터 통신과 네트워킹 Chapter 14 다른 유선 네트워크들 연습 문제 정답](/158)  (0) | 2020.06.25 |
-| [데이터 통신과 네트워킹 Chapter 12 매체 접근 제어(MAC) 연습 문제 정답](/156)  (2) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 11 데이터링크 제어(DLC) 연습 문제 정답](/155)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 10 오류 검출과 오류 정정 연습 문제 정답](/154)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 15 무선 LAN Practice ExercisesAnswers & Solutions](/159)  (1) | 2020.06.25 |
+| [Data Communications & Networking Chapter 14 다른 유선 네트워크들 Practice ExercisesAnswers & Solutions](/158)  (0) | 2020.06.25 |
+| [Data Communications & Networking Chapter 12 매체 접근 제어(MAC) Practice ExercisesAnswers & Solutions](/156)  (2) | 2020.06.21 |
+| [Data Communications & Networking Chapter 11 데이터링크 제어(DLC) Practice ExercisesAnswers & Solutions](/155)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 10 오류 검출과 오류 정정 Practice ExercisesAnswers & Solutions](/154)  (0) | 2020.06.21 |

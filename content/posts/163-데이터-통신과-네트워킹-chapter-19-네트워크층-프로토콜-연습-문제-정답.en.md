@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "풀이", "프로토콜"]
 ---
 
-<b>Chapter 19 네트워크층 프로토콜 연습 문제 풀이(답)</b>
+<b>Chapter 19 네트워크층 프로토콜 Practice Exercises풀이(답)</b>
 
 1. IP는 \_\_\_\_\_\_\_ 프로토콜이다.
 
@@ -46,7 +46,7 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "�
 
 10. 다음 중 ICMP 메시지의 설명 중 바른 것은?
 
--> d. 정답 없음 (a. ICMP 오류 메시지는 ICMP 오류 메시지를 위해 생성된다., b. ICMP 오류 메시지는 단편화된 데이터그램을 위해 생성된다., c. ICMP 오류 메시지는 멀티캐스트 데이터그램을 위해 생성된다.)
+-> d. Answers & Solutions없음 (a. ICMP 오류 메시지는 ICMP 오류 메시지를 위해 생성된다., b. ICMP 오류 메시지는 단편화된 데이터그램을 위해 생성된다., c. ICMP 오류 메시지는 멀티캐스트 데이터그램을 위해 생성된다.)
 
 11. 호스트가 새로운 네트워크로 이동할 때, 자신의 원래 주소는 \_\_\_\_\_\_\_ 로 참조된다.
 
@@ -76,7 +76,7 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "�
 
 -> b. 덜 심각한
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -88,8 +88,8 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 21 멀티캐스트 라우팅 연습 문제 정답](/165)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 20 유니캐스트 라우팅 연습 문제 정답](/164)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 18 네트워크층의 소개 연습 문제 정답](/162)  (13) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 17 연결 장치와 가상 LAN 연습 문제 정답](/161)  (1) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 16 기타 무선망 연습 문제 정답](/160)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 21 멀티캐스트 라우팅 Practice ExercisesAnswers & Solutions](/165)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 20 유니캐스트 라우팅 Practice ExercisesAnswers & Solutions](/164)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 18 네트워크층의 소개 Practice ExercisesAnswers & Solutions](/162)  (13) | 2020.06.29 |
+| [Data Communications & Networking Chapter 17 연결 장치와 가상 LAN Practice ExercisesAnswers & Solutions](/161)  (1) | 2020.06.29 |
+| [Data Communications & Networking Chapter 16 기타 무선망 Practice ExercisesAnswers & Solutions](/160)  (0) | 2020.06.29 |

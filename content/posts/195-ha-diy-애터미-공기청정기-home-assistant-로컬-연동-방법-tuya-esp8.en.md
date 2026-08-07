@@ -1,5 +1,5 @@
 ---
-title: "[HA / DIY] 애터미 공기청정기 Home Assistant 로컬 연동 방법 (Tuya ESP8266 TLS 패치 및 우회)"
+title: "[Smart Home / DIY] 애터미 공기청정기 Home Assistant 로컬 연동 방법 (Tuya ESP8266 TLS 패치 및 우회)"
 date: 2026-08-06T16:55:41+09:00
 draft: false
 categories: ["🏠 Smart Home & DIY"]

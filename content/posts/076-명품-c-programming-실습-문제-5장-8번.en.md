@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "Copy", "programming", "명품", "복사", "복사생성자", "실습문제", "연습문제", "참조", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 문제 7번의 MyIntStack을 수정하여 다음과 같이 선언하였다.
 
@@ -24,7 +24,7 @@ MyIntStack 클래스를 활용하는 코드와 실행 결과는 다음과 같다
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13 | int main () {  MyIntStack a(10);  a.push(10);  a.push(20);  MyIntStack b = a; // 복사 생성  b.push(30);    int n;  a.pop(n); // 스택 a 팝  cout << "스택 a에서 팝한 값 " << n << endl;  b.pop(n); // 스택 b 팝  cout << "스택 b에서 팝한 값 " << n << endl;  } |
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/76/img_1.png)
 
@@ -32,15 +32,15 @@ MyIntStack 클래스를 활용하는 코드와 실행 결과는 다음과 같다
 
 [명품 C++ programming 실습 문제 5장 7번
 
-문제 : 다음과 같이 선언된 정수를 저장하는 스택 클래스 MyIntStack을 구현하라. MyIntStack 스택에 저장할 수 있는 정수의 최대 개수는 10이다. 1 2 3 4 5 6 7 8 class MyIntStack{ int p[10]; // 최대 10개의..
+Problem: 다음과 같이 선언된 정수를 저장하는 스택 클래스 MyIntStack을 구현하라. MyIntStack 스택에 저장할 수 있는 정수의 최대 개수는 10이다. 1 2 3 4 5 6 7 8 class MyIntStack{ int p[10]; // 최대 10개의..
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/75)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 복사 생성자 활용
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

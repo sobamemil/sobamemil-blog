@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "다운캐스팅", "상속", "순수가상함수", "실습문제", "업캐스팅", "연습문제", "추상클래스", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 문제 7을 푸는 다른 방법을 소개한다.
 
@@ -34,19 +34,19 @@ Comparable을 상속받은 Circle 클래스를 완성하고 문제 7의 main()�
 
 [명품 C++ programming 실습 문제 10장 7번
 
-문제 : 다음 프로그램은 컴파일 오류가 발생한다. 소스의 어디에서 왜 컴파일 오류가 발생하는가? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 #include using namespace std; cl..
+Problem: 다음 프로그램은 컴파일 오류가 발생한다. 소스의 어디에서 왜 컴파일 오류가 발생하는가? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 #include using namespace std; cl..
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/117)
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/118/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 템플릿 함수 작성시 상속과 연산자 중복의 필요성 이해
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

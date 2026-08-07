@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자중복", "연습문제", "코딩", "프렌드함수", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음 main()에서 Color 클래스는 3요소(빨강, 초록, 파랑)로 하나의 색을 나타내는 클래스이다(4장 실습 문제 1번 참고).
 
@@ -26,7 +26,7 @@ tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자중�
 
 [명품 C++ programming 실습 문제 4장 1번
 
-문제 : 다음은 색의 3요소인 red, green, blue로 색을 추상화한 Color 클래스를 선언하고 활용하는 코드이다. 빈칸을 채워라. red, green, blue는 0~255의 값만 가진다. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 1..
+Problem: 다음은 색의 3요소인 red, green, blue로 색을 추상화한 Color 클래스를 선언하고 활용하는 코드이다. 빈칸을 채워라. red, green, blue는 0~255의 값만 가진다. 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 1..
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/55)
 
@@ -34,11 +34,11 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/55)
 
 ![](https://img.sobamemil.com/posts/94/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 연산자를 클래스의 멤버 함수와 프렌드로 각각 중복
 
-<b>코드 :</b>
+<b>Code:</b>
 
 ● 문제 (1)
 

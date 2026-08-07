@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "overloading", "programming", "디폴트", "매개변수", "명품", "실습문제", "연습문제", "프로그래밍", "함수중복"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 Person 클래스의 객체를 생성하는 main() 함수는 다음과 같다.
 
@@ -18,15 +18,15 @@ Person 클래스의 객체를 생성하는 main() 함수는 다음과 같다.
 
 (2) 디폴트 매개 변수를 가진 하나의 생성자를 작성하고 프로그램을 완성하라.
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/82/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 함수 중복, 디폴트 매개 변수 연습
 
-<b>코드 :</b>
+<b>Code:</b>
 
 ● 문제 (1)
 

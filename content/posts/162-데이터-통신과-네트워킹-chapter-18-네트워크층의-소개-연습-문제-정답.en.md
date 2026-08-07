@@ -6,11 +6,11 @@ categories: ["💻 Dev & CS"]
 tags: ["CIDR", "NAT", "네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "풀이"]
 ---
 
-<b>Chapter 18 네트워크층의 소개 연습 문제 풀이(답)</b>
+<b>Chapter 18 네트워크층의 소개 Practice Exercises풀이(답)</b>
 
 1. 네트워크층에서 패킷화의 내용으로 올바른 것은?
 
--> d. 모두 정답 (a. 근원지에서 페이로드의 캡슐화, b. 근원지와 목적지 정보가 포함된 헤더 추가, c. 목적지에서 페이로드 역캡슐화)
+-> d. 모두 Answers & Solutions(a. 근원지에서 페이로드의 캡슐화, b. 근원지와 목적지 정보가 포함된 헤더 추가, c. 목적지에서 페이로드 역캡슐화)
 
 2. 경로상의 라우터는 \_\_\_\_\_\_\_ 을(를) 할 수 없다.
 
@@ -30,7 +30,7 @@ tags: ["CIDR", "NAT", "네트워크", "네트워크층", "네트워킹", "데이
 
 6. 네트워크의 성능은 \_\_\_\_\_\_\_ 으로 측정할 수 있다.
 
--> d. 모두 정답 (a. 지연, b. 처리량, c. 패킷 손실)
+-> d. 모두 Answers & Solutions(a. 지연, b. 처리량, c. 패킷 손실)
 
 7. 전송 지연(시간)은 \_\_\_\_\_\_\_ 의 비율이다.
 
@@ -50,7 +50,7 @@ tags: ["CIDR", "NAT", "네트워크", "네트워크층", "네트워킹", "데이
 
 11. \_\_\_\_\_\_\_ 은 개-루프 혼잡 제어 기술 중 하나이다.
 
--> d. 정답 없음 (a. 역압, b. 초크 패킷, c. 암묵적인 신호)
+-> d. Answers & Solutions없음 (a. 역압, b. 초크 패킷, c. 암묵적인 신호)
 
 12. \_\_\_\_\_\_\_ 은 폐-루프 혼잡 제어 기술 중 하나이다.
 
@@ -112,7 +112,7 @@ tags: ["CIDR", "NAT", "네트워크", "네트워크층", "네트워킹", "데이
 
 -> a. 줄여준다. 
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -124,8 +124,8 @@ tags: ["CIDR", "NAT", "네트워크", "네트워크층", "네트워킹", "데이
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 20 유니캐스트 라우팅 연습 문제 정답](/164)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 19 네트워크층 프로토콜 연습 문제 정답](/163)  (6) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 17 연결 장치와 가상 LAN 연습 문제 정답](/161)  (1) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 16 기타 무선망 연습 문제 정답](/160)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 15 무선 LAN 연습 문제 정답](/159)  (1) | 2020.06.25 |
+| [Data Communications & Networking Chapter 20 유니캐스트 라우팅 Practice ExercisesAnswers & Solutions](/164)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 19 네트워크층 프로토콜 Practice ExercisesAnswers & Solutions](/163)  (6) | 2020.06.29 |
+| [Data Communications & Networking Chapter 17 연결 장치와 가상 LAN Practice ExercisesAnswers & Solutions](/161)  (1) | 2020.06.29 |
+| [Data Communications & Networking Chapter 16 기타 무선망 Practice ExercisesAnswers & Solutions](/160)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 15 무선 LAN Practice ExercisesAnswers & Solutions](/159)  (1) | 2020.06.25 |

@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "전송층", "정답", "풀이", "프로토콜"]
 ---
 
-<b>Chapter 24 전송층 프로토콜 연습 문제 풀이(답)</b>
+<b>Chapter 24 전송층 프로토콜 Practice Exercises풀이(답)</b>
 
 1. UDP와 TCP는 \_\_\_\_\_\_\_ 계층 프로토콜이다.
 
@@ -18,7 +18,7 @@ tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "전�
 
 3. 다음 중 UDP가 제공하는 기능은?
 
--> d. 정답 없음 (a. 흐름 제어, b. 연결 지향 배달, c. 오류 제어)
+-> d. Answers & Solutions없음 (a. 흐름 제어, b. 연결 지향 배달, c. 오류 제어)
 
 4. UDP 사용자 데이터그램 헤더의 근원지 포트 주소는 \_\_\_\_\_\_\_ 를 나타낸다.
 
@@ -166,7 +166,7 @@ tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "전�
 
 40. TCP에서 ACK 값이 200이라면, 바이트 \_\_\_\_\_\_\_ 이 성공적으로 수신되었다.
 
--> d. 정답 없음 (a. 199, b. 200, c. 201)
+-> d. Answers & Solutions없음 (a. 199, b. 200, c. 201)
 
 41. \_\_\_\_\_\_\_ 제어는 용량 아래의 부하를 유지하기 위한 메커니즘과 기술을 말한다.
 
@@ -198,7 +198,7 @@ tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "전�
 
 48. Reno TCP의 \_\_\_\_\_\_\_ 는 느린 시작과 혼잡 회피 상태 사이의 상태이다.
 
--> d. 정답 없음 (빠른 회복) (a. 혼잡 회피, b. 혼잡 감지, c. 느린 시작)
+-> d. Answers & Solutions없음 (빠른 회복) (a. 혼잡 회피, b. 혼잡 감지, c. 느린 시작)
 
 49. Reno TCP에서 TCP가 빠른 회복에 들어갈 때, 중복 ACK가 계속해서 도착한다면, TCP는
 
@@ -248,7 +248,7 @@ tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "전�
 
 -> b. 제어 청크
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -260,8 +260,8 @@ tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "전�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 26 표준 클라이언트-서버 프로토콜 연습 문제 정답](/170)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 25 응용층 소개 연습 문제 정답](/169)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 23 전송층의 개요 연습 문제 정답](/167)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 22 차세대 IP 연습 문제 정답](/166)  (1) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 21 멀티캐스트 라우팅 연습 문제 정답](/165)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 26 표준 클라이언트-서버 프로토콜 Practice ExercisesAnswers & Solutions](/170)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 25 응용층 소개 Practice ExercisesAnswers & Solutions](/169)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 23 전송층의 개요 Practice ExercisesAnswers & Solutions](/167)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 22 차세대 IP Practice ExercisesAnswers & Solutions](/166)  (1) | 2020.06.29 |
+| [Data Communications & Networking Chapter 21 멀티캐스트 라우팅 Practice ExercisesAnswers & Solutions](/165)  (0) | 2020.06.29 |

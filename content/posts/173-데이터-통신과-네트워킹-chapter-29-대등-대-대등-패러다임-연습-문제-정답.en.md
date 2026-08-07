@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "대등-대-대등", "데이터통신", "연습문제", "응용층", "정답", "패러다임", "풀이"]
 ---
 
-<b>Chapter 29 대등-대-대등 패러다임 연습 문제 풀이(답)</b>
+<b>Chapter 29 대등-대-대등 패러다임 Practice Exercises풀이(답)</b>
 
 1. 중앙집중형 P2P 네트워크에서 디렉터리 시스템은 \_\_\_\_\_\_\_ 패러다임을 사용하고, 파일의 저장과 다운로드는 \_\_\_\_\_\_\_ 패러다임을 사용하여 이루어진다.
 
@@ -34,7 +34,7 @@ tags: ["네트워크", "네트워킹", "대등-대-대등", "데이터통신", "
 
 7. 핑거 테이블은 \_\_\_\_\_\_\_ 에서 사용되는 라우팅 테이블이다.
 
--> d. 정답 없음 ( 코드 Chord ) (a. 그누텔라, b. 패스트리, c. 카뎀리아)
+-> d. Answers & Solutions없음 ( 코드 Chord ) (a. 그누텔라, b. 패스트리, c. 카뎀리아)
 
 8. 다음 중 어는 것이 코드(chord)의 인터페이스가 아닌가?
 
@@ -50,7 +50,7 @@ tags: ["네트워크", "네트워킹", "대등-대-대등", "데이터통신", "
 
 11. 카뎀리아에서 두 식별자(노드들 또는 키들) 사이의 거리는 비트-단위 \_\_\_\_\_\_\_ 로써 계산된다.
 
--> d. 정답 없음 (XOR) (a. AND, b. NOR, c. OR)
+-> d. Answers & Solutions없음 (XOR) (a. AND, b. NOR, c. OR)
 
 12. \_\_\_\_\_\_\_ 에서 노드들과 데이터 항목들은 m비트 식별자이며 식별자는 이진트리의 리프(leaf)들에 분산된 2m개의 점들로 구성된 식별자 공간을 생성한다.
 
@@ -68,7 +68,7 @@ tags: ["네트워크", "네트워킹", "대등-대-대등", "데이터통신", "
 
 -> a. 코드
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -80,8 +80,8 @@ tags: ["네트워크", "네트워킹", "대등-대-대등", "데이터통신", "
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 31 암호화와 네트워크 보안 연습 문제 정답](/175)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 30 서비스 품질 연습 문제 정답](/174)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 28 멀티미디어 연습 문제 정답](/172)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 27 네트워크 관리 연습 문제 정답](/171)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 26 표준 클라이언트-서버 프로토콜 연습 문제 정답](/170)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 31 암호화와 네트워크 보안 Practice ExercisesAnswers & Solutions](/175)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 30 서비스 품질 Practice ExercisesAnswers & Solutions](/174)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 28 멀티미디어 Practice ExercisesAnswers & Solutions](/172)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 27 네트워크 관리 Practice ExercisesAnswers & Solutions](/171)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 26 표준 클라이언트-서버 프로토콜 Practice ExercisesAnswers & Solutions](/170)  (0) | 2020.06.30 |

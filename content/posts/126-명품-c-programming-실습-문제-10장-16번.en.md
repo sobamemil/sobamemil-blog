@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "map", "programming", "STL", "vector", "명품", "실습문제", "연습문제", "컨테이너", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 vector<Shape\*> v;를 이용하여 간단한 그래픽 편집기를 콘솔 바탕으로 만들어보자.
 
@@ -20,19 +20,19 @@ Shape과 Circle, Line, Rect 클래스는 다음과 같다.
 
 [명품 C++ programming 실습 문제 9장 10번
 
-문제 : 간단한 그래픽 편집기를 콘솔 바탕으로 만들어보자. 그래픽 편집기의 기능은 "삽입", "삭제", "모두보기", "종료" 의 4가지이고, 실행 과정은 다음과 같다. 목적 및 힌트 : 추상 클래스, 상속 종합 응용 S..
+Problem: 간단한 그래픽 편집기를 콘솔 바탕으로 만들어보자. 그래픽 편집기의 기능은 "삽입", "삭제", "모두보기", "종료" 의 4가지이고, 실행 과정은 다음과 같다. Objective & Hints: 추상 클래스, 상속 종합 응용 S..
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/17)
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/126/img_2.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 vector를 활용하는 종합 응용
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

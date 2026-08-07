@@ -6,11 +6,11 @@ categories: ["💻 Dev & CS"]
 tags: ["5판", "교환", "네트워크", "네트워킹", "데이터통신", "물리층", "연습문제", "정답", "해답"]
 ---
 
-<b>Chapter 8 교환 연습 문제 풀이(답)</b>
+<b>Chapter 8 교환 Practice Exercises풀이(답)</b>
 
 1. 회선 교환은 \_\_\_\_\_\_\_ 개의 범주로 나눌 수 있다.
 
--> d. 정답 없음
+-> d. Answers & Solutions없음
 
 2. 패킷 교환은 \_\_\_\_\_\_\_ 개의 범주로 나눌 수 있다.
 
@@ -58,7 +58,7 @@ tags: ["5판", "교환", "네트워크", "네트워킹", "데이터통신", "물
 
 13. 데이터그램 망에서 \_\_\_\_\_\_\_ 단계가 필요하다.
 
--> d. 정답 없음
+-> d. Answers & Solutions없음
 
 14. 가상 회선 망에서 \_\_\_\_\_\_\_ 단계가 필요하다.
 
@@ -72,7 +72,7 @@ tags: ["5판", "교환", "네트워크", "네트워킹", "데이터통신", "물
 
 -> a. 데이터그램
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -84,8 +84,8 @@ tags: ["5판", "교환", "네트워크", "네트워킹", "데이터통신", "물
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 10 오류 검출과 오류 정정 연습 문제 정답](/154)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 9 데이터링크층 소개 연습 문제 정답](/153)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 7 전송 매체 연습 문제 정답](/151)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 6 대역폭 활용: 다중화와 스펙트럼 확장 연습 문제 정답](/149)  (0) | 2020.04.29 |
-| [데이터 통신과 네트워킹 Chapter 5 아날로그 전송 연습 문제 정답](/148)  (0) | 2020.04.23 |
+| [Data Communications & Networking Chapter 10 오류 검출과 오류 정정 Practice ExercisesAnswers & Solutions](/154)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 9 데이터링크층 소개 Practice ExercisesAnswers & Solutions](/153)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 7 전송 매체 Practice ExercisesAnswers & Solutions](/151)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 6 대역폭 활용: 다중화와 스펙트럼 확장 Practice ExercisesAnswers & Solutions](/149)  (0) | 2020.04.29 |
+| [Data Communications & Networking Chapter 5 아날로그 전송 Practice ExercisesAnswers & Solutions](/148)  (0) | 2020.04.23 |

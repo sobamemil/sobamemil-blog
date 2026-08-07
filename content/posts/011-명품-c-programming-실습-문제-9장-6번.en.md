@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C", "C++", "programming", "과제", "명품", "소스코드", "실습문제", "실행결과", "연습문제", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음 AbstractStack은 정수 스택 클래스로서 추상 클래스이다.
 
@@ -16,15 +16,15 @@ tags: ["C", "C++", "programming", "과제", "명품", "소스코드", "실습문
 
 이를 상속받아 정수를 푸시, 팝하는 IntStack 클래스를 만들고 사용 사례를 보여라.
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 스택을 추상 클래스로 표현하고 구현하기
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/11/img_1.png)
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

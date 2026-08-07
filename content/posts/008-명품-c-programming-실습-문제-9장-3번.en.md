@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["2019", "2020", "3번", "9장", "C++", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음 추상 클래스 LoopAdder가 있다.
 
@@ -22,11 +22,11 @@ LoopAdder 클래스를 상속받아 다음 main() 함수와 실행 결과처럼 
 
 ![](https://img.sobamemil.com/posts/8/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 추상 클래스를 상속받는 파생 클래스 만들기
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

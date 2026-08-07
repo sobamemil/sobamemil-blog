@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["vlan", "가상랜", "네트워크", "네트워킹", "답", "데이터링크층", "데이터통신", "연결장치", "연습문제", "풀이"]
 ---
 
-<b>Chapter 17 연결 장치와 가상 LAN 연습 문제 풀이(답)</b>
+<b>Chapter 17 연결 장치와 가상 LAN Practice Exercises풀이(답)</b>
 
 1. VLAN은 \_\_\_\_\_\_\_ 으로 구성된 근거리 네트워크이다.
 
@@ -46,9 +46,9 @@ tags: ["vlan", "가상랜", "네트워크", "네트워킹", "답", "데이터링
 
 10. VLAN의 멤버십은 \_\_\_\_\_\_\_ 을 기반으로 할 수 있다.
 
--> d. 모두 정답 (a. 인터페이스 번호(포트 번호), b. MAC 주소, c. IP 주소)
+-> d. 모두 Answers & Solutions(a. 인터페이스 번호(포트 번호), b. MAC 주소, c. IP 주소)
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -60,8 +60,8 @@ tags: ["vlan", "가상랜", "네트워크", "네트워킹", "답", "데이터링
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 19 네트워크층 프로토콜 연습 문제 정답](/163)  (6) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 18 네트워크층의 소개 연습 문제 정답](/162)  (13) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 16 기타 무선망 연습 문제 정답](/160)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 15 무선 LAN 연습 문제 정답](/159)  (1) | 2020.06.25 |
-| [데이터 통신과 네트워킹 Chapter 14 다른 유선 네트워크들 연습 문제 정답](/158)  (0) | 2020.06.25 |
+| [Data Communications & Networking Chapter 19 네트워크층 프로토콜 Practice ExercisesAnswers & Solutions](/163)  (6) | 2020.06.29 |
+| [Data Communications & Networking Chapter 18 네트워크층의 소개 Practice ExercisesAnswers & Solutions](/162)  (13) | 2020.06.29 |
+| [Data Communications & Networking Chapter 16 기타 무선망 Practice ExercisesAnswers & Solutions](/160)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 15 무선 LAN Practice ExercisesAnswers & Solutions](/159)  (1) | 2020.06.25 |
+| [Data Communications & Networking Chapter 14 다른 유선 네트워크들 Practice ExercisesAnswers & Solutions](/158)  (0) | 2020.06.25 |

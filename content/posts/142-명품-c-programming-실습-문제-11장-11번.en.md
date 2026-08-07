@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "Istream", "manipulator", "POS", "programming", "명품", "실습문제", "연습문제", "조작자", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음은 프로그램과 실행 결과를 보여준다. pos 조작자를 작성하라.
 
@@ -14,15 +14,15 @@ tags: ["C++", "Istream", "manipulator", "POS", "programming", "명품", "실습�
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9 | #include <iostream>  using namespace std;    int main() {  int x, y;  cin >> pos >> x;  cin >> pos >> y;  cout << x << ',' << y << endl;  } |
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/142/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 조작자 작성 연습
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

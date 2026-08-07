@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "iostream", "programming", "명품", "실습문제", "연산자중복", "연습문제", "입력스트림", "출력스트림", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음은 Phone 클래스이다.
 
@@ -20,15 +20,15 @@ Phone 클래스의 객체를 입출력하는 아래 코드와 실행 결과를 �
 | --- | --- |
 | 1  2  3 | Phone girl, boy;  cin >> girl >> boy;  cout << girl << endl << boy << endl; |
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/140/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 스트림 입출력 연산자( <<, >> ) 작성 연습
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

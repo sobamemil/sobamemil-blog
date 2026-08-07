@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크보안", "네트워킹", "데이터통신", "모든계층", "보안", "암호화", "연습문제", "정답", "풀이"]
 ---
 
-<b>Chapter 31 암호화와 네트워크 보안 연습 문제 풀이(답)</b>
+<b>Chapter 31 암호화와 네트워크 보안 Practice Exercises풀이(답)</b>
 
 1. 보안의 세 가지 목적은 \_\_\_\_\_\_\_ 이다.
 
@@ -46,7 +46,7 @@ tags: ["네트워크", "네트워크보안", "네트워킹", "데이터통신", 
 
 10. \_\_\_\_\_\_\_ 는 송신자와 수신자가 기밀성을 기대한다는 것을 의미한다.
 
--> d. 정답 없음 (a. 부인방지, b. 무결성, c. 인증)
+-> d. Answers & Solutions없음 (a. 부인방지, b. 무결성, c. 인증)
 
 11. \_\_\_\_\_\_\_ 는 데이터가 보낸 그대로 정확하게 수신자에게 도착한다는 것을 의미한다.
 
@@ -104,7 +104,7 @@ tags: ["네트워크", "네트워크보안", "네트워킹", "데이터통신", 
 
 -> a. CA
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -116,8 +116,8 @@ tags: ["네트워크", "네트워크보안", "네트워킹", "데이터통신", 
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 32 인터넷 보안 연습 문제 정답](/176)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 30 서비스 품질 연습 문제 정답](/174)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 29 대등-대-대등 패러다임 연습 문제 정답](/173)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 28 멀티미디어 연습 문제 정답](/172)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 27 네트워크 관리 연습 문제 정답](/171)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 32 인터넷 보안 Practice ExercisesAnswers & Solutions](/176)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 30 서비스 품질 Practice ExercisesAnswers & Solutions](/174)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 29 대등-대-대등 패러다임 Practice ExercisesAnswers & Solutions](/173)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 28 멀티미디어 Practice ExercisesAnswers & Solutions](/172)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 27 네트워크 관리 Practice ExercisesAnswers & Solutions](/171)  (0) | 2020.06.30 |

@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["5판", "chapter2", "네트워크모델", "네트워킹", "답", "데이터통신", "연습문제", "풀이", "해답"]
 ---
 
-<b>Chapter 2 네트워크 모델</b><b>연습 문제 풀이(답)</b>
+<b>Chapter 2 네트워크 모델</b><b>Practice Exercises풀이(답)</b>
 
 1. TCP/IP 프로토콜 그룹은 \_\_\_\_\_\_\_ 개의 계층으로 구성되어 있다.
 
@@ -92,7 +92,7 @@ tags: ["5판", "chapter2", "네트워크모델", "네트워킹", "답", "데이�
 
 -> c. 4; 3
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -104,8 +104,8 @@ tags: ["5판", "chapter2", "네트워크모델", "네트워킹", "답", "데이�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 6 대역폭 활용: 다중화와 스펙트럼 확장 연습 문제 정답](/149)  (0) | 2020.04.29 |
-| [데이터 통신과 네트워킹 Chapter 5 아날로그 전송 연습 문제 정답](/148)  (0) | 2020.04.23 |
-| [데이터 통신과 네트워킹 Chapter 4 디지털 전송 연습 문제 정답](/147)  (1) | 2020.04.23 |
-| [데이터 통신과 네트워킹 Chapter 3 물리층 개요 연습 문제 정답](/146)  (0) | 2020.04.20 |
-| [데이터 통신과 네트워킹 Chapter 1 개요 연습 문제 정답](/144)  (2) | 2020.04.12 |
+| [Data Communications & Networking Chapter 6 대역폭 활용: 다중화와 스펙트럼 확장 Practice ExercisesAnswers & Solutions](/149)  (0) | 2020.04.29 |
+| [Data Communications & Networking Chapter 5 아날로그 전송 Practice ExercisesAnswers & Solutions](/148)  (0) | 2020.04.23 |
+| [Data Communications & Networking Chapter 4 디지털 전송 Practice ExercisesAnswers & Solutions](/147)  (1) | 2020.04.23 |
+| [Data Communications & Networking Chapter 3 물리층 개요 Practice ExercisesAnswers & Solutions](/146)  (0) | 2020.04.20 |
+| [Data Communications & Networking Chapter 1 개요 Practice ExercisesAnswers & Solutions](/144)  (2) | 2020.04.12 |

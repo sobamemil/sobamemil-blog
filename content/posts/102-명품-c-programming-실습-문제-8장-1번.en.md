@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "inheritance", "programming", "기본클래스", "상속", "실습문제", "연습문제", "접근지정자", "파생클래스", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 문제 1~2에 적용되는 원을 추상화한 Circle 클래스가 있다.
 
@@ -20,23 +20,23 @@ tags: ["C++", "inheritance", "programming", "기본클래스", "상속", "실습
 | --- | --- |
 | 1  2 | NamedCircle waffle(3, "waffle"); // 반지름이 3이고 이름이 waffle인 원  waffle.show(); |
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/102/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 상속, 파생 클래스와 생성자 작성
 
 NamedCircle 클래스에 디폴트 매개 변수를 가진 생성자를 작성해야 한다.
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28 | #include<iostream>  using namespace std;    class Circle{  int radius;  public:  Circle(int radius=0) { this->radius = radius; }  int getRadius() { return radius; }  void setRadius(int radius) { this->radius = radius; }  double getArea() { return 3.14\*radius\*radius; }  };    class NameCircle : public Circle{  string name;  public:  NameCircle(int radius, string name){  setRadius(radius);  this->name = name;  }  void show() {  cout << "반지름이 " << getRadius() << "인 " << this->name;  }  };    int main() {  NameCircle waffle(3, "waffle"); // 반지름이 3이고 이름이 waffle인 원  waffle.show();  } |
 
-<b>설명 :</b>
+<b>Explanation:</b>
 
 Circle 클래스를 상속받은 NameCircle 클래스의 객체를 만들어 Circle 클래스의 멤버들에 접근하는 문제입니다.
 

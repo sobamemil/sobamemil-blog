@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "programming", "reversearray", "template", "명품", "실습문제", "연습문제", "제네릭", "템플릿", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 배열의 원소를 반대 순서로 뒤집는 reverseArray() 함수를 템플릿으로 작성하라.
 
@@ -18,15 +18,15 @@ reverseArray()의 호출 사례는 다음과 같다.
 | --- | --- |
 | 1  2  3  4 | int x[] = { 1, 10, 100, 5, 4};  reverseArray(x, 5);  for(int i=0; i<5; i++)  cout << x[i] << ' '; // 4 5 100 10 1이 출력된다. |
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/113/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 템플릿 함수 만들기
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

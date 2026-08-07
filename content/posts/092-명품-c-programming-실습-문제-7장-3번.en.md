@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["!연산자", "C++", "operator", "programming", "멤버함수", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 1번 ~ 4번 문제까지 사용될 Book 클래스는 다음과 같습니다.
 
@@ -20,21 +20,21 @@ tags: ["!연산자", "C++", "operator", "programming", "멤버함수", "명품",
 | --- | --- |
 | 1  2 | Book book("벼룩시장" , 0 , 50); // 가격은 0  if(!book) cout << "공짜다" << endl; |
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/92/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 ! 연산자 구현 연습
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29 | #include<iostream>  using namespace std;    class Book{  string title;  int price, pages;  public:  Book(string title="", int price=0, int pages=0){  this->title = title; this->price = price; this->pages = pages;  }  void show() {  cout << title << " " << price << "원 " << pages << " 페이지" << endl;  }  string getTitle() {  return title;  }  bool operator! ();  };    bool Book::operator!(){  if(price == 0)  return true;  return false;  }    int main() {  Book book("벼룩시장" , 0 , 50); // 가격은 0  if(!book) cout << "공짜다" << endl;  } |
 
-<b>설명 :</b>
+<b>Explanation:</b>
 
 ! 연산자 함수를 클래스의 멤버 함수로 구현 하였습니다.
 

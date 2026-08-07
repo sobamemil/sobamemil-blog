@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["IPv6", "네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "차세대IP", "풀이"]
 ---
 
-<b>Chapter 22 차세대 IP 연습 문제 풀이(답)</b>
+<b>Chapter 22 차세대 IP Practice Exercises풀이(답)</b>
 
 1. IPv6 주소는 \_\_\_\_\_\_\_ 비트 길이다.
 
@@ -72,7 +72,7 @@ tags: ["IPv6", "네트워크", "네트워크층", "네트워킹", "데이터통�
 
 -> b. 40
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -84,8 +84,8 @@ tags: ["IPv6", "네트워크", "네트워크층", "네트워킹", "데이터통�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 24 전송층 프로토콜 연습 문제 정답](/168)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 23 전송층의 개요 연습 문제 정답](/167)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 21 멀티캐스트 라우팅 연습 문제 정답](/165)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 20 유니캐스트 라우팅 연습 문제 정답](/164)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 19 네트워크층 프로토콜 연습 문제 정답](/163)  (6) | 2020.06.29 |
+| [Data Communications & Networking Chapter 24 전송층 프로토콜 Practice ExercisesAnswers & Solutions](/168)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 23 전송층의 개요 Practice ExercisesAnswers & Solutions](/167)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 21 멀티캐스트 라우팅 Practice ExercisesAnswers & Solutions](/165)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 20 유니캐스트 라우팅 Practice ExercisesAnswers & Solutions](/164)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 19 네트워크층 프로토콜 Practice ExercisesAnswers & Solutions](/163)  (6) | 2020.06.29 |

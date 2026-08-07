@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["airlinebook", "C++", "programming", "명품", "비행기예약", "상속", "실습문제", "연습문제", "프로그래밍", "프로그램"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 비행기 예약 프로그램을 작성하라. 이 문제는 여러 개의 클래스와 객체들을 다루는 연습을 위한 것이다. 클래스 사이의 상속 관계는 없다.
 
@@ -20,11 +20,11 @@ tags: ["airlinebook", "C++", "programming", "명품", "비행기예약", "상속
 
 ● 예약 보기 : 예약된 좌석 상황을 보여준다.
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/110/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 종합 응용 연습(상속 필요 없음)
 
@@ -42,7 +42,7 @@ tags: ["airlinebook", "C++", "programming", "명품", "비행기예약", "상속
 
 ![](https://img.sobamemil.com/posts/110/img_2.png)
 
-<b>코드 :</b>
+<b>Code:</b>
 
 ● 8-9.h
 
@@ -62,7 +62,7 @@ tags: ["airlinebook", "C++", "programming", "명품", "비행기예약", "상속
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11 | #include<iostream>  using namespace std;    #include"8-9.h"    int main() {  AirlineBook \*air = new AirlineBook();  cout << "\*\*\*\*\* 한성항공에 오신것을 환영합니다 \*\*\*\*\*\n\n";  air->start();  delete air;  } |
 
-<b>설명 :</b>
+<b>Explanation:</b>
 
 상속이 필요 없는 문제입니다. 코드가 길기 때문에 차근차근 따라가며 이해하시면 됩니다.
 

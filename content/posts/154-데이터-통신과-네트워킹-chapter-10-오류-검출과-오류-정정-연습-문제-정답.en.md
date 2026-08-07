@@ -6,11 +6,11 @@ categories: ["💻 Dev & CS"]
 tags: ["5판", "네트워크", "네트워킹", "답", "데이터링크층", "연습문제", "오류검출", "오류정정", "정답", "풀이"]
 ---
 
-<b>Chapter 10 오류 검출과 오류 정정 연습 문제 풀이(답)</b>
+<b>Chapter 10 오류 검출과 오류 정정 Practice Exercises풀이(답)</b>
 
 1. 아래의 선택지 중에서 어떤 것이 단일 비트 오류에 대해 가장 잘 설명하였는가?
 
--> d. 모든 선택지가 정답이다.
+-> d. 모든 선택지가 Answers & Solutions이다.
 
 2. 어떤 오류 검출 방법이 1의 보수 연산을 사용하는가?
 
@@ -88,7 +88,7 @@ tags: ["5판", "네트워크", "네트워킹", "답", "데이터링크층", "연
 
 -> a. 단지 검출할 수 있다.
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -100,8 +100,8 @@ tags: ["5판", "네트워크", "네트워킹", "답", "데이터링크층", "연
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 12 매체 접근 제어(MAC) 연습 문제 정답](/156)  (2) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 11 데이터링크 제어(DLC) 연습 문제 정답](/155)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 9 데이터링크층 소개 연습 문제 정답](/153)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 8 교환 연습 문제 정답](/152)  (1) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 7 전송 매체 연습 문제 정답](/151)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 12 매체 접근 제어(MAC) Practice ExercisesAnswers & Solutions](/156)  (2) | 2020.06.21 |
+| [Data Communications & Networking Chapter 11 데이터링크 제어(DLC) Practice ExercisesAnswers & Solutions](/155)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 9 데이터링크층 소개 Practice ExercisesAnswers & Solutions](/153)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 8 교환 Practice ExercisesAnswers & Solutions](/152)  (1) | 2020.06.21 |
+| [Data Communications & Networking Chapter 7 전송 매체 Practice ExercisesAnswers & Solutions](/151)  (0) | 2020.06.21 |

@@ -6,27 +6,27 @@ categories: ["💻 Dev & CS"]
 tags: ["buffer", "C++", "cin", "ignore", "Istream", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 한 줄에 '영어문장;한글문자' 형식으로 키 입력될 때, cin.ignore()를 이용하여 ';' 이후에 입력된 문자열을 화면에 출력하는 프로그램을 작성하라.
 
 아래에서 ^Z(ctrl-z) 키는 입력 종료는 나타내는 키이며, cin.get()은 EOF를 리턴한다.
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/134/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 cin.get(), EOF, cin.ignore() 활용
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12 | #include <iostream>  using namespace std;    int main() {  int ch;  cin.ignore(100, ';'); // 영어 문장이 최대 99개의 문자로 입력된다고 가정한다.  while((ch=cin.get()) != EOF) {  cout.put(ch);  if(ch == '\n')  cin.ignore(100, ';'); // 영어 문장이 최대 99개의 문자로 입력된다고 가정한다.  }  } |
 
-<b>설명 :</b>
+<b>Explanation:</b>
 
 ignore() 함수를 사용해서 입력 스트림 버퍼에 있는 문자들을 제거할 수 있습니다.
 

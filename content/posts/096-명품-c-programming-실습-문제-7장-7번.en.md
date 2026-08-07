@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자중복", "연산자함수", "연습문제", "프렌드함수", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 2차원 행렬을 추상화한 Matrix 클래스를 활용하는 다음 코드가 있다.
 
@@ -18,15 +18,15 @@ tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자중�
 
 (2) <<, >> 연산자 함수를 Matrix의 프렌드 함수로 구현하라.
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/96/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 <<, >> 연산자와 클래스 구현 연습
 
-<b>코드 :</b>
+<b>Code:</b>
 
 ● 문제 (1)
 

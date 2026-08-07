@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["chapter1", "개요", "네트워킹", "답", "데이터통신", "문제풀이", "심화문제", "연습문제", "응용연습문제", "챕터1"]
 ---
 
-<b>Chapter 1 개요 </b>연습 문제 풀이(답)****
+<b>Chapter 1 개요 </b>Practice Exercises풀이(답)****
 
 1. 근거리 통신망(LAN)은 \_\_\_\_\_\_\_ 로 정의된다.
 
@@ -22,11 +22,11 @@ tags: ["chapter1", "개요", "네트워킹", "답", "데이터통신", "문제�
 
 4. 다음 중 데이터 통신 시스템의 구성요소가 아닌 것은? 
 
--> d. a, b, c 모두 정답 (a. 메시지, b. 송신자, c. 매체)
+-> d. a, b, c 모두 Answers & Solutions(a. 메시지, b. 송신자, c. 매체)
 
 5. 다음 중 데이터 통신 시스템의 특성이 아닌 것은? 
 
--> d. a, b, c 모두 정답 (a. 전달성, b. 정확성, c. 지터)
+-> d. a, b, c 모두 Answers & Solutions(a. 전달성, b. 정확성, c. 지터)
 
 6. \_\_\_\_\_\_\_ 전송방식에서 데이터는 항상 한 방향으로만 전달된다. 
 
@@ -38,7 +38,7 @@ tags: ["chapter1", "개요", "네트워킹", "답", "데이터통신", "문제�
 
 8. 다음 중 네트워크 평가기준이 아닌 것은? 
 
--> d. a, b, c 모두 정답 (a. 성능, b. 신뢰도, c. 보안)
+-> d. a, b, c 모두 Answers & Solutions(a. 성능, b. 신뢰도, c. 보안)
 
 9. \_\_\_\_\_\_\_ 통신에서 매체는 장치들 사이에 회선을 공유한다. 
 
@@ -72,7 +72,7 @@ tags: ["chapter1", "개요", "네트워킹", "답", "데이터통신", "문제�
 
 -> b. ICANN
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -84,8 +84,8 @@ tags: ["chapter1", "개요", "네트워킹", "답", "데이터통신", "문제�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 6 대역폭 활용: 다중화와 스펙트럼 확장 연습 문제 정답](/149)  (0) | 2020.04.29 |
-| [데이터 통신과 네트워킹 Chapter 5 아날로그 전송 연습 문제 정답](/148)  (0) | 2020.04.23 |
-| [데이터 통신과 네트워킹 Chapter 4 디지털 전송 연습 문제 정답](/147)  (1) | 2020.04.23 |
-| [데이터 통신과 네트워킹 Chapter 3 물리층 개요 연습 문제 정답](/146)  (0) | 2020.04.20 |
-| [데이터 통신과 네트워킹 Chapter 2 네트워크 모델 연습 문제 정답](/145)  (16) | 2020.04.19 |
+| [Data Communications & Networking Chapter 6 대역폭 활용: 다중화와 스펙트럼 확장 Practice ExercisesAnswers & Solutions](/149)  (0) | 2020.04.29 |
+| [Data Communications & Networking Chapter 5 아날로그 전송 Practice ExercisesAnswers & Solutions](/148)  (0) | 2020.04.23 |
+| [Data Communications & Networking Chapter 4 디지털 전송 Practice ExercisesAnswers & Solutions](/147)  (1) | 2020.04.23 |
+| [Data Communications & Networking Chapter 3 물리층 개요 Practice ExercisesAnswers & Solutions](/146)  (0) | 2020.04.20 |
+| [Data Communications & Networking Chapter 2 네트워크 모델 Practice ExercisesAnswers & Solutions](/145)  (16) | 2020.04.19 |

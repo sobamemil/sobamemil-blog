@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "응용층", "정답", "풀이"]
 ---
 
-<b>Chapter 25 응용층 소개 연습 문제 풀이(답)</b>
+<b>Chapter 25 응용층 소개 Practice Exercises풀이(답)</b>
 
 1. 클라이언트-서버 패러다임에서 \_\_\_\_\_\_\_ 프로그램은 (다른) \_\_\_\_\_\_\_ 프로그램에게 서비스를 제공한다.
 
@@ -80,7 +80,7 @@ tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "응�
 
 -> b. 소켓
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -92,8 +92,8 @@ tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "응�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 27 네트워크 관리 연습 문제 정답](/171)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 26 표준 클라이언트-서버 프로토콜 연습 문제 정답](/170)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 24 전송층 프로토콜 연습 문제 정답](/168)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 23 전송층의 개요 연습 문제 정답](/167)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 22 차세대 IP 연습 문제 정답](/166)  (1) | 2020.06.29 |
+| [Data Communications & Networking Chapter 27 네트워크 관리 Practice ExercisesAnswers & Solutions](/171)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 26 표준 클라이언트-서버 프로토콜 Practice ExercisesAnswers & Solutions](/170)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 24 전송층 프로토콜 Practice ExercisesAnswers & Solutions](/168)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 23 전송층의 개요 Practice ExercisesAnswers & Solutions](/167)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 22 차세대 IP Practice ExercisesAnswers & Solutions](/166)  (1) | 2020.06.29 |

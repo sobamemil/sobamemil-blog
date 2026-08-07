@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["2019", "2020", "converter", "KM", "Mile", "public", "단위변환", "추상클래스", "파생클래스", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음은 단위를 변환하는 추상 클래스 Converter이다.
 
@@ -22,11 +22,11 @@ Converter 클래스를 상속받아 km를 mile(마일)로 변환하는 KmToMile 
 
 ![](https://img.sobamemil.com/posts/5/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 추상 클래스를 상속받는 파생 클래스 만들기
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

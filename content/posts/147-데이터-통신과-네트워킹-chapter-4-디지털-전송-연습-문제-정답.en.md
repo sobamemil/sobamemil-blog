@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "답", "데이터통신", "물리층", "연습문제", "정답", "풀이", "해답"]
 ---
 
-**<b>Chapter 4 디지털 전송 </b>연습 문제 풀이(답)******
+**<b>Chapter 4 디지털 전송 </b>Practice Exercises풀이(답)******
 
 1. 극형과 양극형 부호화는 \_\_\_\_\_\_\_ 부호화의 유형이다.
 
@@ -50,7 +50,7 @@ tags: ["네트워크", "네트워킹", "답", "데이터통신", "물리층", "�
 
 11. \_\_\_\_\_\_\_ 부호화는 각 비트의 중간에서 전이를 갖는다.
 
--> d. 모두 정답 (a. RZ, b. 맨체스터, c. 차분 맨체스터)
+-> d. 모두 Answers & Solutions(a. RZ, b. 맨체스터, c. 차분 맨체스터)
 
 12. \_\_\_\_\_\_\_ 부호화는 각 0 비트가 시작할 때 전이를 갖는다.
 
@@ -104,7 +104,7 @@ tags: ["네트워크", "네트워킹", "답", "데이터통신", "물리층", "�
 
 -> b. PCM; DM
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -116,8 +116,8 @@ tags: ["네트워크", "네트워킹", "답", "데이터통신", "물리층", "�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 6 대역폭 활용: 다중화와 스펙트럼 확장 연습 문제 정답](/149)  (0) | 2020.04.29 |
-| [데이터 통신과 네트워킹 Chapter 5 아날로그 전송 연습 문제 정답](/148)  (0) | 2020.04.23 |
-| [데이터 통신과 네트워킹 Chapter 3 물리층 개요 연습 문제 정답](/146)  (0) | 2020.04.20 |
-| [데이터 통신과 네트워킹 Chapter 2 네트워크 모델 연습 문제 정답](/145)  (16) | 2020.04.19 |
-| [데이터 통신과 네트워킹 Chapter 1 개요 연습 문제 정답](/144)  (2) | 2020.04.12 |
+| [Data Communications & Networking Chapter 6 대역폭 활용: 다중화와 스펙트럼 확장 Practice ExercisesAnswers & Solutions](/149)  (0) | 2020.04.29 |
+| [Data Communications & Networking Chapter 5 아날로그 전송 Practice ExercisesAnswers & Solutions](/148)  (0) | 2020.04.23 |
+| [Data Communications & Networking Chapter 3 물리층 개요 Practice ExercisesAnswers & Solutions](/146)  (0) | 2020.04.20 |
+| [Data Communications & Networking Chapter 2 네트워크 모델 Practice ExercisesAnswers & Solutions](/145)  (16) | 2020.04.19 |
+| [Data Communications & Networking Chapter 1 개요 Practice ExercisesAnswers & Solutions](/144)  (2) | 2020.04.12 |

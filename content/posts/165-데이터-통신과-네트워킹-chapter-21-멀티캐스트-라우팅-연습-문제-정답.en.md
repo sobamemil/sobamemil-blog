@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크층", "네트워킹", "데이어통신", "라우팅", "멀티캐스트", "연습문제", "정답", "풀이"]
 ---
 
-<b>Chapter 21 멀티캐스트 라우팅 연습 문제 풀이(답)</b>
+<b>Chapter 21 멀티캐스트 라우팅 Practice Exercises풀이(답)</b>
 
 1. 하나의 근원지와 네트워크의 모든 호스트 간의 통신인 일-대-모두 통신은 \_\_\_\_\_\_\_ 통신으로 분류된다.
 
@@ -46,7 +46,7 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이어통신", "�
 
 10. RPF는 플러딩 과정에서 \_\_\_\_\_\_\_ 을 제거하였다..
 
--> d. 정답 없음 (a. 포워딩, b. 백워딩, c. 플러딩)
+-> d. Answers & Solutions없음 (a. 포워딩, b. 백워딩, c. 플러딩)
 
 11. RPB는 근원지에서 각 목적지로의 최단경로 \_\_\_\_\_\_\_ 트리를 생성한다.
 
@@ -84,7 +84,7 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이어통신", "�
 
 -> b. 적을 때
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -96,8 +96,8 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이어통신", "�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 23 전송층의 개요 연습 문제 정답](/167)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 22 차세대 IP 연습 문제 정답](/166)  (1) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 20 유니캐스트 라우팅 연습 문제 정답](/164)  (0) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 19 네트워크층 프로토콜 연습 문제 정답](/163)  (6) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 18 네트워크층의 소개 연습 문제 정답](/162)  (13) | 2020.06.29 |
+| [Data Communications & Networking Chapter 23 전송층의 개요 Practice ExercisesAnswers & Solutions](/167)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 22 차세대 IP Practice ExercisesAnswers & Solutions](/166)  (1) | 2020.06.29 |
+| [Data Communications & Networking Chapter 20 유니캐스트 라우팅 Practice ExercisesAnswers & Solutions](/164)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 19 네트워크층 프로토콜 Practice ExercisesAnswers & Solutions](/163)  (6) | 2020.06.29 |
+| [Data Communications & Networking Chapter 18 네트워크층의 소개 Practice ExercisesAnswers & Solutions](/162)  (13) | 2020.06.29 |

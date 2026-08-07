@@ -207,7 +207,7 @@ GPIOx\_LCKR
 |  |  |
 | --- | --- |
 | [ESP32-CAM 오류 : [E][camera.c:1049] camera\_probe(): Detected camera not supported. [E][camera.c:1249] esp\_camera\_init(): Camera probe failed with error 0x20004](/183)  (0) | 2021.05.09 |
-| [시스템 프로그래밍 프로젝트 #7 최종 (Assembler in C)](/130)  (2) | 2020.03.19 |
-| [시스템 프로그래밍 프로젝트 #1](/22)  (1) | 2020.01.12 |
-| [시스템 프로그래밍 프로젝트 #2](/21)  (1) | 2020.01.12 |
-| [시스템 프로그래밍 프로젝트 #3](/20)  (1) | 2020.01.12 |
+| [Systems Programming 프로젝트 #7 최종 (Assembler in C)](/130)  (2) | 2020.03.19 |
+| [Systems Programming 프로젝트 #1](/22)  (1) | 2020.01.12 |
+| [Systems Programming 프로젝트 #2](/21)  (1) | 2020.01.12 |
+| [Systems Programming 프로젝트 #3](/20)  (1) | 2020.01.12 |

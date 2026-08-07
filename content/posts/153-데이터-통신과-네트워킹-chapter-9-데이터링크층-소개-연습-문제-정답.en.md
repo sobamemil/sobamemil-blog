@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["5판", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "정답", "풀이", "해답"]
 ---
 
-**<b>Chapter 9 데이터링크층 소개 전송 </b>연습 문제 풀이(답)******
+**<b>Chapter 9 데이터링크층 소개 전송 </b>Practice Exercises풀이(답)******
 
 1. 데이터링크층에서 통신은 \_\_\_\_\_\_\_ 이다.
 
@@ -62,9 +62,9 @@ tags: ["5판", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 14. 미디어 접속 제어는 오직 \_\_\_\_\_\_\_ 링크에서 나타난다.
 
--> d. 정답 없음
+-> d. Answers & Solutions없음
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -76,8 +76,8 @@ tags: ["5판", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 11 데이터링크 제어(DLC) 연습 문제 정답](/155)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 10 오류 검출과 오류 정정 연습 문제 정답](/154)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 8 교환 연습 문제 정답](/152)  (1) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 7 전송 매체 연습 문제 정답](/151)  (0) | 2020.06.21 |
-| [데이터 통신과 네트워킹 Chapter 6 대역폭 활용: 다중화와 스펙트럼 확장 연습 문제 정답](/149)  (0) | 2020.04.29 |
+| [Data Communications & Networking Chapter 11 데이터링크 제어(DLC) Practice ExercisesAnswers & Solutions](/155)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 10 오류 검출과 오류 정정 Practice ExercisesAnswers & Solutions](/154)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 8 교환 Practice ExercisesAnswers & Solutions](/152)  (1) | 2020.06.21 |
+| [Data Communications & Networking Chapter 7 전송 매체 Practice ExercisesAnswers & Solutions](/151)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 6 대역폭 활용: 다중화와 스펙트럼 확장 Practice ExercisesAnswers & Solutions](/149)  (0) | 2020.04.29 |

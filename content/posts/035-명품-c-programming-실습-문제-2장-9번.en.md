@@ -6,21 +6,21 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "cin", "cout", "getline", "programming", "명품", "실습문제", "연습문제", "코딩", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 이름, 주소, 나이를 입력받아 다시 출력하는 프로그램을 작성하라. 실행 예시는 다음과 같다.
 
 ![](https://img.sobamemil.com/posts/35/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 빈칸을 포함하는 문자열 읽기
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/35/img_2.png)
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

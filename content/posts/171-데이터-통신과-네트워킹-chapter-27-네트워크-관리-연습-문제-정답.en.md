@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크관리", "네트워킹", "데이터통신", "연습문제", "응용층", "정답", "풀이"]
 ---
 
-<b>Chapter 27 네트워크 관리 연습 문제 풀이(답)</b>
+<b>Chapter 27 네트워크 관리 Practice Exercises풀이(답)</b>
 
 1. 네트워크 관리는 한 기관에 의해 정의된 일련의 요구사항을 만족하기 위해 네트워크 구성요소들을 \_\_\_\_\_\_\_ 하는 것으로 정의할 수 있다.
 
@@ -114,7 +114,7 @@ tags: ["네트워크", "네트워크관리", "네트워킹", "데이터통신", 
 
 27. BER에서 태그(tag)는 데이터 유형을 정의하는 \_\_\_\_\_\_\_ 필드이다; 길이(length)는 \_\_\_\_\_\_\_ 필드이다.
 
--> d. 정답 없음 (1바이트; 1 또는 그 이상의 바이트)
+-> d. Answers & Solutions없음 (1바이트; 1 또는 그 이상의 바이트)
 
 28. GetRequest PDU는 하나 또는 일련의 변수값을 얻기 위하여 \_\_\_\_\_\_\_ 에서 \_\_\_\_\_\_\_ 로 보내진다.
 
@@ -148,7 +148,7 @@ tags: ["네트워크", "네트워크관리", "네트워킹", "데이터통신", 
 
 -> c. Trap
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하며 작성 하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -160,8 +160,8 @@ tags: ["네트워크", "네트워크관리", "네트워킹", "데이터통신", 
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 29 대등-대-대등 패러다임 연습 문제 정답](/173)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 28 멀티미디어 연습 문제 정답](/172)  (0) | 2020.07.01 |
-| [데이터 통신과 네트워킹 Chapter 26 표준 클라이언트-서버 프로토콜 연습 문제 정답](/170)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 25 응용층 소개 연습 문제 정답](/169)  (0) | 2020.06.30 |
-| [데이터 통신과 네트워킹 Chapter 24 전송층 프로토콜 연습 문제 정답](/168)  (0) | 2020.06.29 |
+| [Data Communications & Networking Chapter 29 대등-대-대등 패러다임 Practice ExercisesAnswers & Solutions](/173)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 28 멀티미디어 Practice ExercisesAnswers & Solutions](/172)  (0) | 2020.07.01 |
+| [Data Communications & Networking Chapter 26 표준 클라이언트-서버 프로토콜 Practice ExercisesAnswers & Solutions](/170)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 25 응용층 소개 Practice ExercisesAnswers & Solutions](/169)  (0) | 2020.06.30 |
+| [Data Communications & Networking Chapter 24 전송층 프로토콜 Practice ExercisesAnswers & Solutions](/168)  (0) | 2020.06.29 |

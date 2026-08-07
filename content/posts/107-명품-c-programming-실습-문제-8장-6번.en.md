@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "LIFO", "programming", "Push", "stack", "스택", "실습문제", "연습문제", "자료구조", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 문제 5~6에 적용되는 BaseArray 클래스는 다음과 같다.
 
@@ -20,21 +20,21 @@ BaseArray 클래스를 상속받아 스택으로 작동하는 MyStack 클래스�
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13 | MyStack mStack(100);  int n;  cout << "스택에 삽입할 5개의 정수를 입력하라>> ";  for(int i=0; i<5; i++){  cin >> n;  mStack.push(n); // 스택에 푸시  }  cout << "스택 용량:" << mStack.capacity() << ", 스택 크기:" << mStack.length() << endl;  cout << "스택의 모든 원소를 팝하여 출력한다>> ";  while(mStack.length() != 0){  cout << mStack.pop() << ' '; // 스택에서 팝  }  cout << endl << "스택의 현재 크기 : " << mStack.length() << endl; |
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/107/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 상속과 protected, 파생 클래스 작성
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47 | #include<iostream>  using namespace std;    class BaseArray {  int capacity;  int \*mem;  protected:  BaseArray(int capacity=100){  this->capacity = capacity; mem = new int [capacity];  }  ~BaseArray() { delete [] mem; }  void put(int index, int val) { mem[index] = val; }  int get(int index) { return mem[index]; }  int getCapacity() { return capacity; }  };    class MyStack : public BaseArray{  int top=0;  public:  MyStack(int capacity) : BaseArray(capacity) {;}  void push(int val){  put(top, val);  top++;  }  int capacity() { return getCapacity(); }  int length() { return top; }  int pop() {  top--;  return get(top);  }  };    int main() {  MyStack mStack(100);  int n;  cout << "스택에 삽입할 5개의 정수를 입력하라>> ";  for(int i=0; i<5; i++){  cin >> n;  mStack.push(n); // 스택에 푸시  }  cout << "스택 용량:" << mStack.capacity() << ", 스택 크기:" << mStack.length() << endl;  cout << "스택의 모든 원소를 팝하여 출력한다>> ";  while(mStack.length() != 0){  cout << mStack.pop() << ' '; // 스택에서 팝  }  cout << endl << "스택의 현재 크기 : " << mStack.length() << endl;  } |
 
-<b>설명 :</b>
+<b>Explanation:</b>
 
 스택(Stack)은 제한적으로 접근할 수 있는 나열 구조입니다.
 

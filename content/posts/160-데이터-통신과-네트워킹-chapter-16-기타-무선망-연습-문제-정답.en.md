@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["GPS", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "무선망", "연습문제", "정답", "풀이"]
 ---
 
-<b>Chapter 16 기타 무선망 연습 문제 풀이(답)</b>
+<b>Chapter 16 기타 무선망 Practice Exercises풀이(답)</b>
 
 1. \_\_\_\_\_\_\_ 은 1세대 셀룰러 전화 시스템이다.
 
@@ -42,7 +42,7 @@ tags: ["GPS", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 9. AMPS에서 각 대역은 \_\_\_\_\_\_\_ 개의 채널로 나누어진다.
 
--> d. 정답 없음 (a. 800, b. 900, c. 1000)
+-> d. Answers & Solutions없음 (a. 800, b. 900, c. 1000)
 
 10. AMPS는 \_\_\_\_\_\_\_ 주파수 재사용 인자를 가진다.
 
@@ -82,7 +82,7 @@ tags: ["GPS", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 19. 효율과 용량, 그리고 확장성을 증가시키기 위해서 \_\_\_\_\_\_\_ 와 같은 새로운 접근 기법이 4G 셀룰러 전화에서 고려되고 있다.
 
--> d. 모두 정답 (a. OFDMA, b. IFDMA, c. MC-CMDA)
+-> d. 모두 Answers & Solutions(a. OFDMA, b. IFDMA, c. MC-CMDA)
 
 20. 4세대 셀룰러 전화는 \_\_\_\_\_\_\_ 을 사용한다.
 
@@ -132,7 +132,7 @@ tags: ["GPS", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 -> a. GPS
 
-모든 답은 '데이터 통신과 네트워킹 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
+모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
@@ -144,8 +144,8 @@ tags: ["GPS", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 |  |  |
 | --- | --- |
-| [데이터 통신과 네트워킹 Chapter 18 네트워크층의 소개 연습 문제 정답](/162)  (13) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 17 연결 장치와 가상 LAN 연습 문제 정답](/161)  (1) | 2020.06.29 |
-| [데이터 통신과 네트워킹 Chapter 15 무선 LAN 연습 문제 정답](/159)  (1) | 2020.06.25 |
-| [데이터 통신과 네트워킹 Chapter 14 다른 유선 네트워크들 연습 문제 정답](/158)  (0) | 2020.06.25 |
-| [데이터 통신과 네트워킹 Chapter 13 유선 LAN: 이더넷(Ethernet) 연습 문제 정답](/157)  (0) | 2020.06.21 |
+| [Data Communications & Networking Chapter 18 네트워크층의 소개 Practice ExercisesAnswers & Solutions](/162)  (13) | 2020.06.29 |
+| [Data Communications & Networking Chapter 17 연결 장치와 가상 LAN Practice ExercisesAnswers & Solutions](/161)  (1) | 2020.06.29 |
+| [Data Communications & Networking Chapter 15 무선 LAN Practice ExercisesAnswers & Solutions](/159)  (1) | 2020.06.25 |
+| [Data Communications & Networking Chapter 14 다른 유선 네트워크들 Practice ExercisesAnswers & Solutions](/158)  (0) | 2020.06.25 |
+| [Data Communications & Networking Chapter 13 유선 LAN: 이더넷(Ethernet) Practice ExercisesAnswers & Solutions](/157)  (0) | 2020.06.21 |

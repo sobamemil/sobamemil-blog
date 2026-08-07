@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "printmachine", "programming", "동적생성", "명품", "상속", "실습문제", "연습문제", "프로그래밍", "프린터프로그램"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 다음 그림과 같은 상속 구조를 갖는 클래스를 설계한다.
 
@@ -20,15 +20,15 @@ tags: ["C++", "printmachine", "programming", "동적생성", "명품", "상속",
 
 ![](https://img.sobamemil.com/posts/109/img_1.png)
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/109/img_2.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 상속 구조로 종합 응용 연습
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |

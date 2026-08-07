@@ -6,7 +6,7 @@ categories: ["💻 Dev & CS"]
 tags: ["C++", "Generic", "programming", "template", "명품", "실습문제", "연습문제", "제네릭", "템플릿", "프로그래밍"]
 ---
 
-<b>문제 :</b>
+<b>Problem:</b>
 
 배열에서 원소를 검색하는 search() 함수를 템플릿으로 작성하라.
 
@@ -20,15 +20,15 @@ search()의 호출 사례는 다음과 같다.
 | --- | --- |
 | 1  2  3 | int x[] = {1, 10, 100, 5, 4};  if(search(100, x, 5)) cout << "100이 배열 x에 포함되어 있다"; // 이 cout 실행  else cout << "100이 배열 x에 포함되어 있지 않다"; |
 
-<b>실행 결과 :</b>
+<b>Execution Result:</b>
 
 ![](https://img.sobamemil.com/posts/114/img_1.png)
 
-<b>목적 및 힌트 :</b>
+<b>Objective & Hints:</b>
 
 템플릿 함수 만들기
 
-<b>코드 :</b>
+<b>Code:</b>
 
 |  |  |
 | --- | --- |
