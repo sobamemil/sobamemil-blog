@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 8장 1번"
+title: "C++ Programming Ch.8 Exercise 1 Solution"
 date: 2020-03-09T12:56:19+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -51,17 +51,3 @@ Circle 클래스를 상속받은 NameCircle 클래스의 객체를 만들어 Cir
 In a member-specification of a class/struct or union, define the accessibility of subsequent members. In a base-specifier of a derived class declaration, define the accessibility of inherited members of the subsequent base class. [edit] Syntax public : mem
 
 en.cppreference.com](https://en.cppreference.com/w/cpp/language/access)
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 8장 3번](/104)  (9) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 2번](/103)  (4) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 7장 12번](/101)  (3) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 11번](/100)  (2) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 10번](/99)  (3) | 2020.03.06 |

@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 2장 16번"
+title: "C++ Programming Ch.2 Exercise 16 Solution"
 date: 2020-02-28T20:24:43+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -39,17 +39,3 @@ cin.getline(buf, 10000, ';'); 을 이용하여 텍스트를 키보드로부터 �
 문자를 소문자로 바꿀 때 tolower(char c) 함수를 이용하고, 알파벳인지 검사하기 위해 isalpha(char c) 함수를 이용하면 됩니다.
 
 또한 텍스트 입력을 쉽게 하려면, 입력할 텍스트를 첨부하였으니 ctrl-c로 복사하고, DOS 실행창에 마우스 오른쪽 버튼을 누르고 붙여 넣기 메뉴를 선택하거나 오른쪽 버튼만 눌러도 붙여 넣기가 됩니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 3장 2번](/44)  (2) | 2020.03.02 |
-| [명품 C++ programming 실습 문제 3장 1번](/43)  (1) | 2020.03.02 |
-| [명품 C++ programming 실습 문제 2장 15번](/41)  (3) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 14번](/40)  (3) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 13번](/39)  (1) | 2020.02.28 |

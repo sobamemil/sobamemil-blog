@@ -1,12 +1,12 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 14 다른 유선 네트워크들 연습 문제 정답"
+title: "Data Communications & Networking Ch.14 다른 유선 네트워크들 Exercises & Solutions"
 date: 2020-06-25T11:11:11+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "chapter14", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "유선네트워크", "정답", "풀이"]
 ---
 
-<b>Chapter 14 다른 유선 네트워크들 Practice Exercises풀이(답)</b>
+<b>Chapter 14 다른 유선 네트워크들 Practice ExercisesSolution(답)</b>
 
 1. ADSL에서 대역폭의 많은 부분은 \_\_\_\_\_\_\_ 을 전송하는 것이다.
 
@@ -103,13 +103,3 @@ tags: ["5판", "chapter14", "네트워크", "네트워킹", "데이터링크층"
 
 [저작자표시 비영리 변경금지
 (새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 16 기타 무선망 Practice ExercisesAnswers & Solutions](/160)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 15 무선 LAN Practice ExercisesAnswers & Solutions](/159)  (1) | 2020.06.25 |
-| [Data Communications & Networking Chapter 13 유선 LAN: 이더넷(Ethernet) Practice ExercisesAnswers & Solutions](/157)  (0) | 2020.06.21 |
-| [Data Communications & Networking Chapter 12 매체 접근 제어(MAC) Practice ExercisesAnswers & Solutions](/156)  (2) | 2020.06.21 |
-| [Data Communications & Networking Chapter 11 데이터링크 제어(DLC) Practice ExercisesAnswers & Solutions](/155)  (0) | 2020.06.21 |

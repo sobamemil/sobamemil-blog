@@ -1,12 +1,12 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 11 데이터링크 제어(DLC) 연습 문제 정답"
+title: "Data Communications & Networking Ch.11 데이터링크 제어(DLC) Exercises & Solutions"
 date: 2020-06-21T20:47:15+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "DLC", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "정답", "풀이"]
 ---
 
-<b>Chapter 11 데이터링크 제어(DLC) Practice Exercises풀이(답)</b>
+<b>Chapter 11 데이터링크 제어(DLC) Practice ExercisesSolution(답)</b>
 
 1. HDLC는 \_\_\_\_\_\_\_ 의 줄임말이다.
 
@@ -95,13 +95,3 @@ tags: ["5판", "DLC", "네트워크", "네트워킹", "데이터링크층", "데
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 13 유선 LAN: 이더넷(Ethernet) Practice ExercisesAnswers & Solutions](/157)  (0) | 2020.06.21 |
-| [Data Communications & Networking Chapter 12 매체 접근 제어(MAC) Practice ExercisesAnswers & Solutions](/156)  (2) | 2020.06.21 |
-| [Data Communications & Networking Chapter 10 오류 검출과 오류 정정 Practice ExercisesAnswers & Solutions](/154)  (0) | 2020.06.21 |
-| [Data Communications & Networking Chapter 9 데이터링크층 소개 Practice ExercisesAnswers & Solutions](/153)  (0) | 2020.06.21 |
-| [Data Communications & Networking Chapter 8 교환 Practice ExercisesAnswers & Solutions](/152)  (1) | 2020.06.21 |

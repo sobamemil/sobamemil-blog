@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 7장 7번"
+title: "C++ Programming Ch.7 Exercise 7 Solution"
 date: 2020-03-06T18:10:47+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -39,17 +39,3 @@ tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자중�
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41 | #include<iostream>  using namespace std;    class Matrix{  int arr[4];  public:  Matrix(){;}  Matrix(int a, int b, int c, int d) { arr[0]=a; arr[1]=b; arr[2]=c; arr[3]=d; }  void show();  friend void operator>> (Matrix& a, int x[]);  friend void operator<< (Matrix& b, int y[]);  };    void Matrix::show() {  cout << "Matrix" << " = { ";  for(int i=0; i<4; i++) cout << this->arr[i] << ' ';  cout << "}" << endl;  }    void operator>> (Matrix& a, int x[]){  for(int i=0; i<4; i++){  x[i] = a.arr[i];  }  }    void operator<< (Matrix& b, int y[]){  for(int i=0; i<4; i++){  b.arr[i] = y[i];  }  }    int main() {  Matrix a(4,3,2,1), b;  int x[4], y[4]={1,2,3,4}; // 2차원 행렬의 4 개의 원소 값  a >> x; // a의 각 원소를 배열 x에 복사. x[]는 {4,3,2,1}  b << y; // 배열 y의 원소 값을 b의 각 원소에 설정    for(int i=0; i<4; i++) cout << x[i] << ' '; // x[] 출력  cout << endl;  b.show();  } |
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 7장 9번](/98)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 8번](/97)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 6번](/95)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 5번](/94)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 4번](/93)  (3) | 2020.03.06 |

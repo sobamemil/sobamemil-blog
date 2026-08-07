@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 3장 9번"
+title: "C++ Programming Ch.3 Exercise 9 Solution"
 date: 2020-03-03T17:11:09+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -28,7 +28,7 @@ Oval 클래스의 멤버는 모두 다음과 같다. Oval 클래스를 선언부
 
 ● 타원의 너비와 높이를 화면에 출력하는 show() 함수 멤버
 
-Oval 클래스를 활용하는 코드의 사례와 실행 결과는 다음과 같다.
+Oval 클래스를 활용하는 코드의 사례와 Execution Result는 다음과 같다.
 
 |  |  |
 | --- | --- |
@@ -53,17 +53,3 @@ Oval 클래스를 활용하는 코드의 사례와 실행 결과는 다음과 �
 구현부를 클래스 내부가 아닌 외부에 작성하여 선언부와 구현부를 나누어 작성하였습니다.
 
 한 클래스에서 생성자는 여러 개 일 수 있지만 소멸자는 하나만 존재할 수 있습니다
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 3장 11번](/53)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 10번](/52)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 8번](/50)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 7번](/49)  (2) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 6번](/48)  (2) | 2020.03.03 |

@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 5장 5번"
+title: "C++ Programming Ch.5 Exercise 5 Solution"
 date: 2020-03-05T14:49:33+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -49,17 +49,3 @@ main() 함수의 목적을 달성하도록 increaseBy() 함수를 수정하라.
 문제에서는 값에 의한 호출을 사용하였기 때문에 increaseBy() 함수의 목적대로 실행되지 않은것 입니다.
 
 따라서 increaseBy() 함수의 매개변수를 참조에 의한 호출을 사용하여 받으면 main() 함수의 목적을 달성할 수 있을 것입니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 5장 7번](/75)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 6번](/74)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 4번](/72)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 3번](/71)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 2번](/70)  (1) | 2020.03.05 |

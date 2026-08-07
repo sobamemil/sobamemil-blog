@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 2장 7번"
+title: "C++ Programming Ch.2 Exercise 7 Solution"
 date: 2020-02-28T17:07:48+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -29,17 +29,3 @@ tags: ["C++", "cin.getline()", "CString", "programming", "strcmp()", "명품", "
 2장 6번 문제와 거의 동일한 문제입니다.
 
 cin.getline() 함수를 이용해 입력시에 공백을 포함하는 문자열 입력도 가능하게 만들 수 있는지 테스트 하는 문제입니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 2장 9번](/35)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 8번](/34)  (2) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 6번](/32)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 5번](/31)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 4번](/30)  (1) | 2020.02.28 |

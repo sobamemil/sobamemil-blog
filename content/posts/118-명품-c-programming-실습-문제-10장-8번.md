@@ -51,17 +51,3 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/117)
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52 | #include <iostream>  using namespace std;    class Comparable {  public:  virtual bool operator > (Comparable& op2) = 0; // 순수 가상 함수  virtual bool operator < (Comparable& op2) = 0; // 순수 가상 함수  virtual bool operator == (Comparable& op2) = 0; // 순수 가상 함수  };    class Circle : public Comparable {  int radius;  public:  Circle(int radius = 1) { this->radius = radius; }  int getRadius() { return radius; }  bool operator > (Comparable& op2) {  Circle \*c;  c = (Circle\*) &op2;  if(this->radius > c->getRadius())  return true;  return false;  }  bool operator < (Comparable& op2) {  Circle \*c;  c = (Circle\*) &op2;  if(this->radius < c->getRadius())  return true;  return false;  }  bool operator == (Comparable& op2) {  Circle \*c;  c = (Circle\*) &op2;  if(this->radius == c->getRadius())  return true;  return false;  }  };    template <class T>  T bigger(T a, T b) { // 두 개의 매개 변수를 비교하여 큰 값을 리턴  if (a > b) return a;  else return b;  }    int main() {  int a = 20, b = 50, c;  c = bigger(a, b);  cout << "20과 50중 큰 값은 " << c << endl;  Circle waffle(10), pizza(20), y;  y = bigger(waffle, pizza);  cout << "waffle과 pizza 중 큰 것의 반지름은 " << y.getRadius() << endl;  } |
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 10장 10번](/120)  (1) | 2020.03.10 |
-| [명품 C++ programming 실습 문제 10장 9번](/119)  (1) | 2020.03.10 |
-| [명품 C++ programming 실습 문제 10장 7번](/117)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 6번](/116)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 5번](/115)  (1) | 2020.03.09 |

@@ -41,17 +41,3 @@ ex)  string s = "1945";
 string 타입의 매개변수를 넘겨받은 생성자가 실행되면 string 헤더파일의 substr() 함수를 이용하여 각각 Year, Month, Day로 나누었다.
 
 그 후 다시 나누어진 string을 stoi() 함수를 이용하여 int 형식으로 바꾸어 저장 및 출력 해주었습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 3장 4번](/46)  (8) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 3번](/45)  (3) | 2020.03.02 |
-| [명품 C++ programming 실습 문제 3장 1번](/43)  (1) | 2020.03.02 |
-| [명품 C++ programming 실습 문제 2장 16번](/42)  (3) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 15번](/41)  (3) | 2020.02.28 |

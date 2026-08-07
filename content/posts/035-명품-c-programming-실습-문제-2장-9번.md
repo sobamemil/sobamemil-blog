@@ -25,17 +25,3 @@ tags: ["C++", "cin", "cout", "getline", "programming", "명품", "실습문제",
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21 | #include<iostream>  using namespace std;    int main() {  char name[100];  char addr[100];  int age;    cout << "이름은?";  cin.getline(name,100);    cout << "주소는?";  cin.getline(addr,100);    cout << "나이는?";  cin >> age;    cout << name << ", " << addr << ", " << age << "세";    return 0;  } |
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 2장 11번](/37)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 10번](/36)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 8번](/34)  (2) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 7번](/33)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 6번](/32)  (1) | 2020.02.28 |

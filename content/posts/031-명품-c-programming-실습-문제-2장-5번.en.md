@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 2장 5번"
+title: "C++ Programming Ch.2 Exercise 5 Solution"
 date: 2020-02-28T16:49:19+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -31,17 +31,3 @@ cin을 이용하여 입력 받으면 띄어쓰기를 포함한 문자열은 입�
 따라서 이 문제는 cin.getline()을 이용하여 문자열 단위로 입력받아야 한다.
 
 배열 a[]의 원소를 전부 탐색하여 문자 'x'와 비교하여 카운트 하였다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 2장 7번](/33)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 6번](/32)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 4번](/30)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습문제 2장 3번](/29)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 2번](/28)  (1) | 2020.02.28 |

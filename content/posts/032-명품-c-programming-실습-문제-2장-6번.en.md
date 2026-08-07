@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 2장 6번"
+title: "C++ Programming Ch.2 Exercise 6 Solution"
 date: 2020-02-28T17:01:06+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -33,17 +33,3 @@ c++에서 strcmp() 함수는 cstring 헤더파일에 정의되어 있으므로 c
 strcmp() 함수는 두 문자열이 정확하게 일치한다면 0 을 리턴한다.
 
 일치하지 않을 경우, 일치 하지 않는 첫 번째 문자를 비교해 str1 이 str2 보다 크다면 0 보다 큰 값을 아니면 0 보다 작은 값을 리턴합니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 2장 8번](/34)  (2) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 7번](/33)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 5번](/31)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 4번](/30)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습문제 2장 3번](/29)  (1) | 2020.02.28 |

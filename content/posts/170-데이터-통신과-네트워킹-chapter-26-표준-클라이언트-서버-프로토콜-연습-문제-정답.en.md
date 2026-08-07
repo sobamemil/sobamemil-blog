@@ -1,12 +1,12 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 26 표준 클라이언트-서버 프로토콜 연습 문제 정답"
+title: "Data Communications & Networking Ch.26 표준 클라이언트-서버 프로토콜 Exercises & Solutions"
 date: 2020-06-30T14:35:54+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "데이터통신", "서버", "연습문제", "응용층", "정답", "클라이언트", "풀이", "프로토콜"]
 ---
 
-<b>Chapter 26 표준 클라이언트-서버 프로토콜 Practice Exercises풀이(답)</b>
+<b>Chapter 26 표준 클라이언트-서버 프로토콜 Practice ExercisesSolution(답)</b>
 
 1. HTTP는 \_\_\_\_\_\_\_ 의 서비스를 사용한다.
 
@@ -219,13 +219,3 @@ tags: ["네트워크", "네트워킹", "데이터통신", "서버", "연습문�
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 28 멀티미디어 Practice ExercisesAnswers & Solutions](/172)  (0) | 2020.07.01 |
-| [Data Communications & Networking Chapter 27 네트워크 관리 Practice ExercisesAnswers & Solutions](/171)  (0) | 2020.06.30 |
-| [Data Communications & Networking Chapter 25 응용층 소개 Practice ExercisesAnswers & Solutions](/169)  (0) | 2020.06.30 |
-| [Data Communications & Networking Chapter 24 전송층 프로토콜 Practice ExercisesAnswers & Solutions](/168)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 23 전송층의 개요 Practice ExercisesAnswers & Solutions](/167)  (0) | 2020.06.29 |

@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 8장 9번"
+title: "C++ Programming Ch.8 Exercise 9 Solution"
 date: 2020-03-09T15:13:20+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -67,17 +67,3 @@ tags: ["airlinebook", "C++", "programming", "명품", "비행기예약", "상속
 상속이 필요 없는 문제입니다. 코드가 길기 때문에 차근차근 따라가며 이해하시면 됩니다.
 
 전체적인 실행 과정 등을 간단하게 그려놓고 시작하면 훨씬 수월하게 작성할 수 있습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 10장 2번](/112)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 1번](/111)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 8번](/109)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 7번](/108)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 6번](/107)  (1) | 2020.03.09 |

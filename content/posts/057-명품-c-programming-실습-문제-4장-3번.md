@@ -39,17 +39,3 @@ string 클래스에 정의되어 있는 find() 멤버 함수는 찾고자 하는
 npos는 string::npos로 정의되는 상수인데 unsinged int 입니다.
 
 이때 npos를 int 타입으로 형변환 하면 나오는 값이 -1 입니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 4장 5번](/59)  (3) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 4번](/58)  (5) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 2번](/56)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 1번](/55)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 3장 12번](/54)  (2) | 2020.03.03 |

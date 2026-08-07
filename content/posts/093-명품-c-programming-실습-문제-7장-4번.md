@@ -39,17 +39,3 @@ tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자", "�
 <b>설명 :</b>
 
 < 연산자 함수를 클래스 외부 함수로 작성하고 클래스 내부에서 friend로 선언을 해주었습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 7장 6번](/95)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 5번](/94)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 3번](/92)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 2번](/91)  (3) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 1번](/90)  (3) | 2020.03.06 |

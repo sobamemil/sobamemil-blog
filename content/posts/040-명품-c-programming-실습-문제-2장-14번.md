@@ -31,17 +31,3 @@ char coffee[100]; int num; cin >> coffee >> num; 으로 커피 이름과 잔 수
 <b>설명 :</b>
 
 cin 연산자를 이용해 커피 종류와 잔 수를 한번에 입력받고 strcmp() 함수를 이용해 비교하여 각각 다른 코드를 수행하는 프로그램 입니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 2장 16번](/42)  (3) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 15번](/41)  (3) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 13번](/39)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 12번](/38)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 11번](/37)  (1) | 2020.02.28 |

@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 4장 8번"
+title: "C++ Programming Ch.4 Exercise 8 Solution"
 date: 2020-03-04T16:23:04+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -8,13 +8,13 @@ tags: ["C++", "programming", "객체배열", "객체포인터", "동적배열", 
 
 <b>Problem:</b>
 
-실습 문제 7의 문제를 수정해보자. 사용자로부터 다음과 같이 원의 개수를 입력받고, 원의 개수만큼 반지름을 입력받는 방식으로 수정하라.
+Exercise Problem 7의 문제를 수정해보자. 사용자로부터 다음과 같이 원의 개수를 입력받고, 원의 개수만큼 반지름을 입력받는 방식으로 수정하라.
 
 원의 개수에 따라 동적으로 배열을 할당받아야 한다.
 
-[2020/03/04 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 4장 7번](https://sobamemil.tistory.com/61)
+[2020/03/04 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 4장 7번](https://sobamemil.tistory.com/61)
 
-[명품 C++ programming 실습 문제 4장 7번
+[명품 C++ programming Exercise Problem 4장 7번
 
 Problem: 다음과 같이 원을 추상화한 Circle 클래스가 있다. Circle 클래스와 main() 함수를 작성하고 3개의 Circle 객체를 가진 배열을 선언하고, 반지름 값을 입력받고 면적이 100보다 큰 원의 개수를 출력하는 프..
 
@@ -37,17 +37,3 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/61)
 <b>Explanation:</b>
 
 pArray++; 을 이용해서 다음 객체 포인터를 선택할 수 있습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 4장 10번](/64)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 9번](/63)  (2) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 7번](/61)  (3) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 6번](/60)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 5번](/59)  (3) | 2020.03.04 |

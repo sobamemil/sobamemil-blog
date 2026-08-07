@@ -43,17 +43,3 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/123)
 실습 문제 10장 13번 문제와 비슷한 문제입니다.
 
 참고하여 작성하면 도움이 될 것 같습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 10장 16번](/126)  (1) | 2020.03.11 |
-| [명품 C++ programming 실습 문제 10장 15번](/125)  (3) | 2020.03.11 |
-| [명품 C++ programming 실습 문제 10장 13번](/123)  (1) | 2020.03.11 |
-| [명품 C++ programming 실습 문제 10장 12번](/122)  (3) | 2020.03.10 |
-| [명품 C++ programming 실습 문제 10장 11번](/121)  (2) | 2020.03.10 |

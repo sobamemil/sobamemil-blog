@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 4장 5번"
+title: "C++ Programming Ch.4 Exercise 5 Solution"
 date: 2020-03-04T15:56:03+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -33,17 +33,3 @@ string 클래스로 문자열 다루기
 <b>Explanation:</b>
 
 어느 부분을 바꿀지 고를 때 공백문자는 바꾸지 않기 위해서 sent[n] != ' ' 이 아니면 다시 뽑도록 작성했습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 4장 7번](/61)  (3) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 6번](/60)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 4번](/58)  (5) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 3번](/57)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 2번](/56)  (1) | 2020.03.04 |

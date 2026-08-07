@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 3장 12번"
+title: "C++ Programming Ch.3 Exercise 12 Solution"
 date: 2020-03-03T19:03:06+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -32,7 +32,7 @@ Ram 클래스는 다음과 같이 선언된다.
 
 ![](https://img.sobamemil.com/posts/54/img_1.png)
 
-실행 결과를 참고하여 Ram.h, Ram.cpp, main.cpp로 헤더 파일과 cpp 파일을 분리하여 프로그램을 완성하라.
+Execution Result를 참고하여 Ram.h, Ram.cpp, main.cpp로 헤더 파일과 cpp 파일을 분리하여 프로그램을 완성하라.
 
 <b>Code:</b>
 
@@ -57,17 +57,3 @@ Ram 클래스는 다음과 같이 선언된다.
 <b>Explanation:</b>
 
 주어진 main() 함수와 Ram 클래스의 선언부를 참고하여 Ram 클래스 멤버에 대한 구현부를 작성하는 문제입니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 4장 2번](/56)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 1번](/55)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 3장 11번](/53)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 10번](/52)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 9번](/51)  (1) | 2020.03.03 |

@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 11장 9번"
+title: "C++ Programming Ch.11 Exercise 9 Solution"
 date: 2020-04-02T14:00:37+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -14,7 +14,7 @@ tags: ["C++", "iostream", "programming", "명품", "실습문제", "연산자중
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11 | class Phone { // 전화 번호를 표현하는 클래스  string name;  string telnum;  string address;  public:  Phone(string name="", string telnum="", string address="") {  this->name = name;  this->telnum = telnum;  this->address = address;  }  }; |
 
-Phone 클래스의 객체를 입출력하는 아래 코드와 실행 결과를 참조하여 <<, >> 연산자를 작성하고 Phone 클래스를 수정하는 등 프로그램을 완성하라.
+Phone 클래스의 객체를 입출력하는 아래 코드와 Execution Result를 참조하여 <<, >> 연산자를 작성하고 Phone 클래스를 수정하는 등 프로그램을 완성하라.
 
 |  |  |
 | --- | --- |
@@ -37,13 +37,3 @@ Phone 클래스의 객체를 입출력하는 아래 코드와 실행 결과를 �
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 11장 11번](/142)  (1) | 2020.04.02 |
-| [명품 C++ programming 실습 문제 11장 10번](/141)  (1) | 2020.04.02 |
-| [명품 C++ programming 실습 문제 11장 8번](/139)  (1) | 2020.04.02 |
-| [명품 C++ programming 실습 문제 11장 7번](/138)  (1) | 2020.04.02 |
-| [명품 C++ programming 실습 문제 11장 6번](/137)  (1) | 2020.03.27 |

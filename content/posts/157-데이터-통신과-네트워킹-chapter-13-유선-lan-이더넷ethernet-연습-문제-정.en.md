@@ -1,12 +1,12 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 13 유선 LAN: 이더넷(Ethernet) 연습 문제 정답"
+title: "Data Communications & Networking Ch.13 유선 LAN: 이더넷(Ethernet) Exercises & Solutions"
 date: 2020-06-21T21:09:33+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "ethernet", "lan", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "정답", "풀이"]
 ---
 
-<b>Chapter 13 유선 LAN: 이더넷(Ethernet) Practice Exercises풀이(답)</b>
+<b>Chapter 13 유선 LAN: 이더넷(Ethernet) Practice ExercisesSolution(답)</b>
 
 1. 이더넷 주소가 2진수로 01011010 00010001 01010101 00011000 10101010 00001111 이면, 이 주소는 16진수로 무엇인가?
 
@@ -83,13 +83,3 @@ tags: ["5판", "ethernet", "lan", "네트워크", "네트워킹", "데이터링�
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 15 무선 LAN Practice ExercisesAnswers & Solutions](/159)  (1) | 2020.06.25 |
-| [Data Communications & Networking Chapter 14 다른 유선 네트워크들 Practice ExercisesAnswers & Solutions](/158)  (0) | 2020.06.25 |
-| [Data Communications & Networking Chapter 12 매체 접근 제어(MAC) Practice ExercisesAnswers & Solutions](/156)  (2) | 2020.06.21 |
-| [Data Communications & Networking Chapter 11 데이터링크 제어(DLC) Practice ExercisesAnswers & Solutions](/155)  (0) | 2020.06.21 |
-| [Data Communications & Networking Chapter 10 오류 검출과 오류 정정 Practice ExercisesAnswers & Solutions](/154)  (0) | 2020.06.21 |

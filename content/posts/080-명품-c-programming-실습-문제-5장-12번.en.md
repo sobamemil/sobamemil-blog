@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 5장 12번"
+title: "C++ Programming Ch.5 Exercise 12 Solution"
 date: 2020-03-05T16:24:50+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -18,13 +18,13 @@ tags: ["C++", "programming", "깊은복사생성자", "명품", "실습문제", 
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | int countPass(Dept dept) { // dept 학과에 60점 이상으로 통과하는 학생의 수 리턴  int count = 0;  for (int i = 0; i < dept.getSize(); i++) {  if (dept.isOver60(i)) count++;  }  return count;  }    int main() {  Dept com(10); // 총 10명이 있는 학과 com  com.read();  // 총 10명의 학생들의 성적을 키보드로부터 읽어 scores 배열에 저장  int n = countPass(com); // com 학과에 60점 이상으로 통과한 학생의 수를 리턴  cout << "60점 이상은 " << n << "명";  } |
 
-(1) main()의 실행 결과가 다음과 같이 되도록 Dept 클래스에 멤버들을 모두 구현하고, 전체 프로그램을 완성하라.
+(1) main()의 Execution Result가 다음과 같이 되도록 Dept 클래스에 멤버들을 모두 구현하고, 전체 프로그램을 완성하라.
 
 ![](https://img.sobamemil.com/posts/80/img_1.png)
 
 (2) Dept 클래스에 복사 생성자 Dept(const Dept& dept); 가 작성되어 있지 않은 경우, 컴파일은 되지만 프로그램 실행 끝에 실행 시간 오류가 발생한다(복사 생성자를 뺀 채 실행해보라).
 
-위의 코드 어느 부분이 실행될 때 복사 생성자가 호출되는지 설명하고, 복사 생성자가 없으면 왜 실행 오류가 발생하는지 설명하라.
+위의 코드 어느 부분이 실행될 때 복사 생성자가 호출되는지 Explanation하고, 복사 생성자가 없으면 왜 실행 오류가 발생하는지 Explanation하라.
 
 (3) Dept 클래스에 복사 생성자를 제거하라. 복사 생성자가 없는 상황에서도 실행 오류가 발생하지 않게 하려면 어느 부분을 수정하면 될까? 극히 일부분의 수정으로 해결된다.
 
@@ -60,17 +60,3 @@ Dept 클래스에서 복사 생성자 Dept(const Dept& dept); 가 작성
 <b>Explanation:</b>
 
 문제 (3)에서 int countPass(Dept& dept); 처럼 참조 연산자만 추가하여 참조에 의한 호출을 사용하면 복사 생성자를 제거하여도 실행 오류가 발생하지 않게 됩니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 6장 2번](/82)  (3) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 6장 1번](/81)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 11번](/79)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 10번](/78)  (3) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 9번](/77)  (3) | 2020.03.05 |

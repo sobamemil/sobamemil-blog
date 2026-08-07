@@ -1,14 +1,14 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 15 무선 LAN 연습 문제 정답"
+title: "Data Communications & Networking Ch.15 무선 LAN Exercises & Solutions"
 date: 2020-06-25T11:41:01+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "무선LAN", "블루투스", "연습문제", "정답", "풀이"]
 ---
 
-<b>Chapter 15 무선 LAN Practice Exercises풀이(답)</b>
+<b>Chapter 15 무선 LAN Practice ExercisesSolution(답)</b>
 
-1. 다음 유선과 무선 LAN의 설명 중 옳은 것은?
+1. 다음 유선과 무선 LAN의 Explanation 중 옳은 것은?
 
 -> a. 둘 다 TCP/IP 프로토콜 슈트의 하위 두 계층에서 동작한다. (물리층, 데이터링크층)
 
@@ -143,13 +143,3 @@ tags: ["IEEE", "네트워크", "네트워킹", "데이터링크층", "데이터�
 
 [저작자표시 비영리 변경금지
 (새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 17 연결 장치와 가상 LAN Practice ExercisesAnswers & Solutions](/161)  (1) | 2020.06.29 |
-| [Data Communications & Networking Chapter 16 기타 무선망 Practice ExercisesAnswers & Solutions](/160)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 14 다른 유선 네트워크들 Practice ExercisesAnswers & Solutions](/158)  (0) | 2020.06.25 |
-| [Data Communications & Networking Chapter 13 유선 LAN: 이더넷(Ethernet) Practice ExercisesAnswers & Solutions](/157)  (0) | 2020.06.21 |
-| [Data Communications & Networking Chapter 12 매체 접근 제어(MAC) Practice ExercisesAnswers & Solutions](/156)  (2) | 2020.06.21 |

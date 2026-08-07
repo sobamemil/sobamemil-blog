@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 4장 9번"
+title: "C++ Programming Ch.4 Exercise 9 Solution"
 date: 2020-03-04T16:48:36+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -39,17 +39,3 @@ compare() 함수는 매개변수로 들어온 str을 비교해서 같으면 0을
 이때 호출한 문자열이 매개변수로 들어온 문자열보다 사전순으로 빠르면 음수(-1)를 반환하고,
 
 호출한 문자열이 매개변수로 들어온 문자열보다 사전순으로 느리면 양수(1)을 반환합니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 4장 11번](/65)  (3) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 10번](/64)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 8번](/62)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 7번](/61)  (3) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 6번](/60)  (1) | 2020.03.04 |

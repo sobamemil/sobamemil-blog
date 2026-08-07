@@ -67,17 +67,3 @@ main() 함수는 Add, Sub, Mul, Div 클래스 타입의 객체 a, s, m, d를 생
 각각의 파일들을 한 프로젝트에 넣어놓고 구현부 cpp 파일과 main cpp 파일에서 헤더파일을 include 해주시면 됩니다.
 
 앞으로 프로그램을 작성할 때 지금처럼 헤더파일과 구현부 cpp파일, main cpp파일로 나누어 작성하는걸 추천합니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 3장 12번](/54)  (2) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 11번](/53)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 9번](/51)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 8번](/50)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 7번](/49)  (2) | 2020.03.03 |

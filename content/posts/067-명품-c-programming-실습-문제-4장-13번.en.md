@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 4장 13번"
+title: "C++ Programming Ch.4 Exercise 13 Solution"
 date: 2020-03-04T17:45:19+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -12,7 +12,7 @@ tags: ["C++", "CString", "programming", "tolower", "toupper", "명품", "실습�
 
 대문자는 모두 소문자로 변환하여 처리한다.
 
-Histogram 클래스를 활용하는 사례와 실행 결과는 다음과 같다.
+Histogram 클래스를 활용하는 사례와 Execution Result는 다음과 같다.
 
 |  |  |
 | --- | --- |
@@ -36,24 +36,10 @@ Histogram 클래스를 활용하는 사례와 실행 결과는 다음과 같다.
 
 아래 비슷한 문제를 참고하여 코드를 작성하면 조금 더 수월할 것 같습니다.
 
-[2020/02/28 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 2장 16번](https://sobamemil.tistory.com/42)
+[2020/02/28 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 2장 16번](https://sobamemil.tistory.com/42)
 
-[명품 C++ programming 실습 문제 2장 16번
+[명품 C++ programming Exercise Problem 2장 16번
 
 Problem: 영문 텍스트를 입력받아 알파벳 히스토그램을 그리는 프로그램을 작성하라. 대문자는 모두 소문자로 집계하며, 텍스트 입력의 끝은 ';' 문자로 한다. Objective & Hints: 문자열 읽기, C++ 프로그램 종합 응용..
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/42)
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 5장 1번](/69)  (4) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 4장 14번](/68)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 12번](/66)  (2) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 11번](/65)  (3) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 10번](/64)  (1) | 2020.03.04 |

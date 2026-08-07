@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 11장 4번"
+title: "C++ Programming Ch.11 Exercise 4 Solution"
 date: 2020-03-27T15:21:26+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -28,11 +28,11 @@ cin.get(), EOF, cin.ignore() 활용
 
 <b>Explanation:</b>
 
-cin.ignore() 함수에 대한 내용과 사용법은 실습 문제 11장 3번 문제를 참고하시면 됩니다.
+cin.ignore() 함수에 대한 내용과 사용법은 Exercise Problem 11장 3번 문제를 참고하시면 됩니다.
 
-[2020/03/27 - [명품 C++ programming] - 명품 C++ programming 실습 문제 11장 3번](https://sobamemil.tistory.com/134)
+[2020/03/27 - [명품 C++ programming] - 명품 C++ programming Exercise Problem 11장 3번](https://sobamemil.tistory.com/134)
 
-[명품 C++ programming 실습 문제 11장 3번
+[명품 C++ programming Exercise Problem 11장 3번
 
 Problem: 한 줄에 '영어문장;한글문자' 형식으로 키 입력될 때, cin.ignore()를 이용하여 ';' 이후에 입력된 문자열을 화면에 출력하는 프로그램을 작성하라. 아래에서 ^Z(ctrl-z) 키는 입력 종료는 나타내는 키이며..
 
@@ -41,13 +41,3 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/134)
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 11장 6번](/137)  (1) | 2020.03.27 |
-| [명품 C++ programming 실습 문제 11장 5번](/136)  (3) | 2020.03.27 |
-| [명품 C++ programming 실습 문제 11장 3번](/134)  (3) | 2020.03.27 |
-| [명품 C++ programming 실습 문제 11장 2번](/133)  (1) | 2020.03.27 |
-| [명품 C++ programming 실습 문제 11장 1번](/132)  (1) | 2020.03.27 |

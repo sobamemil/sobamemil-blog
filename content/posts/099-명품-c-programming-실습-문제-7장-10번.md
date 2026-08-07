@@ -31,17 +31,3 @@ tags: ["C++", "programming", "Statistics", "명품", "실습문제", "연습문�
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51 | #include<iostream>  using namespace std;    class Statistics{  int \*a;  int cnt; //배열의 원소 개수  public:  Statistics() { a = new int[8]; cnt=0; }    bool operator! (){  if( this->a && this->cnt==0) return true;  return false;  }    Statistics& operator<< (int num){  this->a[cnt] = num;  cnt ++;  return \*this;  }  void operator~ (){  for(int i=0; i<cnt; i++)  cout << this->a[i] << ' ';  cout << endl;  }  void operator>> (int& avg){  avg = 0;  for(int i=0; i<cnt; i++)  avg += a[i];  avg /= cnt;  }  ~Statistics(){  delete [] a;  }  };    int main() {  Statistics stat;  if(!stat) cout << "현재 통계 데이타가 없습니다." << endl;    int x[5];  cout << "5 개의 정수를 입력하라>>";  for(int i=0; i<5; i++) cin >> x[i]; // x[i]에 정수 입력    for(int i=0; i<5; i++) stat << x[i]; // x[i] 값을 통계 객체에 삽입한다.  stat << 100 << 200; // 100, 200을 통계 객체에 삽입한다.  ~stat; // 통계 데이터를 모두 출력한다.    int avg;  stat >> avg; // 통계 객체로부터 평균을 받는다.  cout << "avg=" << avg << endl;  // 평균을 출력한다.  } |
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 7장 12번](/101)  (3) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 11번](/100)  (2) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 9번](/98)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 8번](/97)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 7번](/96)  (3) | 2020.03.06 |

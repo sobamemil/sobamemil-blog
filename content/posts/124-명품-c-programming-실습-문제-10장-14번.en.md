@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 10장 14번"
+title: "C++ Programming Ch.10 Exercise 14 Solution"
 date: 2020-03-11T14:59:59+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -22,11 +22,11 @@ map 컨테이너에 삽입 및 조회 응용
 
 이름과 점수를 쌍으로 저장할 맵 컨테이너로 map<string, string>을 이용하면 됩니다.
 
-아래 링크에 있는 실습 문제 10장 13번을 참고하세요.
+아래 링크에 있는 Exercise Problem 10장 13번을 참고하세요.
 
-[2020/03/11 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 10장 13번](https://sobamemil.tistory.com/123)
+[2020/03/11 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 10장 13번](https://sobamemil.tistory.com/123)
 
-[명품 C++ programming 실습 문제 10장 13번
+[명품 C++ programming Exercise Problem 10장 13번
 
 Problem: map 컨테이너를 이용하여 (이름, 성적)을 저장하고 이름으로 성적을 조회하는 점수 관리 프로그램을 만들어라. 이름은 빈칸 없이 입력하는 것을 원칙으로 한다. Execution Result: Objective & Hints: map 컨테이너..
 
@@ -40,20 +40,6 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/123)
 
 <b>Explanation:</b>
 
-실습 문제 10장 13번 문제와 비슷한 문제입니다.
+Exercise Problem 10장 13번 문제와 비슷한 문제입니다.
 
 참고하여 작성하면 도움이 될 것 같습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 10장 16번](/126)  (1) | 2020.03.11 |
-| [명품 C++ programming 실습 문제 10장 15번](/125)  (3) | 2020.03.11 |
-| [명품 C++ programming 실습 문제 10장 13번](/123)  (1) | 2020.03.11 |
-| [명품 C++ programming 실습 문제 10장 12번](/122)  (3) | 2020.03.10 |
-| [명품 C++ programming 실습 문제 10장 11번](/121)  (2) | 2020.03.10 |

@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 3장 7번"
+title: "C++ Programming Ch.3 Exercise 7 Solution"
 date: 2020-03-03T16:44:34+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -10,9 +10,9 @@ tags: ["C++", "programming", "Random", "랜덤정수", "명품", "실습문제",
 
 문제 5번을 참고하여 생성자를 이용하여 짝수 홀수를 선택할 수 있도록 SelectableRandom 클래스를 작성하고 짝수 10개, 홀수 10개를 랜덤하게 발생시키는 프로그램을 작성하라.
 
-[2020/03/03 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 3장 5번](https://sobamemil.tistory.com/47)
+[2020/03/03 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 3장 5번](https://sobamemil.tistory.com/47)
 
-[명품 C++ programming 실습 문제 3장 5번
+[명품 C++ programming Exercise Problem 3장 5번
 
 Problem: 랜덤 수를 발생시키는 Random 클래스를 만들자. Random 클래스를 이용하여 랜덤 한 정수를 10개 출력하는 사례는 다음과 같다. Random 클래스가 생성자, next(), nextInRange()의 3개의 멤버 함수를 가지도..
 
@@ -39,17 +39,3 @@ SelectableRandom 클래스에서 생성자를 이용하여 짝수 홀수를 선�
 생성자 호출 시 전달해준 매개변수가 짝수이면 짝수 출력, 홀수이면 홀수를 출력하게 작성 하였습니다.
 
 이를 이용해 매개변수를 사용자에게 직접 입력받아 생성자 호출 시 인자로 넘겨주어 사용자가 직접 짝수, 홀수를 선택할 수 있게 작성할 수도 있습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 3장 9번](/51)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 8번](/50)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 6번](/48)  (2) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 5번](/47)  (4) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 4번](/46)  (8) | 2020.03.03 |

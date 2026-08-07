@@ -39,17 +39,3 @@ Person 클래스의 객체를 생성하는 main() 함수는 다음과 같다.
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25 | #include<iostream>  #include<string>  using namespace std;    class Person {  int id;  double weight;  string name;  public:  Person(int id = 1, string name = "Grace", double weight = 20.5);  void show() { cout << id << ' ' << weight << ' ' << name << endl; }  };    Person::Person(int id, string name, double weight){  this->id = id;  this->weight = weight;  this->name = name;  }    int main() {  Person grace, ashley(2, "Ashley"), helen(3, "Helen", 32.5);  grace.show();  ashley.show();  helen.show();  } |
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 6장 4번](/84)  (2) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 3번](/83)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 6장 1번](/81)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 12번](/80)  (2) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 11번](/79)  (1) | 2020.03.05 |

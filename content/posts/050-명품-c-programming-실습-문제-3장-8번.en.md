@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 3장 8번"
+title: "C++ Programming Ch.3 Exercise 8 Solution"
 date: 2020-03-03T16:54:21+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -22,11 +22,11 @@ Integer 클래스를 활용하는 코드는 다음과 같다.
 
 문제 2의 힌트와 동일하게 <string> 헤더 파일의 stoi() 함수를 이용하면 편합니다.
 
-[2020/03/02 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 3장 2번](https://sobamemil.tistory.com/44)
+[2020/03/02 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 3장 2번](https://sobamemil.tistory.com/44)
 
-[명품 C++ programming 실습 문제 3장 2번
+[명품 C++ programming Exercise Problem 3장 2번
 
-Problem: 날짜를 다루는 Date 클래스를 작성하고자 한다. Date를 이용하는 main()과 실행 결과는 다음과 같다. 클래스 Date를 작성하여 아래 프로그램에 추가하라. 1 2 3 4 5 6 7 8 9 #include using nam..
+Problem: 날짜를 다루는 Date 클래스를 작성하고자 한다. Date를 이용하는 main()과 Execution Result는 다음과 같다. 클래스 Date를 작성하여 아래 프로그램에 추가하라. 1 2 3 4 5 6 7 8 9 #include using nam..
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/44)
 
@@ -45,17 +45,3 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/44)
 클래스의 모든 멤버 함수를 자동 인라인으로 작성하는 문제입니다.
 
 간단한 함수의 구현부는 클래스 안에서 구현하면 자동으로 판단하여 인라인 함수로 실행할 수도 있습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 3장 10번](/52)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 9번](/51)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 7번](/49)  (2) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 6번](/48)  (2) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 5번](/47)  (4) | 2020.03.03 |

@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 2장 12번"
+title: "C++ Programming Ch.2 Exercise 12 Solution"
 date: 2020-02-28T18:15:45+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -8,15 +8,15 @@ tags: ["C++", "programming", "매개변수", "명품", "실습문제", "연습�
 
 <b>Problem:</b>
 
-다음 C 프로그램을 C++ 프로그램으로 수정하여 실행하라. 이 프로그램의 실행 결과는 실습 문제 11과 같다.
+다음 C 프로그램을 C++ 프로그램으로 수정하여 실행하라. 이 프로그램의 Execution Result는 Exercise Problem 11과 같다.
 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 | #include <stdio.h>  int sum();    int main() {  int n=0;  printf("끝 수를 입력하세요>>");  scanf("%d", &n);  printf("1에서 %d까지의 합은 %d 입니다.\n", n, sum(1,n));  return 0;  }    int sum(int a, int b) {  int k, res=0;  for(k=a; k<=b; k++){  res += k;  }  return res;  } |
 
-<b>[2020/02/28 - [C++/명품 C++ programming] - 명품 C++ programming 실습 문제 2장 11번](https://sobamemil.tistory.com/37)</b>
+<b>[2020/02/28 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 2장 11번](https://sobamemil.tistory.com/37)</b>
 
-[명품 C++ programming 실습 문제 2장 11번
+[명품 C++ programming Exercise Problem 2장 11번
 
 Problem: 다음 C 프로그램을 C++ 프로그램으로 수정하여 실행하라. 1 2 3 4 5 6 7 8 9 10 11 12 #include int main() { int k, n=0; int sum=0; printf("끝 수를 입력하세요>>"); scanf("%d", &n); for(k=..
 
@@ -24,7 +24,7 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/37)
 
 <b>Objective & Hints:</b>
 
-C++ 프로그래밍에 대한 전반적인 이해
+C++ Programming에 대한 전반적인 이해
 
 <b>Execution Result:</b>
 
@@ -39,17 +39,3 @@ C++ 프로그래밍에 대한 전반적인 이해
 <b>Explanation:</b>
 
 C++ 에서는 Function Overloading이 가능하기 때문에 함수의 원형 선언시에 매개 변수까지 모두 동일하게 선언하여야 합니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 2장 14번](/40)  (3) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 13번](/39)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 11번](/37)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 10번](/36)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 9번](/35)  (1) | 2020.02.28 |

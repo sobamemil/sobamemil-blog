@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 8장 5번"
+title: "C++ Programming Ch.8 Exercise 5 Solution"
 date: 2020-03-09T13:36:05+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -40,7 +40,7 @@ MyQueue를 활용하는 사례는 다음과 같다.
 
 큐(Queue)는 컴퓨터의 기본적인 자료 구조 중 한가지로, 먼저 집어 넣은 데이터가 먼저 나오는 FIFO(First In First Out)구조로 저장하는 형식을 말합니다.
 
-큐에대한 설명은 아래 위키피디아 링크에 있습니다.
+큐에대한 Explanation은 아래 위키피디아 링크에 있습니다.
 
 <https://ko.wikipedia.org/wiki/%ED%81%90_(%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0)>
 
@@ -49,17 +49,3 @@ MyQueue를 활용하는 사례는 다음과 같다.
 위키백과, 우리 모두의 백과사전.
 
 ko.wikipedia.org](https://ko.wikipedia.org/wiki/%ED%81%90_(%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0))
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 8장 7번](/108)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 6번](/107)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 4번](/105)  (3) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 3번](/104)  (9) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 2번](/103)  (4) | 2020.03.09 |

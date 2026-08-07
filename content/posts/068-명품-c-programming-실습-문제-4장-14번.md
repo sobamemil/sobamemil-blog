@@ -39,17 +39,3 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/59)
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81 | #include<iostream>  #include<string>  #include <cstdlib>  #include <ctime>  using namespace std;    class Player{  string name;  public:  void setName(string name);  string getName(){return name;};  };    class GamblingGame {  Player \*p = new Player[2];  public:  GamblingGame();  void nameSet();  string ranNum(string n);  void startGame();  ~GamblingGame() { delete [] p;}  };    GamblingGame::GamblingGame(){  cout << "\*\*\*\*\* 갬블링 게임을 시작합니다. \*\*\*\*\*\n";  srand(time(NULL));  }    void GamblingGame::nameSet() {  string name;  cout << "첫번째 선수 이름>>";  cin >> name;  p[0].setName(name);  cout << "두번째 선수 이름>>";  cin >> name;  p[1].setName(name);  }    string GamblingGame::ranNum(string n){  int r[3];  cout << "\t\t";  for (int i = 0;i < 3;i++) {  r[i] = rand() % 3;  cout << r[i]<< "\t";  }  if(r[0]==r[1] && r[0]==r[2]) {  n +="님 승리!!";  return n;  }  else  return "아쉽군요!";  }    void GamblingGame::startGame(){  string n;  int i=0;  while(true){  string m;  cout << p[i % 2].getName() << ":\n";  getline(cin,n);  m = p[i % 2].getName();  n = ranNum(n);  if(n=="님 승리!!") {  cout << m + n;  break;  }  else  cout << n << endl;  i++;  }  }    void Player::setName(string n){  name = n;  }    int main(){  GamblingGame game;  game.nameSet();  game.startGame();  } |
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 5장 2번](/70)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 1번](/69)  (4) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 4장 13번](/67)  (3) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 12번](/66)  (2) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 11번](/65)  (3) | 2020.03.04 |

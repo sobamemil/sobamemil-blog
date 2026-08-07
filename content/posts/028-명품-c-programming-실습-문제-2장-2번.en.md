@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 2장 2번"
+title: "C++ Programming Ch.2 Exercise 2 Solution"
 date: 2020-02-28T16:19:50+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -31,17 +31,3 @@ cout 활용, 화면 출력
 구구단을 전부 출력하는데 9단 출력 후 줄바꿈을 해주면 되는 문제입니다.
 
 이중 for문을 사용하여 출력하였습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 2장 4번](/30)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습문제 2장 3번](/29)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 1번](/27)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 9장 10번](/17)  (1) | 2019.11.26 |
-| [명품 C++ programming 실습 문제 9장 9번](/18)  (1) | 2019.11.26 |

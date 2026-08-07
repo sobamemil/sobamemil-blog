@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 3장 1번"
+title: "C++ Programming Ch.3 Exercise 1 Solution"
 date: 2020-03-02T17:24:18+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -8,7 +8,7 @@ tags: ["C++", "class", "constructor", "programming", "매개변수", "명품", "
 
 <b>Problem:</b>
 
-아래 main()의 실행 결과가 다음과 같도록 Tower 클래스를 작성하라.
+아래 main()의 Execution Result가 다음과 같도록 Tower 클래스를 작성하라.
 
 ![](https://img.sobamemil.com/posts/43/img_1.png)
 
@@ -33,17 +33,3 @@ tags: ["C++", "class", "constructor", "programming", "매개변수", "명품", "
 <b>Explanation:</b>
 
 C++에서는 생성자 중복(Constructor Overloading)이 가능한데, 이를 이용하여 매개 변수의 개수가 다른 생성자를 만드는 문제입니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 3장 3번](/45)  (3) | 2020.03.02 |
-| [명품 C++ programming 실습 문제 3장 2번](/44)  (2) | 2020.03.02 |
-| [명품 C++ programming 실습 문제 2장 16번](/42)  (3) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 15번](/41)  (3) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 14번](/40)  (3) | 2020.02.28 |

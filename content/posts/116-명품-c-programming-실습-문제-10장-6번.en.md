@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 10장 6번"
+title: "C++ Programming Ch.10 Exercise 6 Solution"
 date: 2020-03-09T16:07:40+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -10,7 +10,7 @@ tags: ["C++", "for", "programming", "remove", "명품", "반복문", "실습문�
 
 다음 함수는 매개 변수로 주어진 int 배열 src에서 배열 minus에 들어있는 같은 정수를 모두 삭제한 새로운 int 배열을 동적으로 할당받아 리턴한다.
 
-retSize는 remove() 함수의 실행 결과를 리턴하는 배열의 크기를 전달받는다.
+retSize는 remove() 함수의 Execution Result를 리턴하는 배열의 크기를 전달받는다.
 
 |  |  |
 | --- | --- |
@@ -35,17 +35,3 @@ retSize는 remove() 함수의 실행 결과를 리턴하는 배열의 크기를 
 <b>Explanation:</b>
 
 src[]의 값과 minus[]의 값을 2중 for문을 이용하여 비교 및 삭제 하였습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 10장 8번](/118)  (4) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 7번](/117)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 5번](/115)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 4번](/114)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 3번](/113)  (1) | 2020.03.09 |

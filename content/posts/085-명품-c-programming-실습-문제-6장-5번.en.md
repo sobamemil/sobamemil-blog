@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 6장 5번"
+title: "C++ Programming Ch.6 Exercise 5 Solution"
 date: 2020-03-06T14:52:41+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -39,17 +39,3 @@ static 멤버 함수 만들기
 static 멤버 함수를 만들어서 사용하는 문제입니다.
 
 static 멤버 함수는 클래스의 객체가 생성되지 않아도 범위 지정 연산자(Scope Operator) :: 를 사용해서 접근할 수 있습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 6장 7번](/87)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 6번](/86)  (2) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 4번](/84)  (2) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 3번](/83)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 6장 2번](/82)  (3) | 2020.03.05 |

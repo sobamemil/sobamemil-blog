@@ -60,17 +60,3 @@ Dept 클래스에서 복사 생성자 Dept(const Dept& dept); 가 작성
 <b>설명 :</b>
 
 문제 (3)에서 int countPass(Dept& dept); 처럼 참조 연산자만 추가하여 참조에 의한 호출을 사용하면 복사 생성자를 제거하여도 실행 오류가 발생하지 않게 됩니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 6장 2번](/82)  (3) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 6장 1번](/81)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 11번](/79)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 10번](/78)  (3) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 9번](/77)  (3) | 2020.03.05 |

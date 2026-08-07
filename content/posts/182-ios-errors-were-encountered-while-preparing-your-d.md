@@ -21,10 +21,3 @@ tags: ["IOS", "Mac", "Xcode", "개발", "맥북", "아이맥", "아이폰", "어
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [iOS & 기타](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/iOS%20%26%20%EA%B8%B0%ED%83%80)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [[수어 통역 Application] 동작 시연 영상](/185)  (1) | 2021.06.28 |
-| [[iOS] Postman 설명 및 다운로드 방법](/184)  (0) | 2021.05.17 |

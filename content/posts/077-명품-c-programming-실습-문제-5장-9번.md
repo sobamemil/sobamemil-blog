@@ -39,17 +39,3 @@ Accumulator는 다음과 같이 main() 함수에 의해 활용된다.
 <b>설명 :</b>
 
 Accumulator 클래스의 add() 멤버 함수에서 자신의 참조를 리턴해 acc.add(5).add(6).add(7); 에서 처럼 연속으로 함수를 호출해도 프로그래머의 목적대로 실행될 수 있도록 하였습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 5장 11번](/79)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 10번](/78)  (3) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 8번](/76)  (9) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 7번](/75)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 6번](/74)  (1) | 2020.03.05 |

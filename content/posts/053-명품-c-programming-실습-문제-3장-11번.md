@@ -41,17 +41,3 @@ tags: ["C++", "CPP", "Main", "programming", "구현부", "명품", "선언부", 
 |  |  |
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13 | #include<iostream>  using namespace std;    #include "Box.h"    int main() {  Box b(10, 2);  b.draw();  cout << endl;  b.setSize(7, 4);  b.setFill('^');  b.draw();  } |
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 4장 1번](/55)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 3장 12번](/54)  (2) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 10번](/52)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 9번](/51)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 8번](/50)  (1) | 2020.03.03 |

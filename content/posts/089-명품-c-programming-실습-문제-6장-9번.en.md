@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 6장 9번"
+title: "C++ Programming Ch.6 Exercise 9 Solution"
 date: 2020-03-06T16:36:17+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -10,7 +10,7 @@ tags: ["Board", "C++", "programming", "static", "게시판프로그램", "명품
 
 게시판 프로그램을 작성해보자. 멀티태스킹의 경우 여러 사용자들이 게시판에 글을 올리기 때문에 게시판 객체는 전체 하나만 있어야 한다. 그러므로 게시판 객체의 멤버들은 static으로 작성한다.
 
-다음은 게시판 기능을 하는 Board 클래스를 활용하는 main() 코드이다. 실행 결과를 참고하여 Board 클래스를 만들고 전체 프로그램을 완성하라.
+다음은 게시판 기능을 하는 Board 클래스를 활용하는 main() 코드이다. Execution Result를 참고하여 Board 클래스를 만들고 전체 프로그램을 완성하라.
 
 static 연습이 목적이기 때문에 게시판 기능을 글을 올리는 기능과 게시글을 모두 출력하는 기능으로 제한하고 main()도 단순화하였다.
 
@@ -47,17 +47,3 @@ class의 객체가 생성되지 않아도 프로그램이 시작되면 static �
 클래스 내부의 static 멤버라고 할 지라도 static 멤버는 객체 내부가 아닌 별도의 공간에 생성됩니다.
 
 또한 static 멤버 함수는 오직 static 멤버들만 접근이 가능하고 static 멤버 함수에서 non-static 멤버에 접근하는 것은 허용되지 않습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 7장 2번](/91)  (3) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 1번](/90)  (3) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 8번](/88)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 7번](/87)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 6번](/86)  (2) | 2020.03.06 |

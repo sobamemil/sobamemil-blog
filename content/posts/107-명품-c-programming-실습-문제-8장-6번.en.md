@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 8장 6번"
+title: "C++ Programming Ch.8 Exercise 6 Solution"
 date: 2020-03-09T13:43:11+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -14,7 +14,7 @@ tags: ["C++", "LIFO", "programming", "Push", "stack", "스택", "실습문제", 
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12 | class BaseArray {  int capacity; // 배열의 크기  int \*mem; // 정수 배열을 만들기 위한 메모리의 포인터  protected: // 생성자가 protected  BaseArray(int capacity=100){  this->capacity = capacity; mem = new int [capacity];  }  ~BaseArray() { delete [] mem; }  void put(int index, int val) { mem[index] = val; }  int get(int index) { return mem[index]; }  int getCapacity() { return capacity; }  }; |
 
-BaseArray 클래스를 상속받아 스택으로 작동하는 MyStack 클래스를 작성하라.
+Write a 스택으로 작동하는 MyStack class that inherits from the BaseArray class.
 
 |  |  |
 | --- | --- |
@@ -53,17 +53,3 @@ BaseArray 클래스를 상속받아 스택으로 작동하는 MyStack 클래스�
 위키백과, 우리 모두의 백과사전. 스택(stack)은 제한적으로 접근할 수 있는 나열 구조이다. 그 접근 방법은 언제나 목록의 끝에서만 일어난다. 끝먼저내기 목록(Pushdown list)이라고도 한다. 스택은 한 쪽 끝에서만 자료를 넣거나 뺄 수 있는 선형 구조(LIFO - Last In First Out)으로 되어 있다. 자료를 넣는 것을 '밀어넣는다' 하여 푸쉬(push)라고 하고 반대로 넣어둔 자료를 꺼내는 것을 팝(pop)이라고 하는데, 이때 꺼
 
 ko.wikipedia.org](https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%9D)
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 8장 8번](/109)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 7번](/108)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 5번](/106)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 4번](/105)  (3) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 8장 3번](/104)  (9) | 2020.03.09 |

@@ -8,7 +8,7 @@ tags: ["Cortex-M3", "embedded", "GPIO", "MCU", "register", "STM32", "마이크�
 
 이 글에서는 Cortex-M3 STM32F103(STM32F103R8T6)(이하 cortex-m3)의 입출력 포트를 제어하기 위해 필요한 레지스터들의 종류에 대해 알아보겠습니다.
 
-cortex-m3 마이크로컨트롤러는 데이터 출력용 레지스터(GPIOx\_ODR, GPIOx\_BSRR, GPIOx\_BRR)와 데이터 입출력 방향 제어 레지스터(GPIOx\_CRL, GPIOx\_CRH)와 데이터 입력 레지스터(GPIOx\_IDR), 그리고 입출력 값을 고정하는 용도의 레지스터(GPIOx\_LCKR)를 가지고 있고 이들에 대해 간단하게 설명하도록 하겠습니다.
+cortex-m3 마이크로컨트롤러는 데이터 출력용 레지스터(GPIOx\_ODR, GPIOx\_BSRR, GPIOx\_BRR)와 데이터 입출력 방향 제어 레지스터(GPIOx\_CRL, GPIOx\_CRH)와 데이터 입력 레지스터(GPIOx\_IDR), 그리고 입출력 값을 고정하는 용도의 레지스터(GPIOx\_LCKR)를 가지고 있고 이들에 대해 간단하게 Explanation하도록 하겠습니다.
 
 참고로 GPIOx\_... 에서 x는 A~D 사이의 알파벳입니다.
 
@@ -201,13 +201,3 @@ GPIOx\_LCKR
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [시스템 & 임베디드](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%26%20%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [ESP32-CAM 오류 : [E][camera.c:1049] camera\_probe(): Detected camera not supported. [E][camera.c:1249] esp\_camera\_init(): Camera probe failed with error 0x20004](/183)  (0) | 2021.05.09 |
-| [Systems Programming 프로젝트 #7 최종 (Assembler in C)](/130)  (2) | 2020.03.19 |
-| [Systems Programming 프로젝트 #1](/22)  (1) | 2020.01.12 |
-| [Systems Programming 프로젝트 #2](/21)  (1) | 2020.01.12 |
-| [Systems Programming 프로젝트 #3](/20)  (1) | 2020.01.12 |

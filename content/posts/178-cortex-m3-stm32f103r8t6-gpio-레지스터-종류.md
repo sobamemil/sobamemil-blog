@@ -201,13 +201,3 @@ GPIOx\_LCKR
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [시스템 & 임베디드](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%26%20%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [ESP32-CAM 오류 : [E][camera.c:1049] camera\_probe(): Detected camera not supported. [E][camera.c:1249] esp\_camera\_init(): Camera probe failed with error 0x20004](/183)  (0) | 2021.05.09 |
-| [시스템 프로그래밍 프로젝트 #7 최종 (Assembler in C)](/130)  (2) | 2020.03.19 |
-| [시스템 프로그래밍 프로젝트 #1](/22)  (1) | 2020.01.12 |
-| [시스템 프로그래밍 프로젝트 #2](/21)  (1) | 2020.01.12 |
-| [시스템 프로그래밍 프로젝트 #3](/20)  (1) | 2020.01.12 |

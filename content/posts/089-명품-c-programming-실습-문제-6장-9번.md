@@ -47,17 +47,3 @@ class의 객체가 생성되지 않아도 프로그램이 시작되면 static �
 클래스 내부의 static 멤버라고 할 지라도 static 멤버는 객체 내부가 아닌 별도의 공간에 생성됩니다.
 
 또한 static 멤버 함수는 오직 static 멤버들만 접근이 가능하고 static 멤버 함수에서 non-static 멤버에 접근하는 것은 허용되지 않습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 7장 2번](/91)  (3) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 1번](/90)  (3) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 8번](/88)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 7번](/87)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 6번](/86)  (2) | 2020.03.06 |

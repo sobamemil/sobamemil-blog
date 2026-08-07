@@ -1,12 +1,12 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 22 차세대 IP 연습 문제 정답"
+title: "Data Communications & Networking Ch.22 차세대 IP Exercises & Solutions"
 date: 2020-06-29T14:36:28+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["IPv6", "네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "차세대IP", "풀이"]
 ---
 
-<b>Chapter 22 차세대 IP Practice Exercises풀이(답)</b>
+<b>Chapter 22 차세대 IP Practice ExercisesSolution(답)</b>
 
 1. IPv6 주소는 \_\_\_\_\_\_\_ 비트 길이다.
 
@@ -32,11 +32,11 @@ tags: ["IPv6", "네트워크", "네트워크층", "네트워킹", "데이터통�
 
 -> a. 흐름 레이블
 
-7. 두 IPv6를 사용하는 컴퓨터가 통신을 할 때 패킷이 IPv4 지역을 반드시 통과해야 한다면 어떤 번역 기법을 사용할 수 있는지 설명하시오.
+7. 두 IPv6를 사용하는 컴퓨터가 통신을 할 때 패킷이 IPv4 지역을 반드시 통과해야 한다면 어떤 번역 기법을 사용할 수 있는지 Explanation하시오.
 
 -> a. 터널링
 
-8. 대부분의 인터넷이 IPv6로 이동하고 일부가 IPv4를 사용할 때 어떤 번역 기법을 사용할 수 있는지 설명하시오.
+8. 대부분의 인터넷이 IPv6로 이동하고 일부가 IPv4를 사용할 때 어떤 번역 기법을 사용할 수 있는지 Explanation하시오.
 
 -> b. 헤더 변환
 
@@ -79,13 +79,3 @@ tags: ["IPv6", "네트워크", "네트워크층", "네트워킹", "데이터통�
 
 [저작자표시 비영리 변경금지
 (새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 24 전송층 프로토콜 Practice ExercisesAnswers & Solutions](/168)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 23 전송층의 개요 Practice ExercisesAnswers & Solutions](/167)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 21 멀티캐스트 라우팅 Practice ExercisesAnswers & Solutions](/165)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 20 유니캐스트 라우팅 Practice ExercisesAnswers & Solutions](/164)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 19 네트워크층 프로토콜 Practice ExercisesAnswers & Solutions](/163)  (6) | 2020.06.29 |

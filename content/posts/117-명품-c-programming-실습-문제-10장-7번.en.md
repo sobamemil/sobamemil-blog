@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 10장 7번"
+title: "C++ Programming Ch.10 Exercise 7 Solution"
 date: 2020-03-09T16:21:24+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -35,17 +35,3 @@ tags: ["C++", "programming", "구체화", "명품", "실습문제", "연습문�
 Circle과 같은 클래스는 > 연산자가 구현되어 있지 않기 때문에 구체화에 실패하기 때문입니다.
 
 따라서 Circle 타입의 중복 함수를 작성하여 주면 bigger(waffle, pizza); 호출 시 템플릿 함수보다 중복 함수가 우선이기 때문에 템플릿 함수가 아닌 Circle 객체를 리턴하는 중복 함수가 호출됩니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 10장 9번](/119)  (1) | 2020.03.10 |
-| [명품 C++ programming 실습 문제 10장 8번](/118)  (4) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 6번](/116)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 5번](/115)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 4번](/114)  (1) | 2020.03.09 |

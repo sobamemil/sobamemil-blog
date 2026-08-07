@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 10장 9번"
+title: "C++ Programming Ch.10 Exercise 9 Solution"
 date: 2020-03-10T17:50:23+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -31,17 +31,3 @@ vector 컨테이너 활용 연습
 <b>Explanation:</b>
 
 vector 클래스의 size() 멤버 함수를 사용하면 원소의 개수를 알 수 있습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 10장 11번](/121)  (2) | 2020.03.10 |
-| [명품 C++ programming 실습 문제 10장 10번](/120)  (1) | 2020.03.10 |
-| [명품 C++ programming 실습 문제 10장 8번](/118)  (4) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 7번](/117)  (1) | 2020.03.09 |
-| [명품 C++ programming 실습 문제 10장 6번](/116)  (1) | 2020.03.09 |

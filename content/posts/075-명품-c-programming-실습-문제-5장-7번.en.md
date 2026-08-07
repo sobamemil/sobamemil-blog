@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 5장 7번"
+title: "C++ Programming Ch.5 Exercise 7 Solution"
 date: 2020-03-05T15:09:01+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -16,7 +16,7 @@ MyIntStack 스택에 저장할 수 있는 정수의 최대 개수는 10이다.
 | --- | --- |
 | 1  2  3  4  5  6  7  8 | class MyIntStack{  int p[10]; // 최대 10개의 정수 저장  int tos; // 스택의 꼭대기를 가리키는 인덱스  public:  MyIntStack();  bool push(int n); // 정수 n 푸시. 꽉 차 있으면 false, 아니면 true 리턴  bool pop(int &n); // 팝하여 n에 저장. 스택이 비어 있으면 false, 아니면 true 리턴  }; |
 
-MyIntStack 클래스를 활용하는 코드와 실행 결과는 다음과 같다.
+MyIntStack 클래스를 활용하는 코드와 Execution Result는 다음과 같다.
 
 |  |  |
 | --- | --- |
@@ -39,17 +39,3 @@ MyIntStack 클래스를 활용하는 코드와 실행 결과는 다음과 같다
 <b>Explanation:</b>
 
 참조에 의한 호출을 잘 사용하면 메모리 낭비를 줄이고 코드가 단순해져 효율적은 코드를 작성할 수 있습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 5장 9번](/77)  (3) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 8번](/76)  (9) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 6번](/74)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 5번](/73)  (1) | 2020.03.05 |
-| [명품 C++ programming 실습 문제 5장 4번](/72)  (1) | 2020.03.05 |

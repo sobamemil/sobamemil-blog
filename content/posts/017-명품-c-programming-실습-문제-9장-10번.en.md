@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 9장 10번"
+title: "C++ Programming Ch.9 Exercise 10 Solution"
 date: 2019-11-26T13:00:11+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -29,17 +29,3 @@ Shape과 이를 상속받은 Circle, Line,Rect 클래스는 [그림9-13]을 이�
 <b>Explanation:</b>
 
 전체적인 느낌을 참고만 하시면 될 것 같습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 2장 2번](/28)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 1번](/27)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 9장 9번](/18)  (1) | 2019.11.26 |
-| [명품 C++ programming 실습 문제 9장 8번](/14)  (1) | 2019.11.21 |
-| [명품 C++ programming 실습 문제 9장 7번](/13)  (1) | 2019.11.21 |

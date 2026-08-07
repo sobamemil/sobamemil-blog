@@ -1,12 +1,12 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 19 네트워크층 프로토콜 연습 문제 정답"
+title: "Data Communications & Networking Ch.19 네트워크층 프로토콜 Exercises & Solutions"
 date: 2020-06-29T13:40:12+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "풀이", "프로토콜"]
 ---
 
-<b>Chapter 19 네트워크층 프로토콜 Practice Exercises풀이(답)</b>
+<b>Chapter 19 네트워크층 프로토콜 Practice ExercisesSolution(답)</b>
 
 1. IP는 \_\_\_\_\_\_\_ 프로토콜이다.
 
@@ -44,7 +44,7 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "�
 
 -> c. 네트워크층 프로토콜
 
-10. 다음 중 ICMP 메시지의 설명 중 바른 것은?
+10. 다음 중 ICMP 메시지의 Explanation 중 바른 것은?
 
 -> d. Answers & Solutions없음 (a. ICMP 오류 메시지는 ICMP 오류 메시지를 위해 생성된다., b. ICMP 오류 메시지는 단편화된 데이터그램을 위해 생성된다., c. ICMP 오류 메시지는 멀티캐스트 데이터그램을 위해 생성된다.)
 
@@ -83,13 +83,3 @@ tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "�
 
 [저작자표시 비영리 변경금지
 (새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 21 멀티캐스트 라우팅 Practice ExercisesAnswers & Solutions](/165)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 20 유니캐스트 라우팅 Practice ExercisesAnswers & Solutions](/164)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 18 네트워크층의 소개 Practice ExercisesAnswers & Solutions](/162)  (13) | 2020.06.29 |
-| [Data Communications & Networking Chapter 17 연결 장치와 가상 LAN Practice ExercisesAnswers & Solutions](/161)  (1) | 2020.06.29 |
-| [Data Communications & Networking Chapter 16 기타 무선망 Practice ExercisesAnswers & Solutions](/160)  (0) | 2020.06.29 |

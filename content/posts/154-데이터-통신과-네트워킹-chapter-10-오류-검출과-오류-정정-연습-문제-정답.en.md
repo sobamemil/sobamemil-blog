@@ -1,14 +1,14 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 10 오류 검출과 오류 정정 연습 문제 정답"
+title: "Data Communications & Networking Ch.10 오류 검출과 오류 정정 Exercises & Solutions"
 date: 2020-06-21T20:33:20+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["5판", "네트워크", "네트워킹", "답", "데이터링크층", "연습문제", "오류검출", "오류정정", "정답", "풀이"]
 ---
 
-<b>Chapter 10 오류 검출과 오류 정정 Practice Exercises풀이(답)</b>
+<b>Chapter 10 오류 검출과 오류 정정 Practice ExercisesSolution(답)</b>
 
-1. 아래의 선택지 중에서 어떤 것이 단일 비트 오류에 대해 가장 잘 설명하였는가?
+1. 아래의 선택지 중에서 어떤 것이 단일 비트 오류에 대해 가장 잘 Explanation하였는가?
 
 -> d. 모든 선택지가 Answers & Solutions이다.
 
@@ -95,13 +95,3 @@ tags: ["5판", "네트워크", "네트워킹", "답", "데이터링크층", "연
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 12 매체 접근 제어(MAC) Practice ExercisesAnswers & Solutions](/156)  (2) | 2020.06.21 |
-| [Data Communications & Networking Chapter 11 데이터링크 제어(DLC) Practice ExercisesAnswers & Solutions](/155)  (0) | 2020.06.21 |
-| [Data Communications & Networking Chapter 9 데이터링크층 소개 Practice ExercisesAnswers & Solutions](/153)  (0) | 2020.06.21 |
-| [Data Communications & Networking Chapter 8 교환 Practice ExercisesAnswers & Solutions](/152)  (1) | 2020.06.21 |
-| [Data Communications & Networking Chapter 7 전송 매체 Practice ExercisesAnswers & Solutions](/151)  (0) | 2020.06.21 |

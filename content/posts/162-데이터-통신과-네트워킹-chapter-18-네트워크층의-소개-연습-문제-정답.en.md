@@ -1,12 +1,12 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 18 네트워크층의 소개 연습 문제 정답"
+title: "Data Communications & Networking Ch.18 네트워크층의 소개 Exercises & Solutions"
 date: 2020-06-29T13:23:30+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["CIDR", "NAT", "네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "풀이"]
 ---
 
-<b>Chapter 18 네트워크층의 소개 Practice Exercises풀이(답)</b>
+<b>Chapter 18 네트워크층의 소개 Practice ExercisesSolution(답)</b>
 
 1. 네트워크층에서 패킷화의 내용으로 올바른 것은?
 
@@ -119,13 +119,3 @@ tags: ["CIDR", "NAT", "네트워크", "네트워크층", "네트워킹", "데이
 
 [저작자표시 비영리 변경금지
 (새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 20 유니캐스트 라우팅 Practice ExercisesAnswers & Solutions](/164)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 19 네트워크층 프로토콜 Practice ExercisesAnswers & Solutions](/163)  (6) | 2020.06.29 |
-| [Data Communications & Networking Chapter 17 연결 장치와 가상 LAN Practice ExercisesAnswers & Solutions](/161)  (1) | 2020.06.29 |
-| [Data Communications & Networking Chapter 16 기타 무선망 Practice ExercisesAnswers & Solutions](/160)  (0) | 2020.06.29 |
-| [Data Communications & Networking Chapter 15 무선 LAN Practice ExercisesAnswers & Solutions](/159)  (1) | 2020.06.25 |

@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 4장 2번"
+title: "C++ Programming Ch.4 Exercise 2 Solution"
 date: 2020-03-04T15:17:39+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -35,17 +35,3 @@ delete를 하지 않을경우 자신도 모르는 사이에 메모리 누수(Mem
 또한 메모리를 delete 한다고 하여도 포인터는 살아있으므로 접근하지 않도록 주의해야 합니다.
 
 이때 해제된 메모리 영역을 여전히 가르키고 있는 포인터를 댕글링 포인터(Dangling Pointer)라고 합니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 4장 4번](/58)  (5) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 3번](/57)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 1번](/55)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 3장 12번](/54)  (2) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 11번](/53)  (1) | 2020.03.03 |

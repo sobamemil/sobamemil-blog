@@ -1,12 +1,12 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 29 대등-대-대등 패러다임 연습 문제 정답"
+title: "Data Communications & Networking Ch.29 대등-대-대등 패러다임 Exercises & Solutions"
 date: 2020-07-01T14:38:48+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "대등-대-대등", "데이터통신", "연습문제", "응용층", "정답", "패러다임", "풀이"]
 ---
 
-<b>Chapter 29 대등-대-대등 패러다임 Practice Exercises풀이(답)</b>
+<b>Chapter 29 대등-대-대등 패러다임 Practice ExercisesSolution(답)</b>
 
 1. 중앙집중형 P2P 네트워크에서 디렉터리 시스템은 \_\_\_\_\_\_\_ 패러다임을 사용하고, 파일의 저장과 다운로드는 \_\_\_\_\_\_\_ 패러다임을 사용하여 이루어진다.
 
@@ -75,13 +75,3 @@ tags: ["네트워크", "네트워킹", "대등-대-대등", "데이터통신", "
 
 [저작자표시 비영리 변경금지
 (새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 31 암호화와 네트워크 보안 Practice ExercisesAnswers & Solutions](/175)  (0) | 2020.07.01 |
-| [Data Communications & Networking Chapter 30 서비스 품질 Practice ExercisesAnswers & Solutions](/174)  (0) | 2020.07.01 |
-| [Data Communications & Networking Chapter 28 멀티미디어 Practice ExercisesAnswers & Solutions](/172)  (0) | 2020.07.01 |
-| [Data Communications & Networking Chapter 27 네트워크 관리 Practice ExercisesAnswers & Solutions](/171)  (0) | 2020.06.30 |
-| [Data Communications & Networking Chapter 26 표준 클라이언트-서버 프로토콜 Practice ExercisesAnswers & Solutions](/170)  (0) | 2020.06.30 |

@@ -1,12 +1,12 @@
 ---
-title: "데이터 통신과 네트워킹 Chapter 27 네트워크 관리 연습 문제 정답"
+title: "Data Communications & Networking Ch.27 네트워크 관리 Exercises & Solutions"
 date: 2020-06-30T15:18:16+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워크관리", "네트워킹", "데이터통신", "연습문제", "응용층", "정답", "풀이"]
 ---
 
-<b>Chapter 27 네트워크 관리 Practice Exercises풀이(답)</b>
+<b>Chapter 27 네트워크 관리 Practice ExercisesSolution(답)</b>
 
 1. 네트워크 관리는 한 기관에 의해 정의된 일련의 요구사항을 만족하기 위해 네트워크 구성요소들을 \_\_\_\_\_\_\_ 하는 것으로 정의할 수 있다.
 
@@ -155,13 +155,3 @@ tags: ["네트워크", "네트워크관리", "네트워킹", "데이터통신", 
 
 [저작자표시 비영리 변경금지
 (새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [네트워크 & 통신](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%26%20%ED%86%B5%EC%8B%A0)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [Data Communications & Networking Chapter 29 대등-대-대등 패러다임 Practice ExercisesAnswers & Solutions](/173)  (0) | 2020.07.01 |
-| [Data Communications & Networking Chapter 28 멀티미디어 Practice ExercisesAnswers & Solutions](/172)  (0) | 2020.07.01 |
-| [Data Communications & Networking Chapter 26 표준 클라이언트-서버 프로토콜 Practice ExercisesAnswers & Solutions](/170)  (0) | 2020.06.30 |
-| [Data Communications & Networking Chapter 25 응용층 소개 Practice ExercisesAnswers & Solutions](/169)  (0) | 2020.06.30 |
-| [Data Communications & Networking Chapter 24 전송층 프로토콜 Practice ExercisesAnswers & Solutions](/168)  (0) | 2020.06.29 |

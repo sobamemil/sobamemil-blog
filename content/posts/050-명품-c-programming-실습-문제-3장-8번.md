@@ -45,17 +45,3 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/44)
 클래스의 모든 멤버 함수를 자동 인라인으로 작성하는 문제입니다.
 
 간단한 함수의 구현부는 클래스 안에서 구현하면 자동으로 판단하여 인라인 함수로 실행할 수도 있습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 3장 10번](/52)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 9번](/51)  (1) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 7번](/49)  (2) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 6번](/48)  (2) | 2020.03.03 |
-| [명품 C++ programming 실습 문제 3장 5번](/47)  (4) | 2020.03.03 |

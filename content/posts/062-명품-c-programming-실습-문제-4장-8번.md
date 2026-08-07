@@ -37,17 +37,3 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/61)
 <b>설명 :</b>
 
 pArray++; 을 이용해서 다음 객체 포인터를 선택할 수 있습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 4장 10번](/64)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 9번](/63)  (2) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 7번](/61)  (3) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 6번](/60)  (1) | 2020.03.04 |
-| [명품 C++ programming 실습 문제 4장 5번](/59)  (3) | 2020.03.04 |

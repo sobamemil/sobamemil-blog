@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 7장 3번"
+title: "C++ Programming Ch.7 Exercise 3 Solution"
 date: 2020-03-06T17:13:07+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -41,17 +41,3 @@ tags: ["!연산자", "C++", "operator", "programming", "멤버함수", "명품",
 가격을 비교하여 0이면 true를 return하고 0이 아니면 false를 return하면 됩니다.
 
 가격은 음수가 아니라고 가정했습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 7장 5번](/94)  (1) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 4번](/93)  (3) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 2번](/91)  (3) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 7장 1번](/90)  (3) | 2020.03.06 |
-| [명품 C++ programming 실습 문제 6장 9번](/89)  (2) | 2020.03.06 |

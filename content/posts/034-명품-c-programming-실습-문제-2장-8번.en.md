@@ -1,5 +1,5 @@
 ---
-title: "명품 C++ programming 실습 문제 2장 8번"
+title: "C++ Programming Ch.2 Exercise 8 Solution"
 date: 2020-02-28T17:24:52+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -41,17 +41,3 @@ cin.getline() 을 이용하여 입력 받았는데 이때 ';'를 구분자로 �
 strlen() 함수를 이용하여 각각의 문자열의 길이를 구하였고, strcpy() 함수를 이용하여 문자열을 복사 하였습니다.
 
 strlen() 함수와 strcpy() 함수는 c++에서 cstring 헤더파일에 정의되어 있습니다.
-
-
-[저작자표시
-(새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)
-
-#### '[💻 개발 & CS](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS) > [C++ 프로그래밍](/category/%F0%9F%92%BB%20%EA%B0%9C%EB%B0%9C%20%26%20CS/C%2B%2B%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)' 카테고리의 다른 글
-
-|  |  |
-| --- | --- |
-| [명품 C++ programming 실습 문제 2장 10번](/36)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 9번](/35)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 7번](/33)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 6번](/32)  (1) | 2020.02.28 |
-| [명품 C++ programming 실습 문제 2장 5번](/31)  (1) | 2020.02.28 |
