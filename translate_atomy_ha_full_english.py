@@ -1,4 +1,10 @@
----
+import os
+import glob
+
+POSTS_DIR = "/Users/sobamemil/.gemini/antigravity/scratch/sobamemil-blog/content/posts"
+
+# Complete English Translation for Atomy Air Purifier Home Assistant Integration Guide
+ATOMY_HA_EN_CONTENT = """---
 title: "[Smart Home / DIY] How to Integrate Atomy Air Purifier into Home Assistant Locally (Tuya ESP8266 TLS Patch & Bypass)"
 date: 2026-08-06T16:55:41+09:00
 draft: false
@@ -74,9 +80,7 @@ idx = text.find("tls_parse_ctos_maxfragmentlen")
 brace = text.find("{", idx)
 
 # Inject early return 1; at function entry to bypass validation
-patched = text[:brace+1] + "
-    (void)s; (void)pkt; (void)context; return 1;
-" + text[brace+1:]
+patched = text[:brace+1] + "\n    (void)s; (void)pkt; (void)context; return 1;\n" + text[brace+1:]
 open(path, "w").write(patched)
 ```
 
@@ -159,3 +163,16 @@ mqtt:
 Even though the original app vendor went out of business and killed all smart cloud functionality, I successfully resurrected the hardware into a fully local Home Assistant device using APK reverse engineering, custom OpenSSL C-level patching, and 1-minute MQTT polling—all without needing hardware soldering or disassembly.
 
 If you have legacy IoT devices abandoned by shut-down cloud services, I highly recommend trying this software bypass approach!
+"""
+
+# Targets to overwrite with complete English translation
+target_files = [
+    os.path.join(POSTS_DIR, "195-ha-diy-애터미-공기청정기-home-assistant-로컬-연동-방법-tuya-esp8.en.md"),
+    os.path.join(POSTS_DIR, "atomy-air-purifier-ha.en.md")
+]
+
+for target_file in target_files:
+    with open(target_file, 'w', encoding='utf-8') as f:
+        f.write(ATOMY_HA_EN_CONTENT)
+    print(f"Overwritten {target_file} with 100% genuine English translation!")
+
