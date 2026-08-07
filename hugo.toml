@@ -31,9 +31,15 @@ enableRobotsTXT = true
   ShowToc = true
   TocOpen = false
 
-  # Enable standard blog post list home layout with pagination & search
+  # Re-enable sleek Profile Mode home landing card
   [params.profileMode]
-    enabled = false
+    enabled = true
+    title = "Sobamemil Tech Blog"
+    subtitle = "🏠 스마트홈 & DIY | 💻 개발 & CS | 📱 리뷰 & 일상"
+    buttons = [
+        { name = "📜 전체 포스팅 보기", url = "/posts/" },
+        { name = "💖 GitHub Sponsors", url = "https://github.com/sponsors/sobamemil" }
+    ]
 
   [params.fuseOpts]
     isCaseSensitive = false
@@ -46,27 +52,33 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
+    identifier = "home"
+    name = "🏠 홈"
+    url = "/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "📜 전체 포스팅"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
     identifier = "smarthome"
     name = "🏠 스마트홈 & DIY"
     url = "/categories/-스마트홈--diy/"
-    weight = 10
+    weight = 20
 
   [[menu.main]]
     identifier = "dev"
     name = "💻 개발 & CS"
     url = "/categories/-개발--cs/"
-    weight = 20
+    weight = 30
 
   [[menu.main]]
     identifier = "review"
     name = "📱 리뷰 & 일상"
     url = "/categories/-리뷰--일상/"
-    weight = 30
-
-  [[menu.main]]
-    identifier = "categories"
-    name = "📂 전체 카테고리"
-    url = "/categories/"
     weight = 40
 
   [[menu.main]]
