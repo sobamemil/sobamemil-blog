@@ -62,27 +62,27 @@ enableRobotsTXT = true
         weight = 5
 
       [[languages.ko.menu.main]]
-        identifier = "posts"
-        name = "📜 전체 포스팅"
-        url = "/posts/"
-        weight = 10
-
-      [[languages.ko.menu.main]]
         identifier = "smarthome"
         name = "🏠 스마트홈 & DIY"
         url = "/categories/-스마트홈--diy/"
-        weight = 20
+        weight = 10
 
       [[languages.ko.menu.main]]
         identifier = "dev"
         name = "💻 개발 & CS"
         url = "/categories/-개발--cs/"
-        weight = 30
+        weight = 20
 
       [[languages.ko.menu.main]]
         identifier = "review"
         name = "📱 리뷰 & 일상"
         url = "/categories/-리뷰--일상/"
+        weight = 30
+
+      [[languages.ko.menu.main]]
+        identifier = "categories"
+        name = "📂 전체 카테고리"
+        url = "/categories/"
         weight = 40
 
       [[languages.ko.menu.main]]
@@ -119,12 +119,6 @@ enableRobotsTXT = true
         name = "🏠 Home"
         url = "/en/"
         weight = 5
-
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "📜 All Posts"
-        url = "/en/posts/"
-        weight = 10
 
       [[languages.en.menu.main]]
         identifier = "search"
