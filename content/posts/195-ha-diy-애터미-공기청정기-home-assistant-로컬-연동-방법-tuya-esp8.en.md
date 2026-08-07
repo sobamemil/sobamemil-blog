@@ -1,10 +1,12 @@
 ---
-title: "폐업으로 버려진 애터미 공기청정기 Home Assistant 로컬 연동 성공기 (Tuya ESP8266 TLS 패치 및 우회)"
-date: 2026-08-06T12:00:00+09:00
+title: "[HA / DIY] 애터미 공기청정기 Home Assistant 로컬 연동 방법 (Tuya ESP8266 TLS 패치 및 우회)"
+date: 2026-08-06T16:55:41+09:00
 draft: false
-tags: ["Home Assistant", "IoT", "Tuya", "Reverse Engineering", "OpenSSL"]
 categories: ["🏠 Smart Home & DIY"]
+tags: ["ESP8266", "ha", "home assistant", "IOT", "openssl", "스마트홈", "애터미 공기청정기"]
 ---
+
+# 폐업으로 버려진 애터미 공기청정기 Home Assistant 로컬 연동 성공기 (Tuya ESP8266 TLS 패치 및 우회)
 
 부모님 댁에 보관되어 있던 애터미 공기청정기를 집으로 가져왔습니다. 필터 상태나 하드웨어 자체의 공기 청정 성능은 상당히 괜찮은 편이라 스마트홈에 붙여서 자동화로 활용해 보려고 했습니다.
 
@@ -29,7 +31,7 @@ categories: ["🏠 Smart Home & DIY"]
 소스코드를 분석해 보니 공기청정기 내부 칩셋은 **Tuya계열 ESP8266**을 사용하고 있었습니다.  
 기기의 Wi-Fi 버튼을 길게 눌러 SoftAP 모드(`Atomy_Air_Purifier`)로 전환하면, 기기 내부 HTTP 웹서버(`192.168.4.1:789`)가 열리며 다음과 같은 숨겨진 RESTful Provisioning API 3개가 작동한다는 것을 발견했습니다.
 
-```text
+```cpp
 1. MQTT Broker 주소 지정: http://192.168.4.1:789/setbroker?url=[HA_IP]&port=1885
 2. 집 Wi-Fi 정보 주입:    http://192.168.4.1:789/provision?ssid=[SSID]&passwd=[PW]
 3. Provisioning 완료 명령: http://192.168.4.1:789/endprovision
@@ -43,12 +45,13 @@ categories: ["🏠 Smart Home & DIY"]
 
 Broker 주소를 HA OS의 IP로 변경하고 기기를 접속시켜 보았는데, HA의 TLS 릴레이 포트에서 패킷을 받자마자 TLS Handshake가 즉시 실패하면서 접속이 튕겨 나갔습니다.
 
-```text
+```cpp
 SSL3 alert read:fatal:unexpected message (Alert number 10)
 SSL_accept(): error:0A00006E:SSL routines::bad extension
 ```
 
 #### 원인 분석
+
 1. **레거시 Ciphers 요구**: ESP8266 칩셋 특성상 구형 Cipher(`AES128-SHA256`)만 지원합니다.
 2. **TLS Extension 규격 미준수**: ESP8266의 펌웨어 TLS 라이브러리가 ClientHello를 송신할 때 `max_fragment_length` Extension 옵션을 TLS 표준 규격(1byte)이 아닌 2byte(`0x00 0x02`)로 송신하고 있었습니다.
 3. **OpenSSL 3.x의 엄격한 Validation**: 최신 Linux 및 HA OS에 탑재된 OpenSSL 3.x 라이브러리는 이를 비표준 비정상 패킷으로 판단하고 즉시 Reject(`bad extension`)을 던지며 세션을 닫아버리는 것이었습니다.
@@ -61,7 +64,7 @@ SSL_accept(): error:0A00006E:SSL routines::bad extension
 
 OpenSSL 3.6.3 소스코드의 `ssl/statem/extensions_srvr.c` 파일 내 `tls_parse_ctos_maxfragmentlen` 함수 진입부에 조기 정상 승인(`return 1;`)을 반환하도록 Python 패치 스크립트를 작성하여 적용했습니다.
 
-```python
+```cpp
 # patch.py - OpenSSL TLS Extension Validation Bypass
 path = "/build/openssl/ssl/statem/extensions_srvr.c"
 text = open(path).read()
@@ -73,6 +76,13 @@ brace = text.find("{", idx)
 patched = text[:brace+1] + "\n    (void)s; (void)pkt; (void)context; return 1;\n" + text[brace+1:]
 open(path, "w").write(patched)
 ```
+
+디버깅 과정에서 `openssl s_server`를 컨테이너 비대화형 환경에서 테스트할 때 Stdin EOF로 인해 프로세스가 수신 직후 즉시 닫히는 이슈가 있었으나, 파이프 보완 및 `socat` 정적 컴파일을 통해 안정적인 릴레이 바이너리를 생성했습니다.
+
+이 패치된 OpenSSL을 기반으로 Alpine Linux 환경에서 커스텀 Addon(`local_atomy_bridge`) Docker 이미지를 새로 빌드했습니다.
+
+최종 통신 아키텍처는 다음과 같습니다:  
+`[공기청정기] --(TLS 1.2 / Port 1885)--> [socat TLS Decryptor] --(Plaintext MQTT / Port 11883)--> [Local Mosquitto] --(Bridge)--> [HA Core]`
 
 ---
 
@@ -90,104 +100,45 @@ open(path, "w").write(patched)
 
 ### 최종 구성 코드 (`configuration.yaml` & `automations.yaml`)
 
-실제 기기 통신을 캡처해서 얻은 진짜 페이로드 구조를 앱 소스코드(`AppDataFrame.Key` 상수)와 대조해 맞춘, 실제로 동작을 검증한 설정입니다.
-
 #### 1. `configuration.yaml` (MQTT 엔티티 정의)
-*(주의: `A1B2C3D4E5F6` 자리에 본인 공기청정기의 MAC 주소를 입력하세요)*
 
-```yaml
+```cpp
 mqtt:
   fan:
     - name: "Atomy Air Purifier"
-      unique_id: atomy_air_purifier
+      unique_id: atomy_air_purifier_fan
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
       command_topic: "aircleaner/app/A1B2C3D4E5F6"
-      command_template: >-
-        {% if value == "ON" %}{"1":2,"2":2}
-        {% elif value == "OFF" %}{"1":2,"2":1}
-        {% endif %}
-      payload_on: "ON"
-      payload_off: "OFF"
-      state_value_template: >-
-        {% set power = value_json.get('2') or (value_json.get('19', {}).get('2')) %}
-        {% if power == 2 %}ON{% elif power == 1 %}OFF{% else %}OFF{% endif %}
-      preset_modes:
-        - "Auto"
-        - "Sleep"
-        - "Low"
-        - "Medium"
-        - "High"
-      preset_mode_state_topic: "aircleaner/device/A1B2C3D4E5F6"
-      preset_mode_value_template: >-
-        {% set mode = value_json.get('3') or (value_json.get('19', {}).get('3')) %}
-        {% if mode == 1 %}Auto
-        {% elif mode == 2 %}Sleep
-        {% elif mode == 3 %}Low
-        {% elif mode == 4 %}Medium
-        {% elif mode == 5 %}High
-        {% else %}Auto{% endif %}
-      preset_mode_command_topic: "aircleaner/app/A1B2C3D4E5F6"
-      preset_mode_command_template: >-
-        {% if value == "Auto" %}{"1":3,"3":1}
-        {% elif value == "Sleep" %}{"1":3,"3":2}
-        {% elif value == "Low" %}{"1":3,"3":3}
-        {% elif value == "Medium" %}{"1":3,"3":4}
-        {% elif value == "High" %}{"1":3,"3":5}
-        {% endif %}
+      value_template: "{{ 'POWER_ON' if value_json['2'] == 1 else 'POWER_OFF' }}"
+      payload_on: '{"1":2,"2":1}'
+      payload_off: '{"1":2,"2":2}'
 
   sensor:
-    - name: "Atomy PM2.5"
+    - name: "Atomy PM25"
       unique_id: atomy_pm25
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      value_template: "{{ value_json['3'] if value_json['3'] is defined else states('sensor.atomy_pm25') }}"
       unit_of_measurement: "µg/m³"
       device_class: pm25
-      value_template: "{{ value_json.get('10') if value_json.get('10') is not none else value_json.get('20', {}).get('10') }}"
 
     - name: "Atomy Temperature"
       unique_id: atomy_temperature
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      value_template: "{{ value_json['4'] if value_json['4'] is defined else states('sensor.atomy_temperature') }}"
       unit_of_measurement: "°C"
       device_class: temperature
-      value_template: "{{ value_json.get('13') if value_json.get('13') is not none else value_json.get('20', {}).get('13') }}"
 
     - name: "Atomy Humidity"
       unique_id: atomy_humidity
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      value_template: "{{ value_json['5'] if value_json['5'] is defined else states('sensor.atomy_humidity') }}"
       unit_of_measurement: "%"
       device_class: humidity
-      value_template: "{{ value_json.get('14') if value_json.get('14') is not none else value_json.get('20', {}).get('14') }}"
-
-    - name: "Atomy Air Quality"
-      unique_id: atomy_air_quality
-      state_topic: "aircleaner/device/A1B2C3D4E5F6"
-      value_template: >-
-        {% set q = value_json.get('27') if value_json.get('27') is not none else value_json.get('20', {}).get('27') %}
-        {% if q == 1 %}Good
-        {% elif q == 2 %}Moderate
-        {% elif q == 3 %}Unhealthy
-        {% elif q == 4 %}Hazardous
-        {% else %}Unknown{% endif %}
-
-  switch:
-    - name: "Atomy Child Lock"
-      unique_id: atomy_child_lock
-      command_topic: "aircleaner/app/A1B2C3D4E5F6"
-      state_topic: "aircleaner/device/A1B2C3D4E5F6"
-      payload_on: '{"1":7,"7":2}'
-      payload_off: '{"1":7,"7":1}'
-      state_on: "ON"
-      state_off: "OFF"
-      value_template: >-
-        {% set lock = value_json.get('7') or value_json.get('19', {}).get('7') %}
-        {% if lock == 2 %}ON{% else %}OFF{% endif %}
 ```
 
-> 값 필드가 `0`일 수 있는 센서(PM2.5 등)는 `or` 대신 `is not none` 체크를 써야 합니다. Jinja의 `or`는 `0`을 "값 없음"으로 취급해서 정상적인 0 수치를 놓치는 버그가 있습니다.
-
 #### 2. `automations.yaml` (1분 센서 폴링 자동화)
-기기는 센서값을 자발적으로 보내지 않고, `{"1":11}` (`SENSOR_STATE` 명령) 요청에만 응답합니다. 그래서 이 폴링 자동화가 없으면 센서 엔티티들은 계속 `unknown` 상태로 남습니다.
 
-```yaml
+```cpp
 - id: "atomy_air_purifier_poll_sensors"
   alias: "Atomy Air Purifier - Poll Sensor State"
   description: "Requests sensor readings from the Atomy air purifier every minute"
@@ -204,8 +155,40 @@ mqtt:
 
 ---
 
+### 최종 연동 성공 및 Entities 구성
+
+패치된 Addon이 정상 구동된 상태에서 SoftAP Provisioning을 다시 진행하자, 마침내 TLS Handshake가 완전하게 통과되었습니다.
+
+```cpp
+1786000700: New connection from 127.0.0.1:58980 on port 11883.
+2026/08/06 07:18:20 socat[9] N SSL connection using AES128-SHA256
+1786000700: New client connected from 127.0.0.1 as Client-XXXXXXXXXXXX (p2, c1, k60, u'atomy_bridge').
+2026/08/06 07:18:20 socat[9] N write(6, 0x7f1497d0e000, 81) completed
+2026/08/06 07:19:05 socat[9] N write(6, 0x7f1497d0e000, 2) completed (PINGREQ Keepalive)
+```
+
+로그를 보면 클라이언트명으로 Keepalive 60초(`k60`) 세션이 안정적으로 수립되었으며, 45초 간격으로 PINGREQ/PINGRESP 패킷을 주고받으며 끊김 없이 실시간 Payload 수신 및 제어가 가능해졌습니다.
+
+#### 구성 완료된 Home Assistant Entities (Clean English IDs)
+
+* **`fan.atomy_air_purifier`**: 전원(ON/OFF) 및 풍량 모드 (Auto / Sleep / Low / Medium / High)
+* **`sensor.atomy_pm25`**: PM2.5 미세먼지 측정값 (µg/m³)
+* **`sensor.atomy_temperature`**: 실내 온도 (°C)
+* **`sensor.atomy_humidity`**: 실내 습도 (%)
+* **`sensor.atomy_air_quality`**: 종합 공기질 상태
+* **`switch.atomy_child_lock`**: Child Lock 스위치
+
+---
+
 ### 마무리 소감
 
-앱 개발사의 폐업으로 스마트 기능이 완전히 죽어버렸던 기기였지만, 굳이 부속을 따로 사서 납땜하거나 분해하는 번거로움 없이 APK Reverse Engineering, OpenSSL 소스 패치, 그리고 1분 주기 수치 요청 자동화로 Home Assistant 로컬 기기로 완벽하게 부활시킬 수 있었습니다.
+앱 개발사의 폐업으로 스마트 기능이 완전히 죽어버렸던 기기였지만, 굳이 부속을 따로 사서 납땜하거나 분해하는 번거로움 없이 APK Reverse Engineering과 C 소스 수준의 OpenSSL 패치로 Home Assistant 로컬 기기로 완벽하게 부활시킬 수 있었습니다.
 
-비록 이틀 정도 시간 소요했지만 HA로 잘 동작하는 걸 보고 있으니 뿌듯하군요 하하.
+비록 이틀 정도 시간 소요했지만 HA로 잘 동작하는 걸 보고 있으니 뿌듯하군요 하하
+
+다른 분들도 혹시 앱 서비스가 종료되어 사용하지 못하고 계신 구형 IoT 기기가 있다면, 위와 같은 방식으로 접근해 보시는 것을 추천해 드립니다. HA 애드온 리포지터리 패키지도 만들어 두었으니 필요하신 분들은 활용해 보셔도 좋을 것 같습니다.
+
+**코딩은 내일부터 ;**
+
+[저작자표시 비영리
+(새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
