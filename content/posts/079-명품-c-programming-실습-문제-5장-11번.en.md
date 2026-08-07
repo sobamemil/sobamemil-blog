@@ -10,7 +10,7 @@ tags: ["C++", "char*", "programming", "string", "명품", "문자열", "실습�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9 | class Book {  char \*title; // 제목 문자열  int price; // 가격  public:  Book(const char\* title, int price);  ~Book();  void set(char\* title, int price);  void show() { cout << title << ' ' << price << "원" << endl; }  }; |
+| 1  2  3  4  5  6  7  8  9 | class Book {  char \*title; // 제목 문자열  int price; // 가격  public:  Book(const char\* title, int price);  ~Book();  void set(char\* title, int price);  void show() { cout << title << ' ' << price << "원" << endl; }  }; |
 
 (1) Book 클래스의 생성자, 소멸자, set() 함수를 작성하라. set() 함수는 멤버 변수 title에 할당된 메모리가 있으면 먼저 반환한다. 그러고 나서 새로운 메모리를 할당받고 이곳에 매개 변수로 전달받은 책이름을 저장한다.
 
@@ -20,7 +20,7 @@ tags: ["C++", "char*", "programming", "string", "명품", "문자열", "실습�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7 | int main() {  Book cpp("명품 C++", 10000);  Book java = cpp; // 복사 생성자 호출됨  java.set("명품자바", 12000);  cpp.show();  java.show();  } |
+| 1  2  3  4  5  6  7 | int main() {  Book cpp("명품 C++", 10000);  Book java = cpp; // 복사 생성자 호출됨  java.set("명품자바", 12000);  cpp.show();  java.show();  } |
 
 다음과 같이 실행 오류가 발생하지 않도록 깊은 복사 생성자를 작성하라.
 
@@ -42,25 +42,25 @@ tags: ["C++", "char*", "programming", "string", "명품", "문자열", "실습�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 | Book::Book(const char\* title, int price){  this->price = price;  int size = strlen(title) + 1;  this->title = new char[size];  strcpy(this->title, title);  }    Book::~Book() {  delete [] title;  }    void Book::set(const char\* title, int price) {  if(this->title)  delete [] this->title;  this->price = price;  int size = strlen(title) + 1;  this->title = new char[size];  strcpy(this->title, title);  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 | Book::Book(const char\* title, int price){  this->price = price;  int size = strlen(title) + 1;  this->title = new char[size];  strcpy(this->title, title);  }    Book::~Book() {  delete [] title;  }    void Book::set(const char\* title, int price) {  if(this->title)  delete [] this->title;  this->price = price;  int size = strlen(title) + 1;  this->title = new char[size];  strcpy(this->title, title);  } |
 
 ● 문제 (2)
 
 |  |  |
 | --- | --- |
-| 1  2  3  4 | Book::Book(const Book& b){  this->title = b.title;  this->price = b.price;  } |
+| 1  2  3  4 | Book::Book(const Book& b){  this->title = b.title;  this->price = b.price;  } |
 
 ● 문제 (3)
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49 | #include<iostream>  #include<cstring>  using namespace std;    class Book {  char \*title; // 제목 문자열  int price; // 가격  public:  Book(const Book& b);  Book(const char\* title, int price);  ~Book();  void set(const char\* title, int price);  void show() { cout << title << ' ' << price << "원" << endl; }  };    Book::Book(const char\* title, int price){  this->price = price;  int size = strlen(title) + 1;  this->title = new char[size];  strcpy(this->title, title);  }    Book::Book(const Book& b){  this->price = b.price;  int size = strlen(b.title) + 1;  this->title = new char[size];  strcpy(this->title, b.title);  }    Book::~Book() {  delete [] title;  }    void Book::set(const char\* title, int price) {  if(this->title) delete [] this->title;  this->price = price;  int size = strlen(title) + 1;  this->title = new char[size];  strcpy(this->title, title);  }      int main() {  Book cpp("명품 C++", 10000);  Book java = cpp; // 복사 생성자 호출됨  java.set("명품자바", 12000);  cpp.show();  java.show();  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49 | #include<iostream>  #include<cstring>  using namespace std;    class Book {  char \*title; // 제목 문자열  int price; // 가격  public:  Book(const Book& b);  Book(const char\* title, int price);  ~Book();  void set(const char\* title, int price);  void show() { cout << title << ' ' << price << "원" << endl; }  };    Book::Book(const char\* title, int price){  this->price = price;  int size = strlen(title) + 1;  this->title = new char[size];  strcpy(this->title, title);  }    Book::Book(const Book& b){  this->price = b.price;  int size = strlen(b.title) + 1;  this->title = new char[size];  strcpy(this->title, b.title);  }    Book::~Book() {  delete [] title;  }    void Book::set(const char\* title, int price) {  if(this->title) delete [] this->title;  this->price = price;  int size = strlen(title) + 1;  this->title = new char[size];  strcpy(this->title, title);  }      int main() {  Book cpp("명품 C++", 10000);  Book java = cpp; // 복사 생성자 호출됨  java.set("명품자바", 12000);  cpp.show();  java.show();  } |
 
 ● 문제 (4)
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31 | #include<iostream>  #include<cstring>  #include<string>  using namespace std;    class Book {  string title;  int price;  public:  Book(string title, int price);  void set(string title, int price);  void show() {cout << title << ' ' << price << "원" << endl;}  };    Book::Book(string title, int price){  this->price = price;  this->title = title;  }    void Book::set(string title, int price) {  this->price = price;  this->title = title;  }    int main() {  Book cpp("명품 C++", 10000);  Book java = cpp;  java.set("명품자바", 12000);  cpp.show();  java.show();  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31 | #include<iostream>  #include<cstring>  #include<string>  using namespace std;    class Book {  string title;  int price;  public:  Book(string title, int price);  void set(string title, int price);  void show() {cout << title << ' ' << price << "원" << endl;}  };    Book::Book(string title, int price){  this->price = price;  this->title = title;  }    void Book::set(string title, int price) {  this->price = price;  this->title = title;  }    int main() {  Book cpp("명품 C++", 10000);  Book java = cpp;  java.set("명품자바", 12000);  cpp.show();  java.show();  } |
 
 <b>Explanation:</b>
 

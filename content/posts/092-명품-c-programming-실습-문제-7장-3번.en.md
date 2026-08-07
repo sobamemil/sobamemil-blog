@@ -10,13 +10,13 @@ tags: ["!연산자", "C++", "operator", "programming", "멤버함수", "명품",
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | class Book{  string title;  int price, pages;  public:  Book(string title="", int price=0, int pages=0){  this->title = title; this->price = price; this->pages = pages;  }  void show() {  cout << title << " " << price << "원 " << pages << " 페이지" << endl;  }  string getTitle() {  return title;  }  }; |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | class Book{  string title;  int price, pages;  public:  Book(string title="", int price=0, int pages=0){  this->title = title; this->price = price; this->pages = pages;  }  void show() {  cout << title << " " << price << "원 " << pages << " 페이지" << endl;  }  string getTitle() {  return title;  }  }; |
 
 다음 연산을 통해 공짜 책인지를 판별하도록 ! 연산자를 작성하라.
 
 |  |  |
 | --- | --- |
-| 1  2 | Book book("벼룩시장" , 0 , 50); // 가격은 0  if(!book) cout << "공짜다" << endl; |
+| 1  2 | Book book("벼룩시장" , 0 , 50); // 가격은 0  if(!book) cout << "공짜다" << endl; |
 
 <b>Execution Result:</b>
 
@@ -30,7 +30,7 @@ tags: ["!연산자", "C++", "operator", "programming", "멤버함수", "명품",
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29 | #include<iostream>  using namespace std;    class Book{  string title;  int price, pages;  public:  Book(string title="", int price=0, int pages=0){  this->title = title; this->price = price; this->pages = pages;  }  void show() {  cout << title << " " << price << "원 " << pages << " 페이지" << endl;  }  string getTitle() {  return title;  }  bool operator! ();  };    bool Book::operator!(){  if(price == 0)  return true;  return false;  }    int main() {  Book book("벼룩시장" , 0 , 50); // 가격은 0  if(!book) cout << "공짜다" << endl;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29 | #include<iostream>  using namespace std;    class Book{  string title;  int price, pages;  public:  Book(string title="", int price=0, int pages=0){  this->title = title; this->price = price; this->pages = pages;  }  void show() {  cout << title << " " << price << "원 " << pages << " 페이지" << endl;  }  string getTitle() {  return title;  }  bool operator! ();  };    bool Book::operator!(){  if(price == 0)  return true;  return false;  }    int main() {  Book book("벼룩시장" , 0 , 50); // 가격은 0  if(!book) cout << "공짜다" << endl;  } |
 
 <b>Explanation:</b>
 

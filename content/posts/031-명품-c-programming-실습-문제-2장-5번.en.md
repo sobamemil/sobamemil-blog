@@ -20,7 +20,7 @@ cin.getline() 함수를 이용해 한 줄의 문자열 읽기
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 | #include <iostream>  using namespace std;    int main() {  int i,x=0;  char a[100];    cout << "문자들을 입력하라(100개 미만).\n";    cin.getline(a,100); // 문자열 단위로 읽음    for(i=0; i<100; i++){  if(a[i]=='x') // a[i]가 'x'이면 카운트  x++;  }  cout << "x의 개수는 " << x;    return 0;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 | #include <iostream>  using namespace std;    int main() {  int i,x=0;  char a[100];    cout << "문자들을 입력하라(100개 미만).\n";    cin.getline(a,100); // 문자열 단위로 읽음    for(i=0; i<100; i++){  if(a[i]=='x') // a[i]가 'x'이면 카운트  x++;  }  cout << "x의 개수는 " << x;    return 0;  } |
 
 <b>Explanation:</b>
 

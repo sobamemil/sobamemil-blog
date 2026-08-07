@@ -20,7 +20,7 @@ cin으로 키 입력 연습
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include <iostream>  using namespace std;    int main() {  int a;  int cnt=0;  while( (a = cin.get() ) != EOF ){  if(a == 'a')  cnt++;  else if(a == '\n')  break;  }  cout << cnt;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include <iostream>  using namespace std;    int main() {  int a;  int cnt=0;  while( (a = cin.get() ) != EOF ){  if(a == 'a')  cnt++;  else if(a == '\n')  break;  }  cout << cnt;  } |
 
 <b>Explanation:</b>
 

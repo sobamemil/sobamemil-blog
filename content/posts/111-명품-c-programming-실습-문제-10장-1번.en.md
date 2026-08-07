@@ -22,13 +22,13 @@ biggest()를 호출하는 코드 사례는 다음과 같다.
 
 |  |  |
 | --- | --- |
-| 1  2 | int x[] = {1, 10, 100, 5, 4};  cout << biggest(x, 5) << endl; // 5는 배열 x의 크기. 100이 출력된다. |
+| 1  2 | int x[] = {1, 10, 100, 5, 4};  cout << biggest(x, 5) << endl; // 5는 배열 x의 크기. 100이 출력된다. |
 
 <b>Code:</b>
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16 | #include <iostream>  using namespace std;    template <class T>  T biggest(T a[], T n){  T big = a[0]; // 배열 a의 첫번째 원소를 big에 삽입  for(T i=1; i<n; i++)  big = big < a[i] ? a[i] : big; // big보다 a[i]의 값이 더 크면 big에 a[i]의 값을 삽입  return big;  }    int main() {  int big = 0;  int x[] = {1, 10, 100, 5, 4};  cout << biggest(x, 5) << endl;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16 | #include <iostream>  using namespace std;    template <class T>  T biggest(T a[], T n){  T big = a[0]; // 배열 a의 첫번째 원소를 big에 삽입  for(T i=1; i<n; i++)  big = big < a[i] ? a[i] : big; // big보다 a[i]의 값이 더 크면 big에 a[i]의 값을 삽입  return big;  }    int main() {  int big = 0;  int x[] = {1, 10, 100, 5, 4};  cout << biggest(x, 5) << endl;  } |
 
 <b>Explanation:</b>
 

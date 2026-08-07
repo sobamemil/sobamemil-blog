@@ -12,7 +12,7 @@ tags: ["C++", "programming", "stoi", "string", "substr", "명품", "실습문제
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9 | #include <iostream>  using namespace std;    int main() {  Date virth(2014, 3, 20);  Date independenceDay("1945/8/15");  independenceDay.show();  cout << birth.getYear() << ',' << birth.getMonth() << ',' << birth.getDay() << endl;  } |
+| 1  2  3  4  5  6  7  8  9 | #include <iostream>  using namespace std;    int main() {  Date virth(2014, 3, 20);  Date independenceDay("1945/8/15");  independenceDay.show();  cout << birth.getYear() << ',' << birth.getMonth() << ',' << birth.getDay() << endl;  } |
 
 <b>Execution Result:</b>
 
@@ -24,15 +24,15 @@ tags: ["C++", "programming", "stoi", "string", "substr", "명품", "실습문제
 
 stoi() 함수를 이용하면 string의 문자열을 숫자로 변환할 수 있습니다.
 
-ex)  string s = "1945";
+ex)  string s = "1945";
 
-      int n = stoi(s); // n은 정수 1945
+      int n = stoi(s); // n은 정수 1945
 
 <b>Code:</b>
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52 | #include<iostream>  #include<string>  using namespace std;    class Date{  private:  int Year, Month, Day;  public:  Date(int a, int b, int c);  Date(string s);  void show();  int getYear();  int getMonth();  int getDay();  };    Date::Date(int a, int b, int c){  Year = a;  Month = b;  Day = c;  }    Date::Date(string s){  Year = stoi(s.substr(0,4));  Month = stoi(s.substr(5,1));  Day = stoi(s.substr(7,2));  }    void Date::show(){  cout << Year << "년" << Month << "월" << Day << "일\n";  }    int Date::getYear(){  return Year;  }    int Date::getMonth(){  return Month;  }    int Date::getDay(){  return Day;  }    int main(){  Date birth(2014, 3, 20);  Date independenceDay("1945/8/15");  independenceDay.show();  cout << birth.getYear() << ',' << birth.getMonth() << ',' << birth.getDay() << endl;    return 0;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52 | #include<iostream>  #include<string>  using namespace std;    class Date{  private:  int Year, Month, Day;  public:  Date(int a, int b, int c);  Date(string s);  void show();  int getYear();  int getMonth();  int getDay();  };    Date::Date(int a, int b, int c){  Year = a;  Month = b;  Day = c;  }    Date::Date(string s){  Year = stoi(s.substr(0,4));  Month = stoi(s.substr(5,1));  Day = stoi(s.substr(7,2));  }    void Date::show(){  cout << Year << "년" << Month << "월" << Day << "일\n";  }    int Date::getYear(){  return Year;  }    int Date::getMonth(){  return Month;  }    int Date::getDay(){  return Day;  }    int main(){  Date birth(2014, 3, 20);  Date independenceDay("1945/8/15");  independenceDay.show();  cout << birth.getYear() << ',' << birth.getMonth() << ',' << birth.getDay() << endl;    return 0;  } |
 
 <b>Explanation:</b>
 

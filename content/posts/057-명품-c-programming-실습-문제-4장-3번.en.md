@@ -22,13 +22,13 @@ getline(), string 클래스 활용
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15 | #include<iostream>  #include<string>  using namespace std;    int main() {  string str;  cout << "문자열 입력>>";  getline(cin,str);  int length = str.length();  int num = 0;  for(int i=0; i<length; i++){  if(str[i] == 'a') num++;  }  cout << "문자 a는 " << num << "개 있습니다." ;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15 | #include<iostream>  #include<string>  using namespace std;    int main() {  string str;  cout << "문자열 입력>>";  getline(cin,str);  int length = str.length();  int num = 0;  for(int i=0; i<length; i++){  if(str[i] == 'a') num++;  }  cout << "문자 a는 " << num << "개 있습니다." ;  } |
 
 (2) 문자열에서 'a'를 찾기 위해 string 클래스의 find() 멤버 함수를 이용하여 작성하라. text.find('a', index);는 text 문자열의 index 위치부터 'a'를 찾아 문자열 내 인덱스를 리턴한다.
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 | #include<iostream>  #include<string>  using namespace std;    int main() {  string str;  cout << "문자열 입력>>";  getline(cin,str);    int num = 0;  int j = -1;  while(true){  j = (int)str.find('a', j+1); // index 0 부터 'a'를 탐색  if(j == -1) break; // 'a'를 찾지 못했으면 break  num ++;  }  cout << "문자 a는 " << num << "개 있습니다." ;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 | #include<iostream>  #include<string>  using namespace std;    int main() {  string str;  cout << "문자열 입력>>";  getline(cin,str);    int num = 0;  int j = -1;  while(true){  j = (int)str.find('a', j+1); // index 0 부터 'a'를 탐색  if(j == -1) break; // 'a'를 찾지 못했으면 break  num ++;  }  cout << "문자 a는 " << num << "개 있습니다." ;  } |
 
 <b>Explanation:</b>
 

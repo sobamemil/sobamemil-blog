@@ -22,7 +22,7 @@ cout 활용, 화면 출력
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include<iostream>  using namespace std;    int main(){  int i;    for(i=1;i<101;i++){  cout << i << "\t";  if(i%10==0) // 10개마다 개행문자 출력  cout << endl;  }    return 0;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include<iostream>  using namespace std;    int main(){  int i;    for(i=1;i<101;i++){  cout << i << "\t";  if(i%10==0) // 10개마다 개행문자 출력  cout << endl;  }    return 0;  } |
 
 <b>Explanation:</b>
 

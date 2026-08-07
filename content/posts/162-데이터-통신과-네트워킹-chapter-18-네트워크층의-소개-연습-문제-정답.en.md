@@ -108,7 +108,7 @@ tags: ["CIDR", "NAT", "네트워크", "네트워크층", "네트워킹", "데이
 
 26. 라우팅 테이블에서 계층의 사용은 라우팅 테이블의 크기를 \_\_\_\_\_\_\_ .
 
--> a. 줄여준다. 
+-> a. 줄여준다. 
 
 모든 답은 'Data Communications & Networking 5판(Data Communications and Networking Fifth Edition, Behrouz A. Forouzan 저)' 책을 공부하여 작성하였습니다.
 

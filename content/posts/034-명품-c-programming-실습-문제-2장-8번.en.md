@@ -16,7 +16,7 @@ cin.getline()으로 문자열 읽기
 
 |  |  |
 | --- | --- |
-| 1  2 | char name[100];  cin.getline(name, 100, ';'); |
+| 1  2 | char name[100];  cin.getline(name, 100, ';'); |
 
 5개 읽어야 하니 5번 루프를 돈다.
 
@@ -28,7 +28,7 @@ cin.getline()으로 문자열 읽기
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25 | #include<iostream>  #include<cstring>  using namespace std;    int main() {    int A=0;  int i;  char name[100];  char longName[100];    cout << "5 명의 이름을 ';' 으로 구분하여 입력하세요 \n>>";    for(i=1;i<6;i++){  cin.getline(name,100,';');  cout << i << " : " << name << endl;  if(A < strlen(name)) {  A = strlen(name);  strcpy(longName,name);  }  }  cout << "가장 긴 이름은 " << longName;    return 0;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25 | #include<iostream>  #include<cstring>  using namespace std;    int main() {    int A=0;  int i;  char name[100];  char longName[100];    cout << "5 명의 이름을 ';' 으로 구분하여 입력하세요 \n>>";    for(i=1;i<6;i++){  cin.getline(name,100,';');  cout << i << " : " << name << endl;  if(A < strlen(name)) {  A = strlen(name);  strcpy(longName,name);  }  }  cout << "가장 긴 이름은 " << longName;    return 0;  } |
 
 <b>Explanation:</b>
 

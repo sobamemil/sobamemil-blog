@@ -22,7 +22,7 @@ cin.get(), EOF, cin.ignore() 활용
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include <iostream>  using namespace std;    int main() {  int ch;  while( (ch = cin.get()) != EOF ) {  if(ch == ';'){  cout.put('\n');  cin.ignore(100, '\n');  }  else  cout.put(ch);  }  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include <iostream>  using namespace std;    int main() {  int ch;  while( (ch = cin.get()) != EOF ) {  if(ch == ';'){  cout.put('\n');  cin.ignore(100, '\n');  }  else  cout.put(ch);  }  } |
 
 <b>Explanation:</b>
 

@@ -10,7 +10,7 @@ tags: ["C++", "programming", "매개변수", "명품", "실습문제", "연습�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 | #include <stdio.h>  int sum();    int main() {  int n=0;  printf("끝 수를 입력하세요>>");  scanf("%d", &n);  printf("1에서 %d까지의 합은 %d 입니다.\n", n, sum(1,n));  return 0;  }    int sum(int a, int b) {  int k, res=0;  for(k=a; k<=b; k++){  res += k;  }  return res;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 | #include <stdio.h>  int sum();    int main() {  int n=0;  printf("끝 수를 입력하세요>>");  scanf("%d", &n);  printf("1에서 %d까지의 합은 %d 입니다.\n", n, sum(1,n));  return 0;  }    int sum(int a, int b) {  int k, res=0;  for(k=a; k<=b; k++){  res += k;  }  return res;  } |
 
 <b>[2020/02/28 - [C++/명품 C++ programming] - 명품 C++ programming Exercise Problem 2장 11번](https://sobamemil.tistory.com/37)</b>
 
@@ -32,7 +32,7 @@ C++ Programming에 대한 전반적인 이해
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 | #include <iostream>  using namespace std;    int sum(int a, int b);    int main() {  int n=0;  cout << "끝 수를 입력하세요>>";  cin >> n;  cout << "1에서 " << n << "까지의 합은 " << sum(1, n) << " 입니다." << endl;  }    int sum(int a, int b) {  int res=0;  for(int k=a; k<=b; k++)  res += k;  return res;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 | #include <iostream>  using namespace std;    int sum(int a, int b);    int main() {  int n=0;  cout << "끝 수를 입력하세요>>";  cin >> n;  cout << "1에서 " << n << "까지의 합은 " << sum(1, n) << " 입니다." << endl;  }    int sum(int a, int b) {  int res=0;  for(int k=a; k<=b; k++)  res += k;  return res;  } |
 
 <b>Explanation:</b>
 

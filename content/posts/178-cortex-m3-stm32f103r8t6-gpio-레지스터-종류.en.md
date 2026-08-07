@@ -26,35 +26,35 @@ GPIOx\_CRL
 
 - In input mode (입력 모드 일 때) (MODE[1:0]=00):
 
-    00 : Analog mode
+    00 : Analog mode
 
-    01 : Floating input (reset state)
+    01 : Floating input (reset state)
 
-    10 : Input with pull-up / pull-down
+    10 : Input with pull-up / pull-down
 
-    11 : Reserved
+    11 : Reserved
 
 - In output mode (출력 모드 일 때) (MODE[1:0] > 00):
 
-    00 : General purpose output push-pull
+    00 : General purpose output push-pull
 
-    01 : General purpose output Open-drain
+    01 : General purpose output Open-drain
 
-    10 : Alternate function output Push-pull
+    10 : Alternate function output Push-pull
 
-    11 : Alternate function output Open-drain
+    11 : Alternate function output Open-drain
 
 <b>MODEy[1:0]</b> : Port x mode bits (y=0 ... 7) (Bits : 29:28, 25:24, 21:20, 17:16, 13:12, 9:8, 5:4, 1:0)
 
 ( = 포트 입출력 모드 설정 비트)
 
-    00 : Input mode (reset state) ( = 입력 모드)
+    00 : Input mode (reset state) ( = 입력 모드)
 
-    01 : Output mode, max speed 10 MHz. ( = 출력 모드, 최대 동작 속도 10Mhz)
+    01 : Output mode, max speed 10 MHz. ( = 출력 모드, 최대 동작 속도 10Mhz)
 
-    10 : Output mode, max speed 2 MHz. ( = 출력 모드, 최대 동작 속도 2MHz)
+    10 : Output mode, max speed 2 MHz. ( = 출력 모드, 최대 동작 속도 2MHz)
 
-    11 : Output mode, max speed 50 MHz ( = 출력 모드, 최대 동작 속도 50MHz)
+    11 : Output mode, max speed 50 MHz ( = 출력 모드, 최대 동작 속도 50MHz)
 
 그리고 GPIOx\_CRH의 설정 방법은 아래와 같습니다.
 
@@ -68,35 +68,35 @@ GPIOx\_CRH
 
 - In input mode (입력 모드 일 때) (MODE[1:0]=00):
 
-    00 : Analog mode
+    00 : Analog mode
 
-    01 : Floating input (reset state)
+    01 : Floating input (reset state)
 
-    10 : Input with pull-up / pull-down
+    10 : Input with pull-up / pull-down
 
-    11 : Reserved
+    11 : Reserved
 
-- In output mode (출력 모드 일 때) (MODE[1:0] > 00):
+- In output mode (출력 모드 일 때) (MODE[1:0] > 00):
 
-    00 : General purpose output push-pull
+    00 : General purpose output push-pull
 
-    01 : General purpose output Open-drain
+    01 : General purpose output Open-drain
 
-    10 : Alternate function output Push-pull
+    10 : Alternate function output Push-pull
 
-    11 : Alternate function output Open-drain
+    11 : Alternate function output Open-drain
 
-<b>MODEy[1:0]</b> : Port x mode bits (y=8 ... 15) (Bits : 29:28, 25:24, 21:20, 17:16, 13:12, 9:8, 5:4, 1:0)
+<b>MODEy[1:0]</b> : Port x mode bits (y=8 ... 15) (Bits : 29:28, 25:24, 21:20, 17:16, 13:12, 9:8, 5:4, 1:0)
 
 ( = 포트 입출력 모드 설정 비트)
 
-    00 : Input mode (reset state) ( = 입력 모드)
+    00 : Input mode (reset state) ( = 입력 모드)
 
-    01 : Output mode, max speed 10 MHz. ( = 출력 모드, 최대 동작 속도 10Mhz)
+    01 : Output mode, max speed 10 MHz. ( = 출력 모드, 최대 동작 속도 10Mhz)
 
-    10 : Output mode, max speed 2 MHz. ( = 출력 모드, 최대 동작 속도 2MHz)
+    10 : Output mode, max speed 2 MHz. ( = 출력 모드, 최대 동작 속도 2MHz)
 
-    11 : Output mode, max speed 50 MHz ( = 출력 모드, 최대 동작 속도 50MHz)
+    11 : Output mode, max speed 50 MHz ( = 출력 모드, 최대 동작 속도 50MHz)
 
 <b>2. GPIOx\_IDR (Port Input Data Register)</b>
 
@@ -122,7 +122,7 @@ GPIOx\_ODR의 설정 방법은 아래와 같습니다.
 
 GPIOx\_ODR
 
-<b>ODRy</b> : Port output data (y= 0 .. 15) (Bits : 15:0)
+<b>ODRy</b> : Port output data (y= 0 .. 15) (Bits : 15:0)
 
 <b>4. GPIOx\_BSRR (Port Bit Set/Reset Register)</b>
 
@@ -136,15 +136,15 @@ GPIOx\_BSRR
 
 <b>BRy</b> : Port x Reset bit y (y= 0 .. 15) (Bits : 31:16)
 
-    0 : No action on the corresponding ODRx bit
+    0 : No action on the corresponding ODRx bit
 
-    1 : Reset the corresponding ODRx bit
+    1 : Reset the corresponding ODRx bit
 
 <b>BSy</b> : Port x Set bit y (y= 0 .. 15) (Bits : 15:0)
 
-    0 : No action on the corresponding ODRx bit
+    0 : No action on the corresponding ODRx bit
 
-    1 : Set the corresponding ODRx bit
+    1 : Set the corresponding ODRx bit
 
 <b>5. GPIOx\_BRR (Port Bit Reset Register)</b>
 
@@ -158,9 +158,9 @@ GPIOx\_BRR
 
 <b>BRy</b> : Port x Reset bit y (y= 0 .. 15) (Bits : 15:0)
 
-    0: No action on the corresponding ODRx bit
+    0: No action on the corresponding ODRx bit
 
-    1: Reset the corresponding ODRx bit
+    1: Reset the corresponding ODRx bit
 
 <b>6. GPIOx\_LCKR (Port Configuration Lock Register)</b>
 
@@ -174,27 +174,27 @@ GPIOx\_LCKR
 
 <b>LCKK[16]</b> : Lock key (Bit : 16)
 
-    0: Port configuration lock key not active
+    0: Port configuration lock key not active
 
-    1: Port configuration lock key active. GPIOx\_LCKR register is locked until the next reset.
+    1: Port configuration lock key active. GPIOx\_LCKR register is locked until the next reset.
 
 - LOCK key writing sequence:
 
-    Write 1
+    Write 1
 
-    Write 0
+    Write 0
 
-    Write 1
+    Write 1
 
-    Read 0
+    Read 0
 
-    Read 1 (this read is optional but confirms that the lock is active)
+    Read 1 (this read is optional but confirms that the lock is active)
 
 <b>LCKy</b> : Port x Lock bit y (y= 0 .. 15) (Bits : 15:0)
 
-    0: Port configuration not locked
+    0: Port configuration not locked
 
-    1: Port configuration locked.
+    1: Port configuration locked.
 
 
 ](

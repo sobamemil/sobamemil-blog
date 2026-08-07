@@ -20,7 +20,7 @@ C++ 프로그램으로 구성, 키 입력 등 종합 연습
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31 | #include<iostream>  using namespace std;    int main() {  int num,tot;  cout << "\*\*\*\*\* 승리장에 오신 것을 환영합니다. \*\*\*\*\* \n";  while(true){  cout << "짬뽕:1, 짜장:2, 군만두:3, 종료:4>>  ";  cin >> num;  if(num == 4) {  cout << "오늘 영업은 끝났습니다.";  break;  }  if(num > 4)  {  cout << "다시 주문하세요!!\n";  continue;  }    cout << "몇인분?";  cin >> tot;    if(num==1)  cout << "짬뽕 " << tot << "인분 나왔습니다\n";  else if(num==2)  cout << "짜장 " << tot << "인분 나왔습니다\n";  else if(num==3)  cout << "군만두 " << tot << "인분 나왔습니다\n";  }    return 0;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31 | #include<iostream>  using namespace std;    int main() {  int num,tot;  cout << "\*\*\*\*\* 승리장에 오신 것을 환영합니다. \*\*\*\*\* \n";  while(true){  cout << "짬뽕:1, 짜장:2, 군만두:3, 종료:4>>  ";  cin >> num;  if(num == 4) {  cout << "오늘 영업은 끝났습니다.";  break;  }  if(num > 4)  {  cout << "다시 주문하세요!!\n";  continue;  }    cout << "몇인분?";  cin >> tot;    if(num==1)  cout << "짬뽕 " << tot << "인분 나왔습니다\n";  else if(num==2)  cout << "짜장 " << tot << "인분 나왔습니다\n";  else if(num==3)  cout << "군만두 " << tot << "인분 나왔습니다\n";  }    return 0;  } |
 
 <b>Explanation:</b>
 

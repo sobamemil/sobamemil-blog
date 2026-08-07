@@ -10,13 +10,13 @@ tags: ["C++", "programming", "기본클래스", "명품", "상속", "실습문�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9 | class Point {  int x,y;  public:  point(int x, int y) { this->x = x; this->y = y; }  int getX(){ return x; }  int getY(){ return y; }  protected:  void move(int x, int y) { this->x = x; this->y = y; }  }; |
+| 1  2  3  4  5  6  7  8  9 | class Point {  int x,y;  public:  point(int x, int y) { this->x = x; this->y = y; }  int getX(){ return x; }  int getY(){ return y; }  protected:  void move(int x, int y) { this->x = x; this->y = y; }  }; |
 
 다음 main() 함수가 실행되도록 Point 클래스를 상속받은 ColorPoint 클래스를 작성하고, 전체 프로그램을 완성하라.
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6 | int main() {  ColorPoint cp(5, 5, "RED");  cp.setPoint(10, 20);  cp.setColor("BLUE");  cp.show();  } |
+| 1  2  3  4  5  6 | int main() {  ColorPoint cp(5, 5, "RED");  cp.setPoint(10, 20);  cp.setColor("BLUE");  cp.show();  } |
 
 <b>Execution Result:</b>
 
@@ -30,4 +30,4 @@ tags: ["C++", "programming", "기본클래스", "명품", "상속", "실습문�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37 | #include<iostream>  using namespace std;    class Point {  int x,y;  public:  point(int x, int y) { this->x = x; this->y = y; }  int getX(){ return x; }  int getY(){ return y; }  protected:  void move(int x, int y) { this->x = x; this->y = y; }  };    class ColorPoint : public Point {  string color;  public:  ColorPoint(int x, int y, string color){  point(x, y);  this->color = color;  }  void setPoint(int x, int y){  move(x, y);  }  void setColor(string color){  this->color = color;  }  void show(){  cout << color << "색으로 (" << getX() << "," << getY() << ")에 위치한 점입니다.";  }  };    int main() {  ColorPoint cp(5, 5, "RED");  cp.setPoint(10, 20);  cp.setColor("BLUE");  cp.show();  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37 | #include<iostream>  using namespace std;    class Point {  int x,y;  public:  point(int x, int y) { this->x = x; this->y = y; }  int getX(){ return x; }  int getY(){ return y; }  protected:  void move(int x, int y) { this->x = x; this->y = y; }  };    class ColorPoint : public Point {  string color;  public:  ColorPoint(int x, int y, string color){  point(x, y);  this->color = color;  }  void setPoint(int x, int y){  move(x, y);  }  void setColor(string color){  this->color = color;  }  void show(){  cout << color << "색으로 (" << getX() << "," << getY() << ")에 위치한 점입니다.";  }  };    int main() {  ColorPoint cp(5, 5, "RED");  cp.setPoint(10, 20);  cp.setColor("BLUE");  cp.show();  } |

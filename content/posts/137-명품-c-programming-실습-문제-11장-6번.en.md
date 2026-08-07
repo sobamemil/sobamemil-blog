@@ -26,7 +26,7 @@ cout으로 포맷 출력 응용 연습
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25 | #include <iostream>  #include <cmath>  #include <iomanip>  using namespace std;    void showNumber(const double &num){  cout << setw(15) << setfill('\_') << num;  }    void showSqrt(const double &num){  cout << setprecision(3) << setw(15) << setfill('\_') << sqrt(num) << endl;  }    int main() {  cout.setf(ios::left);  cout << setw(15) << "Number";  cout << setw(15) << "Square";  cout << setw(15) << "Square Root" << endl;  for(double i=0; i<=45; i+=5){  cout.precision(4);  showNumber(i); // Number 출력  showNumber(i\*i); // Square 출력  showSqrt(i); // Square Root 출력  }  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25 | #include <iostream>  #include <cmath>  #include <iomanip>  using namespace std;    void showNumber(const double &num){  cout << setw(15) << setfill('\_') << num;  }    void showSqrt(const double &num){  cout << setprecision(3) << setw(15) << setfill('\_') << sqrt(num) << endl;  }    int main() {  cout.setf(ios::left);  cout << setw(15) << "Number";  cout << setw(15) << "Square";  cout << setw(15) << "Square Root" << endl;  for(double i=0; i<=45; i+=5){  cout.precision(4);  showNumber(i); // Number 출력  showNumber(i\*i); // Square 출력  showSqrt(i); // Square Root 출력  }  } |
 
 <b>Explanation:</b>
 

@@ -14,13 +14,13 @@ find() 함수의 원형은 다음과 같다. 문자열 a에서 문자 c를 찾�
 
 |  |  |
 | --- | --- |
-| 1 | char& find(char a[], char c, bool& success); |
+| 1 | char& find(char a[], char c, bool& success); |
 
 다음 main()이 잘 실행되도록 find()를 작성하라.
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11 | int main() {  char s[] = "Mike";  bool b = false;  char& loc = find(s, 'M', b);  if(b == false) {  cout << "M을 발견할 수 없다" << endl;  return 0;  }  loc = 'm'; // 'M' 위치에 'm' 기록  cout << s << endl; // "mike"가 출력됨  } |
+| 1  2  3  4  5  6  7  8  9  10  11 | int main() {  char s[] = "Mike";  bool b = false;  char& loc = find(s, 'M', b);  if(b == false) {  cout << "M을 발견할 수 없다" << endl;  return 0;  }  loc = 'm'; // 'M' 위치에 'm' 기록  cout << s << endl; // "mike"가 출력됨  } |
 
 <b>Execution Result:</b>
 
@@ -34,7 +34,7 @@ find() 함수의 원형은 다음과 같다. 문자열 a에서 문자 c를 찾�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24 | #include<iostream>  using namespace std;    char& find(char a[], char c, bool& success){  int len = sizeof(a);  for(int i=0; i<len; i++){  if(a[i]==c) {  success = true;  return a[i];  }  }  }    int main() {  char s[] = "Mike";  bool b = false;  char& loc = find(s, 'M', b);  if(b == false) {  cout << "M을 발견할 수 없다" << endl;  return 0;  }  loc = 'm'; // 'M' 위치에 'm' 기록  cout << s << endl; // "mike"가 출력됨  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24 | #include<iostream>  using namespace std;    char& find(char a[], char c, bool& success){  int len = sizeof(a);  for(int i=0; i<len; i++){  if(a[i]==c) {  success = true;  return a[i];  }  }  }    int main() {  char s[] = "Mike";  bool b = false;  char& loc = find(s, 'M', b);  if(b == false) {  cout << "M을 발견할 수 없다" << endl;  return 0;  }  loc = 'm'; // 'M' 위치에 'm' 기록  cout << s << endl; // "mike"가 출력됨  } |
 
 <b>Explanation:</b>
 

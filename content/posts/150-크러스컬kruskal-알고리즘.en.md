@@ -1,5 +1,5 @@
 ---
-title: "크러스컬(Kruskal) 알고리즘"
+title: "Kruskal's Minimum Spanning Tree Algorithm"
 date: 2020-07-02T18:03:16+09:00
 draft: false
 categories: ["💻 Dev & CS"]
@@ -14,7 +14,7 @@ Kruskal's Algorithm은 최소 비용 신장 그래프를 찾는 알고리즘 입
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15 | edge\_set kruskal\_MST(edge\_set E, int n) {  sort(E); // 간선 정렬  edge\_set MST\_E = { };  for (i=0; i<n; i++) init\_set(i); // n개의 집합(트리)을 생성  while(MST\_E의 간선 수 < n - 1) {  (u, v) = E의 최소 가중치 간선;  E = E - {(u, v)};  if(find(u) != find(v)) // u와 v가 다른 집합(트리) 원소  {  MST\_E = MST\_E ∪ {(u, v)}; // 간선 추가  union(u, v); // 두 집합(트리)을 합병  }  }  return MST\_E;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15 | edge\_set kruskal\_MST(edge\_set E, int n) {  sort(E); // 간선 정렬  edge\_set MST\_E = { };  for (i=0; i<n; i++) init\_set(i); // n개의 집합(트리)을 생성  while(MST\_E의 간선 수 < n - 1) {  (u, v) = E의 최소 가중치 간선;  E = E - {(u, v)};  if(find(u) != find(v)) // u와 v가 다른 집합(트리) 원소  {  MST\_E = MST\_E ∪ {(u, v)}; // 간선 추가  union(u, v); // 두 집합(트리)을 합병  }  }  return MST\_E;  } |
 
 <b>- 예제 -</b>
 

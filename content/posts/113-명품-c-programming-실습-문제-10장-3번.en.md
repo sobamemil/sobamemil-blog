@@ -14,7 +14,7 @@ reverseArray()의 호출 사례는 다음과 같다.
 
 |  |  |
 | --- | --- |
-| 1  2  3  4 | int x[] = { 1, 10, 100, 5, 4};  reverseArray(x, 5);  for(int i=0; i<5; i++)  cout << x[i] << ' '; // 4 5 100 10 1이 출력된다. |
+| 1  2  3  4 | int x[] = { 1, 10, 100, 5, 4};  reverseArray(x, 5);  for(int i=0; i<5; i++)  cout << x[i] << ' '; // 4 5 100 10 1이 출력된다. |
 
 <b>Execution Result:</b>
 
@@ -28,4 +28,4 @@ reverseArray()의 호출 사례는 다음과 같다.
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20 | #include <iostream>  using namespace std;    template <class T>  void reverseArray(T array [] , int n){  int j=n-1;  for(int i=0; j>i; i++){  T tmp = array[j];  array[j] = array[i];  array[i] = tmp;  j--;  }  }    int main() {  int x[] = { 1, 10, 100, 5, 4};  reverseArray(x, 5);  for(int i=0; i<5; i++)  cout << x[i] << ' '; // 4 5 100 10 1이 출력된다.  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20 | #include <iostream>  using namespace std;    template <class T>  void reverseArray(T array [] , int n){  int j=n-1;  for(int i=0; j>i; i++){  T tmp = array[j];  array[j] = array[i];  array[i] = tmp;  j--;  }  }    int main() {  int x[] = { 1, 10, 100, 5, 4};  reverseArray(x, 5);  for(int i=0; i<5; i++)  cout << x[i] << ' '; // 4 5 100 10 1이 출력된다.  } |

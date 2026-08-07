@@ -14,7 +14,7 @@ static 연습이 목적이기 때문에 게시판 기능을 글을 올리는 기
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8 | int main() {  // Board myBoard; // 객체 생성은 컴파일 오류입니다.  Board::add("중간고사는 감독 없는 자율 시험입니다.");  Board::add("코딩 라운지 많이 이용해 주세요.");  Board::print();  Board::add("진소린 학생이 경진대회 입상하였습니다. 축하해주세요");  Board::print();  } |
+| 1  2  3  4  5  6  7  8 | int main() {  // Board myBoard; // 객체 생성은 컴파일 오류입니다.  Board::add("중간고사는 감독 없는 자율 시험입니다.");  Board::add("코딩 라운지 많이 이용해 주세요.");  Board::print();  Board::add("진소린 학생이 경진대회 입상하였습니다. 축하해주세요");  Board::print();  } |
 
 <b>Execution Result:</b>
 
@@ -32,13 +32,13 @@ static 멤버 변수는 전역 변수로 선언하는 것이 반드시 필요하
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36 | #include<iostream>  #include<string>  using namespace std;    class Board{  public:  static int cnt;  // static 멤버 변수 선언  static string \*coment; // static 멤버 변수 선언  static void add(string str);  static void print();  };    // static 변수 공간 할당. //반드시 프로그램의 전역 공간에 선언  int Board::cnt = 0;  string \*Board::coment = new string [100];    void Board::add(string str){  coment[cnt] = str;  cnt++;  }    void Board::print(){  cout << "\*\*\*\*\*\*\*\*\*\*\*\*\* 게시판입니다. \*\*\*\*\*\*\*\*\*\*\*\*\*\n";  for(int i=0; i<cnt; i++)  cout << i << ": " << coment[i] << endl;  cout << endl;  }    int main() {  // Board myBoard; // 객체 생성은 컴파일 오류입니다.  Board::add("중간고사는 감독 없는 자율 시험입니다.");  Board::add("코딩 라운지 많이 이용해 주세요.");  Board::print();  Board::add("진소린 학생이 경진대회 입상하였습니다. 축하해주세요");  Board::print();  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36 | #include<iostream>  #include<string>  using namespace std;    class Board{  public:  static int cnt;  // static 멤버 변수 선언  static string \*coment; // static 멤버 변수 선언  static void add(string str);  static void print();  };    // static 변수 공간 할당. //반드시 프로그램의 전역 공간에 선언  int Board::cnt = 0;  string \*Board::coment = new string [100];    void Board::add(string str){  coment[cnt] = str;  cnt++;  }    void Board::print(){  cout << "\*\*\*\*\*\*\*\*\*\*\*\*\* 게시판입니다. \*\*\*\*\*\*\*\*\*\*\*\*\*\n";  for(int i=0; i<cnt; i++)  cout << i << ": " << coment[i] << endl;  cout << endl;  }    int main() {  // Board myBoard; // 객체 생성은 컴파일 오류입니다.  Board::add("중간고사는 감독 없는 자율 시험입니다.");  Board::add("코딩 라운지 많이 이용해 주세요.");  Board::print();  Board::add("진소린 학생이 경진대회 입상하였습니다. 축하해주세요");  Board::print();  } |
 
 <b>Explanation:</b>
 
 static 멤버 변수는 변수의 공간을 할당받는 선언문이 추가적으로 필요합니다.
 
-이 선언문은 클래스 바깥의 전역 공간에 선언되어야 하며 그렇지 않을 시 링크 오류가 발생합니다.
+이 선언문은 클래스 바깥의 전역 공간에 선언되어야 하며 그렇지 않을 시 링크 오류가 발생합니다.
 
 class의 객체가 생성되지 않아도 프로그램이 시작되면 static 멤버는 class와 상관없이 생성됩니다.
 

@@ -20,7 +20,7 @@ cin 활용, 키보드로부터 실수 읽기
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20 | #include <iostream>  using namespace std;    int main() {  float a[5], big;  int i;    cout << "5 개의 실수를 입력하라>>";  for(i=0;i<5;i++)  // 5개의 실수 입력 받기  cin >> a[i];  big = a[0]; // a의 첫번째 원소를 big에 삽입    for(i=1;i<5;i++)  if(big<a[i]) //a[i]가 big보다 크면 big에 삽입  big=a[i];    cout << "제일 큰 수 = " << big;    return 0;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20 | #include <iostream>  using namespace std;    int main() {  float a[5], big;  int i;    cout << "5 개의 실수를 입력하라>>";  for(i=0;i<5;i++)  // 5개의 실수 입력 받기  cin >> a[i];  big = a[0]; // a의 첫번째 원소를 big에 삽입    for(i=1;i<5;i++)  if(big<a[i]) //a[i]가 big보다 크면 big에 삽입  big=a[i];    cout << "제일 큰 수 = " << big;    return 0;  } |
 
 <b>Explanation:</b>
 

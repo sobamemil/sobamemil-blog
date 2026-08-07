@@ -10,7 +10,7 @@ tags: ["C++", "CPP", "Main", "programming", "구현부", "명품", "선언부", 
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27 | #include<iostream>  using namespace std;    class Box {  int width, height;  char fill;  public:  Box(int w, int h) { setSize(w, h); fill = '\*';}  void setFill(char f) {fill = f;}  void setSize(int w, int h) { width = w; height = h;}  void draw();  };  void Box::draw() {  for (int n = 0; n < height; n++) {  for (int m = 0; m < width; m++) cout << fill;  cout << endl;  }  }    int main() {  Box b(10, 2);  b.draw(); // 박스를 그린다.  cout << endl;  b.setSize(7, 4); // 박스의 크기를 변경한다.  b.setFill('^'); // 박스의 내부를 채울 문자를 '^'로 변경한다.  b.draw(); // 박스를 그린다.  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27 | #include<iostream>  using namespace std;    class Box {  int width, height;  char fill;  public:  Box(int w, int h) { setSize(w, h); fill = '\*';}  void setFill(char f) {fill = f;}  void setSize(int w, int h) { width = w; height = h;}  void draw();  };  void Box::draw() {  for (int n = 0; n < height; n++) {  for (int m = 0; m < width; m++) cout << fill;  cout << endl;  }  }    int main() {  Box b(10, 2);  b.draw(); // 박스를 그린다.  cout << endl;  b.setSize(7, 4); // 박스의 크기를 변경한다.  b.setFill('^'); // 박스의 내부를 채울 문자를 '^'로 변경한다.  b.draw(); // 박스를 그린다.  } |
 
 <b>Objective & Hints:</b>
 
@@ -26,16 +26,16 @@ tags: ["C++", "CPP", "Main", "programming", "구현부", "명품", "선언부", 
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9 | class Box {  int width, height;  char fill;  public:  Box(int w, int h) { setSize(w, h); fill = '\*';}  void setFill(char f) {fill = f;}  void setSize(int w, int h) { width = w; height = h;}  void draw();  }; |
+| 1  2  3  4  5  6  7  8  9 | class Box {  int width, height;  char fill;  public:  Box(int w, int h) { setSize(w, h); fill = '\*';}  void setFill(char f) {fill = f;}  void setSize(int w, int h) { width = w; height = h;}  void draw();  }; |
 
 ● Box.cpp
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11 | #include<iostream>  using namespace std;    #include "Box.h"    void Box::draw() {  for (int n = 0; n < height; n++) {  for (int m = 0; m < width; m++) cout << fill;  cout << endl;  }  } |
+| 1  2  3  4  5  6  7  8  9  10  11 | #include<iostream>  using namespace std;    #include "Box.h"    void Box::draw() {  for (int n = 0; n < height; n++) {  for (int m = 0; m < width; m++) cout << fill;  cout << endl;  }  } |
 
 ● main.cpp
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13 | #include<iostream>  using namespace std;    #include "Box.h"    int main() {  Box b(10, 2);  b.draw();  cout << endl;  b.setSize(7, 4);  b.setFill('^');  b.draw();  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13 | #include<iostream>  using namespace std;    #include "Box.h"    int main() {  Box b(10, 2);  b.draw();  cout << endl;  b.setSize(7, 4);  b.setFill('^');  b.draw();  } |

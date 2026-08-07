@@ -12,7 +12,7 @@ bigger() 함수의 다음 라인에서 > 연산자 때문에
 
 |  |  |
 | --- | --- |
-| 1 | if(a > b) return a; |
+| 1 | if(a > b) return a; |
 
 T에 Circle과 같은 클래스 타입이 대입되면, 구체화가 실패하여 컴파일 오류가 발생한다.
 
@@ -20,7 +20,7 @@ T에 Circle과 같은 클래스 타입이 대입되면, 구체화가 실패하�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6 | class Comparable {  public:  virtual bool operator > (Comparable& op2) = 0; // 순수 가상 함수  virtual bool operator < (Comparable& op2) = 0; // 순수 가상 함수  virtual bool operator == (Comparable& op2) = 0; // 순수 가상 함수  }; |
+| 1  2  3  4  5  6 | class Comparable {  public:  virtual bool operator > (Comparable& op2) = 0; // 순수 가상 함수  virtual bool operator < (Comparable& op2) = 0; // 순수 가상 함수  virtual bool operator == (Comparable& op2) = 0; // 순수 가상 함수  }; |
 
 Circle 클래스가 Comparable을 상속받아 순수 가상 함수를 모두 구현하면, 앞의 bigger() 템플릿 함수를 사용하는데 아무 문제가 없다.
 
@@ -48,4 +48,4 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/117)
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52 | #include <iostream>  using namespace std;    class Comparable {  public:  virtual bool operator > (Comparable& op2) = 0; // 순수 가상 함수  virtual bool operator < (Comparable& op2) = 0; // 순수 가상 함수  virtual bool operator == (Comparable& op2) = 0; // 순수 가상 함수  };    class Circle : public Comparable {  int radius;  public:  Circle(int radius = 1) { this->radius = radius; }  int getRadius() { return radius; }  bool operator > (Comparable& op2) {  Circle \*c;  c = (Circle\*) &op2;  if(this->radius > c->getRadius())  return true;  return false;  }  bool operator < (Comparable& op2) {  Circle \*c;  c = (Circle\*) &op2;  if(this->radius < c->getRadius())  return true;  return false;  }  bool operator == (Comparable& op2) {  Circle \*c;  c = (Circle\*) &op2;  if(this->radius == c->getRadius())  return true;  return false;  }  };    template <class T>  T bigger(T a, T b) { // 두 개의 매개 변수를 비교하여 큰 값을 리턴  if (a > b) return a;  else return b;  }    int main() {  int a = 20, b = 50, c;  c = bigger(a, b);  cout << "20과 50중 큰 값은 " << c << endl;  Circle waffle(10), pizza(20), y;  y = bigger(waffle, pizza);  cout << "waffle과 pizza 중 큰 것의 반지름은 " << y.getRadius() << endl;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52 | #include <iostream>  using namespace std;    class Comparable {  public:  virtual bool operator > (Comparable& op2) = 0; // 순수 가상 함수  virtual bool operator < (Comparable& op2) = 0; // 순수 가상 함수  virtual bool operator == (Comparable& op2) = 0; // 순수 가상 함수  };    class Circle : public Comparable {  int radius;  public:  Circle(int radius = 1) { this->radius = radius; }  int getRadius() { return radius; }  bool operator > (Comparable& op2) {  Circle \*c;  c = (Circle\*) &op2;  if(this->radius > c->getRadius())  return true;  return false;  }  bool operator < (Comparable& op2) {  Circle \*c;  c = (Circle\*) &op2;  if(this->radius < c->getRadius())  return true;  return false;  }  bool operator == (Comparable& op2) {  Circle \*c;  c = (Circle\*) &op2;  if(this->radius == c->getRadius())  return true;  return false;  }  };    template <class T>  T bigger(T a, T b) { // 두 개의 매개 변수를 비교하여 큰 값을 리턴  if (a > b) return a;  else return b;  }    int main() {  int a = 20, b = 50, c;  c = bigger(a, b);  cout << "20과 50중 큰 값은 " << c << endl;  Circle waffle(10), pizza(20), y;  y = bigger(waffle, pizza);  cout << "waffle과 pizza 중 큰 것의 반지름은 " << y.getRadius() << endl;  } |

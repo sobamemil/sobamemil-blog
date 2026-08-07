@@ -20,7 +20,7 @@ tags: ["&", "C++", "callByReference", "callByValue", "programming", "명품", "�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25 | #include<iostream>  using namespace std;    class Circle {  int num;  public:  Circle();  Circle(int num) {this->num = num;}  void setNum(int num) {this->num = num;}  int getNum() {return num;}  };    void swap(Circle &a, Circle &b) {  int swap;  swap = a.getNum();  a.setNum(b.getNum());  b.setNum(swap);  }    int main() {  Circle a(5), b(10);  cout << a.getNum() << " " << b.getNum() << endl;  swap(a,b);  cout << a.getNum() << " " << b.getNum();  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25 | #include<iostream>  using namespace std;    class Circle {  int num;  public:  Circle();  Circle(int num) {this->num = num;}  void setNum(int num) {this->num = num;}  int getNum() {return num;}  };    void swap(Circle &a, Circle &b) {  int swap;  swap = a.getNum();  a.setNum(b.getNum());  b.setNum(swap);  }    int main() {  Circle a(5), b(10);  cout << a.getNum() << " " << b.getNum() << endl;  swap(a,b);  cout << a.getNum() << " " << b.getNum();  } |
 
 <b>Explanation:</b>
 

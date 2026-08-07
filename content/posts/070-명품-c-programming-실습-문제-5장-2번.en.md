@@ -10,7 +10,7 @@ tags: ["C++", "callByReference", "programming", "명품", "실습문제", "연�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5 | int main() {  double n = 20;  half(n); // n의 반값을 구해 n을 바꾼다.  cout << n; // 10이 출력된다.  } |
+| 1  2  3  4  5 | int main() {  double n = 20;  half(n); // n의 반값을 구해 n을 바꾼다.  cout << n; // 10이 출력된다.  } |
 
 <b>Execution Result:</b>
 
@@ -24,7 +24,7 @@ tags: ["C++", "callByReference", "programming", "명품", "실습문제", "연�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12 | #include<iostream>  using namespace std;    half(double &num){ // 참조에 의한 호출  num /= 2; // num으로 넘어온 본래의 값이 바뀜  }    int main() {  double n = 20;  half(n); // n의 반값을 구해 n을 바꾼다.  cout << n; // 10이 출력된다.  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12 | #include<iostream>  using namespace std;    half(double &num){ // 참조에 의한 호출  num /= 2; // num으로 넘어온 본래의 값이 바뀜  }    int main() {  double n = 20;  half(n); // n의 반값을 구해 n을 바꾼다.  cout << n; // 10이 출력된다.  } |
 
 <b>Explanation:</b>
 

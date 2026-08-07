@@ -22,7 +22,7 @@ cin.get(), EOF, cin.ignore() 활용
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12 | #include <iostream>  using namespace std;    int main() {  int ch;  cin.ignore(100, ';'); // 영어 문장이 최대 99개의 문자로 입력된다고 가정한다.  while((ch=cin.get()) != EOF) {  cout.put(ch);  if(ch == '\n')  cin.ignore(100, ';'); // 영어 문장이 최대 99개의 문자로 입력된다고 가정한다.  }  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12 | #include <iostream>  using namespace std;    int main() {  int ch;  cin.ignore(100, ';'); // 영어 문장이 최대 99개의 문자로 입력된다고 가정한다.  while((ch=cin.get()) != EOF) {  cout.put(ch);  if(ch == '\n')  cin.ignore(100, ';'); // 영어 문장이 최대 99개의 문자로 입력된다고 가정한다.  }  } |
 
 <b>Explanation:</b>
 
@@ -32,7 +32,7 @@ ignore() 함수를 사용해서 입력 스트림 버퍼에 있는 문자들을 �
 
 |  |  |
 | --- | --- |
-| 1  2  3 | cin.ignore(10); // 입력 스트림에서 10개의 문자 제거    cin.ignore(10, '\n'); // 입력 스트림에서 10개의 문자 제거, 제거 도중 '\n'을 만나면 '\n'을 제거하고 중단 |
+| 1  2  3 | cin.ignore(10); // 입력 스트림에서 10개의 문자 제거    cin.ignore(10, '\n'); // 입력 스트림에서 10개의 문자 제거, 제거 도중 '\n'을 만나면 '\n'을 제거하고 중단 |
 
 ignore() 함수에 대한 더 자세한 내용은 아래 사이트에서 참고하시면 됩니다.
 

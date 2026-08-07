@@ -10,13 +10,13 @@ Circle 클래스는 다음과 같다.
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8 | class Circle {  string name;  int radius;  public:  Circle(int radius=1, string name="") {  this->radius = radius; this->name = name;  }  }; |
+| 1  2  3  4  5  6  7  8 | class Circle {  string name;  int radius;  public:  Circle(int radius=1, string name="") {  this->radius = radius; this->name = name;  }  }; |
 
 Circle 클래스의 객체를 입출력하는 다음 코드와 Execution Result를 참조하여 <<, >> 연산자를 작성하고 Circle 클래스를 수정하는 등 프로그램을 완성하라.
 
 |  |  |
 | --- | --- |
-| 1  2  3 | Circle d, w;  cin >> d >> w; // 키보드 입력을 받아 객체 d와 w를 완성  cout << d << w << endl; // 객체 d, w 출력 |
+| 1  2  3 | Circle d, w;  cin >> d >> w; // 키보드 입력을 받아 객체 d와 w를 완성  cout << d << w << endl; // 객체 d, w 출력 |
 
 <b>Execution Result:</b>
 
@@ -30,7 +30,7 @@ Circle 클래스의 객체를 입출력하는 다음 코드와 Execution Result�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32 | #include <iostream>  using namespace std;    class Circle { // 원을 표현하는 클래스  string name;  int radius;  public:  Circle(int radius=1, string name="") {  this->radius = radius; this->name = name;  }  friend ostream& operator << (ostream& os, Circle c); // friend 선언  friend istream& operator >> (istream& ins, Circle& c); // friend 선언, Circle& c 참조자 사용  };    ostream& operator << (ostream& os, Circle c) {  os << "(반지름이" << c.radius << "인 " << c.name << ")";  return os;  }    istream& operator >> (istream& ins, Circle& c) {  cout << "반지름 >> ";  ins >> c.radius;  cout << "이름 >> ";  ins >> c.name;  return ins;  }    int main() {  Circle d, w;  cin >> d >> w; // 키보드 입력을 받아 객체 d와 w를 완성  cout << d << w << endl; // 객체 d, w 출력  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32 | #include <iostream>  using namespace std;    class Circle { // 원을 표현하는 클래스  string name;  int radius;  public:  Circle(int radius=1, string name="") {  this->radius = radius; this->name = name;  }  friend ostream& operator << (ostream& os, Circle c); // friend 선언  friend istream& operator >> (istream& ins, Circle& c); // friend 선언, Circle& c 참조자 사용  };    ostream& operator << (ostream& os, Circle c) {  os << "(반지름이" << c.radius << "인 " << c.name << ")";  return os;  }    istream& operator >> (istream& ins, Circle& c) {  cout << "반지름 >> ";  ins >> c.radius;  cout << "이름 >> ";  ins >> c.name;  return ins;  }    int main() {  Circle d, w;  cin >> d >> w; // 키보드 입력을 받아 객체 d와 w를 완성  cout << d << w << endl; // 객체 d, w 출력  } |
 
 <b>Explanation:</b>
 

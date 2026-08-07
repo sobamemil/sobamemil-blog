@@ -20,7 +20,7 @@ tags: ["C++", "CString", "programming", "strcmp", "string.h", "명품", "문자�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21 | #include<iostream>  #include<cstring>  using namespace std;    int main() {  char pw1[100];  char pw2[100];    cout << "새 암호를 입력하세요>>";  cin.getline(pw1,100);    cout << "새 암호를 다시 한 번 입력하세요>>";  cin.getline(pw2,100);    if(strcmp(pw1,pw2)==0)  cout << "같습니다";  else  cout << "같지 않습니다";    return 0;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21 | #include<iostream>  #include<cstring>  using namespace std;    int main() {  char pw1[100];  char pw2[100];    cout << "새 암호를 입력하세요>>";  cin.getline(pw1,100);    cout << "새 암호를 다시 한 번 입력하세요>>";  cin.getline(pw2,100);    if(strcmp(pw1,pw2)==0)  cout << "같습니다";  else  cout << "같지 않습니다";    return 0;  } |
 
 <b>Explanation:</b>
 
@@ -28,6 +28,6 @@ tags: ["C++", "CString", "programming", "strcmp", "string.h", "명품", "문자�
 
 c++에서 strcmp() 함수는 cstring 헤더파일에 정의되어 있으므로 cstring 헤더파일을 include 해주었습니다.
 
-strcmp() 함수는 두 문자열이 정확하게 일치한다면 0 을 리턴한다.
+strcmp() 함수는 두 문자열이 정확하게 일치한다면 0 을 리턴한다.
 
-일치하지 않을 경우, 일치 하지 않는 첫 번째 문자를 비교해 str1 이 str2 보다 크다면 0 보다 큰 값을 아니면 0 보다 작은 값을 리턴합니다.
+일치하지 않을 경우, 일치 하지 않는 첫 번째 문자를 비교해 str1 이 str2 보다 크다면 0 보다 큰 값을 아니면 0 보다 작은 값을 리턴합니다.

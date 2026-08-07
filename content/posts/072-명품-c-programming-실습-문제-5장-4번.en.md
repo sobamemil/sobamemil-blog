@@ -12,7 +12,7 @@ bigger()는 인자로 주어진 a, b가 같으면 true, 아니면 false를 리�
 
 |  |  |
 | --- | --- |
-| 1 | bool bigger(int a, int b, int& big); |
+| 1 | bool bigger(int a, int b, int& big); |
 
 <b>Execution Result:</b>
 
@@ -26,7 +26,7 @@ bigger()는 인자로 주어진 a, b가 같으면 true, 아니면 false를 리�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24 | #include<iostream>  using namespace std;    bool bigger(int a, int b, int& big){  if(a==b)  return true;  else {  if(a>b)  big = a;  else  big = b;  return false;  }  }    int main() {  int a, b, big;  cout << "두개의 정수를 입력하세요>>";  cin >> a >> b;  if(!bigger(a, b, big))  cout << "큰 수는 : " << big;  else  cout << "두 정수가 같습니다.";  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24 | #include<iostream>  using namespace std;    bool bigger(int a, int b, int& big){  if(a==b)  return true;  else {  if(a>b)  big = a;  else  big = b;  return false;  }  }    int main() {  int a, b, big;  cout << "두개의 정수를 입력하세요>>";  cin >> a >> b;  if(!bigger(a, b, big))  cout << "큰 수는 : " << big;  else  cout << "두 정수가 같습니다.";  } |
 
 <b>Explanation:</b>
 

@@ -4,7 +4,7 @@ date: 2020-04-23T00:08:35+09:00
 draft: false
 categories: ["💻 Dev & CS"]
 tags: ["네트워크", "네트워킹", "답", "데이터통신", "물리층", "연습문제", "정답", "풀이", "해답"]
----**<b>Chapter 4 디지털 전송 </b>Practice ExercisesSolution(답)******
+---**<b>Chapter 4 디지털 전송 </b>Practice ExercisesSolution(답)******
 
 1. 극형과 양극형 부호화는 \_\_\_\_\_\_\_ 부호화의 유형이다.
 

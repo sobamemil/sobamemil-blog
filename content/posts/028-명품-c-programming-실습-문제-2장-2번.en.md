@@ -22,7 +22,7 @@ cout 활용, 화면 출력
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15 | #include<iostream>  using namespace std;    int main() {  int i, j;    for(i=1; i<10; i++){  for(j=1; j<10; j++) {  cout << j << "x" << i << "=" << j\*i << '\t';  if(j==9) // 9단 출력 후 줄바꿈.  cout << endl;  }  }  return 0;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15 | #include<iostream>  using namespace std;    int main() {  int i, j;    for(i=1; i<10; i++){  for(j=1; j<10; j++) {  cout << j << "x" << i << "=" << j\*i << '\t';  if(j==9) // 9단 출력 후 줄바꿈.  cout << endl;  }  }  return 0;  } |
 
 <b>Explanation:</b>
 

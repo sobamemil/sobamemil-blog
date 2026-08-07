@@ -20,7 +20,7 @@ string 클래스로 문자열 다루기
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17 | #include<iostream>  #include<string>  using namespace std;    int main() {  string str;  cout << "아래 한 줄을 입력하세요.(exit를 입력하면 종료합니다)";    while(true){  cout << endl << ">>";  getline(cin,str);  if(str == "exit")  break;  for(int i = str.length()-1; i>=0; i--)  cout << str[i];  }  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17 | #include<iostream>  #include<string>  using namespace std;    int main() {  string str;  cout << "아래 한 줄을 입력하세요.(exit를 입력하면 종료합니다)";    while(true){  cout << endl << ">>";  getline(cin,str);  if(str == "exit")  break;  for(int i = str.length()-1; i>=0; i--)  cout << str[i];  }  } |
 
 <b>Explanation:</b>
 

@@ -12,7 +12,7 @@ Integer 클래스를 활용하는 코드는 다음과 같다.
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include<iostream>  #include<string>  using namespace std;    int main() {  Integer n(30);  cout << n.get() << ' '; // 30 출력  n.set(50);  cout << n.get() << ' '; // 50 출력    Integer m("300");  cout << m.get() << ' '; // 300 출력  cout << m.isEven(); // true(정수로 1) 출력  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include<iostream>  #include<string>  using namespace std;    int main() {  Integer n(30);  cout << n.get() << ' '; // 30 출력  n.set(50);  cout << n.get() << ' '; // 50 출력    Integer m("300");  cout << m.get() << ' '; // 300 출력  cout << m.isEven(); // true(정수로 1) 출력  } |
 
 <b>Objective & Hints:</b>
 
@@ -36,7 +36,7 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/44)
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35 | #include<iostream>  #include<string>  using namespace std;    class Integer{  private:  int a;  public:  Integer(int b){  a = b;  }  Integer(string s){  a = stoi(s);  }  int get(){  return a;  }  int set(int b){  return a = b;  }  int isEven(){  return true;  }  };    int main() {  Integer n(30);  cout << n.get() << ' '; // 30 출력  n.set(50);  cout << n.get() << ' '; // 50 출력    Integer m("300");  cout << m.get() << ' '; // 300 출력  cout << m.isEven(); // true(정수로 1) 출력  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35 | #include<iostream>  #include<string>  using namespace std;    class Integer{  private:  int a;  public:  Integer(int b){  a = b;  }  Integer(string s){  a = stoi(s);  }  int get(){  return a;  }  int set(int b){  return a = b;  }  int isEven(){  return true;  }  };    int main() {  Integer n(30);  cout << n.get() << ' '; // 30 출력  n.set(50);  cout << n.get() << ' '; // 50 출력    Integer m("300");  cout << m.get() << ' '; // 300 출력  cout << m.isEven(); // true(정수로 1) 출력  } |
 
 <b>Explanation:</b>
 

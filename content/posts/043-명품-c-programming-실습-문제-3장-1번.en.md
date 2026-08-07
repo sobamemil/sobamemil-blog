@@ -12,7 +12,7 @@ tags: ["C++", "class", "constructor", "programming", "매개변수", "명품", "
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9 | #include <iostream>  using namespace std;    int main() {  Tower myTower; // 1 미터  Tower seoulTower(100); // 100 미터  cout << "높이는 " << myTower.getHeight() << "미터" << endl;  cout << "높이는 " << seoulTower.getHeight() << "미터" << endl;  } |
+| 1  2  3  4  5  6  7  8  9 | #include <iostream>  using namespace std;    int main() {  Tower myTower; // 1 미터  Tower seoulTower(100); // 100 미터  cout << "높이는 " << myTower.getHeight() << "미터" << endl;  cout << "높이는 " << seoulTower.getHeight() << "미터" << endl;  } |
 
 <b>Objective & Hints:</b>
 
@@ -26,7 +26,7 @@ tags: ["C++", "class", "constructor", "programming", "매개변수", "명품", "
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29 | #include<iostream>  using namespace std;    class Tower{  int height;  public:  Tower();  Tower(int h);  int getHeight();  };    Tower::Tower(){ // 매개변수가 없는 생성자  height=1;  }    Tower::Tower(int h){ // 매개변수가 하나 있는 생성자  height=h;  }    int Tower::getHeight(){  return height;  }    int main() {  Tower myTower;  Tower seoulTower(100);  cout << "높이는 " << myTower.getHeight() << "미터" << endl;  cout << "높이는 " << seoulTower.getHeight() << "미터" << endl;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29 | #include<iostream>  using namespace std;    class Tower{  int height;  public:  Tower();  Tower(int h);  int getHeight();  };    Tower::Tower(){ // 매개변수가 없는 생성자  height=1;  }    Tower::Tower(int h){ // 매개변수가 하나 있는 생성자  height=h;  }    int Tower::getHeight(){  return height;  }    int main() {  Tower myTower;  Tower seoulTower(100);  cout << "높이는 " << myTower.getHeight() << "미터" << endl;  cout << "높이는 " << seoulTower.getHeight() << "미터" << endl;  } |
 
 <b>Explanation:</b>
 

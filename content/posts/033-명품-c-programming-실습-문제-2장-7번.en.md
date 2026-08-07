@@ -20,7 +20,7 @@ tags: ["C++", "cin.getline()", "CString", "programming", "strcmp()", "명품", "
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17 | #include <iostream>  #include <cstring>  using namespace std;    int main() {  char A[] = "yes"; // 배열 선언시 "yes"로 초기화  char B[100];  while(true){  cout << "종료하고 싶으면 yes를 입력하세요>>";  cin.getline(B,100);  if(strcmp(A,B) == 0) break;  }    cout << "종료합니다...";    return 0;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17 | #include <iostream>  #include <cstring>  using namespace std;    int main() {  char A[] = "yes"; // 배열 선언시 "yes"로 초기화  char B[100];  while(true){  cout << "종료하고 싶으면 yes를 입력하세요>>";  cin.getline(B,100);  if(strcmp(A,B) == 0) break;  }    cout << "종료합니다...";    return 0;  } |
 
 <b>Explanation:</b>
 

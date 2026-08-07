@@ -14,7 +14,7 @@ main() 함수의 실행과 결과가 다음과 같도록 Account 클래스를 �
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10 | #include <iostream>  using namespace std;    int main() {  Account a("Kitae", 1, 5000); // id 1번, 잔액 5000원, 이름이 Kitae인 계좌 성  a.deposit(50000); // 50000원 저금  cout << a.getOwner() << "의 잔액은 " << a.inquiry() << endl;  int money = a.withdraw(20000); // 20000원 출금. withdraw()는 출금한 실제 금액 리턴  cout << a.getOwner() << "의 잔액은 " << a.inquiry() << endl;  } |
+| 1  2  3  4  5  6  7  8  9  10 | #include <iostream>  using namespace std;    int main() {  Account a("Kitae", 1, 5000); // id 1번, 잔액 5000원, 이름이 Kitae인 계좌 성  a.deposit(50000); // 50000원 저금  cout << a.getOwner() << "의 잔액은 " << a.inquiry() << endl;  int money = a.withdraw(20000); // 20000원 출금. withdraw()는 출금한 실제 금액 리턴  cout << a.getOwner() << "의 잔액은 " << a.inquiry() << endl;  } |
 
 <b>Execution Result:</b>
 
@@ -30,4 +30,4 @@ Account는 name, id, balance(잔액)의 3 멤버 변수와 생성자, getOwner()
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48 | #include<iostream>  #include<string>  using namespace std;    class Account{  private:  string name;  int id;  int money;  public:  Account(string s,int a, int b);  void deposit(int a);  string getOwner();  int withdraw(int a);  int inquiry();    };    Account::Account(string s, int a, int b){  name = s;  id = a;  money = b;  }    void Account::deposit(int a){  money += a;  }    string Account::getOwner(){  return name;  }    int Account::withdraw(int a){  money -= a;  return a;  }    int Account::inquiry(){  return money;  }    int main(){  Account a("Kitae", 1, 5000);  a.deposit(50000);  cout << a.getOwner() << "의 잔액은 " << a.inquiry() << endl;  int money = a.withdraw(20000);  cout << a.getOwner() << "의 잔액은 " << a.inquiry() << endl;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48 | #include<iostream>  #include<string>  using namespace std;    class Account{  private:  string name;  int id;  int money;  public:  Account(string s,int a, int b);  void deposit(int a);  string getOwner();  int withdraw(int a);  int inquiry();    };    Account::Account(string s, int a, int b){  name = s;  id = a;  money = b;  }    void Account::deposit(int a){  money += a;  }    string Account::getOwner(){  return name;  }    int Account::withdraw(int a){  money -= a;  return a;  }    int Account::inquiry(){  return money;  }    int main(){  Account a("Kitae", 1, 5000);  a.deposit(50000);  cout << a.getOwner() << "의 잔액은 " << a.inquiry() << endl;  int money = a.withdraw(20000);  cout << a.getOwner() << "의 잔액은 " << a.inquiry() << endl;  } |

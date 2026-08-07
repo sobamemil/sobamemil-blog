@@ -30,7 +30,7 @@ Oval 클래스를 활용하는 코드의 사례와 Execution Result는 다음과
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9 | #include<iostream>  using namespace std;    int main() {  Oval a, b(3,4);  a.set(10, 20);  a.show();  cout << b.getWidth() << "," << b.getHeight() << endl;  } |
+| 1  2  3  4  5  6  7  8  9 | #include<iostream>  using namespace std;    int main() {  Oval a, b(3,4);  a.set(10, 20);  a.show();  cout << b.getWidth() << "," << b.getHeight() << endl;  } |
 
 <b>Execution Result:</b>
 
@@ -44,7 +44,7 @@ Oval 클래스를 활용하는 코드의 사례와 Execution Result는 다음과
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49 | #include<iostream>  using namespace std;    class Oval{  private:  int width, height;  public:  Oval();  Oval(int a, int b);  int getWidth();  int getHeight();  void set(int w, int h);  void show();  ~Oval();  };    Oval::Oval(){  width = 1;  height = 1;  }  Oval::Oval(int a, int b){  width = a;  height = b;  }  int Oval::getWidth(){  return width;  }  int Oval::getHeight(){  return height;  }  void Oval::set(int w, int h){  width = w;  height = h;  }    void Oval::show(){  cout << "width = " << width << ", height = " << height << endl;  }    Oval::~Oval(){  cout << "Oval 소멸 : width = " << width << ", height = " << height << endl;  }    int main() {  Oval a, b(3,4);  a.set(10, 20);  a.show();  cout << b.getWidth() << "," << b.getHeight() << endl;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49 | #include<iostream>  using namespace std;    class Oval{  private:  int width, height;  public:  Oval();  Oval(int a, int b);  int getWidth();  int getHeight();  void set(int w, int h);  void show();  ~Oval();  };    Oval::Oval(){  width = 1;  height = 1;  }  Oval::Oval(int a, int b){  width = a;  height = b;  }  int Oval::getWidth(){  return width;  }  int Oval::getHeight(){  return height;  }  void Oval::set(int w, int h){  width = w;  height = h;  }    void Oval::show(){  cout << "width = " << width << ", height = " << height << endl;  }    Oval::~Oval(){  cout << "Oval 소멸 : width = " << width << ", height = " << height << endl;  }    int main() {  Oval a, b(3,4);  a.set(10, 20);  a.show();  cout << b.getWidth() << "," << b.getHeight() << endl;  } |
 
 <b>Explanation:</b>
 

@@ -10,7 +10,7 @@ Person 클래스의 객체를 생성하는 main() 함수는 다음과 같다.
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | class Person {  int id;  double weight;  string name;  public:  void show() { cout << id << ' ' << weight << ' ' << name << endl; }  };    int main() {  Person grace, ashley(2, "Ashley"), helen(3, "Helen", 32.5);  grace.show();  ashley.show();  helen.show();  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | class Person {  int id;  double weight;  string name;  public:  void show() { cout << id << ' ' << weight << ' ' << name << endl; }  };    int main() {  Person grace, ashley(2, "Ashley"), helen(3, "Helen", 32.5);  grace.show();  ashley.show();  helen.show();  } |
 
 (1) 생성자를 중복 작성하고 프로그램을 완성하라.
 
@@ -30,10 +30,10 @@ Person 클래스의 객체를 생성하는 main() 함수는 다음과 같다.
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39 | #include<iostream>  #include<string>  using namespace std;    class Person {  int id;  double weight;  string name;  public:  Person();  Person(int id, string name);  Person(int id, string name, double weight);  void show() { cout << id << ' ' << weight << ' ' << name << endl; }  };    Person::Person() {  id = 1;  weight = 20.5;  name = "Grace";  }    Person::Person(int id, string name) {  this->id = id;  weight = 20.5;  this->name = name;  }    Person::Person(int id, string name, double weight) {  this->id = id;  this->weight = weight;  this->name = name;  }    int main() {  Person grace, ashley(2, "Ashley"), helen(3, "Helen", 32.5);  grace.show();  ashley.show();  helen.show();  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39 | #include<iostream>  #include<string>  using namespace std;    class Person {  int id;  double weight;  string name;  public:  Person();  Person(int id, string name);  Person(int id, string name, double weight);  void show() { cout << id << ' ' << weight << ' ' << name << endl; }  };    Person::Person() {  id = 1;  weight = 20.5;  name = "Grace";  }    Person::Person(int id, string name) {  this->id = id;  weight = 20.5;  this->name = name;  }    Person::Person(int id, string name, double weight) {  this->id = id;  this->weight = weight;  this->name = name;  }    int main() {  Person grace, ashley(2, "Ashley"), helen(3, "Helen", 32.5);  grace.show();  ashley.show();  helen.show();  } |
 
 ● 문제 (2)
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25 | #include<iostream>  #include<string>  using namespace std;    class Person {  int id;  double weight;  string name;  public:  Person(int id = 1, string name = "Grace", double weight = 20.5);  void show() { cout << id << ' ' << weight << ' ' << name << endl; }  };    Person::Person(int id, string name, double weight){  this->id = id;  this->weight = weight;  this->name = name;  }    int main() {  Person grace, ashley(2, "Ashley"), helen(3, "Helen", 32.5);  grace.show();  ashley.show();  helen.show();  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25 | #include<iostream>  #include<string>  using namespace std;    class Person {  int id;  double weight;  string name;  public:  Person(int id = 1, string name = "Grace", double weight = 20.5);  void show() { cout << id << ' ' << weight << ' ' << name << endl; }  };    Person::Person(int id, string name, double weight){  this->id = id;  this->weight = weight;  this->name = name;  }    int main() {  Person grace, ashley(2, "Ashley"), helen(3, "Helen", 32.5);  grace.show();  ashley.show();  helen.show();  } |

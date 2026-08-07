@@ -10,13 +10,13 @@ tags: ["::", "C++", "programming", "scopeoperator", "static", "명품", "범위�
 
 |  |  |
 | --- | --- |
-| 1  2  3  4 | static void intToDouble(int source[], double dest[], int size);  // int[]을 double[]로 변환  static void doubleToInt(double source[], int dest[], int size);  // double[]을 int[]로 변환 |
+| 1  2  3  4 | static void intToDouble(int source[], double dest[], int size);  // int[]을 double[]로 변환  static void doubleToInt(double source[], int dest[], int size);  // double[]을 int[]로 변환 |
 
 ArrayUtility를 활용하는 main()은 다음과 같다.
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13 | int main() {  int x[] = {1,2,3,4,5};  double y[5];  double z[] = {9.9,8.8,7.7,6.6,5.6};    ArrayUtility::intToDouble(x, y, 5); // x[] -> y[]  for(int i=0; i<5; i++) cout << y[i] << ' ';  cout << endl;    ArrayUtility::doubleToInt(z, x, 5); // z[] -> x[]  for(int i=0; i<5; i++) cout << x[i] << ' ';  cout << endl;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13 | int main() {  int x[] = {1,2,3,4,5};  double y[5];  double z[] = {9.9,8.8,7.7,6.6,5.6};    ArrayUtility::intToDouble(x, y, 5); // x[] -> y[]  for(int i=0; i<5; i++) cout << y[i] << ' ';  cout << endl;    ArrayUtility::doubleToInt(z, x, 5); // z[] -> x[]  for(int i=0; i<5; i++) cout << x[i] << ' ';  cout << endl;  } |
 
 <b>Execution Result:</b>
 
@@ -30,7 +30,7 @@ static 멤버 함수 만들기
 
 |  |  |
 | --- | --- |
-| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30 | #include<iostream>  using namespace std;    class ArrayUtility{  public:  static void intToDouble(int source[], double dest[], int size);  static void doubleToInt(double source[], int dest[], int size);  };    void ArrayUtility::intToDouble(int source[], double dest[], int size){  for(int i=0; i<size; i++) dest[i] = (double)source[i];  }    void ArrayUtility::doubleToInt(double source[], int dest[], int size){  for(int i=0; i<size; i++) dest[i] = (int)source[i];  }    int main() {  int x[] = {1,2,3,4,5};  double y[5];  double z[] = {9.9,8.8,7.7,6.6,5.6};    ArrayUtility::intToDouble(x, y, 5); // x[] -> y[]  for(int i=0; i<5; i++) cout << y[i] << ' ';  cout << endl;    ArrayUtility::doubleToInt(z, x, 5); // z[] -> x[]  for(int i=0; i<5; i++) cout << x[i] << ' ';  cout << endl;  } |
+| 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30 | #include<iostream>  using namespace std;    class ArrayUtility{  public:  static void intToDouble(int source[], double dest[], int size);  static void doubleToInt(double source[], int dest[], int size);  };    void ArrayUtility::intToDouble(int source[], double dest[], int size){  for(int i=0; i<size; i++) dest[i] = (double)source[i];  }    void ArrayUtility::doubleToInt(double source[], int dest[], int size){  for(int i=0; i<size; i++) dest[i] = (int)source[i];  }    int main() {  int x[] = {1,2,3,4,5};  double y[5];  double z[] = {9.9,8.8,7.7,6.6,5.6};    ArrayUtility::intToDouble(x, y, 5); // x[] -> y[]  for(int i=0; i<5; i++) cout << y[i] << ' ';  cout << endl;    ArrayUtility::doubleToInt(z, x, 5); // z[] -> x[]  for(int i=0; i<5; i++) cout << x[i] << ' ';  cout << endl;  } |
 
 <b>Explanation:</b>
 
