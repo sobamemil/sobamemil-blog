@@ -81,32 +81,36 @@ body {
   opacity: 0.65;
 }
 
-/* Pagination Buttons - High Contrast Fix for Light & Dark Mode */
+/* ULTRA HIGH CONTRAST PAGINATION BUTTONS FIX */
 .pagination {
-  margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 2.5rem !important;
 }
 
-.pagination a {
-  border-radius: 10px !important;
-  padding: 10px 22px !important;
-  font-size: 0.92rem !important;
-  font-weight: 700 !important;
-  color: #1d1d1f !important;
-  background: #e5e5ea !important;
-  border: 1px solid #d1d1d6 !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06) !important;
+.pagination a, .pagination .prev, .pagination .next, a.prev, a.next {
+  color: #ffffff !important;
+  background-color: #3182f6 !important;
+  border: 1px solid #3182f6 !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  opacity: 1 !important;
+  padding: 12px 26px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(49, 130, 246, 0.3) !important;
+  text-decoration: none !important;
   transition: all 0.2s ease !important;
 }
 
-.dark .pagination a {
+.dark .pagination a, .dark .pagination .prev, .dark .pagination .next, .dark a.prev, .dark a.next {
   color: #ffffff !important;
-  background: #2c2c2e !important;
-  border: 1px solid #3a3a3c !important;
+  background-color: #ea4aaa !important;
+  border: 1px solid #ea4aaa !important;
+  box-shadow: 0 4px 12px rgba(234, 74, 170, 0.3) !important;
 }
 
-.pagination a:hover {
-  background: #ea4aaa !important;
-  color: #ffffff !important;
-  border-color: #ea4aaa !important;
+.pagination a:hover, a.prev:hover, a.next:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2) !important;
 }
