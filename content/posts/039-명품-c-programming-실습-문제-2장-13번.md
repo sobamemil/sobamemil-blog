@@ -28,7 +28,6 @@ C++ 프로그램으로 구성, 키 입력 등 종합 연습
 
 if문을 사용해 코드를 작성하였지만 switch 문을 사용해 작성할 수도 있습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

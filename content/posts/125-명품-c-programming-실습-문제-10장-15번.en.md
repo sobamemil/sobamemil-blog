@@ -42,7 +42,6 @@ v.erase(it)는 벡터 v에서 it가 가리키는 원소를 삭제하고 난 다�
 | --- | --- |
 | 1 | it = v.erase(it); |
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

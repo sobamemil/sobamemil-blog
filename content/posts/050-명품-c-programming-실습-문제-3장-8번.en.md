@@ -46,7 +46,6 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/44)
 
 간단한 함수의 구현부는 클래스 안에서 구현하면 자동으로 판단하여 인라인 함수로 실행할 수도 있습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

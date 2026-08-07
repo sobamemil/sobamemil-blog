@@ -46,7 +46,6 @@ difference\_typea signed integral type, identical to: iterator\_traits ::differe
 
 www.cplusplus.com](http://www.cplusplus.com/reference/map/map/)
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

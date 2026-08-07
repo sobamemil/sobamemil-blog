@@ -70,7 +70,6 @@ tags: ["C++", "char*", "programming", "string", "명품", "문자열", "실습�
 
 또한 얕은 복사 생성자는 오류를 유발할 가능성이 농후하므로 되도록이면 깊은 복사 생성자를 작성하는 습관을 들이면 좋습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

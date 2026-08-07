@@ -44,7 +44,6 @@ add() 함수를 호출하는 main() 함수는 다음과 같다.
 
 디폴트 매개변수를 가진 함수를 작성하여 코드의 길이를 줄일 수 있습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

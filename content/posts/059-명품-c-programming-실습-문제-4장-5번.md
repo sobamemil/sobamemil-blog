@@ -34,7 +34,6 @@ string 클래스로 문자열 다루기
 
 어느 부분을 바꿀지 고를 때 공백문자는 바꾸지 않기 위해서 sent[n] != ' ' 이 아니면 다시 뽑도록 작성했습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

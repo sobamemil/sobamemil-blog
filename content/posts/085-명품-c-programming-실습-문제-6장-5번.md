@@ -40,7 +40,6 @@ static 멤버 함수를 만들어서 사용하는 문제입니다.
 
 static 멤버 함수는 클래스의 객체가 생성되지 않아도 범위 지정 연산자(Scope Operator) :: 를 사용해서 접근할 수 있습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

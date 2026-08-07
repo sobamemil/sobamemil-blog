@@ -42,7 +42,6 @@ strlen() 함수를 이용하여 각각의 문자열의 길이를 구하였고, s
 
 strlen() 함수와 strcpy() 함수는 c++에서 cstring 헤더파일에 정의되어 있습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

@@ -36,7 +36,6 @@ delete를 하지 않을경우 자신도 모르는 사이에 메모리 누수(Mem
 
 이때 해제된 메모리 영역을 여전히 가르키고 있는 포인터를 댕글링 포인터(Dangling Pointer)라고 합니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

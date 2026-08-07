@@ -34,7 +34,6 @@ search()의 호출 사례는 다음과 같다.
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 | #include<iostream>  using namespace std;      template <class T>  bool search(T search, T arr[], T arr\_size){  for(int i=0; i<arr\_size; i++){  if( arr[i] == search)  return true;  }  return false;  }    int main() {  int x[] = {1, 10, 100, 5, 4};  if(search(100, x, 5)) cout << "100이 배열 x에 포함되어 있다"; // 이 cout 실행  else cout << "100이 배열 x에 포함되어 있지 않다";  } |
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

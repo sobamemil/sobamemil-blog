@@ -32,7 +32,6 @@ vector 컨테이너 활용 연습
 
 vector 클래스의 size() 멤버 함수를 사용하면 원소의 개수를 알 수 있습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

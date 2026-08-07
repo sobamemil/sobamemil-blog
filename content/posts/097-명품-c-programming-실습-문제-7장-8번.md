@@ -42,7 +42,6 @@ tags: ["C++", "circle", "friend", "programming", "명품", "실습문제", "연�
 
 후위 연산자의 int x 매개 변수는 의미 없는 값이고, 이는 후위 연산자와 전위 연산자를 구분하기 위해 전달해주는 매개 변수입니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

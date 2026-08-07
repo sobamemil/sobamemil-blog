@@ -18,7 +18,6 @@ tags: ["IOS", "Mac", "Xcode", "개발", "맥북", "아이맥", "아이폰", "어
 
 이 글을 보시는 분은 당황하지 마시고 간단하게 문제를 해결하셨으면 좋겠습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)

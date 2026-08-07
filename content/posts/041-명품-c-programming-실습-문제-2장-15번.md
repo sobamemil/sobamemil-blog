@@ -44,7 +44,6 @@ strtok() 함수 또한 cstring 헤더 파일에 정의되어 있습니다.
 
 strtok() 함수는 자른 문자열을 반환, 더 이상 자를 문자열이 없으면 NULL을 반환하기 때문에 두번째 token을 나눌 때 부터는 char \*\_String에 자를 문자열이 아닌 NULL을 넣어 주어야 합니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

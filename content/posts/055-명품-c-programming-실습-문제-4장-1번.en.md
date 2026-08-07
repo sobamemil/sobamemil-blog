@@ -38,7 +38,6 @@ red, green, blue는 0~255의 값만 가진다.
 
 화살표 연산자(->)를 이용하여 클래스 멤버를 호출할 수 있습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

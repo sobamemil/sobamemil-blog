@@ -32,7 +32,6 @@ cout 활용, 화면 출력
 
 이중 for문을 사용하여 출력하였습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

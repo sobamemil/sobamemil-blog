@@ -28,7 +28,6 @@ cin 활용, 키보드로부터 실수 읽기
 
 제일 큰 수를 big 변수에 넣기위해 for문을 이용해 big과 실수 배열 a[]의 원소들을 하나하나 비교했습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

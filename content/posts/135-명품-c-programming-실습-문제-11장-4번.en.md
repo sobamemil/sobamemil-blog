@@ -38,7 +38,6 @@ cin.ignore() 함수에 대한 내용과 사용법은 실습 문제 11장 3번 �
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/134)
 
-**코딩은 내일부터 ;**
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)

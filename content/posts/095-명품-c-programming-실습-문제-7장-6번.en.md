@@ -44,7 +44,6 @@ tags: ["C++", "Matrix", "programming", "명품", "실습문제", "연산자중�
 
 이 문제를 해결하기 위해서는 +, +=, == 연산자를 구현하여야 합니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

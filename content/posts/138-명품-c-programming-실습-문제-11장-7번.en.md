@@ -52,7 +52,6 @@ public member function set (1)fmtflags setf (fmtflags fmtfl); mask (2)fmtflags s
 
 www.cplusplus.com](http://www.cplusplus.com/reference/ios/ios_base/setf/)
 
-**코딩은 내일부터 ;**
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)

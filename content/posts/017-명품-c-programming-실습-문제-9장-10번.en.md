@@ -30,7 +30,6 @@ Shape과 이를 상속받은 Circle, Line,Rect 클래스는 [그림9-13]을 이�
 
 전체적인 느낌을 참고만 하시면 될 것 같습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

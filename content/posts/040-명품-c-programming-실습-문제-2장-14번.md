@@ -32,7 +32,6 @@ char coffee[100]; int num; cin >> coffee >> num; 으로 커피 이름과 잔 수
 
 cin 연산자를 이용해 커피 종류와 잔 수를 한번에 입력받고 strcmp() 함수를 이용해 비교하여 각각 다른 코드를 수행하는 프로그램 입니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

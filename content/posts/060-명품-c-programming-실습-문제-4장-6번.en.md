@@ -28,7 +28,6 @@ string 클래스로 문자열 다루기
 
 사용자로부터 입력받은 영문 한 줄을 거꾸로 출력하기 위해 string 클래스의 length() 멤버 함수를 이용해 끝에서부터 반대로 출력하였습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

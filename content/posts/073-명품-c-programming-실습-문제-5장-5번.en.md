@@ -50,7 +50,6 @@ main() 함수의 목적을 달성하도록 increaseBy() 함수를 수정하라.
 
 따라서 increaseBy() 함수의 매개변수를 참조에 의한 호출을 사용하여 받으면 main() 함수의 목적을 달성할 수 있을 것입니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

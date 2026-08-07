@@ -30,7 +30,6 @@ c++에서 새로 등장한 cin 연산자를 사용할 수 있는지에 대한 �
 
 cin >> a >> b 와 같이 한번에 여러개를 입력받을 수 있습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

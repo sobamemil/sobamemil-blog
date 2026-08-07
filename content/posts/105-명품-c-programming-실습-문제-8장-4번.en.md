@@ -38,7 +38,6 @@ tags: ["accessspecifiers", "C++", "programming", "디폴트매개변수", "명�
 
 ColorPoint 클래스의 생성자를 디폴트 매개 변수가 있는 생성자로 작성해주면 되는 문제입니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

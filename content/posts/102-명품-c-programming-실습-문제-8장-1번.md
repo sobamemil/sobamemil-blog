@@ -52,7 +52,6 @@ In a member-specification of a class/struct or union, define the accessibility o
 
 en.cppreference.com](https://en.cppreference.com/w/cpp/language/access)
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

@@ -198,7 +198,6 @@ GPIOx\_LCKR
 
     1: Port configuration locked.
 
-**코딩은 내일부터 ;**
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)

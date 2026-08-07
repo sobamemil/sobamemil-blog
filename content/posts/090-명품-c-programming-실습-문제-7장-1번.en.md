@@ -54,7 +54,6 @@ Book 객체에 대해 다음 연산을 하고자 한다.
 
 연산자 함수를 클래스 외부 함수로 구현하기 위해 클래스 내부에서 friend로 선언을 해주었습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

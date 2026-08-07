@@ -42,7 +42,6 @@ string 타입의 매개변수를 넘겨받은 생성자가 실행되면 string �
 
 그 후 다시 나누어진 string을 stoi() 함수를 이용하여 int 형식으로 바꾸어 저장 및 출력 해주었습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

@@ -42,7 +42,6 @@ tags: ["!연산자", "C++", "operator", "programming", "멤버함수", "명품",
 
 가격은 음수가 아니라고 가정했습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

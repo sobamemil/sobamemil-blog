@@ -56,7 +56,6 @@ tags: ["Greedy", "Kruskal", "MST", "가중치", "그래프", "알고리즘", "�
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/180)
 
-**코딩은 내일부터 ;**
 
 [저작자표시 비영리 변경금지
 (새창열림)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko)

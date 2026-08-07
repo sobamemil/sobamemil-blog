@@ -44,7 +44,6 @@ sobamemil.tistory.com](https://sobamemil.tistory.com/123)
 
 참고하여 작성하면 도움이 될 것 같습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

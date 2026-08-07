@@ -30,7 +30,6 @@ cmd를 string 타입으로 선언하고 cin.get() 대신, string 객체에 문�
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14 | #include <iostream>  using namespace std;    int main() {  string cmd;  while(true){  cout << "종료하려면 exit을 입력하세요 >> ";  getline(cin, cmd); // getline() 함수를 통해 문자열 입력  if(cmd == "exit") {  cout << "프로그램을 종료합니다....";  return 0;  }  }  } |
 
-**코딩은 내일부터 ;**
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)

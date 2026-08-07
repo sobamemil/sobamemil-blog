@@ -30,7 +30,6 @@ tags: ["C++", "cin.getline()", "CString", "programming", "strcmp()", "명품", "
 
 cin.getline() 함수를 이용해 입력시에 공백을 포함하는 문자열 입력도 가능하게 만들 수 있는지 테스트 하는 문제입니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

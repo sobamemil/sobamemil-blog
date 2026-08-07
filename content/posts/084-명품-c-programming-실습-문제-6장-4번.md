@@ -28,7 +28,6 @@ tags: ["4번", "6장", "C++", "programming", "디폴트매개변수", "명품", 
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32 | #include<iostream>  using namespace std;    class MyVector{  int \*mem;  int size;  public:  MyVector(int n = 100, int val = 0);  void show();  ~MyVector() { delete [] mem; }  };    MyVector::MyVector(int n, int val) {  mem = new int [n];  size = n;  for(int i=0; i<size; i++) mem[i] = val;  }    void MyVector::show(){  cout << "size = " << size << endl;  for(int i=0; i<size; i++) cout << mem[i] << ' ';  cout << endl;  }    int main() {  MyVector a;  MyVector b(10, 50);  cout << "testing ..." << endl << endl;  a.show();  cout << endl;  b.show();  } |
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

@@ -30,7 +30,6 @@ tags: ["C++", "Pop", "programming", "Push", "stack", "명품", "실습문제", "
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36 | #include<iostream>  using namespace std;    class Stack{  int stack[10];  int top;  public:  Stack(){ top=0; }  Stack& operator<< (int num){  stack[top] = num;  top++;  return \*this;  }  bool operator! (){  if(top)  return false;  return true; //top이 empty면 true 반환  }  Stack operator>> (int& x){  x = stack[top-1];  top--;  return \*this;  }  };    int main() {  Stack stack;  stack << 3 << 5 << 10; // 3,5,10 순서대로 push  while(true){  if(!stack) break; //stack empty  int x;  stack >> x; //stack의 top에 있는 정수 pop  cout << x << ' ';  }  cout << endl;  } |
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

@@ -61,7 +61,6 @@ Dept 클래스에서 복사 생성자 Dept(const Dept& dept); 가 작성
 
 문제 (3)에서 int countPass(Dept& dept); 처럼 참조 연산자만 추가하여 참조에 의한 호출을 사용하면 복사 생성자를 제거하여도 실행 오류가 발생하지 않게 됩니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

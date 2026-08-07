@@ -40,7 +40,6 @@ static 멤버를 가진 클래스 만들기 및 사용 연습
 
 방식은 동일하기 때문에 크게 어렵지는 않습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

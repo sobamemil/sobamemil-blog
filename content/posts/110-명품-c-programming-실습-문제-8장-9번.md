@@ -68,7 +68,6 @@ tags: ["airlinebook", "C++", "programming", "명품", "비행기예약", "상속
 
 전체적인 실행 과정 등을 간단하게 그려놓고 시작하면 훨씬 수월하게 작성할 수 있습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

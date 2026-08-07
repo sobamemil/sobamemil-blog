@@ -68,7 +68,6 @@ main() 함수는 Add, Sub, Mul, Div 클래스 타입의 객체 a, s, m, d를 생
 
 앞으로 프로그램을 작성할 때 지금처럼 헤더파일과 구현부 cpp파일, main cpp파일로 나누어 작성하는걸 추천합니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

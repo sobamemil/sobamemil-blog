@@ -58,7 +58,6 @@ Ram 클래스는 다음과 같이 선언된다.
 
 주어진 main() 함수와 Ram 클래스의 선언부를 참고하여 Ram 클래스 멤버에 대한 구현부를 작성하는 문제입니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

@@ -32,7 +32,6 @@ tags: ["C++", "callByReference", "programming", "명품", "실습문제", "연�
 
 참조에 의한 호출을 사용해 매개변수의 본래의 값도 변경 되었습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

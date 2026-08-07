@@ -32,7 +32,6 @@ static 멤버를 가진 클래스 만들기 및 사용 연습
 
 static 멤버 함수를 작성하여 ArrayUtility2 클래스의 객체를 생성하지 않고도 함수를 호출하여 사용 하였습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

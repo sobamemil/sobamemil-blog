@@ -42,7 +42,6 @@ tags: ["C", "C++", "programming", "과제", "명품", "소스코드", "실습문
 
 sobamemil.tistory.com](https://sobamemil.tistory.com/109)
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

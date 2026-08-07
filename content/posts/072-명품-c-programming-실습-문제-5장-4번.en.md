@@ -34,7 +34,6 @@ bigger()는 인자로 주어진 a, b가 같으면 true, 아니면 false를 리�
 
 이 문제와 같이 2개 이상의 값을 return 하고 싶을 때 참조에 의한 호출을 사용하면 원하는대로 작동하게 할 수 있습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

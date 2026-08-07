@@ -40,7 +40,6 @@ npos는 string::npos로 정의되는 상수인데 unsinged int 입니다.
 
 이때 npos를 int 타입으로 형변환 하면 나오는 값이 -1 입니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

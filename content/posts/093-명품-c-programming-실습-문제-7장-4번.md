@@ -40,7 +40,6 @@ tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자", "�
 
 < 연산자 함수를 클래스 외부 함수로 작성하고 클래스 내부에서 friend로 선언을 해주었습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

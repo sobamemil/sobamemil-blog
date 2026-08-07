@@ -40,7 +40,6 @@ tags: ["12장", "C++", "coffeemachine", "iomanip", "programming", "객체지향"
 
 블랙 커피는 기본 재료 외에 소모되는 재료가 없습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)

@@ -54,7 +54,6 @@ BaseArray 클래스를 상속받아 스택으로 작동하는 MyStack 클래스�
 
 ko.wikipedia.org](https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%9D)
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

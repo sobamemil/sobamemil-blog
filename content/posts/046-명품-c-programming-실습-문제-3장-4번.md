@@ -32,7 +32,6 @@ CoffeeMachine 클래스에는 어떤 멤버 변수와 어떤 멤버 함수가 �
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 | #include<iostream>  using namespace std;    class CoffeeMachine{  private:  int coff, wat, sug;  public:  CoffeeMachine(int \_coff, int \_wat, int \_sug);  void drinkEspresso();  void drinkAmericano();  void drinkSugarCoffee();  void fill();  void show();    };    CoffeeMachine::CoffeeMachine(int \_coff, int \_wat, int \_sug){  coff = \_coff;  wat = \_wat;  sug = \_sug;  }    void CoffeeMachine::drinkEspresso(){  coff--;  wat--;  }    void CoffeeMachine::drinkAmericano() {  coff--;  wat--; wat--;  }    void CoffeeMachine::drinkSugarCoffee() {  coff--;  wat--; wat--;  sug--;  }    void CoffeeMachine::fill(){  coff = 10;  wat = 10;  sug = 10;  }    void CoffeeMachine::show(){  cout << "커피 머신 상태, 커피:" << coff << "\t물:" << wat << "\t설탕:" << sug << endl;  }    int main() {  CoffeeMachine java(5, 10, 3); // 커피량:5, 물량:10, 설탕:6 으로 초기화  java.drinkEspresso(); // 커피 1, 물 1 소비  java.show(); // 현재 커피 머신의 상태 출력  java.drinkAmericano(); // 커피 1, 물 2 소비  java.show(); // 현재 커피 머신의 상태 출력  java.drinkSugarCoffee(); // 커피 1, 물 2, 설탕 1 소비  java.show(); // 현재 커피 머신의 상태 출력  java.fill(); // 커피 10, 물 10, 설탕 10 으로 채우기  java.show(); // 현재 커피 머신의 상태 출력  } |
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

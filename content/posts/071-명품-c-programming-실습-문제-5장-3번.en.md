@@ -32,7 +32,6 @@ string 클래스와 참조 사용 연습
 
 combine() 함수에서 매개변수인 t1과 t2도 참조에 의한 호출을 사용하여 받아와도 됩니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

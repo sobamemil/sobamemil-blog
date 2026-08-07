@@ -36,7 +36,6 @@ Circle과 같은 클래스는 > 연산자가 구현되어 있지 않기 때문�
 
 따라서 Circle 타입의 중복 함수를 작성하여 주면 bigger(waffle, pizza); 호출 시 템플릿 함수보다 중복 함수가 우선이기 때문에 템플릿 함수가 아닌 Circle 객체를 리턴하는 중복 함수가 호출됩니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

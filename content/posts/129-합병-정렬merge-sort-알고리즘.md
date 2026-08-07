@@ -40,7 +40,6 @@ tags: ["2019", "algorithm", "merge", "MergeSort", "Sort", "수도코드", "알�
 
 ![](https://img.sobamemil.com/posts/129/img_2.png)
 
-**코딩은 내일부터 ;**
 
 [저작자표시 동일조건
 (새창열림)](https://creativecommons.org/licenses/by-sa/4.0/deed.ko)

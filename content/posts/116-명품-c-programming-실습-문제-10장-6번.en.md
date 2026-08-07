@@ -36,7 +36,6 @@ retSize는 remove() 함수의 실행 결과를 리턴하는 배열의 크기를 
 
 src[]의 값과 minus[]의 값을 2중 for문을 이용하여 비교 및 삭제 하였습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

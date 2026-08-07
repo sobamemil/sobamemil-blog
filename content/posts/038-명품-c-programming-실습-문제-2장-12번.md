@@ -40,7 +40,6 @@ C++ 프로그래밍에 대한 전반적인 이해
 
 C++ 에서는 Function Overloading이 가능하기 때문에 함수의 원형 선언시에 매개 변수까지 모두 동일하게 선언하여야 합니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

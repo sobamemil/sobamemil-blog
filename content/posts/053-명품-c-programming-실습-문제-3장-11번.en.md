@@ -42,7 +42,6 @@ tags: ["C++", "CPP", "Main", "programming", "구현부", "명품", "선언부", 
 | --- | --- |
 | 1  2  3  4  5  6  7  8  9  10  11  12  13 | #include<iostream>  using namespace std;    #include "Box.h"    int main() {  Box b(10, 2);  b.draw();  cout << endl;  b.setSize(7, 4);  b.setFill('^');  b.draw();  } |
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

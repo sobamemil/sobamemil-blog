@@ -34,7 +34,6 @@ vector에 객체의 삽입, 검색 응용 연습
 
 코드가 그렇게 길지 않고 어렵지 않기 때문에 별 다른 함수를 사용하지 않고 main() 함수에서만 작성 하였습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

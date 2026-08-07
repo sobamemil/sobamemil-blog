@@ -46,7 +46,6 @@ public member function istream& ignore (streamsize n = 1, int delim = EOF); Extr
 
 www.cplusplus.com](http://www.cplusplus.com/reference/istream/istream/ignore/?kw=cin.ignore)
 
-**코딩은 내일부터 ;**
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)

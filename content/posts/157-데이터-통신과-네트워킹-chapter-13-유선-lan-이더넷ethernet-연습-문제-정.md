@@ -80,7 +80,6 @@ tags: ["5판", "ethernet", "lan", "네트워크", "네트워킹", "데이터링�
 
 혹시 틀린 답이 있다면 댓글로 알려주세요.
 
-**코딩은 내일부터 ;**
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)

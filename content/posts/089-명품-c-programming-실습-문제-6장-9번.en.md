@@ -48,7 +48,6 @@ class의 객체가 생성되지 않아도 프로그램이 시작되면 static �
 
 또한 static 멤버 함수는 오직 static 멤버들만 접근이 가능하고 static 멤버 함수에서 non-static 멤버에 접근하는 것은 허용되지 않습니다.
 
-**코딩은 내일부터 ;**
 
 [저작자표시
 (새창열림)](https://creativecommons.org/licenses/by/4.0/deed.ko)

@@ -48,7 +48,6 @@ www.postman.com](https://www.postman.com/downloads/)
 
 ![](https://img.sobamemil.com/posts/184/img_7.png)
 
-**코딩은 내일부터 ;**
 
 [저작자표시 비영리
 (새창열림)](https://creativecommons.org/licenses/by-nc/4.0/deed.ko)
