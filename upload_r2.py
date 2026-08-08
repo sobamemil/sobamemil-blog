@@ -5,10 +5,10 @@ import re
 import boto3
 from botocore.config import Config
 
-ACCOUNT_ID = "f69e0488355e30f22cfb62d9ef3d9bee"
-ACCESS_KEY_ID = "ea2ff0fd780c7beeaac886b3485e0082"
-SECRET_ACCESS_KEY = "a4e3aedbc4987b5d7143478103de3642985b0c991a6e46f8e3b5cc9f9b404015"
-BUCKET_NAME = "sobamemil-blog-images"
+ACCOUNT_ID = os.environ["R2_ACCOUNT_ID"]
+ACCESS_KEY_ID = os.environ["R2_ACCESS_KEY_ID"]
+SECRET_ACCESS_KEY = os.environ["R2_SECRET_ACCESS_KEY"]
+BUCKET_NAME = os.environ.get("R2_BUCKET_NAME", "sobamemil-blog-images")
 
 ENDPOINT_URL = f"https://{ACCOUNT_ID}.r2.cloudflarestorage.com"
 R2_PUBLIC_BASE = f"https://pub-{ACCOUNT_ID}.r2.dev"
