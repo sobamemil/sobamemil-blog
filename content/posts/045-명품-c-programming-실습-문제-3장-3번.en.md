@@ -3,7 +3,7 @@ title: "C++ Programming Ch.3 Exercise 3 Solution"
 date: 2020-03-02T17:56:41+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["Account", "C++", "programming", "명품", "실습문제", "연습문제", "클래스", "프로그래밍", "함수"]
+tags: ["Account", "C++", "programming", "Masterpiece", "Practice Problem", "Exercise", "Class", "Programming", "Function"]
 ---
 
 **Problem:**

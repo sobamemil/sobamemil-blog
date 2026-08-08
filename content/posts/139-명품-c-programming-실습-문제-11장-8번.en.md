@@ -3,7 +3,7 @@ title: "C++ Programming Ch.11 Exercise 8 Solution"
 date: 2020-04-02T13:54:14+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "operator", "programming", "명품", "스트림입출력", "실습문제", "연산자", "연습문제", "참조자", "프로그래밍"]
+tags: ["C++", "operator", "programming", "Masterpiece", "Stream I/O", "Practice Problem", "Operator", "Exercise", "Reference", "Programming"]
 ---
 
 **Problem:**

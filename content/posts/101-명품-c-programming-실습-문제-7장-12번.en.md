@@ -3,7 +3,7 @@ title: "C++ Programming Ch.7 Exercise 12 Solution"
 date: 2020-03-06T20:09:44+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "SortedArray", "명품", "복사생성자", "실습문제", "연산자", "연습문제", "중복", "프로그래밍"]
+tags: ["C++", "programming", "SortedArray", "Masterpiece", "Copy Constructor", "Practice Problem", "Operator", "Exercise", "Overloading", "Programming"]
 ---
 
 **Problem:**

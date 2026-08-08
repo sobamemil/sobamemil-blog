@@ -3,7 +3,7 @@ title: "C++ Programming Ch.11 Exercise 9 Solution"
 date: 2020-04-02T14:00:37+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "iostream", "programming", "명품", "실습문제", "연산자중복", "연습문제", "입력스트림", "출력스트림", "프로그래밍"]
+tags: ["C++", "iostream", "programming", "Masterpiece", "Practice Problem", "Operator Overloading", "Exercise", "Input Stream", "Output Stream", "Programming"]
 ---
 
 **Problem:**

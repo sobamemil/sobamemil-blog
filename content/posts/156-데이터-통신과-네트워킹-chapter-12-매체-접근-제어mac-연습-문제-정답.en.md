@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.12 매체 접근 제어(MAC) Exercis
 date: 2020-06-21T20:56:53+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["5판", "Mac", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "정답", "풀이", "해답"]
+tags: ["5th Edition", "Mac", "Network", "Networking", "Data Link Layer", "Data Communications", "Exercise", "Answer", "Solution"]
 ---
 
 **Chapter 12 매체 접근 제어(MAC) Practice ExercisesSolution(답)**

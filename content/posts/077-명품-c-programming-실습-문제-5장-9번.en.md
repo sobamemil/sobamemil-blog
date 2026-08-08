@@ -3,7 +3,7 @@ title: "C++ Programming Ch.5 Exercise 9 Solution"
 date: 2020-03-05T15:32:46+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["*this", "Accumulator", "C++", "programming", "reference", "명품", "실습문제", "연습문제", "참조", "프로그래밍"]
+tags: ["*this", "Accumulator", "C++", "programming", "reference", "Masterpiece", "Practice Problem", "Exercise", "Reference", "Programming"]
 ---
 
 **Problem:**

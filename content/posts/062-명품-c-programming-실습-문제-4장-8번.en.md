@@ -3,7 +3,7 @@ title: "C++ Programming Ch.4 Exercise 8 Solution"
 date: 2020-03-04T16:23:04+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "객체배열", "객체포인터", "동적배열", "동적할당", "명품", "프로그래밍"]
+tags: ["C++", "programming", "Object Array", "Object Pointer", "Dynamic Array", "Dynamic Allocation", "Masterpiece", "Programming"]
 ---
 
 **Problem:**

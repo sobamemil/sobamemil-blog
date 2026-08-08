@@ -3,7 +3,7 @@ title: "C++ Programming Ch.6 Exercise 9 Solution"
 date: 2020-03-06T16:36:17+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["Board", "C++", "programming", "static", "게시판프로그램", "명품", "실습문제", "연습문제", "전역변수", "프로그래밍"]
+tags: ["Board", "C++", "programming", "static", "Bulletin Board Program", "Masterpiece", "Practice Problem", "Exercise", "Global Variable", "Programming"]
 ---
 
 **Problem:**

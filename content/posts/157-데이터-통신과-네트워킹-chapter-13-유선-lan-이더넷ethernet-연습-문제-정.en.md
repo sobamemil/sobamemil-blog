@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.13 유선 LAN: 이더넷(Ethernet) E
 date: 2020-06-21T21:09:33+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["5판", "ethernet", "lan", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "정답", "풀이"]
+tags: ["5th Edition", "ethernet", "lan", "Network", "Networking", "Data Link Layer", "Data Communications", "Exercise", "Answer", "Solution"]
 ---
 
 **Chapter 13 유선 LAN: 이더넷(Ethernet) Practice ExercisesSolution(답)**

@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.5 아날로그 전송 Exercises & So
 date: 2020-04-23T12:25:10+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["5판", "네트워크", "네트워킹", "답", "데이터통신", "아날로그", "연습문제", "정답", "풀이", "해답"]
+tags: ["5th Edition", "Network", "Networking", "Answer", "Data Communications", "Analog", "Exercise", "Solution"]
 ---
 
 **Chapter 5 아날로그 전송 Practice ExercisesSolution(답)**

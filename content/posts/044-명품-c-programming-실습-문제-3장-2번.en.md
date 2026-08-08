@@ -3,7 +3,7 @@ title: "C++ Programming Ch.3 Exercise 2 Solution"
 date: 2020-03-02T17:38:17+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "stoi", "string", "substr", "명품", "실습문제", "연습문제", "클래스", "프로그래밍"]
+tags: ["C++", "programming", "stoi", "string", "substr", "Masterpiece", "Practice Problem", "Exercise", "Class", "Programming"]
 ---
 
 **Problem:**

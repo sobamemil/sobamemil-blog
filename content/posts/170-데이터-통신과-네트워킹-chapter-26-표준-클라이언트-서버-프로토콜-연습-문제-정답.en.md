@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.26 표준 클라이언트-서버 프
 date: 2020-06-30T14:35:54+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["네트워크", "네트워킹", "데이터통신", "서버", "연습문제", "응용층", "정답", "클라이언트", "풀이", "프로토콜"]
+tags: ["Network", "Networking", "Data Communications", "Server", "Exercise", "Application Layer", "Answer", "Client", "Solution", "Protocol"]
 ---
 
 **Chapter 26 표준 클라이언트-서버 프로토콜 Practice ExercisesSolution(답)**

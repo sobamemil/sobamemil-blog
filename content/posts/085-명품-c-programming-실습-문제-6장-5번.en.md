@@ -3,7 +3,7 @@ title: "C++ Programming Ch.6 Exercise 5 Solution"
 date: 2020-03-06T14:52:41+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["::", "C++", "programming", "scopeoperator", "static", "명품", "범위지정연산자", "실습문제", "연습문제", "프로그래밍"]
+tags: ["::", "C++", "programming", "scopeoperator", "static", "Masterpiece", "Scope Resolution Operator", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

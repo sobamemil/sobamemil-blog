@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.21 멀티캐스트 라우팅 Exercis
 date: 2020-06-29T14:21:52+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["네트워크", "네트워크층", "네트워킹", "데이어통신", "라우팅", "멀티캐스트", "연습문제", "정답", "풀이"]
+tags: ["Network", "Network Layer", "Networking", "Data Communications", "Routing", "Multicast", "Exercise", "Answer", "Solution"]
 ---
 
 **Chapter 21 멀티캐스트 라우팅 Practice ExercisesSolution(답)**

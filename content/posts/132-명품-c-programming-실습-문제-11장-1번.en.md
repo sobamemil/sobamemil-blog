@@ -3,7 +3,7 @@ title: "C++ Programming Ch.11 Exercise 1 Solution"
 date: 2020-03-27T14:58:42+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["11장", "C++", "cin", "get()", "programming", "명품", "스트림", "실습문제", "연습문제", "프로그래밍"]
+tags: ["Chapter 11", "C++", "cin", "get()", "programming", "Masterpiece", "Stream", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

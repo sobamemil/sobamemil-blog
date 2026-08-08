@@ -3,7 +3,7 @@ title: "C++ Programming Ch.3 Exercise 6 Solution"
 date: 2020-03-03T16:20:43+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "EvenRandom", "programming", "rand", "srand", "명품", "실습문제", "연습문제", "짝수", "프로그래밍"]
+tags: ["C++", "EvenRandom", "programming", "rand", "srand", "Masterpiece", "Practice Problem", "Exercise", "Even Number", "Programming"]
 ---
 
 **Problem:**

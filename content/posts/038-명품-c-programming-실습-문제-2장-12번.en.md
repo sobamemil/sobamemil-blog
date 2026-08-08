@@ -3,7 +3,7 @@ title: "C++ Programming Ch.2 Exercise 12 Solution"
 date: 2020-02-28T18:15:45+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "매개변수", "명품", "실습문제", "연습문제", "프로그래밍", "함수선언", "함수중복"]
+tags: ["C++", "programming", "Parameter", "Masterpiece", "Practice Problem", "Exercise", "Programming", "Function Declaration", "Function Overloading"]
 ---
 
 **Problem:**

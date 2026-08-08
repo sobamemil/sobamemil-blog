@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.20 유니캐스트 라우팅 Exercis
 date: 2020-06-29T13:57:05+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["네트워크", "네트워크층", "네트워킹", "데이터통신", "라우팅", "연습문제", "유니캐스트", "정답", "풀이"]
+tags: ["Network", "Network Layer", "Networking", "Data Communications", "Routing", "Exercise", "Unicast", "Answer", "Solution"]
 ---
 
 **Chapter 20 유니캐스트 라우팅 Practice ExercisesSolution(답)**

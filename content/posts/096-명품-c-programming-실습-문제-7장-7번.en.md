@@ -3,7 +3,7 @@ title: "C++ Programming Ch.7 Exercise 7 Solution"
 date: 2020-03-06T18:10:47+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자중복", "연산자함수", "연습문제", "프렌드함수", "프로그래밍"]
+tags: ["C++", "friend", "programming", "Masterpiece", "Practice Problem", "Operator Overloading", "Operator Function", "Exercise", "Friend Function", "Programming"]
 ---
 
 **Problem:**

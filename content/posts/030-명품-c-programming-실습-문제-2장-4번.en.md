@@ -3,7 +3,7 @@ title: "C++ Programming Ch.2 Exercise 4 Solution"
 date: 2020-02-28T16:37:04+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "cin", "float", "programming", "가장 큰 수", "명품", "실수", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "cin", "float", "programming", "Largest Number", "Masterpiece", "Float", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

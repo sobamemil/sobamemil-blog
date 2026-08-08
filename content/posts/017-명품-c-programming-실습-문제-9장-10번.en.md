@@ -3,7 +3,7 @@ title: "C++ Programming Ch.9 Exercise 10 Solution"
 date: 2019-11-26T13:00:11+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C", "C++", "programming", "과제", "링크드 리스트", "명품", "소스코드", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C", "C++", "programming", "Assignment", "Linked List", "Masterpiece", "Source Code", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

@@ -3,7 +3,7 @@ title: "C++ Programming Ch.10 Exercise 12 Solution"
 date: 2020-03-10T20:28:33+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "openchallenge", "programming", "vector", "명품", "벡터", "실습문제", "연습문제", "컨테이너", "프로그래밍"]
+tags: ["C++", "openchallenge", "programming", "vector", "Masterpiece", "Vector", "Practice Problem", "Exercise", "Container", "Programming"]
 ---
 
 **Problem:**

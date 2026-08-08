@@ -3,7 +3,7 @@ title: "ESP32-CAM 오류 : [E][camera.c:1049] camera_probe(): Detected camera no
 date: 2021-05-09T16:37:23+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["AI THINKER", "arduino", "CAM", "esp32", "esp32cam", "스케치", "아두이노", "업로드", "오류", "컴파일"]
+tags: ["AI THINKER", "arduino", "CAM", "esp32", "esp32cam", "Sketch", "Arduino", "Upload", "Error", "Compile"]
 ---ESP32-CAM 스케치 작성 및 컴파일 시 아래와 같은 오류가 발생하는 경우가 있습니다.
 
 [E][camera.c:1049] camera\_probe(): Detected camera not supported.  

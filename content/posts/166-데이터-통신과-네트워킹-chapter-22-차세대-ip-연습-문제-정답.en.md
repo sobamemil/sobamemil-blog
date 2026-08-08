@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.22 차세대 IP Exercises & Solution
 date: 2020-06-29T14:36:28+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["IPv6", "네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "차세대IP", "풀이"]
+tags: ["IPv6", "Network", "Network Layer", "Networking", "Data Communications", "Exercise", "Answer", "Next Generation IP", "Solution"]
 ---
 
 **Chapter 22 차세대 IP Practice ExercisesSolution(답)**

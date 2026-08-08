@@ -3,7 +3,7 @@ title: "C++ Programming Ch.10 Exercise 10 Solution"
 date: 2020-03-10T18:07:00+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "Capital", "Iterator", "Nation", "programming", "vector", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "Capital", "Iterator", "Nation", "programming", "vector", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

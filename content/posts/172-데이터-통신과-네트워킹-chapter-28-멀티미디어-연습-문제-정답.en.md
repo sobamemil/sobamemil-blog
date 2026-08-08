@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.28 멀티미디어 Exercises & Solut
 date: 2020-07-01T14:30:55+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["네트워크", "네트워킹", "데이터통신", "멀티미디어", "연습문제", "응용층", "풀이"]
+tags: ["Network", "Networking", "Data Communications", "Multimedia", "Exercise", "Application Layer", "Solution"]
 ---
 
 **Chapter 28 멀티미디어 Practice ExercisesSolution(답)**

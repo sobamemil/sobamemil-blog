@@ -3,7 +3,7 @@ title: "C++ Programming Ch.10 Exercise 5 Solution"
 date: 2020-03-09T15:53:04+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "Generic", "programming", "template", "명품", "실습문제", "연습문제", "일반화", "프로그래밍", "함수"]
+tags: ["C++", "Generic", "programming", "template", "Masterpiece", "Practice Problem", "Exercise", "Generalization", "Programming", "Function"]
 ---
 
 **Problem:**

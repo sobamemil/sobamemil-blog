@@ -3,7 +3,7 @@ title: "[수어 통역 Application] 동작 시연 영상"
 date: 2021-06-28T14:29:19+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["APP", "django", "IOS", "SWIFT", "번역", "수어", "수화", "앱", "어플", "통역"]
+tags: ["APP", "django", "IOS", "SWIFT", "Translation", "Sign Language", "App", "Interpretation"]
 ---수어 통역 애플리케이션의 동작 시연 영상입니다.
 
 단순 시연용으로 서버와 APP 모두 로컬 네트워크에서 진행되었습니다.

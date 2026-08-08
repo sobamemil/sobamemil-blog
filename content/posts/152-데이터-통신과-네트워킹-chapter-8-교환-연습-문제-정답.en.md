@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.8 교환 Exercises & Solutions"
 date: 2020-06-21T19:09:59+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["5판", "교환", "네트워크", "네트워킹", "데이터통신", "물리층", "연습문제", "정답", "해답"]
+tags: ["5th Edition", "Switching", "Network", "Networking", "Data Communications", "Physical Layer", "Exercise", "Answer"]
 ---
 
 **Chapter 8 교환 Practice ExercisesSolution(답)**

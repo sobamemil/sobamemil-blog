@@ -3,7 +3,7 @@ title: "C++ Programming Ch.4 Exercise 5 Solution"
 date: 2020-03-04T15:56:03+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "cstdlib", "CTime", "programming", "srand", "공백문자", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "cstdlib", "CTime", "programming", "srand", "Whitespace", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

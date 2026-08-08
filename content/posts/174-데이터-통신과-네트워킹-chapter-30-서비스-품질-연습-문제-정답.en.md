@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.30 서비스 품질 Exercises & Solu
 date: 2020-07-01T14:59:09+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["네트워크", "네트워킹", "데이터통신", "모든계층", "서비스품질", "연습문제", "정답", "풀이"]
+tags: ["Network", "Networking", "Data Communications", "All Layers", "Quality of Service", "Exercise", "Answer", "Solution"]
 ---
 
 **Chapter 30 서비스 품질 Practice ExercisesSolution(답)**

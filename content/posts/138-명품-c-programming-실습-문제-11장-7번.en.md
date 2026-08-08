@@ -3,7 +3,7 @@ title: "C++ Programming Ch.11 Exercise 7 Solution"
 date: 2020-04-02T11:58:57+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "cctype", "iomanip", "isprint", "programming", "setf", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "cctype", "iomanip", "isprint", "programming", "setf", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

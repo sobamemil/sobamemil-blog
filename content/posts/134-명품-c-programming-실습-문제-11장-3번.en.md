@@ -3,7 +3,7 @@ title: "C++ Programming Ch.11 Exercise 3 Solution"
 date: 2020-03-27T15:16:48+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["buffer", "C++", "cin", "ignore", "Istream", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["buffer", "C++", "cin", "ignore", "Istream", "programming", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

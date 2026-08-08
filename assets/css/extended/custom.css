@@ -117,3 +117,17 @@ body {
 .dark .pagination a:hover, .dark a.prev:hover, .dark a.next:hover {
   background-color: #ea4aaa !important;
 }
+
+.post-tags {
+  margin-top: 1.75rem !important;
+  margin-bottom: 1.75rem !important;
+}
+
+.paginav {
+  margin-top: 0.5rem !important;
+  margin-bottom: 1.75rem !important;
+}
+
+.comments {
+  margin-top: 2rem !important;
+}

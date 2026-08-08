@@ -3,7 +3,7 @@ title: "C++ Programming Ch.7 Exercise 10 Solution"
 date: 2020-03-06T19:52:18+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "Statistics", "명품", "실습문제", "연습문제", "참조리턴", "참조연산자", "참조자", "프로그래밍"]
+tags: ["C++", "programming", "Statistics", "Masterpiece", "Practice Problem", "Exercise", "Reference Return", "Reference Operator", "Reference", "Programming"]
 ---
 
 **Problem:**

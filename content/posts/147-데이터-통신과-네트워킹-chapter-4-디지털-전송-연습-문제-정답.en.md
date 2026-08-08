@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.4 디지털 전송 Exercises & Solut
 date: 2020-04-23T00:08:35+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["네트워크", "네트워킹", "답", "데이터통신", "물리층", "연습문제", "정답", "풀이", "해답"]
+tags: ["Network", "Networking", "Answer", "Data Communications", "Physical Layer", "Exercise", "Solution"]
 ---
 
 **Chapter 4 디지털 전송 Practice ExercisesSolution(답)**

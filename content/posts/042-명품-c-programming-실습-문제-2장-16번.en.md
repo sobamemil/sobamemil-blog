@@ -3,7 +3,7 @@ title: "C++ Programming Ch.2 Exercise 16 Solution"
 date: 2020-02-28T20:24:43+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "isalpha", "programming", "tolower", "명품", "실습문제", "알파벳", "연습문제", "프로그래밍", "히스토그램"]
+tags: ["C++", "isalpha", "programming", "tolower", "Masterpiece", "Practice Problem", "Alphabet", "Exercise", "Programming", "Histogram"]
 ---
 
 **Problem:**

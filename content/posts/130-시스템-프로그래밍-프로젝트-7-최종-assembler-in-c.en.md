@@ -3,7 +3,7 @@ title: "시스템 프로그래밍 프로젝트 #7 최종 (Assembler in C)"
 date: 2020-03-19T14:02:07+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["2pass", "2패스", "Assembler", "systemprogramming", "기계어", "시스템", "어셈블러", "어셈블리어", "프로그래밍", "프로젝트"]
+tags: ["2pass", "Two-Pass", "Assembler", "systemprogramming", "Machine Code", "System", "Assembly Language", "Programming", "Project"]
 ---
 
 **Problem:**

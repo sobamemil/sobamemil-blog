@@ -3,7 +3,7 @@ title: "C++ Programming Ch.8 Exercise 2 Solution"
 date: 2020-03-09T13:11:20+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "namedcircle", "programming", "기본클래스", "명품", "상속", "실습문제", "연습문제", "파생클래스", "프로그래밍"]
+tags: ["C++", "namedcircle", "programming", "Base Class", "Masterpiece", "Inheritance", "Practice Problem", "Exercise", "Derived Class", "Programming"]
 ---
 
 **Problem:**

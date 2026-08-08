@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.11 데이터링크 제어(DLC) Exerc
 date: 2020-06-21T20:47:15+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["5판", "DLC", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "정답", "풀이"]
+tags: ["5th Edition", "DLC", "Network", "Networking", "Data Link Layer", "Data Communications", "Exercise", "Answer", "Solution"]
 ---
 
 **Chapter 11 데이터링크 제어(DLC) Practice ExercisesSolution(답)**

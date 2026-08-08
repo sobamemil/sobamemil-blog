@@ -3,7 +3,7 @@ title: "C++ Programming Ch.4 Exercise 10 Solution"
 date: 2020-03-04T17:03:15+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["10번", "4장", "C++", "programming", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["Problem 10", "Chapter 4", "C++", "programming", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

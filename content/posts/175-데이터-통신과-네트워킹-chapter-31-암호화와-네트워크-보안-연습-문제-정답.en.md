@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.31 Cryptography & Network Security E
 date: 2020-07-01T15:07:27+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["네트워크", "네트워크보안", "네트워킹", "데이터통신", "모든계층", "보안", "암호화", "연습문제", "정답", "풀이"]
+tags: ["Network", "Network Security", "Networking", "Data Communications", "All Layers", "Security", "Encryption", "Exercise", "Answer", "Solution"]
 ---
 
 **Chapter 31 Cryptography & Network Security Practice ExercisesSolution(답)**

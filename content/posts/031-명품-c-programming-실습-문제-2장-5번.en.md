@@ -3,7 +3,7 @@ title: "C++ Programming Ch.2 Exercise 5 Solution"
 date: 2020-02-28T16:49:19+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "cin", "cin.getline", "getline", "programming", "명품", "문자열입력", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "cin", "cin.getline", "getline", "programming", "Masterpiece", "String Input", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

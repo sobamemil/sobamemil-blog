@@ -3,7 +3,7 @@ title: "C++ Programming Ch.10 Exercise 7 Solution"
 date: 2020-03-09T16:21:24+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "구체화", "명품", "실습문제", "연습문제", "제네릭", "중복함수", "템플릿", "프로그래밍"]
+tags: ["C++", "programming", "Specialization", "Masterpiece", "Practice Problem", "Exercise", "Generic", "Overloaded Function", "Template", "Programming"]
 ---
 
 **Problem:**

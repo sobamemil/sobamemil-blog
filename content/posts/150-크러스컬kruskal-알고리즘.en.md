@@ -3,7 +3,7 @@ title: "Kruskal's Minimum Spanning Tree Algorithm"
 date: 2020-07-02T18:03:16+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["Greedy", "Kruskal", "MST", "가중치", "그래프", "알고리즘", "욕심쟁이방법", "크러스컬", "탐욕법"]
+tags: ["Greedy", "Kruskal", "MST", "Weight", "Graph", "Algorithm", "Greedy Method", "Greedy Algorithm"]
 ---
 
 **크러스컬(Kruskal) 알고리즘이란?**

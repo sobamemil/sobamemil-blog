@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.14 다른 유선 네트워크들 Exe
 date: 2020-06-25T11:11:11+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["5판", "chapter14", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "연습문제", "유선네트워크", "정답", "풀이"]
+tags: ["5th Edition", "chapter14", "Network", "Networking", "Data Link Layer", "Data Communications", "Exercise", "Wired Network", "Answer", "Solution"]
 ---
 
 **Chapter 14 다른 유선 네트워크들 Practice ExercisesSolution(답)**

@@ -3,7 +3,7 @@ title: "C++ Programming Ch.3 Exercise 8 Solution"
 date: 2020-03-03T16:54:21+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "stoi()", "string", "명품", "실습문제", "연습문제", "인라인함수", "자동인라인", "프로그래밍"]
+tags: ["C++", "programming", "stoi()", "string", "Masterpiece", "Practice Problem", "Exercise", "Inline Function", "Automatic Inlining", "Programming"]
 ---
 
 **Problem:**

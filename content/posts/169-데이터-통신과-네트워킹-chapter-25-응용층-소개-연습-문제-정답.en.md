@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.25 Introduction to Application Layer
 date: 2020-06-30T13:56:10+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["네트워크", "네트워킹", "데이터통신", "연습문제", "응용층", "정답", "풀이"]
+tags: ["Network", "Networking", "Data Communications", "Exercise", "Application Layer", "Answer", "Solution"]
 ---
 
 **Chapter 25 Introduction to Application Layer Practice ExercisesSolution(답)**

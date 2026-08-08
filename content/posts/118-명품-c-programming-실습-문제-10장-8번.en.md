@@ -3,7 +3,7 @@ title: "C++ Programming Ch.10 Exercise 8 Solution"
 date: 2020-03-09T17:19:46+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "다운캐스팅", "상속", "순수가상함수", "실습문제", "업캐스팅", "연습문제", "추상클래스", "프로그래밍"]
+tags: ["C++", "programming", "Downcasting", "Inheritance", "Pure Virtual Function", "Practice Problem", "Upcasting", "Exercise", "Abstract Class", "Programming"]
 ---
 
 **Problem:**

@@ -3,7 +3,7 @@ title: "C++ Programming Ch.7 Exercise 9 Solution"
 date: 2020-03-06T18:43:43+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "circle", "friend", "programming", "명품", "실습문제", "연산자", "연습문제", "프렌드", "프로그래밍"]
+tags: ["C++", "circle", "friend", "programming", "Masterpiece", "Practice Problem", "Operator", "Exercise", "Friend", "Programming"]
 ---
 
 **Problem:**

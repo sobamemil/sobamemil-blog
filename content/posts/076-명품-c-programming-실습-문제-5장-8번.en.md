@@ -3,7 +3,7 @@ title: "C++ Programming Ch.5 Exercise 8 Solution"
 date: 2020-03-05T15:19:47+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "Copy", "programming", "명품", "복사", "복사생성자", "실습문제", "연습문제", "참조", "프로그래밍"]
+tags: ["C++", "Copy", "programming", "Masterpiece", "Copy Constructor", "Practice Problem", "Exercise", "Reference", "Programming"]
 ---
 
 **Problem:**

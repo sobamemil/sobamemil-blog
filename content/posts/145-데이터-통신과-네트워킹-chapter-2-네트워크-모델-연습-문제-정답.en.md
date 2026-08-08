@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.2 Network Models Exercises & Solutio
 date: 2020-04-19T17:55:29+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["5판", "chapter2", "네트워크모델", "네트워킹", "답", "데이터통신", "연습문제", "풀이", "해답"]
+tags: ["5th Edition", "chapter2", "Network Model", "Networking", "Answer", "Data Communications", "Exercise", "Solution"]
 ---
 
 **Chapter 2 Network Models</b><b>Practice ExercisesSolution(답)**

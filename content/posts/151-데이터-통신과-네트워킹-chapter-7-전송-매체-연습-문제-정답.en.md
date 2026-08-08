@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.7  Transmission Media Exercises & So
 date: 2020-06-21T18:56:08+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["5판", "네트워킹", "데이터통신", "물리층", "연습문제", "정답", "풀이", "해답"]
+tags: ["5th Edition", "Networking", "Data Communications", "Physical Layer", "Exercise", "Answer", "Solution"]
 ---
 
 **Chapter 7 Transmission Media 전송 Practice ExercisesSolution(답)**

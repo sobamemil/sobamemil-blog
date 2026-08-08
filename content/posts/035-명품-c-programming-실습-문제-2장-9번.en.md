@@ -3,7 +3,7 @@ title: "C++ Programming Ch.2 Exercise 9 Solution"
 date: 2020-02-28T17:36:57+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "cin", "cout", "getline", "programming", "명품", "실습문제", "연습문제", "코딩", "프로그래밍"]
+tags: ["C++", "cin", "cout", "getline", "programming", "Masterpiece", "Practice Problem", "Exercise", "Coding", "Programming"]
 ---
 
 **Problem:**

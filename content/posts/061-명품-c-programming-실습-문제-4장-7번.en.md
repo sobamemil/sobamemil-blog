@@ -3,7 +3,7 @@ title: "C++ Programming Ch.4 Exercise 7 Solution"
 date: 2020-03-04T16:13:47+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "circle", "programming", "객체배열", "동적배열", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "circle", "programming", "Object Array", "Dynamic Array", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

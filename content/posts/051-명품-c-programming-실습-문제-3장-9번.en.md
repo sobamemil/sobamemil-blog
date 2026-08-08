@@ -3,7 +3,7 @@ title: "C++ Programming Ch.3 Exercise 9 Solution"
 date: 2020-03-03T17:11:09+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "구현부", "명품", "생성자", "선언부", "소멸자", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "programming", "Implementation", "Masterpiece", "Constructor", "Declaration", "Destructor", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

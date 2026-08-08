@@ -3,7 +3,7 @@ title: "C++ Programming Ch.6 Exercise 8 Solution"
 date: 2020-03-06T16:11:59+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "static", "Trace", "디버깅", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "programming", "static", "Trace", "Debugging", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

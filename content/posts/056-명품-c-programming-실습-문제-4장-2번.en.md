@@ -3,7 +3,7 @@ title: "C++ Programming Ch.4 Exercise 2 Solution"
 date: 2020-03-04T15:17:39+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "delete", "heap", "programming", "댕글링포인터", "메모리누수", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "delete", "heap", "programming", "Dangling Pointer", "Memory Leak", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

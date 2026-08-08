@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.1 개요 Exercises & Solutions"
 date: 2020-04-12T23:42:49+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["chapter1", "개요", "네트워킹", "답", "데이터통신", "문제풀이", "심화문제", "연습문제", "응용연습문제", "챕터1"]
+tags: ["chapter1", "Overview", "Networking", "Answer", "Data Communications", "Problem Solving", "Advanced Problem", "Exercise", "Applied Exercise", "Chapter 1"]
 ---
 
 **Chapter 1 개요 Practice ExercisesSolution(답)**

@@ -3,7 +3,7 @@ title: "C++ Programming Ch.5 Exercise 5 Solution"
 date: 2020-03-05T14:49:33+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "increaseBy()", "programming", "값에의한호출", "명품", "실습문제", "연습문제", "참조", "참조에의한호출", "프로그래밍"]
+tags: ["C++", "increaseBy()", "programming", "Call by Value", "Masterpiece", "Practice Problem", "Exercise", "Reference", "Call by Reference", "Programming"]
 ---
 
 **Problem:**

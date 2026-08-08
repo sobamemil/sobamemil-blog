@@ -3,7 +3,7 @@ title: "C++ Programming Ch.2 Exercise 13 Solution"
 date: 2020-02-28T19:01:50+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "if문", "programming", "switch", "명품", "소스코드", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "If Statement", "programming", "switch", "Masterpiece", "Source Code", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

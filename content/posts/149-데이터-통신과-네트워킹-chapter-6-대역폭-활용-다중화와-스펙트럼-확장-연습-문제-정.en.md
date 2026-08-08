@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.6 대역폭 활용: 다중화와 스
 date: 2020-04-29T11:57:10+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["5판", "네트워크", "네트워킹", "다중화", "대역폭활용", "데이터통신", "디지털", "스펙트럼", "아날로그", "연습문제"]
+tags: ["5th Edition", "Network", "Networking", "Multiplexing", "Bandwidth Utilization", "Data Communications", "Digital", "Spectrum", "Analog", "Exercise"]
 ---
 
 **Chapter 6 아날로그대역폭 활용: 다중화와 스펙트럼 확장 전송 Practice ExercisesSolution(답)**

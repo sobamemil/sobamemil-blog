@@ -3,7 +3,7 @@ title: "C++ Programming Ch.5 Exercise 6 Solution"
 date: 2020-03-05T14:59:03+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "reference", "명품", "실습문제", "연습문제", "참조", "참조리턴", "프로그래밍", "호출"]
+tags: ["C++", "programming", "reference", "Masterpiece", "Practice Problem", "Exercise", "Reference", "Reference Return", "Programming", "Call"]
 ---
 
 **Problem:**

@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.18 네트워크층의 소개 Exercis
 date: 2020-06-29T13:23:30+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["CIDR", "NAT", "네트워크", "네트워크층", "네트워킹", "데이터통신", "연습문제", "정답", "풀이"]
+tags: ["CIDR", "NAT", "Network", "Network Layer", "Networking", "Data Communications", "Exercise", "Answer", "Solution"]
 ---
 
 **Chapter 18 네트워크층의 소개 Practice ExercisesSolution(답)**

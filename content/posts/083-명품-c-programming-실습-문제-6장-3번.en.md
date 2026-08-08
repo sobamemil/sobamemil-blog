@@ -3,7 +3,7 @@ title: "C++ Programming Ch.6 Exercise 3 Solution"
 date: 2020-03-05T16:54:35+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "Function", "overloading", "programming", "디폴트매개변수", "명품", "실습문제", "연습문제", "프로그래밍", "함수중복"]
+tags: ["C++", "Function", "overloading", "programming", "Default Parameter", "Masterpiece", "Practice Problem", "Exercise", "Programming", "Function Overloading"]
 ---
 
 **Problem:**

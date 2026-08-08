@@ -3,7 +3,7 @@ title: "C++ Programming Ch.4 Exercise 14 Solution"
 date: 2020-03-04T17:50:03+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "cstdlib", "CTime", "gambling", "programming", "rand()", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "cstdlib", "CTime", "gambling", "programming", "rand()", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

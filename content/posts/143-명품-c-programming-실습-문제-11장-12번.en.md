@@ -3,7 +3,7 @@ title: "C++ Programming Ch.11 Exercise 12 Solution"
 date: 2020-04-02T16:58:54+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["12장", "C++", "coffeemachine", "iomanip", "programming", "객체지향", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["Chapter 12", "C++", "coffeemachine", "iomanip", "programming", "Object-Oriented", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

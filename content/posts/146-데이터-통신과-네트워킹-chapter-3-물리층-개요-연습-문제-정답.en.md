@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.3 물리층 개요 Exercises & Solut
 date: 2020-04-20T19:12:31+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["5판", "네트워킹", "데이터통신", "물리층", "연습문제", "정답", "풀이", "해답"]
+tags: ["5th Edition", "Networking", "Data Communications", "Physical Layer", "Exercise", "Answer", "Solution"]
 ---
 
 **Chapter 3 물리층 Practice ExercisesSolution(답)**

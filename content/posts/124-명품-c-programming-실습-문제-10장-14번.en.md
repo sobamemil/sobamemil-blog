@@ -3,7 +3,7 @@ title: "C++ Programming Ch.10 Exercise 14 Solution"
 date: 2020-03-11T14:59:59+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "iostream", "map", "programming", "맵", "명품", "실습문제", "연습문제", "컨테이터", "프로그래밍"]
+tags: ["C++", "iostream", "map", "programming", "Map", "Masterpiece", "Practice Problem", "Exercise", "Container", "Programming"]
 ---
 
 **Problem:**

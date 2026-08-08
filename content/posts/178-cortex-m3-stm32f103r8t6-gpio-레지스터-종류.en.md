@@ -3,7 +3,7 @@ title: "Cortex-M3 STM32F103R8T6 GPIO 레지스터 종류"
 date: 2020-07-08T11:55:22+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["Cortex-M3", "embedded", "GPIO", "MCU", "register", "STM32", "마이크로", "임베디드", "입출력포트", "컨트롤러"]
+tags: ["Cortex-M3", "embedded", "GPIO", "MCU", "register", "STM32", "Micro", "Embedded", "I/O Port", "Controller"]
 ---이 글에서는 Cortex-M3 STM32F103(STM32F103R8T6)(이하 cortex-m3)의 입출력 포트를 제어하기 위해 필요한 레지스터들의 종류에 대해 알아보겠습니다.
 
 cortex-m3 마이크로컨트롤러는 데이터 출력용 레지스터(GPIOx\_ODR, GPIOx\_BSRR, GPIOx\_BRR)와 데이터 입출력 방향 제어 레지스터(GPIOx\_CRL, GPIOx\_CRH)와 데이터 입력 레지스터(GPIOx\_IDR), 그리고 입출력 값을 고정하는 용도의 레지스터(GPIOx\_LCKR)를 가지고 있고 이들에 대해 간단하게 Explanation하도록 하겠습니다.

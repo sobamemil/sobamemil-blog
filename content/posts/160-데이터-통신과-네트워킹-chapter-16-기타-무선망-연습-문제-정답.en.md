@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.16 기타 무선망 Exercises & Solu
 date: 2020-06-29T12:17:20+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["GPS", "네트워크", "네트워킹", "데이터링크층", "데이터통신", "무선망", "연습문제", "정답", "풀이"]
+tags: ["GPS", "Network", "Networking", "Data Link Layer", "Data Communications", "Wireless Network", "Exercise", "Answer", "Solution"]
 ---
 
 **Chapter 16 기타 무선망 Practice ExercisesSolution(답)**

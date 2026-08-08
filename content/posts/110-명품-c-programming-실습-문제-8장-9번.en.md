@@ -3,7 +3,7 @@ title: "C++ Programming Ch.8 Exercise 9 Solution"
 date: 2020-03-09T15:13:20+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["airlinebook", "C++", "programming", "명품", "비행기예약", "상속", "실습문제", "연습문제", "프로그래밍", "프로그램"]
+tags: ["airlinebook", "C++", "programming", "Masterpiece", "Flight Reservation", "Inheritance", "Practice Problem", "Exercise", "Programming", "Program"]
 ---
 
 **Problem:**

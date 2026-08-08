@@ -3,7 +3,7 @@ title: "C++ Programming Ch.6 Exercise 4 Solution"
 date: 2020-03-06T14:38:18+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["4번", "6장", "C++", "programming", "디폴트매개변수", "명품", "실습문제", "연습문제", "중복생성자", "프로그래밍"]
+tags: ["Problem 4", "Chapter 6", "C++", "programming", "Default Parameter", "Masterpiece", "Practice Problem", "Exercise", "Overloaded Constructor", "Programming"]
 ---
 
 **Problem:**

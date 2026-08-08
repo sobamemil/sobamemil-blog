@@ -3,7 +3,7 @@ title: "C++ Programming Ch.11 Exercise 6 Solution"
 date: 2020-03-27T15:55:33+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "formatflag", "manipulator", "programming", "명품", "실습문제", "연습문제", "조작자", "포맷플래그", "프로그래밍"]
+tags: ["C++", "formatflag", "manipulator", "programming", "Masterpiece", "Practice Problem", "Exercise", "Manipulator", "Format Flags", "Programming"]
 ---
 
 **Problem:**

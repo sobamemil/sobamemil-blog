@@ -3,7 +3,7 @@ title: "C++ Programming Ch.7 Exercise 2 Solution"
 date: 2020-03-06T17:02:25+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["==", "C++", "friend", "operator", "programming", "명품", "실습문제", "연산자", "연습문제", "프로그래밍"]
+tags: ["==", "C++", "friend", "operator", "programming", "Masterpiece", "Practice Problem", "Operator", "Exercise", "Programming"]
 ---
 
 **Problem:**

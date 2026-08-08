@@ -3,7 +3,7 @@ title: "Data Communications & Networking Ch.32 Internet Security Exercises & Sol
 date: 2020-07-01T15:15:39+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["네트워크", "네트워킹", "데이터통신", "모든계층", "연습문제", "인터넷보안", "정답", "풀이"]
+tags: ["Network", "Networking", "Data Communications", "All Layers", "Exercise", "Internet Security", "Answer", "Solution"]
 ---
 
 **Chapter 32 Internet Security Practice ExercisesSolution(답)**

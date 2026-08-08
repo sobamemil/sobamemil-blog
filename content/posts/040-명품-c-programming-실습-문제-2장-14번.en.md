@@ -3,7 +3,7 @@ title: "C++ Programming Ch.2 Exercise 14 Solution"
 date: 2020-02-28T19:34:38+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "cin", "CString", "programming", "strcmp", "while", "명품", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "cin", "CString", "programming", "strcmp", "while", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

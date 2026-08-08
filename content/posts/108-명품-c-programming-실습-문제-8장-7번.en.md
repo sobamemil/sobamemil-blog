@@ -3,7 +3,7 @@ title: "C++ Programming Ch.8 Exercise 7 Solution"
 date: 2020-03-09T14:04:17+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "RAM", "ROM", "명품", "상속", "실습문제", "연습문제", "프로그래밍"]
+tags: ["C++", "programming", "RAM", "ROM", "Masterpiece", "Inheritance", "Practice Problem", "Exercise", "Programming"]
 ---
 
 **Problem:**

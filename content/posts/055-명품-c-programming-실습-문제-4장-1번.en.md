@@ -3,7 +3,7 @@ title: "C++ Programming Ch.4 Exercise 1 Solution"
 date: 2020-03-04T15:05:27+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "programming", "객체배열", "객체포인터", "명품", "실습문제", "연습문제", "포인터", "프로그래밍", "화살표연산자"]
+tags: ["C++", "programming", "Object Array", "Object Pointer", "Masterpiece", "Practice Problem", "Exercise", "Pointer", "Programming", "Arrow Operator"]
 ---
 
 **Problem:**

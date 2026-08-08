@@ -3,7 +3,7 @@ title: "[Wise Guide] How to Save $100 on International Payout Fees (Free Remitta
 date: 2026-08-07T11:38:00+09:00
 draft: false
 categories: ["📱 Reviews & Life", "💻 Dev & CS"]
-tags: ["Wise", "해외송금", "Stripe", "GitHubSponsors", "프리랜서", "수수료절약", "재테크"]
+tags: ["Wise", "International Transfer", "Stripe", "GitHubSponsors", "Freelancer", "Fee Savings", "Personal Finance"]
 description: "Learn how to save $100 in exchange fees when receiving USD payouts from GitHub Sponsors, Outlier, and global freelancing platforms."
 ---Hello! If you receive USD payouts from global platforms like GitHub Sponsors, Outlier, or overseas freelancing, you've probably worried about transfer fees.
 

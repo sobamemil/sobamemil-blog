@@ -3,7 +3,7 @@ title: "C++ Programming Ch.5 Exercise 11 Solution"
 date: 2020-03-05T16:00:14+09:00
 draft: false
 categories: ["💻 Dev & CS"]
-tags: ["C++", "char*", "programming", "string", "명품", "문자열", "실습문제", "얕은복사생성자", "연습문제", "프로그래밍"]
+tags: ["C++", "char*", "programming", "string", "Masterpiece", "String", "Practice Problem", "Shallow Copy Constructor", "Exercise", "Programming"]
 ---
 
 **Problem:**
