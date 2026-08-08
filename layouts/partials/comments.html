@@ -1,17 +1,37 @@
 <div class="comments" style="margin-top: 3rem;">
-    <script src="https://giscus.app/client.js"
-            data-repo="sobamemil/sobamemil-blog"
-            data-repo-id="R_kgDOTwh8qA"
-            data-category="Announcements"
-            data-category-id="DIC_kwDOTwh8qM4DC6B1"
-            data-mapping="pathname"
-            data-strict="0"
-            data-reactions-enabled="1"
-            data-emit-metadata="0"
-            data-input-position="bottom"
-            data-theme="preferred_color_scheme"
-            data-lang="{{ .Lang }}"
-            crossorigin="anonymous"
-            async>
+    <script>
+        (function () {
+            var giscusTheme = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+            var script = document.createElement("script");
+            script.src = "https://giscus.app/client.js";
+            script.setAttribute("data-repo", "sobamemil/sobamemil-blog");
+            script.setAttribute("data-repo-id", "R_kgDOTwh8qA");
+            script.setAttribute("data-category", "Announcements");
+            script.setAttribute("data-category-id", "DIC_kwDOTwh8qM4DC6B1");
+            script.setAttribute("data-mapping", "pathname");
+            script.setAttribute("data-strict", "0");
+            script.setAttribute("data-reactions-enabled", "1");
+            script.setAttribute("data-emit-metadata", "0");
+            script.setAttribute("data-input-position", "bottom");
+            script.setAttribute("data-theme", giscusTheme);
+            script.setAttribute("data-lang", "{{ .Lang }}");
+            script.setAttribute("crossorigin", "anonymous");
+            script.async = true;
+            document.currentScript.parentNode.appendChild(script);
+
+            var toggle = document.getElementById("theme-toggle");
+            if (toggle) {
+                toggle.addEventListener("click", function () {
+                    var newTheme = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+                    var iframe = document.querySelector("iframe.giscus-frame");
+                    if (iframe) {
+                        iframe.contentWindow.postMessage(
+                            { giscus: { setConfig: { theme: newTheme } } },
+                            "https://giscus.app"
+                        );
+                    }
+                });
+            }
+        })();
     </script>
 </div>
