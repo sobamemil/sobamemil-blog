@@ -1,5 +1,6 @@
 baseURL = 'https://blog.sobamemil.com/'
 theme = 'PaperMod'
+googleAnalytics = "G-J43731LK6B"
 
 defaultContentLanguage = 'ko'
 defaultContentLanguageInSubdir = false
