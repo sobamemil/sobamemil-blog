@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.32 Internet Security Exercises & Solutions"
 date: 2020-07-01T15:15:39+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "Network & Comm"]
 tags: ["Network", "Networking", "Data Communications", "All Layers", "Exercise", "Internet Security", "Answer", "Solution"]
 ---
 

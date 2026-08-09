@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.8 Exercise 6 Solution"
 date: 2020-03-09T13:43:11+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "LIFO", "programming", "Push", "stack", "Stack", "Practice Problem", "Exercise", "Data Structure", "Programming"]
 ---
 

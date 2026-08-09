@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 8장 4번"
 date: 2020-03-09T13:26:22+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["accessspecifiers", "C++", "programming", "디폴트매개변수", "명품", "상속", "실습문제", "연습문제", "접근지정자", "프로그래밍"]
 ---
 

@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.4 Exercise 9 Solution"
 date: 2020-03-04T16:48:36+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "compare()", "programming", "string", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.15 Wireless LAN Exercises & Solutions"
 date: 2020-06-25T11:41:01+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "Network & Comm"]
 tags: ["IEEE", "Network", "Networking", "Data Link Layer", "Data Communications", "Wireless LAN", "Bluetooth", "Exercise", "Answer", "Solution"]
 ---
 

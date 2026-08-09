@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.9 Exercise 3 Solution"
 date: 2019-11-21T00:53:08+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["2019", "2020", "Problem 3", "Chapter 9", "C++", "programming", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

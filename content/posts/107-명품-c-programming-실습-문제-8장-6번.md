@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 8장 6번"
 date: 2020-03-09T13:43:11+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "LIFO", "programming", "Push", "stack", "스택", "실습문제", "연습문제", "자료구조", "프로그래밍"]
 ---
 

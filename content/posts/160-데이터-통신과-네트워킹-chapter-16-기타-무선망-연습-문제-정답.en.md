@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.16 기타 무선망 Exercises & Solutions"
 date: 2020-06-29T12:17:20+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "Network & Comm"]
 tags: ["GPS", "Network", "Networking", "Data Link Layer", "Data Communications", "Wireless Network", "Exercise", "Answer", "Solution"]
 ---
 

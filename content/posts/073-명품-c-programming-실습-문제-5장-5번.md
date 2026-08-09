@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 5장 5번"
 date: 2020-03-05T14:49:33+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "increaseBy()", "programming", "값에의한호출", "명품", "실습문제", "연습문제", "참조", "참조에의한호출", "프로그래밍"]
 ---
 

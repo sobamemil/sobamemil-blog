@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 5장 7번"
 date: 2020-03-05T15:09:01+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: []
 ---
 

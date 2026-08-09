@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 4장 4번"
 date: 2020-03-04T15:42:39+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["4번", "4장", "C++", "programming", "동적배열", "명품", "실습문제", "연습문제", "코딩", "프로그래밍"]
 ---
 

@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 10장 9번"
 date: 2020-03-10T17:50:23+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "Iterator", "programming", "vector", "명품", "벡터", "실습문제", "연습문제", "컨테이너", "프로그래밍"]
 ---
 

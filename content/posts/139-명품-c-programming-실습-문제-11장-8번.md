@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 11장 8번"
 date: 2020-04-02T13:54:14+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "operator", "programming", "명품", "스트림입출력", "실습문제", "연산자", "연습문제", "참조자", "프로그래밍"]
 ---
 

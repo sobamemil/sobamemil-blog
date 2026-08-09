@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.10 Exercise 16 Solution"
 date: 2020-03-11T17:04:39+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "map", "programming", "STL", "vector", "Masterpiece", "Practice Problem", "Exercise", "Container", "Programming"]
 ---
 

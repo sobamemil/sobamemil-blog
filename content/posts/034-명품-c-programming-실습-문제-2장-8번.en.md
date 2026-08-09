@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 8 Solution"
 date: 2020-02-28T17:24:52+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "CString", "getline", "programming", "strcpy", "strlen", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.6 Exercise 7 Solution"
 date: 2020-03-06T15:57:35+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["ascii", "C++", "cstdlib", "CTime", "programming", "rand()", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

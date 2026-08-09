@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.7 Exercise 12 Solution"
 date: 2020-03-06T20:09:44+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "programming", "SortedArray", "Masterpiece", "Copy Constructor", "Practice Problem", "Operator", "Exercise", "Overloading", "Programming"]
 ---
 

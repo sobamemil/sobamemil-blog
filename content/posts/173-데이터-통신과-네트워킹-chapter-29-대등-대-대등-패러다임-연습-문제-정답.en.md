@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.29 대등-대-대등 패러다임 Exercises & Solutions"
 date: 2020-07-01T14:38:48+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "Network & Comm"]
 tags: ["Network", "Networking", "Peer-to-Peer", "Data Communications", "Exercise", "Application Layer", "Answer", "Paradigm", "Solution"]
 ---
 

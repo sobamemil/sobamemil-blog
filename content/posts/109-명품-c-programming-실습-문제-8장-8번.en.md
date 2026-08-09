@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.8 Exercise 8 Solution"
 date: 2020-03-09T14:18:19+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "printmachine", "programming", "Dynamic Creation", "Masterpiece", "Inheritance", "Practice Problem", "Exercise", "Programming", "Printer Program"]
 ---
 

@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.3 Exercise 11 Solution"
 date: 2020-03-03T18:40:58+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "CPP", "Main", "programming", "Implementation", "Masterpiece", "Declaration", "Practice Problem", "Exercise", "Programming"]
 ---
 

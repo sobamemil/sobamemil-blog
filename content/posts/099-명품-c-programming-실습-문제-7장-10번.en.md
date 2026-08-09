@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.7 Exercise 10 Solution"
 date: 2020-03-06T19:52:18+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "programming", "Statistics", "Masterpiece", "Practice Problem", "Exercise", "Reference Return", "Reference Operator", "Reference", "Programming"]
 ---
 

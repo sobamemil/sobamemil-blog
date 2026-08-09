@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 11장 7번"
 date: 2020-04-02T11:58:57+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "cctype", "iomanip", "isprint", "programming", "setf", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 

@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 8장 8번"
 date: 2020-03-09T14:18:19+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "printmachine", "programming", "동적생성", "명품", "상속", "실습문제", "연습문제", "프로그래밍", "프린터프로그램"]
 ---
 

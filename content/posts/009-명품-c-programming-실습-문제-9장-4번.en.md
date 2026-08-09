@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.9 Exercise 4 Solution"
 date: 2019-11-21T01:08:27+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: []
 ---
 

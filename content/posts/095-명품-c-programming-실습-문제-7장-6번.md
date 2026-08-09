@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 7장 6번"
 date: 2020-03-06T18:01:44+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "Matrix", "programming", "명품", "실습문제", "연산자중복", "연산자함수", "연습문제", "프렌드함수", "프로그래밍"]
 ---
 

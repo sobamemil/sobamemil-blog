@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 2장 7번"
 date: 2020-02-28T17:07:48+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "cin.getline()", "CString", "programming", "strcmp()", "명품", "배열초기화", "실습문제", "연습문제", "프로그래밍"]
 ---
 

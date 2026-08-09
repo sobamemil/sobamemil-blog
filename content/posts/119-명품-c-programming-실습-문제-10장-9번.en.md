@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.10 Exercise 9 Solution"
 date: 2020-03-10T17:50:23+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "Iterator", "programming", "vector", "Masterpiece", "Vector", "Practice Problem", "Exercise", "Container", "Programming"]
 ---
 

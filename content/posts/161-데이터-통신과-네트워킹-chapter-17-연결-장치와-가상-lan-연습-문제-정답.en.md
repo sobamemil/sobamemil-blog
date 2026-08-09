@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.17 연결 장치와 가상 LAN Exercises & Solutions"
 date: 2020-06-29T12:23:25+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "Network & Comm"]
 tags: ["vlan", "Virtual LAN", "Network", "Networking", "Answer", "Data Link Layer", "Data Communications", "Connecting Device", "Exercise", "Solution"]
 ---
 

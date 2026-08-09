@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.3 Exercise 3 Solution"
 date: 2020-03-02T17:56:41+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["Account", "C++", "programming", "Masterpiece", "Practice Problem", "Exercise", "Class", "Programming", "Function"]
 ---
 

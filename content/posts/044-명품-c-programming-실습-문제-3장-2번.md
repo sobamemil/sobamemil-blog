@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 3장 2번"
 date: 2020-03-02T17:38:17+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "programming", "stoi", "string", "substr", "명품", "실습문제", "연습문제", "클래스", "프로그래밍"]
 ---
 

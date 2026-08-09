@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 11장 10번"
 date: 2020-04-02T14:15:27+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "iostream", "programming", "prompt", "string", "명품", "실습문제", "연습문제", "조작자", "프로그래밍"]
 ---
 

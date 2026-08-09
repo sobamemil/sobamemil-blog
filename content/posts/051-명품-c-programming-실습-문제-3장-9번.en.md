@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.3 Exercise 9 Solution"
 date: 2020-03-03T17:11:09+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "programming", "Implementation", "Masterpiece", "Constructor", "Declaration", "Destructor", "Practice Problem", "Exercise", "Programming"]
 ---
 

@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.6 Exercise 2 Solution"
 date: 2020-03-05T16:44:47+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "overloading", "programming", "Default", "Parameter", "Masterpiece", "Practice Problem", "Exercise", "Programming", "Function Overloading"]
 ---
 

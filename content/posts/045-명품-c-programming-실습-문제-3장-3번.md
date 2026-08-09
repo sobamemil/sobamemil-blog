@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 3장 3번"
 date: 2020-03-02T17:56:41+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["Account", "C++", "programming", "명품", "실습문제", "연습문제", "클래스", "프로그래밍", "함수"]
 ---
 

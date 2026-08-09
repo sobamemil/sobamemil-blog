@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.3 Exercise 10 Solution"
 date: 2020-03-03T17:52:41+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "Main", "programming", "Implementation", "Masterpiece", "Declaration", "Practice Problem", "Exercise", "Programming", "Header File"]
 ---
 

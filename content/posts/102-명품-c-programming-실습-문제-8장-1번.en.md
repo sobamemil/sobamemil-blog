@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.8 Exercise 1 Solution"
 date: 2020-03-09T12:56:19+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "inheritance", "programming", "Base Class", "Inheritance", "Practice Problem", "Exercise", "Access Specifier", "Derived Class", "Programming"]
 ---
 

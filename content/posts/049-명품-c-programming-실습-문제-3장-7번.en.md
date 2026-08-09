@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.3 Exercise 7 Solution"
 date: 2020-03-03T16:44:34+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "programming", "Random", "Random Integer", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

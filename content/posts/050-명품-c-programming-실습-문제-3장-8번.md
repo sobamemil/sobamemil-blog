@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 3장 8번"
 date: 2020-03-03T16:54:21+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "programming", "stoi()", "string", "명품", "실습문제", "연습문제", "인라인함수", "자동인라인", "프로그래밍"]
 ---
 

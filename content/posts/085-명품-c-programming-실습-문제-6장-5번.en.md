@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.6 Exercise 5 Solution"
 date: 2020-03-06T14:52:41+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["::", "C++", "programming", "scopeoperator", "static", "Masterpiece", "Scope Resolution Operator", "Practice Problem", "Exercise", "Programming"]
 ---
 

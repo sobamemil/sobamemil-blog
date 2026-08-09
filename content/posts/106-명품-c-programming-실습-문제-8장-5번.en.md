@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.8 Exercise 5 Solution"
 date: 2020-03-09T13:36:05+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "programming", "protected", "queue", "Inheritance", "Practice Problem", "Exercise", "Queue", "Derived Class", "Programming"]
 ---
 

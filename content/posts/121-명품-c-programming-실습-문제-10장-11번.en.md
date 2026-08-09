@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.10 Exercise 11 Solution"
 date: 2020-03-10T19:14:39+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["book", "C++", "fflush", "programming", "vector", "Masterpiece", "Vector", "Practice Problem", "Exercise", "Programming"]
 ---
 

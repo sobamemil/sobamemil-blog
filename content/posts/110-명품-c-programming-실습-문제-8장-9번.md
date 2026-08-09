@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 8장 9번"
 date: 2020-03-09T15:13:20+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["airlinebook", "C++", "programming", "명품", "비행기예약", "상속", "실습문제", "연습문제", "프로그래밍", "프로그램"]
 ---
 

@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 5 Solution"
 date: 2020-02-28T16:49:19+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "cin", "cin.getline", "getline", "programming", "Masterpiece", "String Input", "Practice Problem", "Exercise", "Programming"]
 ---
 

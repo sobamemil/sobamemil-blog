@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 9장 4번"
 date: 2019-11-21T01:08:27+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: []
 ---
 

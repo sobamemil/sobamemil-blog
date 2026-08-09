@@ -2,7 +2,7 @@
 title: "[Wise 활용 가이드] 해외 달러 수익 정산할 때 수수료 10만 원 아끼는 꿀팁 (첫 송금 무료)"
 date: 2026-08-07T11:38:00+09:00
 draft: false
-categories: ["📱 리뷰 & 일상"]
+categories: ["📱 리뷰 & 일상", "✈️ 일상 & 여행"]
 tags: ["Wise", "해외송금", "Stripe", "GitHubSponsors", "프리랜서", "수수료절약", "재테크"]
 description: "GitHub Sponsors, Outlier, 해외 외주 달러 정산 시 환전 수수료 10만 원 아끼는 법과 90만 원 상당 수수료 무료 혜택 받는 법을 공유합니다."
 ---안녕하세요! 해외 개발이나 외주, GitHub Sponsors, Outlier 같은 글로벌 플랫폼에서 달러 수익을 받을 때 다들 한 번쯤 고민해 보셨을 거예요.

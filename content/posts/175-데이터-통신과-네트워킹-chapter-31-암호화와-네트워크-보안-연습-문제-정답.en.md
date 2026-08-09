@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.31 Cryptography & Network Security Exercises & Solutions"
 date: 2020-07-01T15:07:27+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "Network & Comm"]
 tags: ["Network", "Network Security", "Networking", "Data Communications", "All Layers", "Security", "Encryption", "Exercise", "Answer", "Solution"]
 ---
 

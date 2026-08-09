@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.30 서비스 품질 Exercises & Solutions"
 date: 2020-07-01T14:59:09+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "Network & Comm"]
 tags: ["Network", "Networking", "Data Communications", "All Layers", "Quality of Service", "Exercise", "Answer", "Solution"]
 ---
 

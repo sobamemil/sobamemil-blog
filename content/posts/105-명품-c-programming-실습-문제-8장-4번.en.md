@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.8 Exercise 4 Solution"
 date: 2020-03-09T13:26:22+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["accessspecifiers", "C++", "programming", "Default Parameter", "Masterpiece", "Inheritance", "Practice Problem", "Exercise", "Access Specifier", "Programming"]
 ---
 

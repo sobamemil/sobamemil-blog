@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 6장 9번"
 date: 2020-03-06T16:36:17+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["Board", "C++", "programming", "static", "게시판프로그램", "명품", "실습문제", "연습문제", "전역변수", "프로그래밍"]
 ---
 

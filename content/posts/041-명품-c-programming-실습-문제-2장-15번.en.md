@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 15 Solution"
 date: 2020-02-28T20:00:03+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "cstdlib", "CString", "programming", "stdlib.h", "strtok", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

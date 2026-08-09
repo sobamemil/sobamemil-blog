@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.10 Exercise 3 Solution"
 date: 2020-03-09T15:45:01+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "programming", "reversearray", "template", "Masterpiece", "Practice Problem", "Exercise", "Generic", "Template", "Programming"]
 ---
 

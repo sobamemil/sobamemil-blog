@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 11장 9번"
 date: 2020-04-02T14:00:37+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "iostream", "programming", "명품", "실습문제", "연산자중복", "연습문제", "입력스트림", "출력스트림", "프로그래밍"]
 ---
 

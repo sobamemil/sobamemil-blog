@@ -2,7 +2,7 @@
 title: "[Smart Home / DIY] Installing a New PMS9003M Laser Dust Sensor in Atomy Air Purifier"
 date: 2026-08-09T13:20:00+09:00
 draft: false
-categories: ["🏠 Smart Home & DIY"]
+categories: ["🏠 Smart Home & DIY", "🛠️ Home Assistant & IoT"]
 tags: ["ESP8266", "Home Assistant", "IoT", "Smart Home", "Atomy Air Purifier", "PMS9003M", "Dust Sensor"]
 description: "A quick DIY guide on replacing/installing a Plantower PMS9003M particulate matter sensor into an Atomy Air Purifier (AAP-KR19W) to restore PM1.0, PM2.5, and PM10 readings in Home Assistant."
 ---

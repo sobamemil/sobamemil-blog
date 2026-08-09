@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.3 Exercise 8 Solution"
 date: 2020-03-03T16:54:21+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "programming", "stoi()", "string", "Masterpiece", "Practice Problem", "Exercise", "Inline Function", "Automatic Inlining", "Programming"]
 ---
 

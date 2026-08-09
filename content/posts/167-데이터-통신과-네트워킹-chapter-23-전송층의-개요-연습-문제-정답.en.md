@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.23 전송층의 개요 Exercises & Solutions"
 date: 2020-06-29T15:02:16+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "Network & Comm"]
 tags: ["Overview", "Network", "Networking", "Data Communications", "Exercise", "Transport Layer", "Answer", "Solution"]
 ---
 

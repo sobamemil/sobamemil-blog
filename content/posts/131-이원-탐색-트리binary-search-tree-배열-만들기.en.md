@@ -2,7 +2,7 @@
 title: "Binary Search Tree Array Implementation"
 date: 2020-03-19T15:06:28+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "iOS & Others"]
 tags: ["binarysearchtree", "tree", "Array", "Binary Search", "Binary Search Tree", "Data Structure", "Search", "Tree", "File Handling", "File Processing"]
 ---
 

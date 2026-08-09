@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 10 Solution"
 date: 2020-02-28T17:44:09+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "programming", "Masterpiece", "String", "Source Code", "Practice Problem", "Exercise", "Coding", "Programmer", "Programming"]
 ---
 

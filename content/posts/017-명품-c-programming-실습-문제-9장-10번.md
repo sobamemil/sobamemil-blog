@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 9장 10번"
 date: 2019-11-26T13:00:11+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C", "C++", "programming", "과제", "링크드 리스트", "명품", "소스코드", "실습문제", "연습문제", "프로그래밍"]
 ---
 

@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 7장 4번"
 date: 2020-03-06T17:45:53+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "friend", "programming", "명품", "실습문제", "연산자", "연습문제", "키워드", "프렌드", "프로그래밍"]
 ---
 

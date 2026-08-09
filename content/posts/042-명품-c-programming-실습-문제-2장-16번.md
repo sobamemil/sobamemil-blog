@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 2장 16번"
 date: 2020-02-28T20:24:43+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["C++", "isalpha", "programming", "tolower", "명품", "실습문제", "알파벳", "연습문제", "프로그래밍", "히스토그램"]
 ---
 

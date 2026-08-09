@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.10 Exercise 5 Solution"
 date: 2020-03-09T15:53:04+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "Generic", "programming", "template", "Masterpiece", "Practice Problem", "Exercise", "Generalization", "Programming", "Function"]
 ---
 

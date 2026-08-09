@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.7 Exercise 4 Solution"
 date: 2020-03-06T17:45:53+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "friend", "programming", "Masterpiece", "Practice Problem", "Operator", "Exercise", "Keyword", "Friend", "Programming"]
 ---
 

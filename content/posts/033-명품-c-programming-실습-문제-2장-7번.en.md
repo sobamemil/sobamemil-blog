@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 7 Solution"
 date: 2020-02-28T17:07:48+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "cin.getline()", "CString", "programming", "strcmp()", "Masterpiece", "Array Initialization", "Practice Problem", "Exercise", "Programming"]
 ---
 

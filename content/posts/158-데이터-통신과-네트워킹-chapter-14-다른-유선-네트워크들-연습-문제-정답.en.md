@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.14 다른 유선 네트워크들 Exercises & Solutions"
 date: 2020-06-25T11:11:11+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "Network & Comm"]
 tags: ["5th Edition", "chapter14", "Network", "Networking", "Data Link Layer", "Data Communications", "Exercise", "Wired Network", "Answer", "Solution"]
 ---
 

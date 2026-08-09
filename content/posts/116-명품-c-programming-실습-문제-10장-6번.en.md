@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.10 Exercise 6 Solution"
 date: 2020-03-09T16:07:40+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "for", "programming", "remove", "Masterpiece", "Loop", "Practice Problem", "Exercise", "Template", "Programming"]
 ---
 

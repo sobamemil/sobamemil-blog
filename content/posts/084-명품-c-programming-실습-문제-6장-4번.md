@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 6장 4번"
 date: 2020-03-06T14:38:18+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["💻 개발 & CS", "C++ 프로그래밍"]
 tags: ["4번", "6장", "C++", "programming", "디폴트매개변수", "명품", "실습문제", "연습문제", "중복생성자", "프로그래밍"]
 ---
 

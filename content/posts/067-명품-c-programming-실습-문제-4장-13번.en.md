@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.4 Exercise 13 Solution"
 date: 2020-03-04T17:45:19+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "CString", "programming", "tolower", "toupper", "Masterpiece", "Practice Problem", "Exercise", "Programming", "Histogram"]
 ---
 

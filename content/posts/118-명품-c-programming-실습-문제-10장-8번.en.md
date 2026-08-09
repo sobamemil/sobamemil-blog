@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.10 Exercise 8 Solution"
 date: 2020-03-09T17:19:46+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["💻 Dev & CS", "C++ Programming"]
 tags: ["C++", "programming", "Downcasting", "Inheritance", "Pure Virtual Function", "Practice Problem", "Upcasting", "Exercise", "Abstract Class", "Programming"]
 ---
 
