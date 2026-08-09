@@ -10,6 +10,34 @@
             </svg>
             <a href="{{ if $term }}{{ $term.RelPermalink }}{{ else }}#{{ end }}">{{ $cat }}</a>
         {{- end -}}
+    {{- else if and (eq .Kind "term") (eq .Data.Singular "category") -}}
+        {{- $currentCat := .Title -}}
+        {{- $parentCat := "" -}}
+        {{- $isSubCat := false -}}
+        {{- if gt (len .Pages) 0 -}}
+            {{- $firstPost := index .Pages 0 -}}
+            {{- if and $firstPost.Params.categories (gt (len $firstPost.Params.categories) 1) -}}
+                {{- if eq (index $firstPost.Params.categories 1) $currentCat -}}
+                    {{- $isSubCat = true -}}
+                    {{- $parentCat = index $firstPost.Params.categories 0 -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+        
+        {{- if $isSubCat -}}
+            {{- $parentTerm := $.Site.GetPage "categories" $parentCat -}}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="{{ if $parentTerm }}{{ $parentTerm.RelPermalink }}{{ else }}#{{ end }}">{{ $parentCat }}</a>
+        {{- end -}}
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+            <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+        <a href="{{ .RelPermalink }}">{{ $currentCat }}</a>
     {{- else -}}
         {{- $ancestors := .Ancestors.Reverse -}}
         {{- range $i, $bc := $ancestors -}}
