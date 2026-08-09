@@ -67,7 +67,7 @@ enableRobotsTXT = true
     [languages.ko.params.profileMode]
       enabled = true
       title = "안녕하세요, Sobamemil입니다 👋"
-      subtitle = "풀스택 개발자의 시선으로 개발 & CS 지식, 스마트홈 DIY, 그리고 일상 & 리뷰를 기록하는 공간입니다."
+      subtitle = "개발자의 시선으로 개발 & CS 지식, 스마트홈 DIY, 그리고 일상 & 리뷰를 기록하는 공간입니다."
       imageUrl = "/soba-avatar.jpg"
       imageWidth = 120
       imageHeight = 120
@@ -132,7 +132,7 @@ enableRobotsTXT = true
     [languages.en.params.profileMode]
       enabled = true
       title = "Hi, I'm Sobamemil 👋"
-      subtitle = "A full-stack developer's blog covering Dev & CS Knowledge, Smart Home DIY, and Life & Reviews."
+      subtitle = "A developer's blog exploring Dev & CS Knowledge, Smart Home DIY, and Life & Reviews."
       imageUrl = "/soba-avatar.jpg"
       imageWidth = 120
       imageHeight = 120
