@@ -91,7 +91,7 @@ After establishing a successful connection, sensor data was not automatically ar
 
 The air purifier does **not** stream sensor values continuously. Instead, it uses a **Request-Response Polling architecture** where it only replies when the app sends a query packet.
 
-By registering a 1-minute polling automation in Home Assistant's `automations.yaml` to publish `'{"1":11}'` to `aircleaner/app/[MAC]`, real-time temperature (`27.1°C`), humidity (`68.1%`), and air quality data began streaming reliably every minute!
+By registering a 1-minute polling automation in Home Assistant's `automations.yaml` to publish `'{"1":11}'` to `aircleaner/app/[MAC]`, real-time temperature (`27.1°C`), humidity (`68.1%`), and PM1.0/PM2.5/PM10 particle data began streaming reliably every minute! *(Note: The built-in PMS9003M laser sensor accurately reports PM1.0 via DP 11, PM2.5 via DP 10, and PM10 via DP 9. An `expire_after: 120` option was added to correctly mark them as Unavailable when powered off).*
 
 ---
 
@@ -140,18 +140,36 @@ mqtt:
         {% endif %}
 
   sensor:
+    - name: "Atomy PM1.0"
+      unique_id: atomy_pm1_0
+      state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      unit_of_measurement: "µg/m³"
+      device_class: pm1
+      expire_after: 120
+      value_template: "{{ value_json.get('11') if value_json.get('11') is not none else value_json.get('20', {}).get('11') }}"
+
     - name: "Atomy PM2.5"
       unique_id: atomy_pm25
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
       unit_of_measurement: "µg/m³"
       device_class: pm25
+      expire_after: 120
       value_template: "{{ value_json.get('10') if value_json.get('10') is not none else value_json.get('20', {}).get('10') }}"
+
+    - name: "Atomy PM10"
+      unique_id: atomy_pm10
+      state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      unit_of_measurement: "µg/m³"
+      device_class: pm10
+      expire_after: 120
+      value_template: "{{ value_json.get('9') if value_json.get('9') is not none else value_json.get('20', {}).get('9') }}"
 
     - name: "Atomy Temperature"
       unique_id: atomy_temperature
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
       unit_of_measurement: "°C"
       device_class: temperature
+      expire_after: 120
       value_template: "{{ value_json.get('13') if value_json.get('13') is not none else value_json.get('20', {}).get('13') }}"
 
     - name: "Atomy Humidity"
@@ -159,11 +177,13 @@ mqtt:
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
       unit_of_measurement: "%"
       device_class: humidity
+      expire_after: 120
       value_template: "{{ value_json.get('14') if value_json.get('14') is not none else value_json.get('20', {}).get('14') }}"
 
     - name: "Atomy Air Quality"
       unique_id: atomy_air_quality
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      expire_after: 120
       value_template: >-
         {% set q = value_json.get('27') if value_json.get('27') is not none else value_json.get('20', {}).get('27') %}
         {% if q == 1 %}Good
@@ -202,6 +222,19 @@ mqtt:
         payload: '{"1":11}'
   mode: single
 ```
+
+---
+
+#### Configured Home Assistant Entities (Clean English IDs)
+
+* <b>`fan.atomy_air_purifier`</b>: Power (ON/OFF) & Speed Modes (Auto / Sleep / Low / Medium / High)
+* <b>`sensor.atomy_pm1_0`</b>: PM1.0 Particle Measurement (µg/m³)
+* <b>`sensor.atomy_pm25`</b>: PM2.5 Particle Measurement (µg/m³)
+* <b>`sensor.atomy_pm10`</b>: PM10 Particle Measurement (µg/m³)
+* <b>`sensor.atomy_temperature`</b>: Indoor Temperature (°C)
+* <b>`sensor.atomy_humidity`</b>: Indoor Humidity (%)
+* <b>`sensor.atomy_air_quality`</b>: Comprehensive Air Quality Status
+* <b>`switch.atomy_child_lock`</b>: Child Lock Switch
 
 ---
 

@@ -92,7 +92,7 @@ open(path, "w").write(patched)
 
 따라서 1분마다 `aircleaner/app/[MAC]` 토픽으로 `'{"1":11}'` 데이터 요청 패킷을 수신해 주는 폴링 자동화를 Home Assistant `automations.yaml`에 등록함으로써, 매분 정각 실시간으로 온습도(`27.1°C`, `68.1%`) 및 센서 데이터가 완전하게 수신되는 것을 확인했습니다.
 
-*(참고: PM2.5 센서의 경우 물리 모듈을 제외해 둔 상태여서 `0` 수치가 정상이 들어오는 것이 확인되었으며, 추후 샤오미 호환 레이저 PM2.5 모듈로 교체 시 즉시 실제 미세먼지 수치가 연동되는 구조입니다.)*
+*(참고: 내장된 레이저 미세먼지 센서(PMS9003M)의 패킷을 상세 분석한 결과, PM1.0 (DP 11), PM2.5 (DP 10), PM10 (DP 9) 등 3가지 미세먼지 입자 크기를 완벽하게 개별 측정하여 전송하는 것을 확인했습니다. 또한, 전원이 꺼지면 센서 팬이 멈추므로 정확한 상태 반영을 위해 `expire_after: 120` 옵션을 추가하였습니다.)*
 
 ---
 
@@ -104,34 +104,107 @@ open(path, "w").write(patched)
 mqtt:
   fan:
     - name: "Atomy Air Purifier"
-      unique_id: atomy_air_purifier_fan
+      unique_id: atomy_air_purifier
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
       command_topic: "aircleaner/app/A1B2C3D4E5F6"
-      value_template: "{{ 'POWER_ON' if value_json['2'] == 1 else 'POWER_OFF' }}"
-      payload_on: '{"1":2,"2":1}'
-      payload_off: '{"1":2,"2":2}'
+      command_template: >-
+        {% if value == "ON" %}{"1":2,"2":2}
+        {% elif value == "OFF" %}{"1":2,"2":1}
+        {% endif %}
+      payload_on: "ON"
+      payload_off: "OFF"
+      state_value_template: >-
+        {% set power = value_json.get('2') or (value_json.get('19', {}).get('2')) %}
+        {% if power == 2 %}ON{% elif power == 1 %}OFF{% else %}OFF{% endif %}
+      preset_modes:
+        - "Auto"
+        - "Sleep"
+        - "Low"
+        - "Medium"
+        - "High"
+      preset_mode_state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      preset_mode_value_template: >-
+        {% set mode = value_json.get('3') or (value_json.get('19', {}).get('3')) %}
+        {% if mode == 1 %}Auto
+        {% elif mode == 2 %}Sleep
+        {% elif mode == 3 %}Low
+        {% elif mode == 4 %}Medium
+        {% elif mode == 5 %}High
+        {% else %}Auto{% endif %}
+      preset_mode_command_topic: "aircleaner/app/A1B2C3D4E5F6"
+      preset_mode_command_template: >-
+        {% if value == "Auto" %}{"1":3,"3":1}
+        {% elif value == "Sleep" %}{"1":3,"3":2}
+        {% elif value == "Low" %}{"1":3,"3":3}
+        {% elif value == "Medium" %}{"1":3,"3":4}
+        {% elif value == "High" %}{"1":3,"3":5}
+        {% endif %}
 
   sensor:
-    - name: "Atomy PM25"
+    - name: "Atomy PM1.0"
+      unique_id: atomy_pm1_0
+      state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      unit_of_measurement: "µg/m³"
+      device_class: pm1
+      expire_after: 120
+      value_template: "{{ value_json.get('11') if value_json.get('11') is not none else value_json.get('20', {}).get('11') }}"
+
+    - name: "Atomy PM2.5"
       unique_id: atomy_pm25
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
-      value_template: "{{ value_json['3'] if value_json['3'] is defined else states('sensor.atomy_pm25') }}"
       unit_of_measurement: "µg/m³"
       device_class: pm25
+      expire_after: 120
+      value_template: "{{ value_json.get('10') if value_json.get('10') is not none else value_json.get('20', {}).get('10') }}"
+
+    - name: "Atomy PM10"
+      unique_id: atomy_pm10
+      state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      unit_of_measurement: "µg/m³"
+      device_class: pm10
+      expire_after: 120
+      value_template: "{{ value_json.get('9') if value_json.get('9') is not none else value_json.get('20', {}).get('9') }}"
 
     - name: "Atomy Temperature"
       unique_id: atomy_temperature
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
-      value_template: "{{ value_json['4'] if value_json['4'] is defined else states('sensor.atomy_temperature') }}"
       unit_of_measurement: "°C"
       device_class: temperature
+      expire_after: 120
+      value_template: "{{ value_json.get('13') if value_json.get('13') is not none else value_json.get('20', {}).get('13') }}"
 
     - name: "Atomy Humidity"
       unique_id: atomy_humidity
       state_topic: "aircleaner/device/A1B2C3D4E5F6"
-      value_template: "{{ value_json['5'] if value_json['5'] is defined else states('sensor.atomy_humidity') }}"
       unit_of_measurement: "%"
       device_class: humidity
+      expire_after: 120
+      value_template: "{{ value_json.get('14') if value_json.get('14') is not none else value_json.get('20', {}).get('14') }}"
+
+    - name: "Atomy Air Quality"
+      unique_id: atomy_air_quality
+      state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      expire_after: 120
+      value_template: >-
+        {% set q = value_json.get('27') if value_json.get('27') is not none else value_json.get('20', {}).get('27') %}
+        {% if q == 1 %}Good
+        {% elif q == 2 %}Moderate
+        {% elif q == 3 %}Unhealthy
+        {% elif q == 4 %}Hazardous
+        {% else %}Unknown{% endif %}
+
+  switch:
+    - name: "Atomy Child Lock"
+      unique_id: atomy_child_lock
+      command_topic: "aircleaner/app/A1B2C3D4E5F6"
+      state_topic: "aircleaner/device/A1B2C3D4E5F6"
+      payload_on: '{"1":7,"7":2}'
+      payload_off: '{"1":7,"7":1}'
+      state_on: "ON"
+      state_off: "OFF"
+      value_template: >-
+        {% set lock = value_json.get('7') or value_json.get('19', {}).get('7') %}
+        {% if lock == 2 %}ON{% else %}OFF{% endif %}
 ```
 
 #### 2. `automations.yaml` (1분 센서 폴링 자동화)
@@ -170,7 +243,9 @@ mqtt:
 #### 구성 완료된 Home Assistant Entities (Clean English IDs)
 
 * <b>`fan.atomy_air_purifier`</b>: 전원(ON/OFF) 및 풍량 모드 (Auto / Sleep / Low / Medium / High)
-* <b>`sensor.atomy_pm25`</b>: PM2.5 미세먼지 측정값 (µg/m³)
+* <b>`sensor.atomy_pm1_0`</b>: PM1.0 극초미세먼지 측정값 (µg/m³)
+* <b>`sensor.atomy_pm25`</b>: PM2.5 초미세먼지 측정값 (µg/m³)
+* <b>`sensor.atomy_pm10`</b>: PM10 미세먼지 측정값 (µg/m³)
 * <b>`sensor.atomy_temperature`</b>: 실내 온도 (°C)
 * <b>`sensor.atomy_humidity`</b>: 실내 습도 (%)
 * <b>`sensor.atomy_air_quality`</b>: 종합 공기질 상태
