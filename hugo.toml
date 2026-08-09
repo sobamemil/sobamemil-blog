@@ -65,7 +65,25 @@ enableRobotsTXT = true
     description = '스마트홈 & DIY, 개발 & CS, 테크 리뷰 및 일상 가이드 블로그'
 
     [languages.ko.params.profileMode]
-      enabled = false
+      enabled = true
+      title = "안녕하세요, Sobamemil입니다 👋"
+      subtitle = "스마트홈 DIY, 개발 & CS 지식, 그리고 잡다한 기술을 탐구하고 기록하는 개인 블로그입니다."
+      imageUrl = "/apple-touch-icon.png"
+      imageWidth = 120
+      imageHeight = 120
+      imageTitle = "Sobamemil"
+
+      [[languages.ko.params.profileMode.buttons]]
+        name = "📝 모든 글 보기"
+        url = "/posts/"
+
+      [[languages.ko.params.profileMode.buttons]]
+        name = "🗂️ 카테고리"
+        url = "/categories/"
+
+    [[languages.ko.params.socialIcons]]
+      name = "github"
+      url = "https://github.com/sobamemil"
 
     [languages.ko.menu]
       [[languages.ko.menu.main]]
@@ -112,7 +130,25 @@ enableRobotsTXT = true
     description = 'Smart Home & DIY, Software Development, Tech Reviews & Life Guides'
 
     [languages.en.params.profileMode]
-      enabled = false
+      enabled = true
+      title = "Hi, I'm Sobamemil 👋"
+      subtitle = "A personal tech blog exploring Smart Home DIY, Software Development, and various CS knowledge."
+      imageUrl = "/apple-touch-icon.png"
+      imageWidth = 120
+      imageHeight = 120
+      imageTitle = "Sobamemil"
+
+      [[languages.en.params.profileMode.buttons]]
+        name = "📝 Read Posts"
+        url = "/en/posts/"
+
+      [[languages.en.params.profileMode.buttons]]
+        name = "🗂️ Categories"
+        url = "/en/categories/"
+
+    [[languages.en.params.socialIcons]]
+      name = "github"
+      url = "https://github.com/sobamemil"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
