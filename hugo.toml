@@ -66,8 +66,8 @@ enableRobotsTXT = true
 
     [languages.ko.params.profileMode]
       enabled = true
-      title = "안녕하세요, Sobamemil입니다 👋"
-      subtitle = "스마트홈 DIY, 개발 & CS 지식, 그리고 잡다한 기술을 탐구하고 기록하는 개인 블로그입니다."
+      title = "안녕하세요, 풀스택 개발자 Sobamemil입니다 👋"
+      subtitle = "개발 & CS 지식, 스마트홈 DIY, 그리고 일상 & 리뷰를 다루는 개인 블로그입니다."
       imageUrl = "/apple-touch-icon.png"
       imageWidth = 120
       imageHeight = 120
@@ -131,8 +131,8 @@ enableRobotsTXT = true
 
     [languages.en.params.profileMode]
       enabled = true
-      title = "Hi, I'm Sobamemil 👋"
-      subtitle = "A personal tech blog exploring Smart Home DIY, Software Development, and various CS knowledge."
+      title = "Hi, I'm Sobamemil, a Full-Stack Developer 👋"
+      subtitle = "A personal blog covering Dev & CS Knowledge, Smart Home DIY, and Life & Reviews."
       imageUrl = "/apple-touch-icon.png"
       imageWidth = 120
       imageHeight = 120
