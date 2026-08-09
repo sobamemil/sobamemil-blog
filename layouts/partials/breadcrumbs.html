@@ -3,7 +3,7 @@
     <a href="{{ site.Home.RelPermalink }}">{{ i18n "home" | default "Home" }}</a>
     {{- if and .Params.categories (gt (len .Params.categories) 0) -}}
         {{- range $i, $cat := .Params.categories -}}
-            {{- $term := site.GetPage (printf "categories/%s" ($cat | urlize)) -}}
+            {{- $term := $.Site.GetPage "categories" $cat -}}
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
                 <polyline points="9 18 15 12 9 6"></polyline>
