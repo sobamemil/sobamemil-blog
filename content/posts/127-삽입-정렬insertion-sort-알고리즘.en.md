@@ -2,7 +2,7 @@
 title: "Insertion Sort Algorithm"
 date: 2020-03-17T23:05:39+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["Dev CS"]
 tags: ["algo", "algorithm", "InsertionSort", "Big-O", "Insertion Sort", "Time Complexity", "Algorithm", "Sorting", "Programming 2019", "Programming 2020"]
 ---삽입 정렬(Insertion Sort)이란?
 

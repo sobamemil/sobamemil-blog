@@ -2,7 +2,7 @@
 title: "삽입 정렬(Insertion Sort) 알고리즘"
 date: 2020-03-17T23:05:39+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["개발 CS"]
 tags: ["algo", "algorithm", "InsertionSort", "빅오", "삽입정렬", "시간복잡도", "알고리즘", "정렬", "프로그래밍 2019", "프로그래밍 2020"]
 ---삽입 정렬(Insertion Sort)이란?
 

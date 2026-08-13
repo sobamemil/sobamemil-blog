@@ -2,7 +2,7 @@
 title: "[HA / DIY] 애터미 공기청정기 미세먼지 센서(PMS9003M) 장착 및 교체기"
 date: 2026-08-09T13:20:00+09:00
 draft: false
-categories: ["🏠 스마트홈 & DIY", "🛠️ Home Assistant & IoT"]
+categories: ["스마트홈 DIY", "Home Assistant IoT"]
 tags: ["ESP8266", "ha", "home assistant", "IOT", "스마트홈", "애터미 공기청정기", "PMS9003M", "미세먼지 센서"]
 ---
 

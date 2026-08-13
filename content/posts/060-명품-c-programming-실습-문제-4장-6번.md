@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 4장 6번"
 date: 2020-03-04T16:03:03+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "length()", "programmiing", "size()", "string", "거꾸로출력", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 

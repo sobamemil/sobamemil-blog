@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.11 Exercise 11 Solution"
 date: 2020-04-02T14:19:10+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "Istream", "manipulator", "POS", "programming", "Masterpiece", "Practice Problem", "Exercise", "Manipulator", "Programming"]
 ---
 

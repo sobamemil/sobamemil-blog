@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.2 Network Models Exercises & Solutions"
 date: 2020-04-19T17:55:29+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["5th Edition", "chapter2", "Network Model", "Networking", "Answer", "Data Communications", "Exercise", "Solution"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.7  Transmission Media Exercises & Solutions"
 date: 2020-06-21T18:56:08+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["5th Edition", "Networking", "Data Communications", "Physical Layer", "Exercise", "Answer", "Solution"]
 ---
 

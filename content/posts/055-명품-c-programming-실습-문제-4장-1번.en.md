@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.4 Exercise 1 Solution"
 date: 2020-03-04T15:05:27+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "programming", "Object Array", "Object Pointer", "Masterpiece", "Practice Problem", "Exercise", "Pointer", "Programming", "Arrow Operator"]
 ---
 

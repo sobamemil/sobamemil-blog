@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.8 교환 Exercises & Solutions"
 date: 2020-06-21T19:09:59+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["5th Edition", "Switching", "Network", "Networking", "Data Communications", "Physical Layer", "Exercise", "Answer"]
 ---
 

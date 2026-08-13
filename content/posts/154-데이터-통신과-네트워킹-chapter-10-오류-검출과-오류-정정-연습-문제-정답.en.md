@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.10 오류 검출과 오류 정정 Exercises & Solutions"
 date: 2020-06-21T20:33:20+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["5th Edition", "Network", "Networking", "Answer", "Data Link Layer", "Exercise", "Error Detection", "Error Correction", "Solution"]
 ---
 

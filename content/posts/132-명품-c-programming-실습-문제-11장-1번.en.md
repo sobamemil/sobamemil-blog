@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.11 Exercise 1 Solution"
 date: 2020-03-27T14:58:42+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["Chapter 11", "C++", "cin", "get()", "programming", "Masterpiece", "Stream", "Practice Problem", "Exercise", "Programming"]
 ---
 

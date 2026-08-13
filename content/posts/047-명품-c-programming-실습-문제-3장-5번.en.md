@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.3 Exercise 5 Solution"
 date: 2020-03-03T16:09:46+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "cstdlib", "CTime", "programming", "rand()", "Random", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 3장 9번"
 date: 2020-03-03T17:11:09+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "programming", "구현부", "명품", "생성자", "선언부", "소멸자", "실습문제", "연습문제", "프로그래밍"]
 ---
 

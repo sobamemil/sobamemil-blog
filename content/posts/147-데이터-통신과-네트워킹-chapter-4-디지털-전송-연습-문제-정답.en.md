@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.4 디지털 전송 Exercises & Solutions"
 date: 2020-04-23T00:08:35+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["Network", "Networking", "Answer", "Data Communications", "Physical Layer", "Exercise", "Solution"]
 ---
 

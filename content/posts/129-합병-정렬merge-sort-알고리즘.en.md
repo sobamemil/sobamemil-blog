@@ -2,7 +2,7 @@
 title: "Merge Sort Algorithm"
 date: 2020-03-18T14:20:58+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["Dev CS"]
 tags: ["2019", "algorithm", "merge", "MergeSort", "Sort", "Pseudocode", "Algorithm", "Sorting", "Programming", "Merge Sort"]
 ---합병 정렬(Merge Sort)이란?
 

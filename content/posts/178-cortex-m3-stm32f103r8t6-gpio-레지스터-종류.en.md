@@ -2,7 +2,7 @@
 title: "Cortex-M3 STM32F103R8T6 GPIO 레지스터 종류"
 date: 2020-07-08T11:55:22+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["Dev CS"]
 tags: ["Cortex-M3", "embedded", "GPIO", "MCU", "register", "STM32", "Micro", "Embedded", "I/O Port", "Controller"]
 ---이 글에서는 Cortex-M3 STM32F103(STM32F103R8T6)(이하 cortex-m3)의 입출력 포트를 제어하기 위해 필요한 레지스터들의 종류에 대해 알아보겠습니다.
 

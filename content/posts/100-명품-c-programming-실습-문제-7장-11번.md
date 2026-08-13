@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 7장 11번"
 date: 2020-03-06T19:57:15+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "Pop", "programming", "Push", "stack", "명품", "실습문제", "연습문제", "참조자", "프로그래밍"]
 ---
 

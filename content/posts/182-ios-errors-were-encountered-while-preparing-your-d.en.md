@@ -2,7 +2,7 @@
 title: "[iOS] \"Errors were encountered while preparing your device for development. Please check the Devices and Simulators Window.\" 오류 해결법"
 date: 2021-05-09T16:13:53+09:00
 draft: false
-categories: ["💻 Dev & CS"]
+categories: ["Dev CS"]
 tags: ["IOS", "Mac", "Xcode", "Development", "MacBook", "iMac", "iPhone", "App", "Error"]
 ---코드를 작성하고 디바이스로 빌드하고자 할 때 "Errors were encountered while preparing your device for development. Please check the Devices and Simulators Window."와 같은 오류가 발생하여 난감한 경험이 있었습니다.
 

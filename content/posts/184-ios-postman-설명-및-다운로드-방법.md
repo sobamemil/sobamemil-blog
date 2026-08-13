@@ -2,7 +2,7 @@
 title: "[iOS] Postman 설명 및 다운로드 방법"
 date: 2021-05-17T20:00:46+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["개발 CS"]
 tags: ["API", "IOS", "postman", "REST", "restful", "무료", "서버", "테스트", "통신", "프로그램"]
 ---Postman이란 Rest API 통신 서버를 본격적으로 구축하기 전 테스트 할 수 있도록 도와주는 GUI 툴이라고 생각하면 쉽게 이해될 것 같습니다. 윈도우, 리눅스에서도 사용 가능하고 WEB 버전도 있지만 이 포스팅에서는 macOS를 기준으로 진행하겠습니다.
 

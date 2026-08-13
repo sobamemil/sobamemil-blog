@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.6 Exercise 6 Solution"
 date: 2020-03-06T15:49:01+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "programming", "static", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

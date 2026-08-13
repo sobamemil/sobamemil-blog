@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 11장 12번"
 date: 2020-04-02T16:58:54+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["12장", "C++", "coffeemachine", "iomanip", "programming", "객체지향", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 

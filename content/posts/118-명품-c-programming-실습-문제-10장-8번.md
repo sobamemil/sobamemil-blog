@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 10장 8번"
 date: 2020-03-09T17:19:46+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "programming", "다운캐스팅", "상속", "순수가상함수", "실습문제", "업캐스팅", "연습문제", "추상클래스", "프로그래밍"]
 ---
 

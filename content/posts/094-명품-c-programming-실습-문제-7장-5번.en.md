@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.7 Exercise 5 Solution"
 date: 2020-03-06T17:55:15+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "friend", "programming", "Masterpiece", "Practice Problem", "Operator Overloading", "Exercise", "Coding", "Friend Function", "Programming"]
 ---
 

@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.9 Exercise 7 Solution"
 date: 2019-11-21T11:45:27+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C", "C++", "programming", "Assignment", "Masterpiece", "Source Code", "Practice Problem", "Execution Result", "Exercise", "Programming"]
 ---
 

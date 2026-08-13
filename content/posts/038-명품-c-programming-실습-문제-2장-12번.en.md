@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 12 Solution"
 date: 2020-02-28T18:15:45+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "programming", "Parameter", "Masterpiece", "Practice Problem", "Exercise", "Programming", "Function Declaration", "Function Overloading"]
 ---
 

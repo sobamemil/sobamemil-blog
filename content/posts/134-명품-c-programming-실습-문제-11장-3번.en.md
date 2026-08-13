@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.11 Exercise 3 Solution"
 date: 2020-03-27T15:16:48+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["buffer", "C++", "cin", "ignore", "Istream", "programming", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

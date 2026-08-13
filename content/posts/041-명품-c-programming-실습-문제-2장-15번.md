@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 2장 15번"
 date: 2020-02-28T20:00:03+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "cstdlib", "CString", "programming", "stdlib.h", "strtok", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 

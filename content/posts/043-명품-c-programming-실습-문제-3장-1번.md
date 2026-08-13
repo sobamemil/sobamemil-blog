@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 3장 1번"
 date: 2020-03-02T17:24:18+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "class", "constructor", "programming", "매개변수", "명품", "생성자중복", "실습문제", "연습문제", "프로그래밍"]
 ---
 

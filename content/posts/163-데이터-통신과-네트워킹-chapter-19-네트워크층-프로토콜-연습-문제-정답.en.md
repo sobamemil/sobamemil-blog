@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.19 Network Layer Protocols Exercises & Solutions"
 date: 2020-06-29T13:40:12+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["Network", "Network Layer", "Networking", "Data Communications", "Exercise", "Answer", "Solution", "Protocol"]
 ---
 

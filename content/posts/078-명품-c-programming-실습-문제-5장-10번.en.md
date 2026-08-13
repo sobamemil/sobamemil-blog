@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.5 Exercise 10 Solution"
 date: 2020-03-05T15:40:57+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "programming", "string", "Masterpiece", "String", "Practice Problem", "Exercise", "Programming"]
 ---
 

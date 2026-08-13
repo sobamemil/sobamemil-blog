@@ -2,7 +2,7 @@
 title: "Kruskal's Minimum Spanning Tree Algorithm"
 date: 2020-07-02T18:03:16+09:00
 draft: false
-categories: ["💻 Dev & CS", "Algorithm & Coding Test"]
+categories: ["Dev CS", "Algorithm & Coding Test"]
 tags: ["Greedy", "Kruskal", "MST", "Weight", "Graph", "Algorithm", "Greedy Method", "Greedy Algorithm"]
 ---
 

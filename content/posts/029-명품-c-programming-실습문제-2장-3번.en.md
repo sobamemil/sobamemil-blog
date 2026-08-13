@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습문제 2장 3번"
 date: 2020-02-28T16:27:30+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "cin", "cout", "programming", "Masterpiece", "Source Code", "Practice Problem", "Operator", "Exercise", "Programming"]
 ---
 

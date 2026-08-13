@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.5 Exercise 11 Solution"
 date: 2020-03-05T16:00:14+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "char*", "programming", "string", "Masterpiece", "String", "Practice Problem", "Shallow Copy Constructor", "Exercise", "Programming"]
 ---
 

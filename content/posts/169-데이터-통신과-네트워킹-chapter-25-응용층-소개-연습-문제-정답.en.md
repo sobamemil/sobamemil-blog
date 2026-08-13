@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.25 Introduction to Application Layer Exercises & Solutions"
 date: 2020-06-30T13:56:10+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["Network", "Networking", "Data Communications", "Exercise", "Application Layer", "Answer", "Solution"]
 ---
 

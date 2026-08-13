@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.11 Exercise 5 Solution"
 date: 2020-03-27T15:42:20+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["Chapter 11", "C++", "cin", "getline", "programming", "string", "Masterpiece", "Practice Problem", "Exercise"]
 ---
 

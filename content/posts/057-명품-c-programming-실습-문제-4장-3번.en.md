@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.4 Exercise 3 Solution"
 date: 2020-03-04T15:32:28+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "find()", "getline()", "npos", "programminig", "string", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

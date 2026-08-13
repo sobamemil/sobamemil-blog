@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.11 Exercise 4 Solution"
 date: 2020-03-27T15:21:26+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "cin", "eof", "get", "ignore", "programming", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

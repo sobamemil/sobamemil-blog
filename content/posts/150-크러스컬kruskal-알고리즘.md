@@ -2,7 +2,7 @@
 title: "크러스컬(Kruskal) 알고리즘"
 date: 2020-07-02T18:03:16+09:00
 draft: false
-categories: ["💻 개발 & CS", "알고리즘 & 코딩테스트"]
+categories: ["개발 CS", "알고리즘 코딩테스트"]
 tags: ["Greedy", "Kruskal", "MST", "가중치", "그래프", "알고리즘", "욕심쟁이방법", "크러스컬", "탐욕법"]
 ---
 

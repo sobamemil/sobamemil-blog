@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 7장 3번"
 date: 2020-03-06T17:13:07+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["!연산자", "C++", "operator", "programming", "멤버함수", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 

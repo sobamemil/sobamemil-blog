@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 7장 10번"
 date: 2020-03-06T19:52:18+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "programming", "Statistics", "명품", "실습문제", "연습문제", "참조리턴", "참조연산자", "참조자", "프로그래밍"]
 ---
 

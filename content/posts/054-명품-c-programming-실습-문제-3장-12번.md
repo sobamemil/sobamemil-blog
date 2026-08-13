@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 3장 12번"
 date: 2020-03-03T19:03:06+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "CPP", "programming", "구현부", "명품", "선언부", "실습문제", "연습문제", "코딩", "프로그래밍"]
 ---
 

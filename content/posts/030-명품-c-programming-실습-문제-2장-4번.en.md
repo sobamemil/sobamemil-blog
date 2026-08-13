@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 4 Solution"
 date: 2020-02-28T16:37:04+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "cin", "float", "programming", "Largest Number", "Masterpiece", "Float", "Practice Problem", "Exercise", "Programming"]
 ---
 

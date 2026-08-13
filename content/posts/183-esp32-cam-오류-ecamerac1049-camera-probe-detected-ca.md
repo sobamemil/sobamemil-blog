@@ -2,7 +2,7 @@
 title: "ESP32-CAM 오류 : [E][camera.c:1049] camera_probe(): Detected camera not supported. [E][camera.c:1249] esp_camera_init(): Camera probe failed with error 0x20004"
 date: 2021-05-09T16:37:23+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["개발 CS"]
 tags: ["AI THINKER", "arduino", "CAM", "esp32", "esp32cam", "스케치", "아두이노", "업로드", "오류", "컴파일"]
 ---ESP32-CAM 스케치 작성 및 컴파일 시 아래와 같은 오류가 발생하는 경우가 있습니다.
 

@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 2장 6번"
 date: 2020-02-28T17:01:06+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "CString", "programming", "strcmp", "string.h", "명품", "문자열비교", "실습문제", "연습문제", "프로그래밍"]
 ---
 

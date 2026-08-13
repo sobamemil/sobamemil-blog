@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.9 데이터링크층 소개 Exercises & Solutions"
 date: 2020-06-21T19:22:38+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["5th Edition", "Network", "Networking", "Data Link Layer", "Data Communications", "Exercise", "Answer", "Solution"]
 ---
 

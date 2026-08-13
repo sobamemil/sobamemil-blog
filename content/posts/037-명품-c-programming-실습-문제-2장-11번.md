@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 2장 11번"
 date: 2020-02-28T17:55:18+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: []
 ---
 

@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 10장 11번"
 date: 2020-03-10T19:14:39+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["book", "C++", "fflush", "programming", "vector", "명품", "벡터", "실습문제", "연습문제", "프로그래밍"]
 ---
 

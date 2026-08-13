@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.28 멀티미디어 Exercises & Solutions"
 date: 2020-07-01T14:30:55+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["Network", "Networking", "Data Communications", "Multimedia", "Exercise", "Application Layer", "Solution"]
 ---
 

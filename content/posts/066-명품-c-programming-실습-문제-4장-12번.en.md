@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.4 Exercise 12 Solution"
 date: 2020-03-04T17:34:53+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "circle", "CircleManager", "programming", "Object Array", "Object Pointer", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

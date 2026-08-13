@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.24 Transport Layer Protocols Exercises & Solutions"
 date: 2020-06-29T16:14:37+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["Network", "Networking", "Data Communications", "Exercise", "Transport Layer", "Answer", "Solution", "Protocol"]
 ---
 

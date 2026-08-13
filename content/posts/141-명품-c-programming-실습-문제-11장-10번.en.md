@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.11 Exercise 10 Solution"
 date: 2020-04-02T14:15:27+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "iostream", "programming", "prompt", "string", "Masterpiece", "Practice Problem", "Exercise", "Manipulator", "Programming"]
 ---
 

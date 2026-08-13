@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 10장 10번"
 date: 2020-03-10T18:07:00+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "Capital", "Iterator", "Nation", "programming", "vector", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 

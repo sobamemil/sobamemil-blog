@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.4 Exercise 14 Solution"
 date: 2020-03-04T17:50:03+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "cstdlib", "CTime", "gambling", "programming", "rand()", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

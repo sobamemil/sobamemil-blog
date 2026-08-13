@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.26 표준 클라이언트-서버 프로토콜 Exercises & Solutions"
 date: 2020-06-30T14:35:54+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["Network", "Networking", "Data Communications", "Server", "Exercise", "Application Layer", "Answer", "Client", "Solution", "Protocol"]
 ---
 

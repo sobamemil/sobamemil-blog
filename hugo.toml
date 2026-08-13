@@ -95,20 +95,20 @@ enableRobotsTXT = true
 
       [[languages.ko.menu.main]]
         identifier = "smarthome"
-        name = "스마트홈 & DIY"
-        url = "/categories/-스마트홈--diy/"
+        name = "🏠 스마트홈 & DIY"
+        url = "/categories/스마트홈-diy/"
         weight = 10
 
       [[languages.ko.menu.main]]
         identifier = "dev"
-        name = "개발 & CS"
-        url = "/categories/-개발--cs/"
+        name = "💻 개발 & CS"
+        url = "/categories/개발-cs/"
         weight = 20
 
       [[languages.ko.menu.main]]
         identifier = "review"
-        name = "리뷰 & 일상"
-        url = "/categories/-리뷰--일상/"
+        name = "📱 리뷰 & 일상"
+        url = "/categories/리뷰-일상/"
         weight = 30
 
       [[languages.ko.menu.main]]
@@ -160,20 +160,20 @@ enableRobotsTXT = true
 
       [[languages.en.menu.main]]
         identifier = "smarthome"
-        name = "Smart Home & DIY"
-        url = "/en/categories/-smart-home--diy/"
+        name = "🏠 Smart Home & DIY"
+        url = "/en/categories/smart-home-diy/"
         weight = 10
 
       [[languages.en.menu.main]]
         identifier = "dev"
-        name = "Dev & CS"
-        url = "/en/categories/-dev--cs/"
+        name = "💻 Dev & CS"
+        url = "/en/categories/dev-cs/"
         weight = 20
 
       [[languages.en.menu.main]]
         identifier = "review"
-        name = "Reviews & Life"
-        url = "/en/categories/-reviews--life/"
+        name = "📱 Reviews & Life"
+        url = "/en/categories/reviews-life/"
         weight = 30
 
       [[languages.en.menu.main]]

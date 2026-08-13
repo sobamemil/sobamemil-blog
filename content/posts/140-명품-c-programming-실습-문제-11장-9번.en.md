@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.11 Exercise 9 Solution"
 date: 2020-04-02T14:00:37+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "iostream", "programming", "Masterpiece", "Practice Problem", "Operator Overloading", "Exercise", "Input Stream", "Output Stream", "Programming"]
 ---
 

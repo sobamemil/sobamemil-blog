@@ -2,7 +2,7 @@
 title: "이원 탐색 트리(Binary Search Tree) 배열 만들기"
 date: 2020-03-19T15:06:28+09:00
 draft: false
-categories: ["💻 개발 & CS", "알고리즘 & 코딩테스트"]
+categories: ["개발 CS", "알고리즘 코딩테스트"]
 tags: ["binarysearchtree", "tree", "배열", "이원탐색", "이원탐색트리", "자료구조", "탐색", "트리", "파일처리", "파일처리론"]
 ---
 

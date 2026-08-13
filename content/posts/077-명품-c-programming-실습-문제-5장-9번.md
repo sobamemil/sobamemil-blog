@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 5장 9번"
 date: 2020-03-05T15:32:46+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["*this", "Accumulator", "C++", "programming", "reference", "명품", "실습문제", "연습문제", "참조", "프로그래밍"]
 ---
 

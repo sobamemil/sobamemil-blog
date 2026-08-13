@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.11 Exercise 8 Solution"
 date: 2020-04-02T13:54:14+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "operator", "programming", "Masterpiece", "Stream I/O", "Practice Problem", "Operator", "Exercise", "Reference", "Programming"]
 ---
 

@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.8 Exercise 9 Solution"
 date: 2020-03-09T15:13:20+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["airlinebook", "C++", "programming", "Masterpiece", "Flight Reservation", "Inheritance", "Practice Problem", "Exercise", "Programming", "Program"]
 ---
 

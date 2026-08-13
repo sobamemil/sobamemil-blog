@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 11장 1번"
 date: 2020-03-27T14:58:42+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["11장", "C++", "cin", "get()", "programming", "명품", "스트림", "실습문제", "연습문제", "프로그래밍"]
 ---
 

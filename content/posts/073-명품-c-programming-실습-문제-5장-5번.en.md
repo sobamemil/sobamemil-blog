@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.5 Exercise 5 Solution"
 date: 2020-03-05T14:49:33+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "increaseBy()", "programming", "Call by Value", "Masterpiece", "Practice Problem", "Exercise", "Reference", "Call by Reference", "Programming"]
 ---
 

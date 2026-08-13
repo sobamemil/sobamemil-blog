@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 13 Solution"
 date: 2020-02-28T19:01:50+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "If Statement", "programming", "switch", "Masterpiece", "Source Code", "Practice Problem", "Exercise", "Programming"]
 ---
 

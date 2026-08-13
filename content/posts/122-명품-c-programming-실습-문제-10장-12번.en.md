@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.10 Exercise 12 Solution"
 date: 2020-03-10T20:28:33+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "openchallenge", "programming", "vector", "Masterpiece", "Vector", "Practice Problem", "Exercise", "Container", "Programming"]
 ---
 

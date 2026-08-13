@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.9 Exercise 2 Solution"
 date: 2019-11-20T23:09:20+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["2019", "2020", "converter", "KM", "Mile", "public", "Unit Conversion", "Abstract Class", "Derived Class", "Programming"]
 ---
 

@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 11 Solution"
 date: 2020-02-28T17:55:18+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: []
 ---
 

@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 5장 11번"
 date: 2020-03-05T16:00:14+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "char*", "programming", "string", "명품", "문자열", "실습문제", "얕은복사생성자", "연습문제", "프로그래밍"]
 ---
 

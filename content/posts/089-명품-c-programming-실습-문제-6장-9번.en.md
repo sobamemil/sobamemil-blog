@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.6 Exercise 9 Solution"
 date: 2020-03-06T16:36:17+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["Board", "C++", "programming", "static", "Bulletin Board Program", "Masterpiece", "Practice Problem", "Exercise", "Global Variable", "Programming"]
 ---
 

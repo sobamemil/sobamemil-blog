@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.5 Exercise 9 Solution"
 date: 2020-03-05T15:32:46+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["*this", "Accumulator", "C++", "programming", "reference", "Masterpiece", "Practice Problem", "Exercise", "Reference", "Programming"]
 ---
 

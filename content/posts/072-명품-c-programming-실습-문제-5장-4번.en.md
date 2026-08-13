@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.5 Exercise 4 Solution"
 date: 2020-03-05T14:39:43+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["Big", "C++", "programming", "reference", "Masterpiece", "Practice Problem", "Exercise", "Reference", "Programming", "Call"]
 ---
 

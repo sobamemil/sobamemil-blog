@@ -2,7 +2,7 @@
 title: "합병 정렬(Merge Sort) 알고리즘"
 date: 2020-03-18T14:20:58+09:00
 draft: false
-categories: ["💻 개발 & CS"]
+categories: ["개발 CS"]
 tags: ["2019", "algorithm", "merge", "MergeSort", "Sort", "수도코드", "알고리즘", "정렬", "프로그래밍", "합병정렬"]
 ---합병 정렬(Merge Sort)이란?
 

@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.7 Exercise 3 Solution"
 date: 2020-03-06T17:13:07+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["Not Operator", "C++", "operator", "programming", "Member Function", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

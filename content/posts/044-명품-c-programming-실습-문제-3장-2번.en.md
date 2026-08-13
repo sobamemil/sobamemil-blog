@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.3 Exercise 2 Solution"
 date: 2020-03-02T17:38:17+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "programming", "stoi", "string", "substr", "Masterpiece", "Practice Problem", "Exercise", "Class", "Programming"]
 ---
 

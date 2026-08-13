@@ -2,7 +2,7 @@
 title: "[Smart Home / DIY] How to Integrate Atomy Air Purifier into Home Assistant Locally (Tuya ESP8266 TLS Patch & Bypass)"
 date: 2026-08-06T16:55:41+09:00
 draft: false
-categories: ["🏠 Smart Home & DIY", "🛠️ Home Assistant & IoT"]
+categories: ["Smart Home DIY", "Home Assistant IoT"]
 tags: ["ESP8266", "Home Assistant", "IoT", "OpenSSL", "Smart Home", "Atomy Air Purifier", "Tuya"]
 description: "A complete guide on reviving an abandoned Atomy Air Purifier (AAP-KR19W) into Home Assistant via local Tuya MQTT provisioning and custom OpenSSL TLS patch."
 ---

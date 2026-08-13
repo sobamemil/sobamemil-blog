@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 16 Solution"
 date: 2020-02-28T20:24:43+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "isalpha", "programming", "tolower", "Masterpiece", "Practice Problem", "Alphabet", "Exercise", "Programming", "Histogram"]
 ---
 

@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.5 Exercise 12 Solution"
 date: 2020-03-05T16:24:50+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "programming", "Deep Copy Constructor", "Masterpiece", "Practice Problem", "Runtime Error", "Exercise", "Reference", "Reference Operator", "Programming"]
 ---
 

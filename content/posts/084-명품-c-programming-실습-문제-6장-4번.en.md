@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.6 Exercise 4 Solution"
 date: 2020-03-06T14:38:18+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["Problem 4", "Chapter 6", "C++", "programming", "Default Parameter", "Masterpiece", "Practice Problem", "Exercise", "Overloaded Constructor", "Programming"]
 ---
 

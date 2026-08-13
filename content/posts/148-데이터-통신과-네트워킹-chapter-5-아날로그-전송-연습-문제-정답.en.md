@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.5 아날로그 전송 Exercises & Solutions"
 date: 2020-04-23T12:25:10+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["5th Edition", "Network", "Networking", "Answer", "Data Communications", "Analog", "Exercise", "Solution"]
 ---
 

@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 10장 2번"
 date: 2020-03-09T15:40:47+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["biggest", "C++", "Generic", "programming", "template", "명품", "실습문제", "연습문제", "템플릿함수", "프로그래밍"]
 ---
 

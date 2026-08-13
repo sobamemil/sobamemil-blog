@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.2 Exercise 6 Solution"
 date: 2020-02-28T17:01:06+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "CString", "programming", "strcmp", "string.h", "Masterpiece", "String Comparison", "Practice Problem", "Exercise", "Programming"]
 ---
 

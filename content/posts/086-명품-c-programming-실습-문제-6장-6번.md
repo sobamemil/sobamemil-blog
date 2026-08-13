@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 6장 6번"
 date: 2020-03-06T15:49:01+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "programming", "static", "명품", "실습문제", "연습문제", "프로그래밍"]
 ---
 

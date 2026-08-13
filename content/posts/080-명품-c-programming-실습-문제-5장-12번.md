@@ -2,7 +2,7 @@
 title: "명품 C++ programming 실습 문제 5장 12번"
 date: 2020-03-05T16:24:50+09:00
 draft: false
-categories: ["💻 개발 & CS", "C++ 프로그래밍"]
+categories: ["개발 CS", "C++ 프로그래밍"]
 tags: ["C++", "programming", "깊은복사생성자", "명품", "실습문제", "실행시간오류", "연습문제", "참조", "참조연산자", "프로그래밍"]
 ---
 

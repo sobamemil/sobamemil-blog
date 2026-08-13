@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.3 물리층 개요 Exercises & Solutions"
 date: 2020-04-20T19:12:31+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["5th Edition", "Networking", "Data Communications", "Physical Layer", "Exercise", "Answer", "Solution"]
 ---
 

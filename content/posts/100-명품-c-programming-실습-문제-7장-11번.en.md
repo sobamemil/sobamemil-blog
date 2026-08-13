@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.7 Exercise 11 Solution"
 date: 2020-03-06T19:57:15+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "Pop", "programming", "Push", "stack", "Masterpiece", "Practice Problem", "Exercise", "Reference", "Programming"]
 ---
 

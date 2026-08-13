@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.5 Exercise 8 Solution"
 date: 2020-03-05T15:19:47+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "Copy", "programming", "Masterpiece", "Copy Constructor", "Practice Problem", "Exercise", "Reference", "Programming"]
 ---
 

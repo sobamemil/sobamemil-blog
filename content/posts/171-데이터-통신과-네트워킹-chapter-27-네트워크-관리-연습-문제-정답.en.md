@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.27 네트워크 관리 Exercises & Solutions"
 date: 2020-06-30T15:18:16+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["Network", "Network Management", "Networking", "Data Communications", "Exercise", "Application Layer", "Answer", "Solution"]
 ---
 

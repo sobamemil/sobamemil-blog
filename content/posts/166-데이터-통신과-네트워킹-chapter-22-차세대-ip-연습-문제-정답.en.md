@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.22 차세대 IP Exercises & Solutions"
 date: 2020-06-29T14:36:28+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["IPv6", "Network", "Network Layer", "Networking", "Data Communications", "Exercise", "Answer", "Next Generation IP", "Solution"]
 ---
 

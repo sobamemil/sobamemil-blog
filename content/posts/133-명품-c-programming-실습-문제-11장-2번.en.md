@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.11 Exercise 2 Solution"
 date: 2020-03-27T15:03:49+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "cin", "get", "Istream", "ostream", "programming", "Masterpiece", "Practice Problem", "Exercise", "Programming"]
 ---
 

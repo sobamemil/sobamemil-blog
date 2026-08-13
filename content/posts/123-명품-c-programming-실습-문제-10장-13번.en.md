@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.10 Exercise 13 Solution"
 date: 2020-03-11T14:46:02+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "map", "programming", "Map", "Masterpiece", "Practice Problem", "Exercise", "Container", "Programming"]
 ---
 

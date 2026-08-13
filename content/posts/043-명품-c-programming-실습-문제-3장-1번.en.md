@@ -2,7 +2,7 @@
 title: "C++ Programming Ch.3 Exercise 1 Solution"
 date: 2020-03-02T17:24:18+09:00
 draft: false
-categories: ["💻 Dev & CS", "C++ Programming"]
+categories: ["Dev CS", "C++ Programming"]
 tags: ["C++", "class", "constructor", "programming", "Parameter", "Masterpiece", "Constructor Overloading", "Practice Problem", "Exercise", "Programming"]
 ---
 

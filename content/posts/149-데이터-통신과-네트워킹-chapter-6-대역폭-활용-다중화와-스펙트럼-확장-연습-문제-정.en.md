@@ -2,7 +2,7 @@
 title: "Data Communications & Networking Ch.6 대역폭 활용: 다중화와 스펙트럼 확장 Exercises & Solutions"
 date: 2020-04-29T11:57:10+09:00
 draft: false
-categories: ["💻 Dev & CS", "Network & Comm"]
+categories: ["Dev CS", "Network & Comm"]
 tags: ["5th Edition", "Network", "Networking", "Multiplexing", "Bandwidth Utilization", "Data Communications", "Digital", "Spectrum", "Analog", "Exercise"]
 ---
 
