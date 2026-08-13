@@ -67,24 +67,34 @@
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
-    {{- if .GetTerms "categories" }}
+    {{- if and .Params.categories (gt (len .Params.categories) 0) -}}
     <div class="post-categories">
-      {{- $terms := .GetTerms "categories" }}
-      {{- range $term := $terms }}
-        {{- $isParent := false }}
-        {{- range $other := $terms }}
-          {{- if and (ne $term.Title $other.Title) (hasPrefix $other.Title (print $term.Title "/")) }}
-            {{- $isParent = true }}
-          {{- end }}
-        {{- end }}
-        {{- if not $isParent }}
-        <a href="{{ $term.RelPermalink }}" class="category-badge">
-          {{- replace $term.Title "/" " > " -}}
-        </a>
-        {{- end }}
-      {{- end }}
+      {{- $categories := .Params.categories -}}
+      {{- range $c := .Params.categories -}}
+        {{- $isParent := false -}}
+        {{- range $other := $categories -}}
+          {{- if and (ne $c $other) (hasPrefix $other (print $c "/")) -}}
+            {{- $isParent = true -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if not $isParent -}}
+        {{- $page := site.GetPage (printf "categories/%s" $c) -}}
+        {{- $url := "" -}}
+        {{- if $page -}}
+          {{- $url = $page.RelPermalink -}}
+        {{- else -}}
+          {{- $url = "categories/" -}}
+          {{- $parts := split $c "/" -}}
+          {{- range $parts -}}
+            {{- $url = print $url (. | urlize) "/" -}}
+          {{- end -}}
+          {{- $url = $url | relLangURL -}}
+        {{- end -}}
+        <a href="{{ $url }}" class="category-badge">{{ replace $c "/" " > " }}</a>
+        {{- end -}}
+      {{- end -}}
     </div>
-    {{- end }}
+    {{- end -}}
     <h2 class="entry-hint-parent">
       {{- .Title }}
       {{- if .Draft }}

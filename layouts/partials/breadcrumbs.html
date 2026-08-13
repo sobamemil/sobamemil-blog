@@ -1,21 +1,33 @@
 {{- if (.Param "ShowBreadCrumbs") -}}
 <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
     <a href="{{ site.Home.RelPermalink }}">{{ i18n "home" | default "Home" }}</a>
-    {{- if .GetTerms "categories" -}}
-        {{- $terms := .GetTerms "categories" -}}
-        {{- range $i, $term := $terms -}}
+    {{- if and .Params.categories (gt (len .Params.categories) 0) -}}
+        {{- $categories := .Params.categories -}}
+        {{- range $i, $cat := $categories -}}
             {{- $isParent := false -}}
-            {{- range $other := $terms -}}
-                {{- if and (ne $term.Title $other.Title) (hasPrefix $other.Title (print $term.Title "/")) -}}
+            {{- range $other := $categories -}}
+                {{- if and (ne $cat $other) (hasPrefix $other (print $cat "/")) -}}
                     {{- $isParent = true -}}
                 {{- end -}}
             {{- end -}}
             {{- if not $isParent -}}
+            {{- $page := site.GetPage (printf "categories/%s" $cat) -}}
+            {{- $url := "" -}}
+            {{- if $page -}}
+                {{- $url = $page.RelPermalink -}}
+            {{- else -}}
+                {{- $url = "categories/" -}}
+                {{- $parts := split $cat "/" -}}
+                {{- range $parts -}}
+                    {{- $url = print $url (. | urlize) "/" -}}
+                {{- end -}}
+                {{- $url = $url | relLangURL -}}
+            {{- end -}}
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
                 <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
-            <a href="{{ $term.RelPermalink }}">{{ replace $term.Title "/" " > " }}</a>
+            <a href="{{ $url }}">{{ replace $cat "/" " > " }}</a>
             {{- end -}}
         {{- end -}}
     {{- else if and (eq .Kind "term") (eq .Data.Singular "category") -}}
