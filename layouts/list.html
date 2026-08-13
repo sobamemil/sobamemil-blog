@@ -81,7 +81,21 @@
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
-    {{- if not (and (eq $.Kind "term") (eq $.Data.Singular "category")) -}}
+    {{- $hideBadges := false -}}
+    {{- if and (eq $.Kind "term") (eq $.Data.Singular "category") -}}
+      {{- $hasSubcategories := false -}}
+      {{- range $p := $.Pages -}}
+        {{- range $cat := $p.Params.categories -}}
+          {{- if hasPrefix $cat (print $.Title "/") -}}
+            {{- $hasSubcategories = true -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if not $hasSubcategories -}}
+        {{- $hideBadges = true -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not $hideBadges -}}
     {{- if and .Params.categories (gt (len .Params.categories) 0) -}}
     <div class="post-categories">
       {{- $categories := .Params.categories -}}
