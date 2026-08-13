@@ -78,8 +78,12 @@
           {{- end }}
         {{- end }}
         {{- if not $isParent }}
-        {{- $term := $.Site.GetPage "categories" $c -}}
-        <a href="{{ if $term }}{{ $term.RelPermalink }}{{ else }}#{{ end }}" class="category-badge">
+        {{- $url := "categories/" -}}
+        {{- $parts := split $c "/" -}}
+        {{- range $parts -}}
+          {{- $url = print $url (. | urlize) "/" -}}
+        {{- end -}}
+        <a href="{{ $url | relLangURL }}" class="category-badge">
           {{- replace $c "/" " > " -}}
         </a>
         {{- end }}
