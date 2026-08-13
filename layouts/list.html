@@ -69,10 +69,19 @@
   <header class="entry-header">
     {{- if .Params.categories }}
     <div class="post-categories">
-      {{- range .Params.categories }}
-        <a href="{{ "categories/" | relLangURL }}{{ . | urlize }}/" class="category-badge">
-          {{- replace . "/" " > " -}}
+      {{- $categories := .Params.categories }}
+      {{- range $c := $categories }}
+        {{- $isParent := false }}
+        {{- range $other := $categories }}
+          {{- if and (ne $c $other) (hasPrefix $other (print $c "/")) }}
+            {{- $isParent = true }}
+          {{- end }}
+        {{- end }}
+        {{- if not $isParent }}
+        <a href="{{ "categories/" | relLangURL }}{{ $c | urlize }}/" class="category-badge">
+          {{- replace $c "/" " > " -}}
         </a>
+        {{- end }}
       {{- end }}
     </div>
     {{- end }}
