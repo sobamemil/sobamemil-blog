@@ -10,9 +10,6 @@
   <h1>
     {{- if and (eq .Kind "term") (eq .Data.Singular "category") -}}
       {{- $t := .Title -}}
-      {{- $parts := split $t "/" -}}
-      {{- $leaf := index $parts (sub (len $parts) 1) -}}
-      {{- $t = $leaf -}}
       {{- $t = replace $t "스마트홈 DIY" "🏠 스마트홈 & DIY" -}}
       {{- $t = replace $t "개발 CS" "💻 개발 & CS" -}}
       {{- $t = replace $t "리뷰 일상" "📱 리뷰 & 일상" -}}
@@ -22,7 +19,7 @@
       {{- $t = replace $t "Dev CS" "💻 Dev & CS" -}}
       {{- $t = replace $t "Reviews Life" "📱 Reviews & Life" -}}
       {{- $t = replace $t "Life Travel" "✈️ Life & Travel" -}}
-      {{ $t }}
+      {{- replace $t "/" " > " -}}
     {{- else -}}
       {{ .Title }}
     {{- end -}}
