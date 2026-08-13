@@ -1,7 +1,7 @@
 ---
 title: "대형 애터미 공기청정기(AAP-KR19W) 필터 교체 및 로컬 연동 구상"
 date: 2026-08-13T14:14:00+09:00
-draft: false
+draft: true
 tags: ["공기청정기", "HomeAssistant", "애터미", "IoT", "필터교체", "AAP-KR19W"]
 categories: ["스마트홈", "리뷰"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "코맥스(Commax) 월패드 Home Assistant (HA) 연동 분석기 - 1편"
 date: 2026-08-13T14:12:00+09:00
-draft: false
+draft: true
 tags: ["HomeAssistant", "코맥스", "월패드", "IoT", "EW11"]
 categories: ["스마트홈", "개발"]
 ---
