@@ -131,3 +131,35 @@ body {
 .comments {
   margin-top: 2rem !important;
 }
+
+/* Category Badges on List View */
+.post-categories {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+  margin-bottom: 0.8rem !important;
+}
+
+.category-badge {
+  background: rgba(49, 130, 246, 0.1) !important;
+  color: #3182f6 !important;
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  padding: 4px 10px !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.category-badge:hover {
+  background: rgba(49, 130, 246, 0.2) !important;
+}
+
+.dark .category-badge {
+  background: rgba(234, 74, 170, 0.15) !important;
+  color: #ea4aaa !important;
+}
+
+.dark .category-badge:hover {
+  background: rgba(234, 74, 170, 0.25) !important;
+}
