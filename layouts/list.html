@@ -81,7 +81,6 @@
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
-    {{- if not (and (eq $.Kind "term") (eq $.Data.Singular "category")) -}}
     {{- if and .Params.categories (gt (len .Params.categories) 0) -}}
     <div class="post-categories">
       {{- $categories := .Params.categories -}}
@@ -105,9 +104,7 @@
           {{- end -}}
           {{- $url = $url | relLangURL -}}
         {{- end -}}
-        {{- $parts := split $c "/" -}}
-        {{- $leaf := index $parts (sub (len $parts) 1) -}}
-        {{- $displayName := $leaf -}}
+        {{- $displayName := $c -}}
         {{- $displayName = replace $displayName "스마트홈 DIY" "🏠 스마트홈 & DIY" -}}
         {{- $displayName = replace $displayName "개발 CS" "💻 개발 & CS" -}}
         {{- $displayName = replace $displayName "리뷰 일상" "📱 리뷰 & 일상" -}}
@@ -117,11 +114,11 @@
         {{- $displayName = replace $displayName "Dev CS" "💻 Dev & CS" -}}
         {{- $displayName = replace $displayName "Reviews Life" "📱 Reviews & Life" -}}
         {{- $displayName = replace $displayName "Life Travel" "✈️ Life & Travel" -}}
+        {{- $displayName = replace $displayName "/" " > " -}}
         <a href="{{ $url }}" class="category-badge">{{ $displayName }}</a>
         {{- end -}}
       {{- end -}}
     </div>
-    {{- end -}}
     {{- end -}}
     <h2 class="entry-hint-parent">
       {{- .Title }}
