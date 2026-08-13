@@ -42,33 +42,37 @@
             {{- end -}}
         {{- end -}}
     {{- else if and (eq .Kind "term") (eq .Data.Singular "category") -}}
-        {{- $currentCat := .Title -}}
-        {{- $parentCat := "" -}}
-        {{- $isSubCat := false -}}
-        {{- if gt (len .Pages) 0 -}}
-            {{- $firstPost := index .Pages 0 -}}
-            {{- if and $firstPost.Params.categories (gt (len $firstPost.Params.categories) 1) -}}
-                {{- if eq (index $firstPost.Params.categories 1) $currentCat -}}
-                    {{- $isSubCat = true -}}
-                    {{- $parentCat = index $firstPost.Params.categories 0 -}}
-                {{- end -}}
+        {{- $parts := split .Title "/" -}}
+        {{- $accum := "" -}}
+        {{- range $i, $part := $parts -}}
+            {{- if eq $i 0 -}}
+                {{- $accum = $part -}}
+            {{- else -}}
+                {{- $accum = printf "%s/%s" $accum $part -}}
             {{- end -}}
-        {{- end -}}
-        
-        {{- if $isSubCat -}}
-            {{- $parentTerm := $.Site.GetPage "categories" $parentCat -}}
+            {{- $termPage := site.GetPage (printf "categories/%s" $accum) -}}
+            {{- $termUrl := "" -}}
+            {{- if $termPage -}}
+                {{- $termUrl = $termPage.RelPermalink -}}
+            {{- else -}}
+                {{- $termUrl = printf "categories/%s/" ($accum | urlize) | relLangURL -}}
+            {{- end -}}
+            {{- $displayName := $part -}}
+            {{- $displayName = replace $displayName "스마트홈 DIY" "🏠 스마트홈 & DIY" -}}
+            {{- $displayName = replace $displayName "개발 CS" "💻 개발 & CS" -}}
+            {{- $displayName = replace $displayName "리뷰 일상" "📱 리뷰 & 일상" -}}
+            {{- $displayName = replace $displayName "일상 여행" "✈️ 일상 & 여행" -}}
+            {{- $displayName = replace $displayName "Home Assistant IoT" "🛠️ Home Assistant & IoT" -}}
+            {{- $displayName = replace $displayName "Smart Home DIY" "🏠 Smart Home & DIY" -}}
+            {{- $displayName = replace $displayName "Dev CS" "💻 Dev & CS" -}}
+            {{- $displayName = replace $displayName "Reviews Life" "📱 Reviews & Life" -}}
+            {{- $displayName = replace $displayName "Life Travel" "✈️ Life & Travel" -}}
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
                 <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
-            <a href="{{ if $parentTerm }}{{ $parentTerm.RelPermalink }}{{ else }}#{{ end }}">{{ $parentCat }}</a>
+            <a href="{{ $termUrl }}">{{ $displayName }}</a>
         {{- end -}}
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
-            <polyline points="9 18 15 12 9 6"></polyline>
-        </svg>
-        <a href="{{ .RelPermalink }}">{{ $currentCat }}</a>
     {{- else -}}
         {{- $ancestors := .Ancestors.Reverse -}}
         {{- range $i, $bc := $ancestors -}}

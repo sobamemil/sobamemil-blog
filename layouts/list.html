@@ -8,7 +8,21 @@
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}{{- partial "debug.html" . }}
   <h1>
-    {{ .Title }}
+    {{- if and (eq .Kind "term") (eq .Data.Singular "category") -}}
+      {{- $t := .Title -}}
+      {{- $t = replace $t "스마트홈 DIY" "🏠 스마트홈 & DIY" -}}
+      {{- $t = replace $t "개발 CS" "💻 개발 & CS" -}}
+      {{- $t = replace $t "리뷰 일상" "📱 리뷰 & 일상" -}}
+      {{- $t = replace $t "일상 여행" "✈️ 일상 & 여행" -}}
+      {{- $t = replace $t "Home Assistant IoT" "🛠️ Home Assistant & IoT" -}}
+      {{- $t = replace $t "Smart Home DIY" "🏠 Smart Home & DIY" -}}
+      {{- $t = replace $t "Dev CS" "💻 Dev & CS" -}}
+      {{- $t = replace $t "Reviews Life" "📱 Reviews & Life" -}}
+      {{- $t = replace $t "Life Travel" "✈️ Life & Travel" -}}
+      {{- replace $t "/" " > " -}}
+    {{- else -}}
+      {{ .Title }}
+    {{- end -}}
     {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
     {{- with .OutputFormats.Get "rss" }}
     <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
