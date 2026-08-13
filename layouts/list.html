@@ -6,7 +6,7 @@
 
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
-  {{- partial "breadcrumbs.html" . }}
+  {{- partial "breadcrumbs.html" . }}{{- partial "debug.html" . }}
   <h1>
     {{ .Title }}
     {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
@@ -67,24 +67,19 @@
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">
-    {{- if .Params.categories }}
+    {{- if .GetTerms "categories" }}
     <div class="post-categories">
-      {{- $categories := .Params.categories }}
-      {{- range $c := $categories }}
+      {{- $terms := .GetTerms "categories" }}
+      {{- range $term := $terms }}
         {{- $isParent := false }}
-        {{- range $other := $categories }}
-          {{- if and (ne $c $other) (hasPrefix $other (print $c "/")) }}
+        {{- range $other := $terms }}
+          {{- if and (ne $term.Title $other.Title) (hasPrefix $other.Title (print $term.Title "/")) }}
             {{- $isParent = true }}
           {{- end }}
         {{- end }}
         {{- if not $isParent }}
-        {{- $url := "categories/" -}}
-        {{- $parts := split $c "/" -}}
-        {{- range $parts -}}
-          {{- $url = print $url (. | urlize) "/" -}}
-        {{- end -}}
-        <a href="{{ $url | relLangURL }}" class="category-badge">
-          {{- replace $c "/" " > " -}}
+        <a href="{{ $term.RelPermalink }}" class="category-badge">
+          {{- replace $term.Title "/" " > " -}}
         </a>
         {{- end }}
       {{- end }}
