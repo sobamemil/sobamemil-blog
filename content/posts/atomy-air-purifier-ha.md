@@ -1,9 +1,9 @@
 ---
-title: "대형 애터미 공기청정기(AAP-KR19W) 필터 교체 및 로컬 연동 구상"
+title: "단종된 애터미 공기청정기 Home Assistant 로컬 연동 (Tuya 우회)"
 date: 2026-08-13T14:14:00+09:00
 draft: false
 tags: ["공기청정기", "HomeAssistant", "애터미", "IoT", "필터교체", "AAP-KR19W"]
-categories: ["🏠 스마트홈 & DIY", "🏠 스마트홈 & DIY/공기청정기"]
+categories: ["🏠 스마트홈 & DIY", "🏠 스마트홈 & DIY/홈 IoT"]
 ---
 
 집안의 공기질을 든든하게 책임지고 있는 대형 **애터미(Atomy) 공기청정기 (AAP-KR19W)**의 필터 교체 시기가 다가왔습니다. 
