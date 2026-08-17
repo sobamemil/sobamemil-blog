@@ -1,35 +1,35 @@
 ---
-title: "Discontinued Atomy Air Purifier Home Assistant Local Integration (Tuya Bypass)"
+title: "Discontinued Atomy Air Purifier: Home Assistant Local Integration (Bypassing Tuya)"
 date: 2026-08-13T14:14:00+09:00
 draft: false
 tags: ["AirPurifier", "HomeAssistant", "Atomy", "IoT", "FilterReplacement", "AAP-KR19W"]
 categories: ["Smart Home DIY", "Smart Home DIY/Home IoT"]
 ---
 
-The time has come to replace the filters for the large **Atomy Air Purifier (AAP-KR19W)**, which reliably takes care of the indoor air quality in my home.
-Today, I'll share a brief review of the simple filter replacement process and outline a basic concept for how I might integrate this device into Home Assistant (HA) in the future to run it smartly.
+The large Atomy air purifier (AAP-KR19W) that handles air quality in the house was due for a filter change. This post covers the filter replacement, plus some thoughts on eventually getting this thing onto Home Assistant.
 
-## 1. Dual Filter Setup, Satisfying Performance
+## The two-filter-set design
 
-The biggest advantage of the Atomy large air purifier is, undoubtedly, its overwhelmingly large filter system.
-The filter for this product uses a method of layering two filters: a black **deodorizing filter** and a white **non-woven fabric-like filter**. Because the device itself is a large model, filters go into the top and bottom respectively, so for a full replacement, you need to purchase a total of 2 sets of these layered filters.
+The best thing about this purifier is its oversized filter system: a black deodorizing filter and a white non-woven filter stacked together. Since it's a large unit, filters go in both the top and bottom, so a full replacement means buying two of these stacked sets.
 
-![Inside the Air Purifier and Filters](/images/posts/moving/IMG_2466.jpeg)
+![Inside the air purifier with the filters](/images/posts/moving/IMG_2466.jpeg)
+![The deodorizing filter and non-woven filter stacked together](/images/posts/moving/IMG_2467.jpeg)
 
-**The filter replacement process is almost anti-climactically simple.**
-There is no need to grab a screwdriver to take apart the internal board; you just open the outer filter cover.
+Replacing the filters just means popping open the front cover, nothing more involved than that.
 
-1. Grab the gap at the top of the front cover and pull to remove it.
-2. Take out the dust-contaminated existing filters (2 sets of black + white) from the upper and lower spaces and put them in a garbage bag.
-3. Smoothly slide the new filter sets, with the plastic wrapping removed, right into place, matching the shape.
-4. Close the cover back up, turn on the power, and you're done!
+1. Grip the gap at the top of the front cover and pull it off.
+2. Pull out the old, dust-caked filters (black + white, top and bottom) and bag them for disposal.
+3. Unwrap the new filter sets and push them into place.
+4. Close the cover and power it back on.
 
-After turning it on post-replacement, the air coming out definitely smells fresher. Having thick filters in both the top and bottom gives a reassuring feeling that it will effectively capture not only fine dust but also odors.
+There are compatible third-party filters on the market too, but in my experience they weren't much cheaper than the genuine ones and didn't fit quite as snugly. If the price difference is small, I'd just go with the genuine filter.
 
-## 2. Future HA Local Integration Concept
+After the swap, the air coming out definitely smells fresher. With thick filters top and bottom, it feels like it should handle both dust and odor well.
 
-As I've covered in other posts before, this product has several issues, such as the discontinuation of its dedicated app support. Ultimately, my goal is to completely revamp it locally and attach it to HA, bypassing external clouds altogether.
+## Local Home Assistant integration, down the road
 
-Today I simply replaced the filters and closed it up, but later, I plan to disassemble the board and either hack or replace the internal Wi-Fi communication chipset (like the ESP module) to flash a custom firmware (like ESPHome, Tasmota, etc.).
+As covered in an earlier post, this unit's app support has been discontinued along with a few other issues, so the long-term goal is to strip out the cloud dependency entirely and run it fully local through HA.
 
-Once I gain local control authority, it could be reborn as a perfect smart air purifier, automatically adjusting the fan speed based on indoor fine dust levels (sensor values). I'll cover the detailed hacking(?) and integration process in my next post!
+This time around I only swapped the filters and closed it back up, but eventually I want to open up the board, get into the Wi-Fi chipset (an ESP module or similar), and flash it with something like ESPHome or Tasmota.
+
+Once I have local control, I should be able to auto-adjust fan speed based on indoor particulate readings, turning it into a proper smart air purifier. I'll cover the hacking and integration details in a future post.

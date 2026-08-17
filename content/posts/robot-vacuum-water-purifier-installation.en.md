@@ -6,50 +6,56 @@ tags: ["RobotVacuum", "WaterPurifier", "DirectPlumbing", "Dreame"]
 categories: ["Smart Home DIY", "Smart Home DIY/Self DIY"]
 ---
 
-One of the things I looked forward to the most when moving into a new apartment was installing a **direct plumbing kit for the robot vacuum**. Although the performance of robot vacuums has improved tremendously these days, they still haven't completely left human hands, as you periodically need to clean the brushes or maintain them.
+There was one project I'd been looking forward to since moving into the new apartment: plumbing in the direct-drain kit for my Dreame Aqua 10 robot vacuum and the water purifier's supply line at the same time.
 
-In particular, if you don't empty the dirty water tank in time after wet mopping, a terrible stench is bound to occur. The direct plumbing kit is a must-have item to relieve this exact hassle of 'filling with clean water and emptying dirty water'.
+If you don't empty the dirty water tank in time after mop cleaning, the smell gets pretty bad. A direct-drain kit gets rid of that hassle entirely. Hiring someone would've been easier, but I decided to do it myself, partly to save money. I'd never done plumbing work before, so I was a little nervous, but figured I'd just dive in.
 
-I could have hired an installation company, but **honestly, to save money (haha)**, I decided to try DIY installation myself.
+## The spot: under the fridge cabinet, the problem: distance
 
-## 1. Prep Work and Positioning
+It looked like a simple job, just a supply line and a drain line, but the real issue was that the distance between the sink cabinet and the fridge cabinet was pretty far. Luckily, since it's a new apartment, there was already a channel drilled through toward the fridge cabinet for the supply line.
 
-Two extremely important conditions are required to install a direct plumbing robot vacuum.
-1. **Water supply line (where clean water comes in)**
-2. **Drainage line (where dirty water goes out)**
+## First attempt failed, fish tape saved it
 
-Usually, it is installed in the **base cabinet under the sink**, where the water supply and drain are close by. Considering the aesthetics of the living room, I also decided to utilize the empty space at the bottom of the **refrigerator cabinet**, close to the sink. Since it's a new apartment, fortunately, there was a pathway prepared for the water supply line towards the refrigerator cabinet.
+I'd already bought a fish tape ahead of time, but just to see if I even needed it, I tried pushing the tubing through without it first. There was a sharp bend right at the sink end, though, and no matter how hard I pushed, it wouldn't go past that point.
 
-## 2. Piping Work Using a Fish Tape (The Biggest Hurdle)
+Turned out I needed the fish tape after all. I pulled out the one I'd already bought and tried again, and this time it went in smoothly. The supply and drain tubing came bundled with the Aqua 10 direct-drain kit when I ordered it from Taobao, so the only thing I actually had to buy separately was the fish tape, and that was under 10,000 won.
 
-Although there was a pathway, the distance from the sink base cabinet to the refrigerator cabinet was quite far, so I couldn't just push the line in. This is where a **fish tape (wire puller)** is needed.
+I was in the middle of moving and couldn't find electrical tape anywhere, so I just used whatever packing tape was on hand to bind the fish tape to the tubing.
 
-I bought a 10m fish tape online and started pushing it into the pipe towards the refrigerator cabinet.
-There were sections where the wire got caught inside and wouldn't go in easily, but by gently twisting and pushing it, the end of the fish tape safely came out towards the sink base cabinet.
+![The fish tape I ordered ahead of time. Using it after the failed direct-push attempt made things much easier.](/images/posts/moving/IMG_2435.jpeg)
 
-![Fish Tape Work](/images/posts/moving/IMG_2435.jpeg)
+![Pushing the fish tape through the pre-drilled channel for the supply line](/images/posts/moving/IMG_2436.jpeg)
 
-I tied the clean water line and the drainage line to the end of the fish tape and pulled, and fortunately, both lines fit snugly into the pipe, allowing me to bury them cleanly.
-For reference, the size of the direct plumbing lines for robot vacuums differs depending on their purpose. **The water supply line that brings in clean water usually uses 1/4 inch (thin wire), and the drainage line that lets out dirty water mixed with debris uses 3/8 inch (thick wire) to prevent clogging.**
+The supply and drain lines made it through to the fridge cabinet side. For reference, the tubing sizes differ by purpose: the clean-water supply line is **1/4 inch**, and the drain line is **3/8 inch** to avoid clogging.
 
-## 3. Sink Base Cabinet Drainage Line Connection and Teflon Work
+![The supply and drain lines coming down from the ceiling of the fridge cabinet, right before connecting to the docking station](/images/posts/moving/IMG_2437.jpeg)
 
-Now it's time to connect the pulled lines to the actual water and drainage lines under the sink.
+## Tapping a T-valve under the sink
 
-I turned off the water supply valve, and instead of an adjustable wrench, I used a plumbing tool (water pump pliers, aka 'Channellock') that can grip and turn tightly to unscrew the existing water fittings. When connecting the fittings, the crucial detail is to meticulously wrap **Teflon tape** around the threads several times to prevent leaks.
+After finishing the connection on the robot vacuum's side, I opened the sink base cabinet and tapped a T-valve into the existing supply line. I shut off the supply valve first, and since I didn't have an adjustable wrench at home, I used a locking pliers to loosen the existing fitting.
 
-For the drainage line, I found a suitable part on the existing sink drain pipe where the kit's drain tube (3/8 size) would fit, cut it with a knife, and inserted it. I ensured a tight fit so that water wouldn't leak and odors wouldn't backflow.
+I wrapped the threads with Teflon tape a few times to prevent leaks.
 
-![Direct Plumbing Connection](/images/posts/moving/IMG_2444.jpeg)
-![Piping Connection Detail](/images/posts/moving/IMG_2452.jpeg)
+![Branching the supply line with a T-valve inside the sink base cabinet](/images/posts/moving/IMG_2444.jpeg)
+![Checking for leaks after closing all the valves](/images/posts/moving/IMG_2452.jpeg)
 
-## 4. Adding a T-Valve for Water Purifier Connection (Temporary Wine Cellar Placement)
+For the drain line, I just scored a line into the existing drain opening with a utility knife to shape an opening, rather than cutting a chunk out, then pushed the kit's drain tube in as tightly as it would go. Fitting it in that snugly meant I didn't need to finish it off with silicone.
 
-While doing the plumbing work, I did one more additional task. Namely, the water purifier line.
-I attached a **T-valve (distributor)** to the water supply line coming through the wall to split the water path into two. One side went to the robot vacuum water supply line I just worked on, and the other side was connected for the water purifier.
+![Scoring the drain opening with a knife to shape a spot for the kit's tube](/images/posts/moving/IMG_2458.jpeg)
+![The tube pushed into the drain opening. It went in tight enough to stay put with no wobble.](/images/posts/moving/IMG_2460.jpeg)
 
-The water purifier is currently connected through this line and is temporarily placed on top of the wine cellar. Later, when I have a formal home bar cabinet built into the refrigerator space, I plan to place the water purifier nicely on top of it.
+## One more T-valve for the water purifier, at the fridge cabinet
 
-## Conclusion
+Since the water purifier was eventually going to sit near the fridge cabinet anyway, I added one more T-valve to the supply line there while I was at it, and ran a separate line for the purifier.
 
-It would have been easier to leave it to professionals, but after pushing the fish tape in myself and working with Channellocks and Teflon tape to finish it, I saved money and feel a great sense of accomplishment. Above all, seeing the robot vacuum change its own water without me having to worry about the smell of the dirty water tank, the quality of my life has skyrocketed. I hope this post helps those of you contemplating a DIY installation like I did!
+![A second T-valve branched off the fridge cabinet's supply line for the water purifier](/images/posts/moving/IMG_2461.jpeg)
+
+There's no home bar cabinet built in yet, so for now the purifier is sitting temporarily on top of the wine cellar. Once the cabinet is built, I'll move it over there.
+
+![The water purifier, temporarily sitting on top of the wine cellar](/images/posts/moving/IMG_2463.jpeg)
+
+## Wrap-up
+
+I didn't time it exactly, but it felt like it took somewhere between an hour and an hour and a half. Take out the time I spent stuck at that bend before switching to the fish tape, and the actual work didn't take that long at all.
+
+The cost ended up being pretty low too. The supply and drain tubing came bundled with the Aqua 10 kit, so the only thing I bought separately was the fish tape, for under 10,000 won. If you've never done plumbing DIY before, I'd recommend picking up a fish tape ahead of time regardless. It's cheap, and if you get one with generous length, it won't go to waste no matter what you end up using it for later.

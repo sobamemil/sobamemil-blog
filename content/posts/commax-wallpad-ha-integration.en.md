@@ -1,43 +1,37 @@
 ---
-title: "Commax Wallpad Home Assistant Integration and Elfin EW11 Installation Guide"
+title: "Commax Wallpad Home Assistant Integration and Elfin EW11 Setup Guide"
 date: 2026-08-13T14:12:00+09:00
 draft: false
 tags: ["HomeAssistant", "Commax", "Wallpad", "IoT", "EW11"]
 categories: ["Smart Home DIY", "Smart Home DIY/Home IoT"]
 ---
 
-For those seriously building a smart home, the **Wallpad**, a default option in many apartments, is an incredibly attractive toy and a mountain that must be conquered. This is because numerous devices, such as the home's lighting, heating, ventilation system, gas valve, and elevator call, are connected to the wallpad.
+The wallpad that comes standard in most Korean apartments is wired into the lighting, heating, ventilation, gas valve, and even the elevator call button, which makes it both an appealing target and something you eventually have to deal with if you're serious about a smart home.
 
-The new apartment I moved into came with a **Commax** wallpad. In this post, we will cover the first step to integrate this wallpad into Home Assistant (HA): **analyzing the hardware and securing the communication lines**.
+The new apartment I moved into has a Commax wallpad installed. This post covers the first step toward Home Assistant integration: analyzing the hardware and locating the communication lines.
 
-## Step 1: Removing the Wallpad and Analyzing the Terminal Box
+## Removing the wallpad and checking inside the junction box
 
-The basics of smart home integration involve figuring out how the device communicates. Detaching the wallpad from the living room wall was simpler than I thought. I unscrewed the top screws and slightly lifted the main body upwards, and it easily came off.
+The wallpad on the living room wall came off easily, just loosen the top screw and lift the unit up.
 
-Afterwards, I opened the communication terminal box located near the shoe cabinet. When I took apart the bulky equipment in the center of the terminal box, I found that it wasn't a simple network patch panel, but a **Commax CAP-1400YX** board, which acts as the core control board for the wallpad.
+Opening the junction box near the shoe cabinet, I found it wasn't just a network patch panel, it also housed the wallpad's main control board, a Commax CAP-1400YX.
 
-![Terminal Box Analysis](/images/posts/moving/IMG_2475.jpeg)
-*(The Commax main board inside the terminal box. Numerous communication lines extend to each room.)*
+![The Commax CAP-1400YX main board nameplate inside the junction box](/images/posts/moving/IMG_2483.jpeg)
 
-## Step 2: Finding the RS-485 Communication Line
+The lines running out to each room were plugged into connectors labeled things like room phone, kitchen phone, and entrance.
 
-Most apartment wallpad systems use the highly stable **RS-485** serial communication method.
-Looking closely at the board, fortunately, a pinmap was kindly printed on stickers and silkscreen next to each connector.
+![Connectors labeled for the room phone, kitchen phone, entrance, and more](/images/posts/moving/IMG_2473.jpeg)
 
-- Gas valve control line
-- Lighting control line for each room
-- Boiler heating thermostat line
-- Front door lock line
+## Looking for the RS-485 line
 
-Through the wiring diagram, I confirmed that each device was communicating with the main board via the 485+ (TRX+) and 485- (TRX-) lines. What we need to do is plant a 'spy' in the middle of these communication lines to intercept the incoming and outgoing signals (packets) and, conversely, shoot the commands we want.
+Most apartment wallpad systems run on RS-485 serial communication. There were stickers and silkscreen printing next to the connectors on the board with a pinmap, so I used that to roughly locate the gas valve, lighting, boiler, and door lock lines. That said, this isn't fully verified yet, I'll need to hook up the EW11 and actually read the signal to know for sure which lines are 485+/485-.
 
-> ⚠️ **Caution**: When handling the board inside the terminal box, always be careful of static electricity and be careful not to cause a short circuit. If you mess up and the wallpad main board breaks, you could be billed hundreds of dollars in repair costs.
+![Communication lines labeled for gas, phone, and more](/images/posts/moving/IMG_2477.jpeg)
 
-## Step 3: Next Target, Deploying the Elfin-EW11
+> Be careful of static and shorts whenever you're working inside the junction box. If you damage the main board, the repair bill can add up fast.
 
-Now that we have identified the RS-485 communication line, we need equipment that will convert this serial data into a TCP/IP network via Wi-Fi.
-Today, I just ordered the **Elfin-EW11**, the most widely used cost-effective module among smart home users, from AliExpress.
+## Next up: bringing in an Elfin EW11
 
-The parts haven't arrived yet, so I haven't been able to make the physical connection. When the EW11 module arrives, I plan to bite it onto the RS-485 terminal in the terminal box and set it up to shoot packets to the MQTT server. After that, the process of analyzing and reverse-engineering the Commax protocol (command rules) using a packet capture tool awaits.
+To get the RS-485 signal onto Wi-Fi as TCP/IP, I ordered an Elfin EW11, a module that's popular among smart home users, from AliExpress.
 
-Will I be able to successfully display the lighting and heating on the HA dashboard? I'll be back with Part 2: Protocol Analysis and HA Integration as soon as the parts arrive!
+It hasn't arrived yet, so I haven't made the physical connection. Once it does, I'll wire it into the RS-485 terminal in the junction box, pull packets over MQTT, and start working through the Commax protocol piece by piece. I'll pick this up in the next post.

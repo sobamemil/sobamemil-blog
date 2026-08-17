@@ -1,48 +1,41 @@
 ---
-title: "Perfecting Wired Mesh Home Network with ISP Router in Hub Mode"
+title: "Building a Proper Wired Mesh Home Network Using the ISP Router's Hub Mode"
 date: 2026-08-13T14:13:00+09:00
 draft: false
 tags: ["HomeNetwork", "Mesh", "WiredMesh", "Router", "Network", "HubMode"]
 categories: ["Smart Home DIY", "Smart Home DIY/Network"]
 ---
 
-When building a smart home and using various IoT devices, the one thing you feel most acutely is **'network stability'**. 
-In my previous home, a single main router couldn't cover the entire space, so I configured and used a **Wireless Mesh (Wireless Backhaul)** network. However, because it was wireless, there was a drop in speed, and there was the stress of the connection occasionally becoming unstable.
+If there's one thing you feel most acutely once you start building out a smart home full of IoT devices, it's network stability. At my old place, one main router couldn't cover the whole apartment, so I ran a wireless mesh setup, but being wireless it came with speed drops and occasional flaky connections.
 
-Moving into a newly built apartment this time, I decided to utilize the terminal box to build a perfect and pleasant **Wired Mesh (Wired Backhaul)** environment.
+Moving into the new apartment, I decided to use the junction box to build a proper wired mesh setup instead.
 
-## 1. Failure to Evict ISP Router and the Hub Mode Compromise
+## Failing to remove the ISP router, settling for hub mode
 
-My very first goal was to remove the underperforming default router provided by the ISP (Internet Service Provider) and cleanly use only the modem in the terminal box and my personal main router.
+The first goal was to pull the ISP's stock router out entirely and just run the modem and my own main router. So I opened the junction box near the entryway, pulled the ISP router out, and tried plugging the wall LAN lines straight into the patch panel inside. No matter what I connected, though, no signal reached any of the rooms. It turned out that patch panel wasn't a switch hub distributing the signal, just a plain connection block.
 
-I opened the communication terminal box near the front door, removed the ISP router, and tried indiscriminately plugging the wall LAN cables directly into the patch panel inside the terminal box. But no matter how I connected them, the signal wouldn't go to each room. It turned out that the patch panel was not a **'switch hub'** that distributes signals internally, but merely a **simple connection block**.
+So I needed an actual switch hub inside the junction box, and since I didn't have a spare one on hand, I put the ISP router I'd just pulled back in, switched into hub (bridge) mode, as a stand-in. The chain ends up being: modem → main router in the living room → back out through a wall port → ISP router in the junction box (hub mode) → distributed out to each room.
 
-Ultimately, a switch hub was needed inside the terminal box, and unfortunately, I didn't have one on hand. I had to change the **ISP router (which I was going to remove) to 'Hub (Bridge) Mode'** and stick it back into the terminal box to use as a substitute for a switch hub. (The structure is: Modem ➡ Living room main router ➡ Wall port ➡ back to terminal box ISP router (Hub Mode) ➡ distributed to each room.)
+![Inside the junction box: the modem, optical receiver, and patch panel](/images/posts/moving/IMG_2470.JPG)
 
-## 2. Diving in Without a LAN Tester (The Ups and Downs)
+## Finding ports without a cable tester
 
-The biggest obstacle was finding the LAN cable heading to each room.
-To make matters worse, I didn't even have a **LAN tester** that beeps to let you know if a line is properly connected. All I had was my two legs and a single laptop.
+Figuring out which wall port in each room matched which line in the junction box was its own project. I didn't have a cable tester, so I used a spare router instead.
 
-The method was primitive.
-1. Plug the laptop into the LAN port on the living room wall.
-2. Walk (run) to the front door terminal box and try plugging in one cable.
-3. Come back to the living room and check if the `ping` on the laptop terminal goes through.
-4. If it doesn't work, go back to the front door and switch to another cable.
+The method was: plug the router into a wall port in a room, then walk over to the junction box and check which numbered port lit up. Room by room.
 
-I repeated this process infinitely until I found every LAN port in the house. In the middle of summer, I went back and forth between the living room and the front door dozens of times, sweating profusely.
+![Checking a wall port by plugging a router into it](/images/posts/moving/IMG_2471.jpeg)
 
-### 💡 The Betrayal of Living Room 2
-Fortunately, in modern new apartments, the terminal box has labels like 'Living Room 1' and 'Living Room 2'.
-After safely finding Living Room 1, I plugged in **'Living Room 2 (Gray/Blue wire)'** at the terminal box to revive the LAN port under the dining table. Then I ran under the dining table to do a ping test, but no matter how much I swapped the gray and blue wires, it wouldn't connect.
+### The Living Room 2 betrayal
 
-It turned out that the LAN port under the dining table, which I firmly believed to be 'Living Room 2', was actually the line going into **'Kitchen 1, 2'**. The real 'Living Room 2' port was on the opposite wall where the sofa is placed. Only when I found the wire labeled 'Kitchen' in the terminal box and plugged it into the hub did the internet miraculously work under the dining table.
+Since it's a new-build apartment, the junction box ports were at least labeled, things like "Living Room 1" and "Living Room 2." I found Living Room 1 without issue, and assumed the port under the dining table was obviously Living Room 2, so I plugged in the gray/blue line labeled that way.
 
-## 3. Installing Mesh Nodes (Sub Routers) in Each Room
+No matter what I checked, though, the port under the table never lit up. It turned out that port wasn't the living room at all, it was Kitchen lines 1 and 2. The real Living Room 2 port was on the opposite wall, near the couch. Once I found the line labeled "Kitchen" in the junction box and plugged that in instead, the port under the table finally lit up.
 
-After dozens of round trips and trial and error, I correctly found all the cables going to each room, and to ensure there were no dead zones, I hardwired sub routers (Mesh nodes) in the rooms.
+## Installing Mesh nodes in each room
 
-## Results and Review
+Once I'd tracked down the correct line for every room this way, I wired a sub-router (mesh node) into each one to eliminate dead zones.
 
-After completing the Wired Mesh configuration, I walked all around the house holding my smartphone.
-Even as I move from room to room, the Wi-Fi smoothly switches (roams) to the nearest router on its own, and there are absolutely no disconnections or speed drops. All the smart home devices are also stably connected without ever dropping offline. It was definitely worth the physical effort without a LAN tester. If you have active LAN ports in your home, I highly recommend building a **Wired Mesh** rather than wireless!
+## Results
+
+After finishing the wired mesh setup, I walked around the apartment with my phone to check it. Moving from room to room, Wi-Fi hands off smoothly to whichever router is closest (roaming), with no drops or slowdowns. All the smart home devices stay connected too, none of them fall offline. If you have live LAN ports in your walls, I'd recommend wired mesh over wireless.
