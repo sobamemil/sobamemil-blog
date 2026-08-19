@@ -25,5 +25,3 @@ Replacing the filters just means popping open the front cover, nothing more invo
 There are compatible third-party filters on the market too, but in my experience they weren't much cheaper than the genuine ones and didn't fit quite as snugly. If the price difference is small, I'd just go with the genuine filter.
 
 After the swap, the air coming out definitely smells fresher. With thick filters top and bottom, it feels like it should handle both dust and odor well.
-
-The Home Assistant integration and the sensor were already sorted from before, so this time it really was just a filter swap, start to finish.
