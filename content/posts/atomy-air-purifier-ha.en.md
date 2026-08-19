@@ -1,12 +1,12 @@
 ---
-title: "Discontinued Atomy Air Purifier: Home Assistant Local Integration (Bypassing Tuya)"
+title: "Atomy Air Purifier (AAP-KR19W) Filter Replacement"
 date: 2026-08-13T14:14:00+09:00
 draft: false
 tags: ["AirPurifier", "HomeAssistant", "Atomy", "IoT", "FilterReplacement", "AAP-KR19W"]
 categories: ["Smart Home DIY", "Smart Home DIY/Home IoT"]
 ---
 
-The large Atomy air purifier (AAP-KR19W) that handles air quality in the house was due for a filter change. This post covers the filter replacement, plus some thoughts on eventually getting this thing onto Home Assistant.
+I already got this Atomy air purifier (AAP-KR19W) [running locally on Home Assistant](/en/posts/195-ha-diy-애터미-공기청정기-home-assistant-로컬-연동-방법-tuya-esp8/) and [replaced its dust sensor](/en/posts/196-ha-diy-애터미-공기청정기-pms9003m-미세먼지-센서-교체기/) in earlier posts, and it's been running well since. This time the filters were due for a change, so here's that.
 
 ## The two-filter-set design
 
@@ -26,10 +26,4 @@ There are compatible third-party filters on the market too, but in my experience
 
 After the swap, the air coming out definitely smells fresher. With thick filters top and bottom, it feels like it should handle both dust and odor well.
 
-## Local Home Assistant integration, down the road
-
-As covered in an earlier post, this unit's app support has been discontinued along with a few other issues, so the long-term goal is to strip out the cloud dependency entirely and run it fully local through HA.
-
-This time around I only swapped the filters and closed it back up, but eventually I want to open up the board, get into the Wi-Fi chipset (an ESP module or similar), and flash it with something like ESPHome or Tasmota.
-
-Once I have local control, I should be able to auto-adjust fan speed based on indoor particulate readings, turning it into a proper smart air purifier. I'll cover the hacking and integration details in a future post.
+The Home Assistant integration and the sensor were already sorted from before, so this time it really was just a filter swap, start to finish.
