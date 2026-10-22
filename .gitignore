@@ -7,3 +7,8 @@
 .env
 .env.*
 !.env.example
+check_ga.py
+check_stats.py
+node_modules/
+package*.json
+screenshot.js

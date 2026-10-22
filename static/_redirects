@@ -1,0 +1,12 @@
+# Cloudflare Pages Redirects for Legacy / Typo Categories
+/categories/스마트홈 /categories/스마트홈-diy/ 301
+/categories/%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%99%88 /categories/스마트홈-diy/ 301
+/categories/스마트홈/ /categories/스마트홈-diy/ 301
+/categories/%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%99%88/ /categories/스마트홈-diy/ 301
+/categories/home-assistant /categories/home-assistant-iot/ 301
+/categories/home-assistant/ /categories/home-assistant-iot/ 301
+/categories/smarthome /categories/스마트홈-diy/ 301
+/categories/smarthome/ /categories/스마트홈-diy/ 301
+/categories/-스마트홈--diy/* /categories/스마트홈-diy/:splat 301
+/categories/-개발--cs/* /categories/개발-cs/:splat 301
+/categories/-리뷰--일상/* /categories/리뷰-일상/:splat 301
